@@ -1,0 +1,140 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Angulo} {et~al.}(1999){Angulo}, {Arnould}, {Rayet}, {Descouvemont},
+  {Baye}, {Leclercq-Willain}, {Coc}, {Barhoumi}, {Aguer}, {Rolfs}, {Kunz},
+  {Hammer}, {Mayer}, {Paradellis}, {Kossionides}, {Chronidou}, {Spyrou},
+  {degl'Innocenti}, {Fiorentini}, {Ricci}, {Zavatarelli}, {Providencia},
+  {Wolters}, {Soares}, {Grama}, {Rahighi}, {Shotter}, \& {Lamehi
+  Rachti}}]{Angulo1999}
+{Angulo}, C., {Arnould}, M., {Rayet}, M., {et~al.} 1999, Nuclear Physics A,
+  656, 3, \dodoi{10.1016/S0375-9474(99)00030-5}
+
+\bibitem[{{Buchler} \& {Yueh}(1976)}]{Buchler1976}
+{Buchler}, J.~R., \& {Yueh}, W.~R. 1976, \apj, 210, 440, \dodoi{10.1086/154847}
+
+\bibitem[{{Cantiello} \& {Braithwaite}(2019)}]{2019ApJ...883..106C}
+{Cantiello}, M., \& {Braithwaite}, J. 2019, \apj, 883, 106,
+  \dodoi{10.3847/1538-4357/ab3924}
+
+\bibitem[{{Cantiello} {et~al.}(2009){Cantiello}, {Langer}, {Brott}, {de Koter},
+  {Shore}, {Vink}, {Voegler}, {Lennon}, \& {Yoon}}]{2009A&A...499..279C}
+{Cantiello}, M., {Langer}, N., {Brott}, I., {et~al.} 2009, \aap, 499, 279,
+  \dodoi{10.1051/0004-6361/200911643}
+
+\bibitem[{{Cassisi} {et~al.}(2007){Cassisi}, {Potekhin}, {Pietrinferni},
+  {Catelan}, \& {Salaris}}]{Cassisi2007}
+{Cassisi}, S., {Potekhin}, A.~Y., {Pietrinferni}, A., {Catelan}, M., \&
+  {Salaris}, M. 2007, \apj, 661, 1094, \dodoi{10.1086/516819}
+
+\bibitem[{{Chugunov} {et~al.}(2007){Chugunov}, {Dewitt}, \&
+  {Yakovlev}}]{Chugunov2007}
+{Chugunov}, A.~I., {Dewitt}, H.~E., \& {Yakovlev}, D.~G. 2007, \prd, 76,
+  025028, \dodoi{10.1103/PhysRevD.76.025028}
+
+\bibitem[{{Cyburt} {et~al.}(2010){Cyburt}, {Amthor}, {Ferguson}, {Meisel},
+  {Smith}, {Warren}, {Heger}, {Hoffman}, {Rauscher}, {Sakharuk}, {Schatz},
+  {Thielemann}, \& {Wiescher}}]{Cyburt2010}
+{Cyburt}, R.~H., {Amthor}, A.~M., {Ferguson}, R., {et~al.} 2010, \apjs, 189,
+  240, \dodoi{10.1088/0067-0049/189/1/240}
+
+\bibitem[{{Ferguson} {et~al.}(2005){Ferguson}, {Alexander}, {Allard}, {Barman},
+  {Bodnarik}, {Hauschildt}, {Heffner-Wong}, \& {Tamanai}}]{Ferguson2005}
+{Ferguson}, J.~W., {Alexander}, D.~R., {Allard}, F., {et~al.} 2005, \apj, 623,
+  585, \dodoi{10.1086/428642}
+
+\bibitem[{{Fuller} {et~al.}(1985){Fuller}, {Fowler}, \& {Newman}}]{Fuller1985}
+{Fuller}, G.~M., {Fowler}, W.~A., \& {Newman}, M.~J. 1985, \apj, 293, 1,
+  \dodoi{10.1086/163208}
+
+\bibitem[{{Grevesse} \& {Sauval}(1998)}]{1998SSRv...85..161G}
+{Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
+  \dodoi{10.1023/A:1005161325181}
+
+\bibitem[{{Iglesias} \& {Rogers}(1993)}]{Iglesias1993}
+{Iglesias}, C.~A., \& {Rogers}, F.~J. 1993, \apj, 412, 752,
+  \dodoi{10.1086/172958}
+
+\bibitem[{{Iglesias} \& {Rogers}(1996)}]{Iglesias1996}
+---. 1996, \apj, 464, 943, \dodoi{10.1086/177381}
+
+\bibitem[{{Itoh} {et~al.}(1996){Itoh}, {Hayashi}, {Nishikawa}, \&
+  {Kohyama}}]{Itoh1996}
+{Itoh}, N., {Hayashi}, H., {Nishikawa}, A., \& {Kohyama}, Y. 1996, \apjs, 102,
+  411, \dodoi{10.1086/192264}
+
+\bibitem[{{Jiang} {et~al.}(2015){Jiang}, {Cantiello}, {Bildsten}, {Quataert},
+  \& {Blaes}}]{2015ApJ...813...74J}
+{Jiang}, Y.-F., {Cantiello}, M., {Bildsten}, L., {Quataert}, E., \& {Blaes}, O.
+  2015, \apj, 813, 74, \dodoi{10.1088/0004-637X/813/1/74}
+
+\bibitem[{{Langanke} \& {Mart{\'{\i}}nez-Pinedo}(2000)}]{Langanke2000}
+{Langanke}, K., \& {Mart{\'{\i}}nez-Pinedo}, G. 2000, Nuclear Physics A, 673,
+  481, \dodoi{10.1016/S0375-9474(00)00131-7}
+
+\bibitem[{{Oda} {et~al.}(1994){Oda}, {Hino}, {Muto}, {Takahara}, \&
+  {Sato}}]{Oda1994}
+{Oda}, T., {Hino}, M., {Muto}, K., {Takahara}, M., \& {Sato}, K. 1994, Atomic
+  Data and Nuclear Data Tables, 56, 231, \dodoi{10.1006/adnd.1994.1007}
+
+\bibitem[{{Paxton} {et~al.}(2011){Paxton}, {Bildsten}, {Dotter}, {Herwig},
+  {Lesaffre}, \& {Timmes}}]{Paxton2011}
+{Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, \apjs, 192, 3,
+  \dodoi{10.1088/0067-0049/192/1/3}
+
+\bibitem[{{Paxton} {et~al.}(2013){Paxton}, {Cantiello}, {Arras}, {Bildsten},
+  {Brown}, {Dotter}, {Mankovich}, {Montgomery}, {Stello}, {Timmes}, \&
+  {Townsend}}]{Paxton2013}
+{Paxton}, B., {Cantiello}, M., {Arras}, P., {et~al.} 2013, \apjs, 208, 4,
+  \dodoi{10.1088/0067-0049/208/1/4}
+
+\bibitem[{{Paxton} {et~al.}(2015){Paxton}, {Marchant}, {Schwab}, {Bauer},
+  {Bildsten}, {Cantiello}, {Dessart}, {Farmer}, {Hu}, {Langer}, {Townsend},
+  {Townsley}, \& {Timmes}}]{Paxton2015}
+{Paxton}, B., {Marchant}, P., {Schwab}, J., {et~al.} 2015, \apjs, 220, 15,
+  \dodoi{10.1088/0067-0049/220/1/15}
+
+\bibitem[{{Paxton} {et~al.}(2018){Paxton}, {Schwab}, {Bauer}, {Bildsten},
+  {Blinnikov}, {Duffell}, {Farmer}, {Goldberg}, {Marchant}, {Sorokina},
+  {Thoul}, {Townsend}, \& {Timmes}}]{Paxton2018}
+{Paxton}, B., {Schwab}, J., {Bauer}, E.~B., {et~al.} 2018, \apjs, 234, 34,
+  \dodoi{10.3847/1538-4365/aaa5a8}
+
+\bibitem[{{Paxton} {et~al.}(2019){Paxton}, {Smolec}, {Schwab}, {Gautschy},
+  {Bildsten}, {Cantiello}, {Dotter}, {Farmer}, {Goldberg}, {Jermyn}, {Kanbur},
+  {Marchant}, {Thoul}, {Townsend}, {Wolf}, {Zhang}, \& {Timmes}}]{Paxton2019}
+{Paxton}, B., {Smolec}, R., {Schwab}, J., {et~al.} 2019, \apjs, 243, 10,
+  \dodoi{10.3847/1538-4365/ab2241}
+
+\bibitem[{{Pols} {et~al.}(1995){Pols}, {Tout}, {Eggleton}, \& {Han}}]{Pols1995}
+{Pols}, O.~R., {Tout}, C.~A., {Eggleton}, P.~P., \& {Han}, Z. 1995, \mnras,
+  274, 964, \dodoi{10.1093/mnras/274.3.964}
+
+\bibitem[{{Potekhin} \& {Chabrier}(2010)}]{Potekhin2010}
+{Potekhin}, A.~Y., \& {Chabrier}, G. 2010, Contributions to Plasma Physics, 50,
+  82, \dodoi{10.1002/ctpp.201010017}
+
+\bibitem[{{Rogers} \& {Nayfonov}(2002)}]{Rogers2002}
+{Rogers}, F.~J., \& {Nayfonov}, A. 2002, \apj, 576, 1064,
+  \dodoi{10.1086/341894}
+
+\bibitem[{{Saumon} {et~al.}(1995){Saumon}, {Chabrier}, \& {van
+  Horn}}]{Saumon1995}
+{Saumon}, D., {Chabrier}, G., \& {van Horn}, H.~M. 1995, \apjs, 99, 713,
+  \dodoi{10.1086/192204}
+
+\bibitem[{{Timmes} \& {Swesty}(2000)}]{Timmes2000}
+{Timmes}, F.~X., \& {Swesty}, F.~D. 2000, \apjs, 126, 501,
+  \dodoi{10.1086/313304}
+
+\bibitem[{{Yusof} {et~al.}(2013){Yusof}, {Hirschi}, {Meynet}, {Crowther},
+  {Ekstr{\"o}m}, {Frischknecht}, {Georgy}, {Abu Kassim}, \&
+  {Schnurr}}]{2013MNRAS.433.1114Y}
+{Yusof}, N., {Hirschi}, R., {Meynet}, G., {et~al.} 2013, \mnras, 433, 1114,
+  \dodoi{10.1093/mnras/stt794}
+
+\end{thebibliography}

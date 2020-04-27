@@ -5,8 +5,8 @@
 
 % Journal Data
 \submitjournal{ApJ}
-\shorttitle{Magnetic Fields Inhibit Subsurface Convection}
-\shortauthors{Jermyn and Cantiello}
+\shorttitle{Subsurface Convection and Stochastic Photometric Variability}
+\shortauthors{Cantiello et al.}
 
 \input{snippets/commands}
 
@@ -18,7 +18,7 @@
 
 
 \begin{document}
-\title{Subsurface convection as the origin of stochastic photometric variability in massive stars}
+\title{Subsurface Convection as the Origin of Stochastic Photometric Variability in Massive Stars}
 
 
 \author[0000-0002-8171-8596]{Matteo Cantiello}
@@ -61,6 +61,37 @@ This shows up as stochastic low-frequency variability  that was observed in a la
 
 
 \subsection{Methods}
+We calculated stellar evolution models using the Modules for Experiments in Stellar Astrophysics
+\citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
+Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
+The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
+We focused on the structure and convective properties of our models, in order to calculate typical frequencies and convective fluxes. 
+Convection is calculated in the framework of MLT, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,2019ApJ...883..106C}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
+
+Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{2009A&A...499..279C} we define the average of a quantity  $\overline{q}$ as
+\begin{equation}
+\overline{q} \equiv \frac{1}{\alphamlt \hp} \int_{\Rtop-\alphamlt\hp}^{\Rtop} q(r)\; dr
+\label{aver}
+\end{equation}
+where  $\hp$ is the pressure scale height calculated at the upper boundary ($\Rtop$) of the 
+convective zone of interest.  We tested using different average procedures, and found that our results do not depend much on the specific choice.  
+
+Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
+The most important subsurface convection zone for the massive stars discussed in this work is the Iron Convection Zone (FeCZ) \citep{2009A&A...499..279C}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{2019ApJ...883..106C}. 
+%For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
+We define the characteristic frequency of convection as 
+\begin{equation}
+\nuchar \equiv \frac{1}{2\pi\turnover},
+\end{equation}
+where $\turnover = \alphamlt \hpa / \vca $ is the average convective turnover time in a convection zone. 
+We proceeded to calculate convective turnover timescales and other relevant properties like convective fluxes. 
+
+We did this as a function of both mass and evolutionary history for stars ranging from $5-120 M_\odot$, shown in Fig.~\ref{fig:Bcrit}.
+Here we present results for an initial metallicity of Z=0.02, but in Appendix~\ref{appen:grids} we report results for model grids with Z = 0.014, 0.006 and 0.002 as well.
+
+ 
+
+
 
 \subsection{Results}
 
@@ -75,11 +106,34 @@ This shows up as stochastic low-frequency variability  that was observed in a la
 
 \subsection{Subsurface Convection and Photometric Variability}
 
+
+
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf}
+\caption{\label{fig:FeCZ_IGW} Relative flux of IGWs launched by the FeCZ. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number, calculated in the top pressure scale height of the convective region.}
+\end{center}
+\end{figure}
+
+
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{../figures/ncells_fecz.pdf}
+\caption{\label{fig:ncells} Expected number of convective cells in the FeCZ. This is calculated assuming the size of convective cells is about  the average pressure scale height in the FeCZ}
+\end{center}
+\end{figure}
+
+
+
+
 \begin{figure*}[htp]
   \centering
   \subfloat{\includegraphics[width=1\columnwidth]{../figures/freq_FeCZ_data.pdf}}\hfill
-  \subfloat{\includegraphics[width=1.04\columnwidth]{../figures/sqrt_flux_FeCZ_mach_rednoise.pdf}}
-   \caption{ Left panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$. Right panel: Flux of gravity waves launched by the FeCZ divided by total stellar flux. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number (this is calculated in the top pressure scale height of the convective region). We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
+  \subfloat{\includegraphics[width=1.07\columnwidth]{../figures/sqrt_flux_FeCZ_mach_rednoise_weighted_mag.pdf}}
+   \caption{ Left panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$. Right panel: Luminosity fluctuations expected due to IGWs launched by the FeCZ. This scales with the square root of the relative IGWs flux, with a correction factor accounting for the likely scale of the perturbation. We assumed uncorrelated perturbations at the surface  with typical scale of a convective cell, so a correction factor $\sim 1/\sqrt{\rm N_{\rm Cells}}$. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number (this is calculated in the top pressure scale height of the convective region. The agreement is pretty good, considering that uncertainties of a factor of 2 in the MLT $\alpha$ parameters for these regions result in a factor of 20 in luminosity perturbations). 
+   We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
     \label{fig:nuchar_core}
 \end{figure*}
 
@@ -109,6 +163,8 @@ The seed of wind clumping.
 Finally, the presence of a turbulent velocity field necessarily has to induce photometric variability, and we have shown here that the observed low-frequency stochastic noise observed observed in the majority of massive stars correlates very well with the presence and properties of the FeCZ. 
 As such, a minimal hypothesis is that the presence of the FeCZ is the underlying physical cause and represent a possible unified model for the appearance of turbulence, magnetic spots, low-frequency photometric variability and wind structure and variability in massive stars. 
 
+\subsection{Discussion}\label{sec:discussion}
+\subsection{The Impact of $\alphamlt$}
 \subsection{Conclusions}
 
 
@@ -164,6 +220,8 @@ As such, a minimal hypothesis is that the presence of the FeCZ is the underlying
 
 
 
+
+
 \acknowledgments
 The Center for Computational Astrophysics at the Flatiron Institute is supported by the Simons Foundation.
 This research was supported in part by the National Science Foundation under Grant No. NSF PHY-1748958 and by the Gordon and Betty Moore Foundation through Grant GBMF7392
@@ -192,7 +250,15 @@ Thermal neutrino loss rates are from \citet{Itoh1996}.
 The inlists, processing scripts, and model output are available at~\url{Zenodo.org}.
 
 
+
+\section{Grids at Different Metallicities}
+\label{appen:grids}
+Here we present results for the critical and surface magnetic field at metallicities of Z=0.014, Z=0.006, and Z=0.002,
+representing early-type stars in the Galaxy (MW), Large Magellanic Cloud (LMC), and Small Magellanic Cloud (SMC) respectively  \citep[e.g.][]{2013MNRAS.433.1114Y}. The initial Helium content of the grids is
+Y=0.2659 (MW), Y=0.2559 (LMC), and Y=0.2508 (SMC). The metallicity is initialized scaling the standard solar composition of \citet{1998SSRv...85..161G}.
+
+
 \bibliographystyle{aasjournal}
-\bibliography{biblio.bib}
+\bibliography{refs.bib}
 
 \end{document}
