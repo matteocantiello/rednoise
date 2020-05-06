@@ -62,7 +62,7 @@ We discuss the properties of subsurface convection, in particular the maximum am
 This shows up as stochastic low-frequency variability  that was observed in a large fraction of massive OB stars  (see e.g. Balona 1992; Buysschaert et al. 2015; Bowman et al. 2019b). 
 
 
-\subsection{Methods}
+\section{Methods}
 We calculated stellar evolution models using the Modules for Experiments in Stellar Astrophysics
 \citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
@@ -100,7 +100,7 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
 
 
 
-\subsection{Results}
+\section{Results}
 We want to test a possible correlation between the properties of the FeCZ and observed photospheric phenomena, in particular photometric variability and turbulent velocities at the stellar surface (macroturbulence). If photometric variability was caused by the FeCZ, a natural choice of proxy for the typical timescale of this variability is the convective turnover timescale.  We found typical values of the convective turnover timescale to be about $\sim 0.1\dots2$ d in the FeCZ, with a tendency for shorter values in models with high effective temperature and surface luminosity \citep{2009A&A...499..279C}. To quantitatively compare to the characteristic frequencies of the observed stochastic photometric variability in massive stars, we proceed mapping our theoretical predictions for the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) on a spectroscopic H-R diagram \citep{2014A&A...564A..52L}. This reveals a very good agreement, with our models reproducing both the typical values of the observed $\nuchar$ and the trend with  $\logl$ and $\logteff$ (Fig.~\ref{fig:nuchar_fecz}). 
 %This is especially true given the uncertainties in the convective velocities predictions from MLT (Sec.~\ref{sec:mlt}) the agreement is very good, 
 While the characteristic frequencies found by Bowman20 seem to be larger by a factor of $\approx$ 3, our predictions for the turnover timescale are affected by  uncertainty in the convective velocities arising from the MLT treatment ($\vc \propto \alphamlt^{3}$, so $\nuchar \propto \alphamlt^{2}$). Since $\alphamlt$ is uncertain by a factor of 2 or so, our estimates of the characteristic frequency in the FeCZ are uncertain by a factor of  $\approx$ 4.
@@ -109,7 +109,13 @@ We proceed with mapping quantities that measure the amplitude of perturbations a
 We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{2015ApJ...808L..31G}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 10$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{2019ApJ...883..106C}. We plot the average Mach number in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report the  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
 observed photometric variability. 
 
+\subsection{Core Convection and Photometric Variability}
+Early-type stars posses convective cores during their main sequence. Turbulent convection in these convective cores excites internal gravity waves \citep{1990ApJ...363..694G,2013ApJ...772...21R,2013MNRAS.430.2363L,2013MNRAS.430.1736S,2019ApJ...876....4E}, that can propagate through the stellar envelope and reach the stellar surface. These waves could in principle be responsible for both the observed macroturbulence and photometric variability \citep{2009A&A...508..409A,2017A&A...597A..22S,2019A&A...621A.135B,2019NatAs...3..760B}. However, it is not clear if this mechanism can explain the observed properties of the observed photometric variability. In particular, \citet{2019ApJ...886L..15L} studied the effects of wave propagation and radiative damping in the stellar envelope, concluding that is unlikely that what is observed at the stellar surface is caused by internal gravity waves launched by the convective core. 
+One of the biggest uncertainties is the excited spectrum of the waves. 
 
+Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with  observed surface variability. 
+
+ 
 %\subsection{Subsurface Convection and Macroturbulence}
 
 
@@ -155,10 +161,6 @@ observed photometric variability.
 
 
 
-
-
-
-\subsection{Core Convection and Photometric Variability}
 
 
 \begin{figure*}[htp]

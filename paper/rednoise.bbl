@@ -5,6 +5,11 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Aerts} {et~al.}(2009){Aerts}, {Puls}, {Godart}, \&
+  {Dupret}}]{2009A&A...508..409A}
+{Aerts}, C., {Puls}, J., {Godart}, M., \& {Dupret}, M.~A. 2009, \aap, 508, 409,
+  \dodoi{10.1051/0004-6361/200810471}
+
 \bibitem[{{Angulo} {et~al.}(1999){Angulo}, {Arnould}, {Rayet}, {Descouvemont},
   {Baye}, {Leclercq-Willain}, {Coc}, {Barhoumi}, {Aguer}, {Rolfs}, {Kunz},
   {Hammer}, {Mayer}, {Paradellis}, {Kossionides}, {Chronidou}, {Spyrou},
@@ -16,6 +21,20 @@
 
 \bibitem[{{B{\"o}hm-Vitense}(1958)}]{1958ZA.....46..108B}
 {B{\"o}hm-Vitense}, E. 1958, \zap, 46, 108
+
+\bibitem[{{Bowman} {et~al.}(2019{\natexlab{a}}){Bowman}, {Aerts}, {Johnston},
+  {Pedersen}, {Rogers}, {Edelmann}, {Sim{\'o}n-D{\'\i}az}, {Van Reeth},
+  {Buysschaert}, {Tkachenko}, \& {Triana}}]{2019A&A...621A.135B}
+{Bowman}, D.~M., {Aerts}, C., {Johnston}, C., {et~al.} 2019{\natexlab{a}},
+  \aap, 621, A135, \dodoi{10.1051/0004-6361/201833662}
+
+\bibitem[{{Bowman} {et~al.}(2019{\natexlab{b}}){Bowman}, {Burssens},
+  {Pedersen}, {Johnston}, {Aerts}, {Buysschaert}, {Michielsen}, {Tkachenko},
+  {Rogers}, {Edelmann}, {Ratnasingam}, {Sim{\'o}n-D{\'\i}az}, {Castro},
+  {Moravveji}, {Pope}, {White}, \& {De Cat}}]{2019NatAs...3..760B}
+{Bowman}, D.~M., {Burssens}, S., {Pedersen}, M.~G., {et~al.}
+  2019{\natexlab{b}}, Nature Astronomy, 3, 760,
+  \dodoi{10.1038/s41550-019-0768-1}
 
 \bibitem[{{Buchler} \& {Yueh}(1976)}]{Buchler1976}
 {Buchler}, J.~R., \& {Yueh}, W.~R. 1976, \apj, 210, 440, \dodoi{10.1086/154847}
@@ -45,6 +64,11 @@
 {Cyburt}, R.~H., {Amthor}, A.~M., {Ferguson}, R., {et~al.} 2010, \apjs, 189,
   240, \dodoi{10.1088/0067-0049/189/1/240}
 
+\bibitem[{{Edelmann} {et~al.}(2019){Edelmann}, {Ratnasingam}, {Pedersen},
+  {Bowman}, {Prat}, \& {Rogers}}]{2019ApJ...876....4E}
+{Edelmann}, P.~V.~F., {Ratnasingam}, R.~P., {Pedersen}, M.~G., {et~al.} 2019,
+  \apj, 876, 4, \dodoi{10.3847/1538-4357/ab12df}
+
 \bibitem[{{Ferguson} {et~al.}(2005){Ferguson}, {Alexander}, {Allard}, {Barman},
   {Bodnarik}, {Hauschildt}, {Heffner-Wong}, \& {Tamanai}}]{Ferguson2005}
 {Ferguson}, J.~W., {Alexander}, D.~R., {Allard}, F., {et~al.} 2005, \apj, 623,
@@ -53,6 +77,9 @@
 \bibitem[{{Fuller} {et~al.}(1985){Fuller}, {Fowler}, \& {Newman}}]{Fuller1985}
 {Fuller}, G.~M., {Fowler}, W.~A., \& {Newman}, M.~J. 1985, \apj, 293, 1,
   \dodoi{10.1086/163208}
+
+\bibitem[{{Goldreich} \& {Kumar}(1990)}]{1990ApJ...363..694G}
+{Goldreich}, P., \& {Kumar}, P. 1990, \apj, 363, 694, \dodoi{10.1086/169376}
 
 \bibitem[{{Grassitelli} {et~al.}(2015){Grassitelli}, {Fossati},
   {Sim{\'o}n-Di{\'a}z}, {Langer}, {Castro}, \& {Sanyal}}]{2015ApJ...808L..31G}
@@ -92,6 +119,16 @@
 \bibitem[{{Langer} \& {Kudritzki}(2014)}]{2014A&A...564A..52L}
 {Langer}, N., \& {Kudritzki}, R.~P. 2014, \aap, 564, A52,
   \dodoi{10.1051/0004-6361/201423374}
+
+\bibitem[{{Lecoanet} \& {Quataert}(2013)}]{2013MNRAS.430.2363L}
+{Lecoanet}, D., \& {Quataert}, E. 2013, \mnras, 430, 2363,
+  \dodoi{10.1093/mnras/stt055}
+
+\bibitem[{{Lecoanet} {et~al.}(2019){Lecoanet}, {Cantiello}, {Quataert},
+  {Couston}, {Burns}, {Pope}, {Jermyn}, {Favier}, \& {Le
+  Bars}}]{2019ApJ...886L..15L}
+{Lecoanet}, D., {Cantiello}, M., {Quataert}, E., {et~al.} 2019, \apjl, 886,
+  L15, \dodoi{10.3847/2041-8213/ab5446}
 
 \bibitem[{{Oda} {et~al.}(1994){Oda}, {Hino}, {Muto}, {Takahara}, \&
   {Sato}}]{Oda1994}
@@ -139,10 +176,26 @@
 {Rogers}, F.~J., \& {Nayfonov}, A. 2002, \apj, 576, 1064,
   \dodoi{10.1086/341894}
 
+\bibitem[{{Rogers} {et~al.}(2013){Rogers}, {Lin}, {McElwaine}, \&
+  {Lau}}]{2013ApJ...772...21R}
+{Rogers}, T.~M., {Lin}, D.~N.~C., {McElwaine}, J.~N., \& {Lau}, H.~H.~B. 2013,
+  \apj, 772, 21, \dodoi{10.1088/0004-637X/772/1/21}
+
 \bibitem[{{Saumon} {et~al.}(1995){Saumon}, {Chabrier}, \& {van
   Horn}}]{Saumon1995}
 {Saumon}, D., {Chabrier}, G., \& {van Horn}, H.~M. 1995, \apjs, 99, 713,
   \dodoi{10.1086/192204}
+
+\bibitem[{{Shiode} {et~al.}(2013){Shiode}, {Quataert}, {Cantiello}, \&
+  {Bildsten}}]{2013MNRAS.430.1736S}
+{Shiode}, J.~H., {Quataert}, E., {Cantiello}, M., \& {Bildsten}, L. 2013,
+  \mnras, 430, 1736, \dodoi{10.1093/mnras/sts719}
+
+\bibitem[{{Sim{\'o}n-D{\'\i}az} {et~al.}(2017){Sim{\'o}n-D{\'\i}az}, {Godart},
+  {Castro}, {Herrero}, {Aerts}, {Puls}, {Telting}, \&
+  {Grassitelli}}]{2017A&A...597A..22S}
+{Sim{\'o}n-D{\'\i}az}, S., {Godart}, M., {Castro}, N., {et~al.} 2017, \aap,
+  597, A22, \dodoi{10.1051/0004-6361/201628541}
 
 \bibitem[{{Timmes} \& {Swesty}(2000)}]{Timmes2000}
 {Timmes}, F.~X., \& {Swesty}, F.~D. 2000, \apjs, 126, 501,
