@@ -1,0 +1,27 @@
+
+&star_job
+
+create_pre_main_sequence_model = .true.
+
+/ ! end of star_job namelist
+
+&controls
+
+ 
+      ! MAIN PARAMS
+      
+      
+      initial_mass     = 
+      initial_z        = 0.02 
+      Teff_lower_limit = 12589 
+
+
+               
+/ ! end of controls namelist
+
+
+&pgstar
+         
+
+
+/ ! end of pgstar namelist
