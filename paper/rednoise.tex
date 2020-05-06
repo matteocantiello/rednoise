@@ -2,7 +2,9 @@
 \usepackage{amsmath}
 \usepackage[caption=false]{subfig}
 \usepackage{graphicx}
-
+\usepackage{mathrsfs}
+%\usepackage{unicode-math}
+%\setmathfont{XITS Math}
 % Journal Data
 \submitjournal{ApJ}
 \shorttitle{Subsurface Convection and Stochastic Photometric Variability}
@@ -80,7 +82,7 @@ Using this definition, we extracted the average Mach number $\macha$, convective
 The most important subsurface convection zone for the massive stars discussed in this work is the Iron Convection Zone (FeCZ) \citep{2009A&A...499..279C}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{2019ApJ...883..106C}. 
 %For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
 We define the characteristic frequency of convection as 
-\begin{equation}
+\begin{equation}\label{eq:nuchar}
 \nuchar \equiv \frac{1}{2\pi\turnover},
 \end{equation}
 where $\turnover = \alphamlt \hpa / \vca $ is the average convective turnover time in a convection zone. 
@@ -94,6 +96,14 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
 
 
 \subsection{Results}
+The presence of a subsurface convection zone can result in variability of photospheric properties. 
+The simplified MLT treatment in our one dimensional calculations is unlikely to capture the complex phenomenology of these layers. 
+Multi dimensional simulation including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface. 
+
+This can occur both because turbulent velocities excited by the convection extends to 
+A proxy for the typical timescale of this variability is the convective turnover timescale.  We found that the typical convective turnover timescale in the FeCZ is about $\sim$day, with a tendency for shorter values in models with high effective temperature and surface luminosity. To quantitatively compare to the characteristic frequencies of the observed stochastic photometric variability in massive stars, we proceed mapping 
+the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) calculated in our modes on the spectroscopic H-R diagram. This reveals a good agreement, with the models reproducing both the typical values of the characteristic frequency and the trend with  $\logl$ and $\logteff$ (Fig.~\ref{fig:nuchar_fecz}).  
+
 
 \subsection{Subsurface Convection and Macroturbulence}
 \begin{figure}[ht!]
@@ -125,6 +135,12 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
 \end{center}
 \end{figure}
 
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{../figures/mach_rednoise_nodata.pdf}
+\caption{\label{fig:mach} Mach number in the FeCZ.}
+\end{center}
+\end{figure}
 
 
 
@@ -134,7 +150,7 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
   \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}
    \caption{ Left panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$. Right panel: Luminosity fluctuations expected due to IGWs launched by the FeCZ. This scales with the square root of the relative IGWs flux, with a correction factor accounting for the likely scale of the perturbation. We assumed uncorrelated perturbations at the surface  with typical scale of a convective cell, so a correction factor $\sim 1/\sqrt{\rm N_{\rm Cells}}$. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number (this is calculated in the top pressure scale height of the convective region. The agreement is pretty good, considering that uncertainties of a factor of 2 in the MLT $\alpha$ parameters for these regions result in a factor of 20 in luminosity perturbations). 
    We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
-    \label{fig:nuchar_core}
+    \label{fig:nuchar_fecz}
 \end{figure*}
 
 
