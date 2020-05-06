@@ -68,7 +68,7 @@ We calculated stellar evolution models using the Modules for Experiments in Stel
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
 The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
 We focused on the structure and convective properties of our models, in order to calculate typical frequencies and convective fluxes. 
-Convection is calculated in the framework of MLT, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,2019ApJ...883..106C}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
+Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,2019ApJ...883..106C}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
 Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{2009A&A...499..279C} we define the average of a quantity  $\overline{q}$ as
 \begin{equation}
@@ -96,13 +96,13 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
 
 
 \subsection{Results}
-The presence of a subsurface convection zone can result in variability of photospheric properties. 
-The simplified MLT treatment in our one dimensional calculations is unlikely to capture the complex phenomenology of these layers. 
-Multi dimensional simulation including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface. 
+We want to test a possible correlation between the properties of the FeCZ and observed photospheric phenomena, in particular photometric variability and turbulent velocities at the stellar surface (macroturbulence). If photometric variability was caused by the FeCZ, a natural choice of proxy for the typical timescale of this variability is the convective turnover timescale.  We found typical values of the convective turnover timescale to be about $\sim 0.1\dots2$ d in the FeCZ, with a tendency for shorter values in models with high effective temperature and surface luminosity \citep{2009A&A...499..279C}. To quantitatively compare to the characteristic frequencies of the observed stochastic photometric variability in massive stars, we proceed mapping our theoretical predictions for the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) on a spectroscopic H-R diagram \citep{2014A&A...564A..52L}. This reveals a very good agreement, with our models reproducing both the typical values of the observed $\nuchar$ and the trend with  $\logl$ and $\logteff$ (Fig.~\ref{fig:nuchar_fecz}). 
+%This is especially true given the uncertainties in the convective velocities predictions from MLT (Sec.~\ref{sec:mlt}) the agreement is very good, 
+While the characteristic frequencies found by Bowman20 seem to be larger by a factor of $\approx$ 3, our predictions for the turnover timescale are affected by  uncertainty in the convective velocities arising from the MLT treatment ($\vc \propto \alphamlt^{3}$, so $\nuchar \propto \alphamlt^{2}$). Since $\alphamlt$ is uncertain by a factor of 2 or so, our estimates of the characteristic frequency in the FeCZ are uncertain by a factor of  $\approx$ 4.
 
-This can occur both because turbulent velocities excited by the convection extends to 
-A proxy for the typical timescale of this variability is the convective turnover timescale.  We found that the typical convective turnover timescale in the FeCZ is about $\sim$day, with a tendency for shorter values in models with high effective temperature and surface luminosity. To quantitatively compare to the characteristic frequencies of the observed stochastic photometric variability in massive stars, we proceed mapping 
-the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) calculated in our modes on the spectroscopic H-R diagram. This reveals a good agreement, with the models reproducing both the typical values of the characteristic frequency and the trend with  $\logl$ and $\logteff$ (Fig.~\ref{fig:nuchar_fecz}).  
+We proceed with mapping quantities that measure the amplitude of perturbations at the location of the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and photometric variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:connecting_mechanisms}.
+We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{2015ApJ...808L..31G}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 10$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{2019ApJ...883..106C}. We plot the average Mach number in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report the  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
+observed photometric variability. 
 
 
 \subsection{Subsurface Convection and Macroturbulence}
@@ -110,7 +110,7 @@ the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) calculated in our modes on the spec
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}
 \caption{\label{fig:nuchar_fecz} Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected macroturbulent velocity as grey dots. The size of the dot is proportional to the observed macroturbulence.}
-\end{center}
+\end{center}\label{fig:vconv}
 \end{figure}
 
 
@@ -123,7 +123,7 @@ the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) calculated in our modes on the spec
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf}
 \caption{\label{fig:FeCZ_IGW} Relative flux of IGWs launched by the FeCZ. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number, calculated in the top pressure scale height of the convective region.}
-\end{center}
+\end{center}\label{fig:flux}
 \end{figure}
 
 
@@ -132,14 +132,14 @@ the quantity $\nuchar$ (eq.~\ref{eq:nuchar}) calculated in our modes on the spec
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/ncells_fecz.pdf}
 \caption{\label{fig:ncells} Expected number of convective cells in the FeCZ. This is calculated assuming the size of convective cells is about  the average pressure scale height in the FeCZ}
-\end{center}
+\end{center}\label{fig:ncells}
 \end{figure}
 
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/mach_rednoise_nodata.pdf}
 \caption{\label{fig:mach} Mach number in the FeCZ.}
-\end{center}
+\end{center}\label{fig:mach}
 \end{figure}
 
 
@@ -180,7 +180,13 @@ Finally, the presence of a turbulent velocity field necessarily has to induce ph
 As such, a minimal hypothesis is that the presence of the FeCZ is the underlying physical cause and represent a possible unified model for the appearance of turbulence, magnetic spots, low-frequency photometric variability and wind structure and variability in massive stars. 
 
 \subsection{Discussion}\label{sec:discussion}
-\subsection{The Impact of $\alphamlt$}
+\subsection{Above the Iron Convection Zone}\label{sec:connecting_mechanisms}
+The presence of a subsurface convection zone can result in variability of photospheric properties. 
+The simplified MLT treatment in our one dimensional calculations is unlikely to capture the complex phenomenology of these layers. 
+Multi dimensional simulation including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,2018Natur.561..498J}. 
+This can occur both because turbulent velocities excited by the convection extends to 
+
+\subsection{The Impact of $\alphamlt$}\label{sec:mlt}
 \subsection{Conclusions}
 
 

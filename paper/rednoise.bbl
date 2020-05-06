@@ -14,6 +14,9 @@
 {Angulo}, C., {Arnould}, M., {Rayet}, M., {et~al.} 1999, Nuclear Physics A,
   656, 3, \dodoi{10.1016/S0375-9474(99)00030-5}
 
+\bibitem[{{B{\"o}hm-Vitense}(1958)}]{1958ZA.....46..108B}
+{B{\"o}hm-Vitense}, E. 1958, \zap, 46, 108
+
 \bibitem[{{Buchler} \& {Yueh}(1976)}]{Buchler1976}
 {Buchler}, J.~R., \& {Yueh}, W.~R. 1976, \apj, 210, 440, \dodoi{10.1086/154847}
 
@@ -51,6 +54,11 @@
 {Fuller}, G.~M., {Fowler}, W.~A., \& {Newman}, M.~J. 1985, \apj, 293, 1,
   \dodoi{10.1086/163208}
 
+\bibitem[{{Grassitelli} {et~al.}(2015){Grassitelli}, {Fossati},
+  {Sim{\'o}n-Di{\'a}z}, {Langer}, {Castro}, \& {Sanyal}}]{2015ApJ...808L..31G}
+{Grassitelli}, L., {Fossati}, L., {Sim{\'o}n-Di{\'a}z}, S., {et~al.} 2015,
+  \apjl, 808, L31, \dodoi{10.1088/2041-8205/808/1/L31}
+
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{1998SSRv...85..161G}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
   \dodoi{10.1023/A:1005161325181}
@@ -72,9 +80,18 @@
 {Jiang}, Y.-F., {Cantiello}, M., {Bildsten}, L., {Quataert}, E., \& {Blaes}, O.
   2015, \apj, 813, 74, \dodoi{10.1088/0004-637X/813/1/74}
 
+\bibitem[{{Jiang} {et~al.}(2018){Jiang}, {Cantiello}, {Bildsten}, {Quataert},
+  {Blaes}, \& {Stone}}]{2018Natur.561..498J}
+{Jiang}, Y.-F., {Cantiello}, M., {Bildsten}, L., {et~al.} 2018, \nat, 561, 498,
+  \dodoi{10.1038/s41586-018-0525-0}
+
 \bibitem[{{Langanke} \& {Mart{\'{\i}}nez-Pinedo}(2000)}]{Langanke2000}
 {Langanke}, K., \& {Mart{\'{\i}}nez-Pinedo}, G. 2000, Nuclear Physics A, 673,
   481, \dodoi{10.1016/S0375-9474(00)00131-7}
+
+\bibitem[{{Langer} \& {Kudritzki}(2014)}]{2014A&A...564A..52L}
+{Langer}, N., \& {Kudritzki}, R.~P. 2014, \aap, 564, A52,
+  \dodoi{10.1051/0004-6361/201423374}
 
 \bibitem[{{Oda} {et~al.}(1994){Oda}, {Hino}, {Muto}, {Takahara}, \&
   {Sato}}]{Oda1994}
