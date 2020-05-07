@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 MAY 2020 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 MAY 2020 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,109 +630,61 @@ Overfull \hbox (10.88353pt too wide) in paragraph at lines 69--69
  []
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/vc_FeCZ_macroturbulence.pdf, id=100, 463.99348pt x 479.5488pt>
+<../figures/vc_FeCZ_macroturbulence.pdf, id=102, 463.99348pt x 479.5488pt>
 File: ../figures/vc_FeCZ_macroturbulence.pdf Graphic file (type pdf)
 <use ../figures/vc_FeCZ_macroturbulence.pdf>
 Package pdftex.def Info: ../figures/vc_FeCZ_macroturbulence.pdf  used on input 
-line 96.
+line 105.
 (pdftex.def)             Requested size: 242.26653pt x 250.39124pt.
 
-[2 <../figures/vc_FeCZ_macroturbulence.pdf>]
-<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=228, 485.07224pt x 479.
+[2 <../figures/vc_FeCZ_macroturbulence.pdf>] [3]
+<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=257, 485.07224pt x 479.
 5488pt>
 File: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf Graphic file (type pdf
 )
 <use ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf>
 Package pdftex.def Info: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf  us
-ed on input line 136.
+ed on input line 145.
 (pdftex.def)             Requested size: 242.26653pt x 239.51038pt.
-<../figures/ncells_fecz.pdf, id=229, 455.96349pt x 479.5488pt>
+<../figures/ncells_fecz.pdf, id=258, 455.96349pt x 479.5488pt>
 File: ../figures/ncells_fecz.pdf Graphic file (type pdf)
 <use ../figures/ncells_fecz.pdf>
-Package pdftex.def Info: ../figures/ncells_fecz.pdf  used on input line 145.
+Package pdftex.def Info: ../figures/ncells_fecz.pdf  used on input line 154.
 (pdftex.def)             Requested size: 242.26653pt x 254.79625pt.
-<../figures/mach_rednoise_nodata.pdf, id=230, 465.16975pt x 479.5488pt>
+<../figures/mach_rednoise_nodata.pdf, id=259, 465.16975pt x 479.5488pt>
 File: ../figures/mach_rednoise_nodata.pdf Graphic file (type pdf)
 <use ../figures/mach_rednoise_nodata.pdf>
 Package pdftex.def Info: ../figures/mach_rednoise_nodata.pdf  used on input lin
-e 152.
+e 161.
 (pdftex.def)             Requested size: 242.26653pt x 249.76195pt.
-<../figures/freq_FeCZ_data.pdf, id=231, 458.97473pt x 472.57744pt>
+<../figures/freq_FeCZ_data.pdf, id=260, 458.97473pt x 472.57744pt>
 File: ../figures/freq_FeCZ_data.pdf Graphic file (type pdf)
 <use ../figures/freq_FeCZ_data.pdf>
-Package pdftex.def Info: ../figures/freq_FeCZ_data.pdf  used on input line 161.
+Package pdftex.def Info: ../figures/freq_FeCZ_data.pdf  used on input line 170.
 
 (pdftex.def)             Requested size: 244.68785pt x 251.93588pt.
-<../figures/flux_FeCZ_rednoise.pdf, id=232, 456.96724pt x 472.57744pt>
+<../figures/flux_FeCZ_rednoise.pdf, id=261, 456.96724pt x 472.57744pt>
 File: ../figures/flux_FeCZ_rednoise.pdf Graphic file (type pdf)
 <use ../figures/flux_FeCZ_rednoise.pdf>
 Package pdftex.def Info: ../figures/flux_FeCZ_rednoise.pdf  used on input line 
-162.
+171.
 (pdftex.def)             Requested size: 242.26653pt x 250.54416pt.
-<../figures/freq_core_data_days.pdf, id=233, 489.08723pt x 479.5488pt>
+<../figures/freq_core_data_days.pdf, id=262, 489.08723pt x 479.5488pt>
 File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
 <use ../figures/freq_core_data_days.pdf>
 Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
- 175.
+ 184.
 (pdftex.def)             Requested size: 242.26653pt x 237.54202pt.
-<../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf, id=234, 485.07224pt x
+<../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf, id=263, 485.07224pt x
  472.57744pt>
 File: ../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf Graphic file (typ
 e pdf)
 <use ../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf>
 Package pdftex.def Info: ../figures/relative_flux_IGW_ahp_core_rednoise_data.pd
-f  used on input line 176.
+f  used on input line 185.
 (pdftex.def)             Requested size: 247.11288pt x 240.75171pt.
- [3]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 189.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 189.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 197.
-
-File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
-<use ../figures/freq_core_data_days.pdf>
-Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
- 204.
-(pdftex.def)             Requested size: 242.26653pt x 237.54202pt.
-File: ../figures/freq_FeCZ_data.pdf Graphic file (type pdf)
-<use ../figures/freq_FeCZ_data.pdf>
-Package pdftex.def Info: ../figures/freq_FeCZ_data.pdf  used on input line 221.
-
-(pdftex.def)             Requested size: 242.26653pt x 249.4481pt.
-<../figures/flux_FeCZ_mach_rednoise.pdf, id=264, 477.04224pt x 479.5488pt>
-File: ../figures/flux_FeCZ_mach_rednoise.pdf Graphic file (type pdf)
-<use ../figures/flux_FeCZ_mach_rednoise.pdf>
-Package pdftex.def Info: ../figures/flux_FeCZ_mach_rednoise.pdf  used on input 
-line 237.
-(pdftex.def)             Requested size: 242.26653pt x 243.54222pt.
-<../figures/vsurf_ncells_FeCZ_data.pdf, id=265, 473.27817pt x 506.70494pt>
-File: ../figures/vsurf_ncells_FeCZ_data.pdf Graphic file (type pdf)
-<use ../figures/vsurf_ncells_FeCZ_data.pdf>
-Package pdftex.def Info: ../figures/vsurf_ncells_FeCZ_data.pdf  used on input l
-ine 246.
-(pdftex.def)             Requested size: 242.26653pt x 259.38255pt.
-[4 <../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf> <../figures/ncells_fecz
-.pdf
+ [4 <../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf> <../figures/ncells_fec
+z.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/ncells_fecz.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
@@ -741,7 +693,46 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/ncells_fecz.pdf):
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/mach_rednoise_nod
 ata.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
->] [5 <../figures/freq_FeCZ_data.pdf> <../figures/flux_FeCZ_rednoise.pdf
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 206.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 206.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 206.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 206.
+
+File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
+<use ../figures/freq_core_data_days.pdf>
+Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
+ 213.
+(pdftex.def)             Requested size: 242.26653pt x 237.54202pt.
+File: ../figures/freq_FeCZ_data.pdf Graphic file (type pdf)
+<use ../figures/freq_FeCZ_data.pdf>
+Package pdftex.def Info: ../figures/freq_FeCZ_data.pdf  used on input line 230.
+
+(pdftex.def)             Requested size: 242.26653pt x 249.4481pt.
+<../figures/flux_FeCZ_mach_rednoise.pdf, id=449, 477.04224pt x 479.5488pt>
+File: ../figures/flux_FeCZ_mach_rednoise.pdf Graphic file (type pdf)
+<use ../figures/flux_FeCZ_mach_rednoise.pdf>
+Package pdftex.def Info: ../figures/flux_FeCZ_mach_rednoise.pdf  used on input 
+line 246.
+(pdftex.def)             Requested size: 242.26653pt x 243.54222pt.
+<../figures/vsurf_ncells_FeCZ_data.pdf, id=450, 473.27817pt x 506.70494pt>
+File: ../figures/vsurf_ncells_FeCZ_data.pdf Graphic file (type pdf)
+<use ../figures/vsurf_ncells_FeCZ_data.pdf>
+Package pdftex.def Info: ../figures/vsurf_ncells_FeCZ_data.pdf  used on input l
+ine 255.
+(pdftex.def)             Requested size: 242.26653pt x 259.38255pt.
+[5 <../figures/freq_FeCZ_data.pdf> <../figures/flux_FeCZ_rednoise.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/flux_FeCZ_rednois
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -753,29 +744,29 @@ _ahp_core_rednoise_data.pdf): PDF inclusion: multiple pdfs with page group incl
 uded in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 73.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 52.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 73.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 52.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [7 <../figures/flux_FeCZ_mach_rednoise.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 120.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 102.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 120.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 102.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 ) [8 <../figures/vsurf_ncells_FeCZ_data.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
  (./rednoise.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `rednoise.out' has not changed.
 (rerunfilecheck)             Checksum: 420093DDBF082B40BE66C3DEF3FC40A9;712.
 
@@ -784,13 +775,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10391 strings out of 492616
- 148428 string characters out of 6129482
- 312647 words of memory out of 5000000
- 14088 multiletter control sequences out of 15000+600000
+ 10395 strings out of 492616
+ 148471 string characters out of 6129482
+ 317242 words of memory out of 5000000
+ 14091 multiletter control sequences out of 15000+600000
  15206 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,38p,1574b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,38p,1574b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -812,10 +803,10 @@ dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist
 /fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on rednoise.pdf (8 pages, 1113060 bytes).
+Output written on rednoise.pdf (8 pages, 1115608 bytes).
 PDF statistics:
- 1110 PDF objects out of 1200 (max. 8388607)
- 615 compressed objects within 7 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 617 compressed objects within 7 object streams
+ 83 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

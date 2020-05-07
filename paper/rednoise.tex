@@ -90,6 +90,15 @@ We proceeded to calculate convective turnover timescales and other relevant prop
 We did this as a function of both mass and evolutionary history for stars ranging from $5-120 M_\odot$.
 Here we present results for an initial metallicity of Z=0.02, but in Appendix~\ref{appen:grids} we report results for model grids with Z = 0.014, 0.006 and 0.002 as well.
 
+We compare these quantities with the observed characteristic frequency $\nucharobs$ and amplitude $\alphazero$ of stochastic photometric variability. These quantities are derived by fitting the stochastically-excited low-frequency power excess in a power
+density spectrum using a Lorentzian function \citep[e.g.][]{2019A&A...621A.135B}:
+
+\begin{equation}\label{eq:rednoise}
+\alpha(\nu) = \frac{\alphazero}{1+\big(\frac{\nu}{\nucharobs}\big)^{\gamma}} \, + P_{\rm W}.
+\end{equation}
+This shows that $\alphazero$ represents the amplitude at zero
+frequency,  and  $\nucharobs$ is  the frequency at which the amplitude of background equals half of $\alphazero$.
+Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm W}$ is a white noise term term.
  
 \begin{figure}[ht!]
 \begin{center}
