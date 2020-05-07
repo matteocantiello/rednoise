@@ -7,50 +7,50 @@ Repeated entry---line 1001 of file refs.bib
  : @article{2019NatAs...3..760B
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1027 of file refs.bib
+Repeated entry---line 1046 of file refs.bib
  : @article{2017A&A...597A..22S
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 41 entries,
+You've used 42 entries,
             3168 wiz_defined-function locations,
-            995 strings with 16063 characters,
-and the built_in function-call counts, 19843 in all, are:
-= -- 1606
-> -- 1639
+            1004 strings with 16335 characters,
+and the built_in function-call counts, 20317 in all, are:
+= -- 1647
+> -- 1677
 < -- 13
-+ -- 547
-- -- 601
-* -- 1876
-:= -- 3697
-add.period$ -- 41
-call.type$ -- 41
-change.case$ -- 243
-chr.to.int$ -- 40
-cite$ -- 41
-duplicate$ -- 695
-empty$ -- 1102
-format.name$ -- 661
-if$ -- 3941
++ -- 560
+- -- 616
+* -- 1920
+:= -- 3784
+add.period$ -- 42
+call.type$ -- 42
+change.case$ -- 250
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 712
+empty$ -- 1128
+format.name$ -- 676
+if$ -- 4035
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 41
-newline$ -- 131
-num.names$ -- 164
-pop$ -- 263
+missing$ -- 42
+newline$ -- 134
+num.names$ -- 168
+pop$ -- 270
 preamble$ -- 1
-purify$ -- 243
+purify$ -- 250
 quote$ -- 0
-skip$ -- 557
+skip$ -- 570
 stack$ -- 0
-substring$ -- 676
+substring$ -- 690
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 369
+type$ -- 378
 warning$ -- 0
-while$ -- 153
+while$ -- 157
 width$ -- 0
-write$ -- 457
+write$ -- 468
 (There were 2 error messages)
