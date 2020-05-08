@@ -23,14 +23,19 @@
 \title{Subsurface Convection as the Origin of Stochastic Photometric Variability in Massive Stars}
 
 
-\author[0000-0002-8171-8596]{Matteo Cantiello}
-\affiliation{Center for Computational Astrophysics, Flatiron Institute, 162 5th Avenue, New York, NY 10010,
-USA}
-\affiliation{Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA}
 
+\author[0000-0002-8171-8596]{Matteo Cantiello}
+\affiliation{\input{snippets/affiliations}}
+\affiliation{Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA}
 
 \author{Daniel Lecoanet}
 \affiliation{Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA}
+
+\author[0000-0001-5048-9973]{Adam S. Jermyn}
+\affiliation{\input{snippets/affiliations}}
+
+
+
 
 
 %\author{Adam S. Jermyn}
@@ -161,7 +166,11 @@ However, we expect the trends of predicted $\nuchar$ as function of $\logteff$ a
 
  
  
-%\subsection{Subsurface Convection and Macroturbulence}
+\subsection{Macroturbulence}
+Discuss here magnetic inhibition as a way to distinguish subsurface vs core generation (Adam's calculations).
+The hypothesis that  subsurface convection is responsible for surface turbulence is corroborated by the match between trends in the FeCZ  properties (convective velocities / turbulent pressure) and the observed macroturbulence \citep{2009A&A...499..279C,2015ApJ...808L..31G}.
+A further test of this idea was provided by \citet{10.1093/mnras/stt921}, who showed that only stars with a magnetic fields strong enough to suppress the FeCZ show surface velocity fields consistent with no macroturbulence. 
+Of course one could envision that magnetic inhibition could also inhibit the propagation of IGWs coming from the convective core. Below we show that the minimum magnetic field required to stop core IGWs from reaching the stellar surface is much smaller than what required to shutoff the FeCZ. This provides a way to test the two hypothesis... 
 
 
 %\subsection{Subsurface Convection and Photometric Variability}
@@ -234,14 +243,6 @@ This can occur both because turbulent velocities excited by the convection exten
 
 
 
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/freq_FeCZ_data.pdf}
-\caption{\label{fig:nuchar_fecz} Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$.}
-\end{center}
-\end{figure}
-
-
 %\begin{figure}[ht!]
 %\begin{center}
 %\includegraphics[width=1.0\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}
@@ -257,14 +258,6 @@ This can occur both because turbulent velocities excited by the convection exten
 \end{center}
 \end{figure}
 
-
-
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/vsurf_ncells_FeCZ_data.pdf}
-\caption{\label{fig:alpha0_vel_ncells} Reduced amplitude of velocity fluctuations at the stellar surface induced by internal gravity waves launched by the FeCZ in the spectroscopic H-R Diagram. After calculating the velocity fluctuation, we have corrected for cancellation effects dividing by the total number of convective cells. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
-\end{center}
-\end{figure}
 
 
 
