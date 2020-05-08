@@ -12,45 +12,45 @@ Repeated entry---line 1046 of file refs.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 42 entries,
+You've used 43 entries,
             3168 wiz_defined-function locations,
-            1004 strings with 16335 characters,
-and the built_in function-call counts, 20317 in all, are:
-= -- 1647
-> -- 1677
+            1012 strings with 16736 characters,
+and the built_in function-call counts, 20877 in all, are:
+= -- 1694
+> -- 1725
 < -- 13
-+ -- 560
-- -- 616
-* -- 1920
-:= -- 3784
-add.period$ -- 42
-call.type$ -- 42
-change.case$ -- 250
-chr.to.int$ -- 41
-cite$ -- 42
-duplicate$ -- 712
-empty$ -- 1128
-format.name$ -- 676
-if$ -- 4035
++ -- 577
+- -- 635
+* -- 1973
+:= -- 3888
+add.period$ -- 43
+call.type$ -- 43
+change.case$ -- 259
+chr.to.int$ -- 42
+cite$ -- 43
+duplicate$ -- 729
+empty$ -- 1156
+format.name$ -- 695
+if$ -- 4145
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 134
-num.names$ -- 168
-pop$ -- 270
+missing$ -- 43
+newline$ -- 137
+num.names$ -- 172
+pop$ -- 280
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 259
 quote$ -- 0
-skip$ -- 570
+skip$ -- 584
 stack$ -- 0
-substring$ -- 690
+substring$ -- 710
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 387
 warning$ -- 0
-while$ -- 157
+while$ -- 161
 width$ -- 0
-write$ -- 468
+write$ -- 479
 (There were 2 error messages)
