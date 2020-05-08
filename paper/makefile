@@ -1,12 +1,9 @@
 .PHONY: main.pdf all clean
 
-all: paper.pdf
+all: rednoise.pdf
 
-figures/schematic-crop.pdf: figures/schematic.pdf
-	cd figures; pdfcrop schematic.pdf; cd ..
-
-paper.pdf: paper.tex refs.bib figures/schematic-crop.pdf
-	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make paper.tex
+rednoise.pdf: rednoise.tex refs.bib
+	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make rednoise.tex
 
 clean:
 	latexmk -CA
