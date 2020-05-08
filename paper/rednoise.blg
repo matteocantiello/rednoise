@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: rednoise.aux
+The style file: aasjournal.bst
+Database file #1: refs.bib
+Repeated entry---line 1001 of file refs.bib
+ : @article{2019NatAs...3..760B
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1046 of file refs.bib
+ : @article{2017A&A...597A..22S
+ :                             ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 44 entries,
+            3168 wiz_defined-function locations,
+            1020 strings with 16917 characters,
+and the built_in function-call counts, 21285 in all, are:
+= -- 1732
+> -- 1747
+< -- 14
++ -- 584
+- -- 642
+* -- 2006
+:= -- 3959
+add.period$ -- 44
+call.type$ -- 44
+change.case$ -- 264
+chr.to.int$ -- 43
+cite$ -- 44
+duplicate$ -- 746
+empty$ -- 1184
+format.name$ -- 706
+if$ -- 4231
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 44
+newline$ -- 140
+num.names$ -- 176
+pop$ -- 286
+preamble$ -- 1
+purify$ -- 264
+quote$ -- 0
+skip$ -- 599
+stack$ -- 0
+substring$ -- 730
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 0
+while$ -- 165
+width$ -- 0
+write$ -- 490
+(There were 2 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -514,7 +514,17 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 22.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 22.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 22.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 22.
- (./rednoise.aux)
+ (./rednoise.aux
+
+LaTeX Warning: Label `fig:nuchar_fecz' multiply defined.
+
+
+LaTeX Warning: Label `fig:ncells' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuchar_core' multiply defined.
+
+)
 \openout1 = `rednoise.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -531,8 +541,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count177
 \scratchdimen=\dimen147
@@ -576,6 +585,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
+
+(./rednoise.out) (./rednoise.out)
 \@outlinefile=\write4
 \openout4 = `rednoise.out'.
 
@@ -608,81 +619,24 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 62--62
  []
 
 
-Package natbib Warning: Citation `Paxton2011' on page 1 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `Paxton2013' on page 1 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `Paxton2015' on page 1 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `Paxton2018' on page 1 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `Paxton2019' on page 1 undefined on input line
- 72.
-
-
-LaTeX Warning: Reference `sec:software' on page 1 undefined on input line 73.
-
-
 Overfull \hbox (10.88353pt too wide) in paragraph at lines 74--74
 [][]| [] [][][]| 
  []
 
-
-Package natbib Warning: Citation `1958ZA.....46..108B' on page 1 undefined on i
-nput line 76.
-
-
-Package natbib Warning: Citation `2015ApJ...813...74J' on page 1 undefined on i
-nput line 76.
-
-
-Package natbib Warning: Citation `2019ApJ...883..106C' on page 1 undefined on i
-nput line 76.
-
-
-LaTeX Warning: Reference `sec:discussion' on page 1 undefined on input line 76.
-
-
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `2009A&A...499..279C' on page 2 undefined on i
-nput line 78.
-
-
-Package natbib Warning: Citation `2009A&A...499..279C' on page 2 undefined on i
-nput line 87.
-
-
-Package natbib Warning: Citation `2019ApJ...883..106C' on page 2 undefined on i
-nput line 87.
-
-
-LaTeX Warning: Reference `appen:grids' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `2019A&A...621A.135B' on page 2 undefined on i
-nput line 99.
-
-<../figures/vc_FeCZ_macroturbulence.pdf, id=32, 463.24068pt x 506.03053pt>
+<../figures/vc_FeCZ_macroturbulence.pdf, id=107, 463.24068pt x 506.03053pt>
 File: ../figures/vc_FeCZ_macroturbulence.pdf Graphic file (type pdf)
 <use ../figures/vc_FeCZ_macroturbulence.pdf>
 Package pdftex.def Info: ../figures/vc_FeCZ_macroturbulence.pdf  used on input 
 line 110.
 (pdftex.def)             Requested size: 242.26653pt x 264.64307pt.
-<../figures/freq_FeCZ_data.pdf, id=33, 458.97473pt x 506.70494pt>
+<../figures/freq_FeCZ_data.pdf, id=108, 458.97473pt x 506.70494pt>
 File: ../figures/freq_FeCZ_data.pdf Graphic file (type pdf)
 <use ../figures/freq_FeCZ_data.pdf>
 Package pdftex.def Info: ../figures/freq_FeCZ_data.pdf  used on input line 121.
 
 (pdftex.def)             Requested size: 244.68785pt x 270.12961pt.
+
 
 LaTeX Warning: File `../figures/flux_FeCZ_rednoise.pdf' not found on input line
  122.
@@ -697,111 +651,16 @@ Type  H <return>  for immediate help.
                                                   
 l.122 ...idth]{../figures/flux_FeCZ_rednoise.pdf}}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package natbib Warning: Citation `2009A&A...499..279C' on page 2 undefined on i
-nput line 130.
-
-
-LaTeX Warning: Reference `eq:nuchar' on page 2 undefined on input line 130.
-
-
-Package natbib Warning: Citation `2014A&A...564A..52L' on page 2 undefined on i
-nput line 130.
-
-
-LaTeX Warning: Reference `fig:nuchar_fecz' on page 2 undefined on input line 13
-0.
-
-[2 <../figures/vc_FeCZ_macroturbulence.pdf>]
-
-LaTeX Warning: Reference `sec:connecting_mechanisms' on page 3 undefined on inp
-ut line 136.
-
-
-LaTeX Warning: Reference `fig:vconv' on page 3 undefined on input line 137.
-
-
-Package natbib Warning: Citation `2015ApJ...808L..31G' on page 3 undefined on i
-nput line 137.
-
-
-Package natbib Warning: Citation `2019ApJ...883..106C' on page 3 undefined on i
-nput line 137.
-
-
-LaTeX Warning: Reference `fig:mach' on page 3 undefined on input line 137.
-
-
-LaTeX Warning: Reference `fig:nuchar_fecz' on page 3 undefined on input line 13
-7.
-
-
-Package natbib Warning: Citation `1990ApJ...363..694G' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2013ApJ...772...21R' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2013MNRAS.430.2363L' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2013MNRAS.430.1736S' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2019ApJ...876....4E' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2009A&A...508..409A' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2017A&A...597A..22S' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2019A&A...621A.135B' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2019NatAs...3..760B' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2019ApJ...886L..15L' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2018JFM...854R...3C' on page 3 undefined on i
-nput line 142.
-
-
-Package natbib Warning: Citation `2019ApJ...876....4E' on page 3 undefined on i
-nput line 142.
-
-[3 <../figures/freq_FeCZ_data.pdf>]
-
-Package natbib Warning: Citation `1990ApJ...363..694G' on page 4 undefined on i
-nput line 146.
-
-
-LaTeX Warning: Reference `fig:nuchar_core' on page 4 undefined on input line 14
-6.
-
-<../figures/freq_core_data_days.pdf, id=212, 479.04973pt x 506.70494pt>
+? 
+[2 <../figures/vc_FeCZ_macroturbulence.pdf>] [3 <../figures/freq_FeCZ_data.pdf>
+]
+<../figures/freq_core_data_days.pdf, id=335, 479.04973pt x 506.70494pt>
 File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
 <use ../figures/freq_core_data_days.pdf>
 Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
  153.
 (pdftex.def)             Requested size: 242.26653pt x 256.25122pt.
-<../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf, id=213, 485.07224pt x
+<../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf, id=336, 485.07224pt x
  506.70494pt>
 File: ../figures/relative_flux_IGW_ahp_core_rednoise_data.pdf Graphic file (typ
 e pdf)
@@ -810,110 +669,11 @@ Package pdftex.def Info: ../figures/relative_flux_IGW_ahp_core_rednoise_data.pd
 f  used on input line 154.
 (pdftex.def)             Requested size: 247.11288pt x 258.13776pt.
 
-LaTeX Warning: Reference `fig:nuchar_core' on page 4 undefined on input line 16
-2.
-
-
-Package natbib Warning: Citation `2013MNRAS.430.1736S' on page 4 undefined on i
-nput line 162.
-
-
-Package natbib Warning: Citation `2019A&A...621A.135B' on page 4 undefined on i
-nput line 162.
-
-
-Package natbib Warning: Citation `2019NatAs...3..760B' on page 4 undefined on i
-nput line 162.
-
-
-Package natbib Warning: Citation `2019ApJ...886L..15L' on page 4 undefined on i
-nput line 162.
-
-
-LaTeX Warning: Reference `fig:nuchar_core' on page 4 undefined on input line 16
-3.
-
-
-Package natbib Warning: Citation `2009A&A...499..279C' on page 4 undefined on i
-nput line 171.
-
-
-Package natbib Warning: Citation `2015ApJ...808L..31G' on page 4 undefined on i
-nput line 171.
-
 
 Package natbib Warning: Citation `2019MNRAS.487.3904M' on page 4 undefined on i
 nput line 172.
 
-
-Package natbib Warning: Citation `10.1093/mnras/stt921' on page 4 undefined on 
-input line 172.
-
-! Missing delimiter (. inserted).
-<to be read again> 
-                   }
-l.183 \end{align}
-                 
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-! Extra }, or forgotten \right.
-<recently read> }
-                 
-l.183 \end{align}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{align}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing delimiter (. inserted).
-<to be read again> 
-                   }
-l.183 \end{align}
-                 
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-! Extra }, or forgotten \right.
-<recently read> }
-                 
-l.183 \end{align}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{align}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=214, 475.03473pt x 506.
+<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=352, 475.03473pt x 506.
 70494pt>
 File: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf Graphic file (type pdf
 )
@@ -921,7 +681,7 @@ File: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf  us
 ed on input line 201.
 (pdftex.def)             Requested size: 242.26653pt x 258.41609pt.
-<../figures/ncells_fecz.pdf, id=215, 455.96349pt x 506.03053pt>
+<../figures/ncells_fecz.pdf, id=353, 455.96349pt x 506.03053pt>
 File: ../figures/ncells_fecz.pdf Graphic file (type pdf)
 <use ../figures/ncells_fecz.pdf>
 Package pdftex.def Info: ../figures/ncells_fecz.pdf  used on input line 210.
@@ -940,9 +700,7 @@ Type  H <return>  for immediate help.
                                                   
 l.217 ...dth]{../figures/mach_rednoise_nodata.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 
 LaTeX Warning: File `../figures/Propagation_40Msun_zoom.pdf' not found on input
  line 224.
@@ -957,9 +715,7 @@ Type  H <return>  for immediate help.
                                                   
 l.224 ...]{../figures/Propagation_40Msun_zoom.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 
 LaTeX Warning: File `../figures/kr_40Msun.pdf' not found on input line 232.
 
@@ -973,18 +729,8 @@ Type  H <return>  for immediate help.
                                                   
 l.232 ....0\columnwidth]{../figures/kr_40Msun.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 [4]
-
-Package natbib Warning: Citation `2015ApJ...813...74J' on page 5 undefined on i
-nput line 252.
-
-
-Package natbib Warning: Citation `2018Natur.561..498J' on page 5 undefined on i
-nput line 252.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 255.
@@ -1006,111 +752,41 @@ File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
  262.
 (pdftex.def)             Requested size: 242.26653pt x 256.25122pt.
-<../figures/flux_FeCZ_mach_rednoise.pdf, id=225, 465.16975pt x 506.70494pt>
+<../figures/flux_FeCZ_mach_rednoise.pdf, id=382, 465.16975pt x 506.70494pt>
 File: ../figures/flux_FeCZ_mach_rednoise.pdf Graphic file (type pdf)
 <use ../figures/flux_FeCZ_mach_rednoise.pdf>
 Package pdftex.def Info: ../figures/flux_FeCZ_mach_rednoise.pdf  used on input 
 line 287.
 (pdftex.def)             Requested size: 242.26653pt x 263.9056pt.
-
-Package natbib Warning: Citation `Rogers2002' on page 5 undefined on input line
- 306.
-
-
-Package natbib Warning: Citation `Saumon1995' on page 5 undefined on input line
- 307.
-
-
-Package natbib Warning: Citation `Pols1995' on page 5 undefined on input line 3
-07.
-
-
-Package natbib Warning: Citation `Timmes2000' on page 5 undefined on input line
- 308.
-
-
-Package natbib Warning: Citation `Potekhin2010' on page 5 undefined on input li
-ne 308.
-
-
-Package natbib Warning: Citation `Iglesias1993' on page 5 undefined on input li
-ne 311.
-
-
-Package natbib Warning: Citation `Iglesias1996' on page 5 undefined on input li
-ne 311.
-
-
-Package natbib Warning: Citation `Ferguson2005' on page 5 undefined on input li
-ne 311.
-
-
-Package natbib Warning: Citation `Buchler1976' on page 5 undefined on input lin
-e 313.
-
-
-Package natbib Warning: Citation `Cassisi2007' on page 5 undefined on input lin
-e 314.
-
 [5 <../figures/freq_core_data_days.pdf> <../figures/relative_flux_IGW_ahp_core_
 rednoise_data.pdf
 
 pdfTeX warning: pdflatex (file ../figures/relative_flux_IGW_ahp_core_rednoise_d
 ata.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
->]
-
-Package natbib Warning: Citation `Angulo1999' on page 6 undefined on input line
- 317.
+>] (./rednoise.bbl
+Overfull \vbox (11.3472pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Cyburt2010' on page 6 undefined on input line
- 317.
+Overfull \vbox (11.3472pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `Fuller1985' on page 6 undefined on input line
- 319.
+[6 <../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 27.
 
 
-Package natbib Warning: Citation `Oda1994' on page 6 undefined on input line 31
-9.
-
-
-Package natbib Warning: Citation `Langanke2000' on page 6 undefined on input li
-ne 319.
-
-
-Package natbib Warning: Citation `Chugunov2007' on page 6 undefined on input li
-ne 319.
-
-
-Package natbib Warning: Citation `Itoh1996' on page 6 undefined on input line 3
-20.
-
-
-Package natbib Warning: Citation `2013MNRAS.433.1114Y' on page 6 undefined on i
-nput line 329.
-
-
-Package natbib Warning: Citation `1998SSRv...85..161G' on page 6 undefined on i
-nput line 330.
-
-(./rednoise.bbl [6 <../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 68.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 68.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 27.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [7 <../figures/ncells_fecz.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 82.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 42.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 82.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 42.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -1128,31 +804,21 @@ Package natbib Warning: Citation(s) may have changed.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package rerunfilecheck Info: File `rednoise.out' has not changed.
+(rerunfilecheck)             Checksum: C4723F0FE672D887F09C26C209E77E2E;777.
 
 
-Package rerunfilecheck Warning: File `rednoise.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `rednoise.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C4723F0FE672D887F09C26C209E77E2E;777.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10390 strings out of 492616
- 148040 string characters out of 6129482
- 298072 words of memory out of 5000000
- 14079 multiletter control sequences out of 15000+600000
+ 10411 strings out of 492616
+ 148368 string characters out of 6129482
+ 306320 words of memory out of 5000000
+ 14095 multiletter control sequences out of 15000+600000
  15373 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,38p,1574b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,9n,38p,1574b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -1176,10 +842,10 @@ t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/rsfs/rsfs10.pfb>
-Output written on rednoise.pdf (9 pages, 890229 bytes).
+Output written on rednoise.pdf (9 pages, 898503 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 998 PDF objects out of 1000 (max. 8388607)
+ 578 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
