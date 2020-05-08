@@ -46,7 +46,6 @@ def make_plot(l,f):
 	plt.plot(R / R[0], N2**0.5, label='$N / \mathrm{s^{-1}}$')
 	plt.plot(R / R[0], R*k_r, label='$r k_r$')
 	plt.axhline(f, label='$\omega$',linestyle='-.')
-	plt.axhline(2e4, label='$B_{\mathrm{obs}} / \mathrm{G}$')
 	plt.title('l = ' + str(l) + ' ' + 'f = ' + str(round(f / N_conv_avg,2)) + ' f_conv')
 	plt.legend()
 	plt.xlabel('r / R')
@@ -54,7 +53,29 @@ def make_plot(l,f):
 	plt.savefig(str(l) + '_' + str(round(f / N_conv_avg,2)) + '.pdf')
 	plt.close()
 
-for l in [1,2,3]:
-	for f in np.array([0.1,0.3,1,3,10]) * N_conv_avg:
-		make_plot(l,f)
 
+def make_composite_plot(ls,fs,ftitles):
+
+	plt.figure(figsize=(5,4))
+
+	for l,f,ftitle in zip(*(ls,fs,ftitles)):
+
+		k_perp = (l * (l + 1))**0.5 / R
+		k_r = k_perp * (N2**0.5 / f)
+
+		vA_crit_radial = f / k_r
+		B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5
+
+		plt.plot(1-R / R[0], B_crit_wave_radial, label='$\ell = ' + str(l) + ', \\nu =  ' + ftitle + '$')
+	plt.legend()
+	plt.xlim([1e-5,1e-2])
+	plt.ylim([1e-2,1e5])
+	plt.xscale('log')
+	plt.xlabel('$1 - r / R_\star$')
+	plt.yscale('log')
+	plt.ylabel('$B_{r,\mathrm{crit}} / \mathrm{G}$')
+	plt.tight_layout()
+	plt.savefig('composite.pdf')
+	plt.close()
+
+make_composite_plot([1,2,3,1,2,3], 3*[N_conv_avg] + 3*[2*np.pi*5/(24*3600)], 3*['\\nu_\mathrm{conv}'] + 3*['\\nu_\mathrm{char}'])
