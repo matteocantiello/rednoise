@@ -167,10 +167,28 @@ However, we expect the trends of predicted $\nuchar$ as function of $\logteff$ a
  
  
 \subsection{Macroturbulence}
-Discuss here magnetic inhibition as a way to distinguish subsurface vs core generation (Adam's calculations).
-The hypothesis that  subsurface convection is responsible for surface turbulence is corroborated by the match between trends in the FeCZ  properties (convective velocities / turbulent pressure) and the observed macroturbulence \citep{2009A&A...499..279C,2015ApJ...808L..31G}.
-A further test of this idea was provided by \citet{10.1093/mnras/stt921}, who showed that only stars with a magnetic fields strong enough to suppress the FeCZ show surface velocity fields consistent with no macroturbulence. 
-Of course one could envision that magnetic inhibition could also inhibit the propagation of IGWs coming from the convective core. Below we show that the minimum magnetic field required to stop core IGWs from reaching the stellar surface is much smaller than what required to shutoff the FeCZ. This provides a way to test the two hypothesis... 
+
+The hypothesis that subsurface convection is responsible for surface turbulence is corroborated by the match between trends in the FeCZ properties (i.e. convective velocities and turbulent pressure) and the observed macroturbulence \citep{2009A&A...499..279C,2015ApJ...808L..31G}.
+In particular, there appears to be a critical magnetic field above which macroturbulence disappears, and this critical field strength corresponds closely to the critical field needed to stabilize the FeCZ~\citep{2019MNRAS.487.3904M,10.1093/mnras/stt921}.
+
+We can analogously define a critical magnetic field strength $B_{\rm crit}$ which suffices to reflect IGWs before they reach the photosphere.
+Using the dispersion relation for IGWs in a magentic medium, we find the radial component of this field to be approximately
+\begin{align}
+	B_{r, \rm crit} \approx \frac{\omega}{k_r}\sqrt{4\pi \rho},
+\end{align}
+where $\omega$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wavenumber.
+For IGWs the radial wave-number is related to the azimuthal quantum number $\ell$ by
+\begin{align}
+	k_r \approx \frac{\sqrt{\ell(\ell+1)}{r}}\left(\frac{N}{\omega}\right),
+\end{align}
+where $N$ is the \brvs\ frequency.
+So
+\begin{align}
+	B_{r, \rm crit} \approx \frac{\omega^2 r}{N \sqrt{\ell(\ell+1)}}\sqrt{4\pi \rho}.
+\end{align}
+
+
+
 
 
 %\subsection{Subsurface Convection and Photometric Variability}
