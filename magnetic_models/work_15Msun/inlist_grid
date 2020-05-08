@@ -1,0 +1,22 @@
+
+&star_job
+
+
+/ ! end of star_job namelist
+
+&controls
+
+ 
+      ! MAIN PARAMS
+
+      initial_mass = 30
+      max_age = 4d6
+
+/ ! end of controls namelist
+
+
+&pgstar
+         
+
+
+/ ! end of pgstar namelist

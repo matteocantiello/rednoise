@@ -1,0 +1,28 @@
+! For the sake of future readers of this file (yourself included),
+! ONLY include the controls you are actually using.  DO NOT include
+! all of the other controls that simply have their default values.
+
+&star_job
+
+  ! begin with a pre-main sequence model
+    create_pre_main_sequence_model = .true.
+
+  ! display on-screen plots
+    pgstar_flag = .true.
+
+/ !end of star_job namelist
+
+
+&controls
+
+  ! starting specifications
+    initial_mass = 30 ! in Msun units
+
+  ! max age
+    max_age = 4d6
+
+  ! options for energy conservation (see MESA V, Section 3)
+     use_dedt_form_of_energy_eqn = .true.
+     use_gold_tolerances = .true.
+
+/ ! end of controls namelist
