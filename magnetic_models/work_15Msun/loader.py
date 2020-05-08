@@ -35,9 +35,9 @@ def make_plot(l,f):
 	k_r = k_perp * (N2**0.5 / f)
 
 	vA_crit_radial = f / k_r
-	B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5
+	B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5 / np.sqrt(8) # Correction due to Fuller+2015
 	vA_crit_toroidal = f / k_perp
-	B_crit_wave_toroidal = vA_crit_toroidal * (4 * np.pi * D)**0.5
+	B_crit_wave_toroidal = vA_crit_toroidal * (4 * np.pi * D)**0.5 / np.sqrt(8) # Correction due to Fuller+2015
 
 
 	plt.plot(R / R[0], B_crit_wave_radial, label='$B_{\mathrm{crit,wave,radial}} / \mathrm{G}$', linestyle='--')
@@ -64,7 +64,7 @@ def make_composite_plot(ls,fs,ftitles):
 		k_r = k_perp * (N2**0.5 / f)
 
 		vA_crit_radial = f / k_r
-		B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5
+		B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5 / np.sqrt(8) # Correction due to Fuller+2015
 
 		plt.plot(1-R / R[0], B_crit_wave_radial, label='$\ell = ' + str(l) + ', \\nu =  ' + ftitle + '$')
 	plt.legend()
