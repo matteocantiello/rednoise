@@ -78,4 +78,4 @@ def make_composite_plot(ls,fs,ftitles):
 	plt.savefig('composite.pdf')
 	plt.close()
 
-make_composite_plot([1,2,3,1,2,3], 3*[N_conv_avg] + 3*[2*np.pi*5/(24*3600)], 3*['\\nu_\mathrm{conv}'] + 3*['\\nu_\mathrm{char}'])
+make_composite_plot([1,2,3,1,2,3], 3*[N_conv_avg] + 3*[2*np.pi*3/(24*3600)], 3*['\\nu_\mathrm{conv}'] + 3*['\\nu_\mathrm{char}'])
