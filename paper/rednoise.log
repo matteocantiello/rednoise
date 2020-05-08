@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,12 +664,7 @@ e pdf)
 Package pdftex.def Info: ../figures/relative_flux_IGW_ahp_core_rednoise_data.pd
 f  used on input line 154.
 (pdftex.def)             Requested size: 247.11288pt x 240.75171pt.
-
-
-Package natbib Warning: Citation `10.1093/mnras/stt921' on page 4 undefined on 
-input line 172.
-
-<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=394, 485.07224pt x 479.
+<../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf, id=396, 485.07224pt x 479.
 5488pt>
 File: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf Graphic file (type pdf
 )
@@ -677,30 +672,30 @@ File: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/sqrt_flux_FeCZ_mach_rednoise_nodata.pdf  us
 ed on input line 183.
 (pdftex.def)             Requested size: 242.26653pt x 239.51038pt.
-<../figures/ncells_fecz.pdf, id=395, 455.96349pt x 479.5488pt>
+<../figures/ncells_fecz.pdf, id=397, 455.96349pt x 479.5488pt>
 File: ../figures/ncells_fecz.pdf Graphic file (type pdf)
 <use ../figures/ncells_fecz.pdf>
 Package pdftex.def Info: ../figures/ncells_fecz.pdf  used on input line 192.
 (pdftex.def)             Requested size: 242.26653pt x 254.79625pt.
-<../figures/mach_rednoise_nodata.pdf, id=396, 465.16975pt x 479.5488pt>
+<../figures/mach_rednoise_nodata.pdf, id=398, 465.16975pt x 479.5488pt>
 File: ../figures/mach_rednoise_nodata.pdf Graphic file (type pdf)
 <use ../figures/mach_rednoise_nodata.pdf>
 Package pdftex.def Info: ../figures/mach_rednoise_nodata.pdf  used on input lin
 e 199.
 (pdftex.def)             Requested size: 242.26653pt x 249.76195pt.
-<../figures/Propagation_40Msun_zoom.pdf, id=397, 414.52994pt x 341.76591pt>
+<../figures/Propagation_40Msun_zoom.pdf, id=399, 414.52994pt x 341.76591pt>
 File: ../figures/Propagation_40Msun_zoom.pdf Graphic file (type pdf)
 <use ../figures/Propagation_40Msun_zoom.pdf>
 Package pdftex.def Info: ../figures/Propagation_40Msun_zoom.pdf  used on input 
 line 206.
 (pdftex.def)             Requested size: 242.26653pt x 199.7419pt.
-<../figures/kr_40Msun.pdf, id=398, 474.42558pt x 341.76591pt>
+<../figures/kr_40Msun.pdf, id=400, 474.42558pt x 341.76591pt>
 File: ../figures/kr_40Msun.pdf Graphic file (type pdf)
 <use ../figures/kr_40Msun.pdf>
 Package pdftex.def Info: ../figures/kr_40Msun.pdf  used on input line 214.
 (pdftex.def)             Requested size: 242.26653pt x 174.52255pt.
-[4] [5 <../figures/freq_core_data_days.pdf> <../figures/relative_flux_IGW_ahp_c
-ore_rednoise_data.pdf
+ [4] [5 <../figures/freq_core_data_days.pdf> <../figures/relative_flux_IGW_ahp_
+core_rednoise_data.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/relative_flux_IGW
 _ahp_core_rednoise_data.pdf): PDF inclusion: multiple pdfs with page group incl
@@ -716,10 +711,10 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/ncells_fecz.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 230.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 229.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 230.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 229.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -745,7 +740,7 @@ File: ../figures/freq_core_data_days.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/freq_core_data_days.pdf  used on input line
  244.
 (pdftex.def)             Requested size: 242.26653pt x 237.54202pt.
-<../figures/flux_FeCZ_mach_rednoise.pdf, id=703, 477.04224pt x 479.5488pt>
+<../figures/flux_FeCZ_mach_rednoise.pdf, id=706, 477.04224pt x 479.5488pt>
 File: ../figures/flux_FeCZ_mach_rednoise.pdf Graphic file (type pdf)
 <use ../figures/flux_FeCZ_mach_rednoise.pdf>
 Package pdftex.def Info: ../figures/flux_FeCZ_mach_rednoise.pdf  used on input 
@@ -772,16 +767,8 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 42.
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [8 <../figures/flux_FeCZ_mach_rednoise.pdf>]) [9]
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
-(./rednoise.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./rednoise.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
 Package rerunfilecheck Info: File `rednoise.out' has not changed.
@@ -794,11 +781,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  10412 strings out of 492616
  148846 string characters out of 6129482
- 305229 words of memory out of 5000000
+ 305320 words of memory out of 5000000
  14101 multiletter control sequences out of 15000+600000
  15206 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,38p,1574b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,38p,1574b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -821,10 +808,10 @@ st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/rsfs/rsfs10.pfb>
-Output written on rednoise.pdf (9 pages, 1065705 bytes).
+Output written on rednoise.pdf (9 pages, 1065678 bytes).
 PDF statistics:
- 1151 PDF objects out of 1200 (max. 8388607)
- 643 compressed objects within 7 object streams
+ 1153 PDF objects out of 1200 (max. 8388607)
+ 645 compressed objects within 7 object streams
  86 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
