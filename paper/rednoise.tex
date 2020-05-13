@@ -172,11 +172,11 @@ The hypothesis that subsurface convection is responsible for surface turbulence 
 In particular, there appears to be a critical magnetic field above which macroturbulence disappears, and this critical field strength corresponds closely to the critical field needed to stabilize the FeCZ~\citep{2019MNRAS.487.3904M,10.1093/mnras/stt921}.
 
 We can analogously define a critical magnetic field strength $B_{\rm crit}$ which suffices to reflect IGWs before they reach the photosphere.
-Using the dispersion relation for IGWs in a magentic medium, we find the radial component of this field to be approximately
+Using the dispersion relation for IGWs in a magentic medium, the radial component of this field is~\citep{2015Sci...350..423F}
 \begin{align}
-	B_{r, \rm crit} \approx \frac{\omega}{k_r}\sqrt{4\pi \rho},
+	B_{r, \rm crit} = \frac{\omega}{2 k_r}\sqrt{4\pi \rho},
 \end{align}
-where $\omega$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wavenumber.
+where $\omega=\nu/2\pi$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wavenumber.
 For IGWs the radial wave-number is related to the azimuthal quantum number $\ell$ by
 \begin{align}
 	k_r \approx \frac{\sqrt{\ell(\ell+1)}}{r}\left(\frac{N}{\omega}\right),
@@ -185,13 +185,30 @@ where $N$ is the \brvs\ frequency.
 So
 \begin{align}
 	\label{eq:Brcrit}
-	B_{r, \rm crit} &\approx \frac{\omega^2 r}{N}\sqrt{\frac{4\pi \rho}{\ell(\ell+1)}} \\
+	B_{r, \rm crit} &\approx \frac{\omega^2 r}{N}\sqrt{\frac{4\pi \rho}{2\ell(\ell+1)}} \\
 	&\approx \frac{\omega^2 r}{\ell N}\sqrt{4\pi \rho}.
 \end{align}
+Note that because this decreases with increasing $\ell$, all waves of a given frequency are reflected if that with $\ell=1$ is reflected.
 
-We computed $B_{r, \rm crit}$ for a main-sequence model of a $30 M_\odot$ star as a function of radius.
+We computed $B_{r, \rm crit}$ for several values of $\ell$ and $\nu$ for a main-sequence model of a $30 M_\odot$ star as a function of radius, shown in Fig.~\ref{fig:macro}.
+For frequencies comparable to those of core convection the critical magnetic field strength is of order $10^{-2}\,\mathrm{G}$ to $10^{-1}\,\mathrm{G}$.
+Strong macroturbulence is observed in similar-mass O-type stars with magnetic fields up to $2.5\,\mathrm{kG}$ (e.g. HD~191612)~\citep{10.1093/mnras/stt921}, so macroturbulence in those stars is unlikely to be due to IGW coming from their cores if those IGW have similar frequencies to that of core convection.
 
+For frequencies comparable to the observed $\nu_{\rm char}$, on the order of $3\,\mathrm{d}^{-1}$, the critical magnetic field is much larger, on the order of $300\,\mathrm{G}$ to $1\,\mathrm{kG}$.
+This makes an explanation of macroturbulence based on IGW marginally inconsistent with observations showing strong macroturbulence up to field strengths of $2.5\,\mathrm{kG}$.
+However, because equation~\eqref{eq:Brcrit} is a strong function of $\omega$, and hence of $\nu$, it is possible that these strongly magnetized stars just have larger $\nu_{\rm char}$.
+For instance if HD~191612 has $\nu_{\rm char} \approx 5\,\mathrm{d}^{-1}$ then it would have $B_{r,\rm crit} \approx 3\,\mathrm{kG}$ for the $\ell=1$ mode.
 
+A further prediction of this calculation is that, if IGW are the cause of macroturbulence in these stars, we should expect the strength of macroturbulence to decline with increasing magnetic field strength as more and more modes are reflected before they reach the surface.
+\citet{10.1093/mnras/stt921} find no such trend, and the only strong correlation they see of macroturbulence with magnetic field strength is that it vanishes when the magnetic field exceeds the FeCZ shutoff strength.
+This again points against an explanation of macroturbulence based on IGWs.
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{../magnetic_models/work_30Msun/composite.pdf}
+\caption{\label{fig:macro} The critical radial magnetic field strength needed to reflect waves of different $\ell$ and $\nu$ is show as a function of fractional depth for a $30 M_\odot$ stellar model at an age of $4\,\mathrm{Myr}$. The frequency $\nu_{\rm char,MLT}$ is that given by equation~\eqref{eq:nuchar} but evaluated for the core convection zone instead of the subsurface FeCZ. The frequency $\nu_{\rm char,Obs}$ is a typical value of $3\,\mathrm{d}^{-1}$ for the observations.}
+\end{center}\label{fig:macro}
+\end{figure}
 
 
 
