@@ -86,11 +86,11 @@ convective zone of interest.  We tested using different average procedures, and 
 Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
 The most important subsurface convection zone for the massive stars discussed in this work is the Iron Convection Zone (FeCZ) \citep{2009A&A...499..279C}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{2019ApJ...883..106C}. 
 %For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
-We define the characteristic frequency of convection as 
+We define the characteristic frequency as 
 \begin{equation}\label{eq:nuchar}
-\nuchar \equiv \frac{1}{2\pi\turnover},
+\nuchar \equiv \frac{1}{2\pi\tau},
 \end{equation}
-where $\turnover = \alphamlt \hpa / \vca $ is the average convective turnover time in a convection zone. 
+where $\tau$ is a characteristic timescale. When calculating the characteristic frequency in our models, we set $\tau$ to be the  average convective turnover time $\turnover = \alphamlt \hpa / \vca $ calculated either in the FeCZ or in the convective core.  
 We proceeded to calculate convective turnover timescales and other relevant properties like convective fluxes $F_{\rm c} = \rhoa \vca^3$. 
 We did this as a function of both mass and evolutionary history for stars ranging from $5-120 M_\odot$.
 Here we present results for an initial metallicity of Z=0.02, but in Appendix~\ref{appen:grids} we report results for model grids with Z = 0.014, 0.006 and 0.002 as well.
@@ -102,7 +102,7 @@ density spectrum using a Lorentzian function \citep[e.g.][]{2019A&A...621A.135B}
 \alpha(\nu) = \frac{\alphazero}{1+\big(\frac{\nu}{\nucharobs}\big)^{\gamma}} \, + P_{\rm W}.
 \end{equation}
 This shows that $\alphazero$ represents the amplitude at zero
-frequency,  and  $\nucharobs$ is  the frequency at which the amplitude of background equals half of $\alphazero$.
+frequency. $\nucharobs$ is defined as in Eq.~\ref{eq:nuchar} with $\tau$ the typical timescale of photometric variability.  
 Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm W}$ is a white noise term term.
  
 \begin{figure}[ht!]
@@ -143,7 +143,7 @@ One of the biggest uncertainties is the excitation spectrum of internal gravity 
 
 
 
-Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with the amplitude and characteristic frequency of the observed surface variability. The flux of Internal Gravity Waves excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}. We expect the surface radial displacement $\xi_r/R$ produced by internal gravity waves launched from the core to be proportional to the quantity $\sqrt{{\rm F}_{\rm IGW}/ {\rm F}_*} = \sqrt{\macha}$.  We show this quantity in Fig.~\ref{fig:nuchar_core}. The Mach number in the convective core is on the order of $10^{-3} \dots 10^{-4}$, with a trend of increasing values for lower $\logteff$ and higher $\logl$. This trend matches the observed trend in the photometric variability pretty well. 
+Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with the amplitude and characteristic frequency of the observed surface variability. The flux of Internal Gravity Waves excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}. We expect the relative surface radial displacement $\xi_r/R$ produced by internal gravity waves launched from the core to be proportional to the quantity $\sqrt{{\rm F}_{\rm IGW}/ {\rm F}_*} = \sqrt{\macha}$ (see Appendix~\ref{}).  We show this quantity in Fig.~\ref{fig:nuchar_core}. The Mach number in the convective core is on the order of $10^{-3} \dots 10^{-4}$, with a trend of increasing values for lower $\logteff$ and higher $\logl$. This trend matches the observed trend in the photometric variability pretty well. 
 
 
 
@@ -326,6 +326,8 @@ Thermal neutrino loss rates are from \citet{Itoh1996}.
 
 The inlists, processing scripts, and model output are available at~\url{Zenodo.org}.
 
+\section{Radial Displacement from IGWs}
+\label{appen:xir}
 
 
 \section{Grids at Different Metallicities}
