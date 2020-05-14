@@ -67,7 +67,7 @@ def make_composite_plot(ls,fs,ftitles):
 		B_crit_wave_radial = vA_crit_radial * (4 * np.pi * D)**0.5
 
 		plt.plot(1-R / R[0], B_crit_wave_radial, label='$\ell = ' + str(l) + ', \\nu =  ' + ftitle + '$')
-	plt.legend()
+	plt.legend(loc='center right')
 	plt.xlim([1e-5,1e-2])
 	plt.ylim([1e-2,1e5])
 	plt.xscale('log')
@@ -78,4 +78,4 @@ def make_composite_plot(ls,fs,ftitles):
 	plt.savefig('composite.pdf')
 	plt.close()
 
-make_composite_plot([1,2,3,1,2,3], 3*[N_conv_avg] + 3*[2*np.pi*3/(24*3600)], 3*['\\nu_\mathrm{conv}'] + 3*['\\nu_\mathrm{char}'])
+make_composite_plot([1,2,3,1,2,3], 3*[N_conv_avg] + 3*[2*np.pi*5/(24*3600)], 3*['\\nu_\mathrm{char,MLT}'] + 3*['\\nu_\mathrm{char,Obs}'])
