@@ -73,7 +73,7 @@ We calculated stellar evolution models using the Modules for Experiments in Stel
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
 The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
 We focused on the structure and convective properties of our models, in order to calculate typical frequencies and convective fluxes. 
-Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,2019ApJ...883..106C}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
+Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,Cantiello:2019}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
 Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{Cantiello:2009} we define the average of a quantity  $\overline{q}$ as
 \begin{equation}
@@ -84,7 +84,7 @@ where  $\hp$ is the pressure scale height calculated at the upper boundary ($\Rt
 convective zone of interest.  We tested using different average procedures, and found that our results do not depend much on the specific choice.  
 
 Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
-The most important subsurface convection zone for the massive stars discussed in this work is the Iron Convection Zone (FeCZ) \citep{Cantiello:2009}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{2019ApJ...883..106C}. 
+The most important subsurface convection zone for the massive stars discussed in this work is the Iron Convection Zone (FeCZ) \citep{Cantiello:2009}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2019}. 
 %For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
 We define the characteristic frequency as 
 \begin{equation}\label{eq:nuchar}
@@ -139,7 +139,7 @@ While the characteristic frequencies found by \citet{Bowman:2020} seem to be lar
 
 
 We proceed with mapping quantities that measure the amplitude of perturbations at the location of the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and photometric variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:connecting_mechanisms}.
-We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{Grassitelli:2015}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 10$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{2019ApJ...883..106C}. We plot the average Mach number $\macha$ of convection in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report the  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
+We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{Grassitelli:2015}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 10$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{Cantiello:2019}. We plot the average Mach number $\macha$ of convection in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report the  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
 observed photometric variability. 
 
 \subsection{Core Convection and Photometric Variability}
@@ -265,22 +265,26 @@ This again points against an explanation of macroturbulence based on IGWs.
 
 
 
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Above the Iron Convection Zone}\label{sec:connecting_mechanisms}
+The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Moreover, multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,Jiang:2017,2018Natur.561..498J}. Therefore it could be that the observed stochastic photometric variability represents the direct manifestation of turbulent, radiation-dominated convection at the stellar surface.  
+The simplified MLT treatment in our one dimensional calculations is unable to capture the complex phenomenology of these layers, but the fact that it can reproduce both the  timescales and the trends in amplitude of the observed photometric variabilty is compelling. It calls for radiation hydrodynamics simulations covering the parameter space of the TESS observations in order to unravel the precise mechanism connecting (sub)surface convection zones to the observed surface variability. 
+
+
 
 \subsection{A unified model for surface phenomena in massive stars}
 The presence of subsurface convection can simultaneously account for a large variety of puzzling phenomena that appear ubiquitous at the surface of early-type stars.
-First we have microturbulence and macroturbulence. Both can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015}.
-Photospheric magnetic spots: These spots might cause the ubiquitous DACs, resulting from CIRs in the winds of massive stars.
-The seed of wind clumping. 
-Finally, the presence of a turbulent velocity field necessarily has to induce photometric variability, and we have shown here that the observed low-frequency stochastic noise observed observed in the majority of massive stars correlates very well with the presence and properties of the FeCZ. 
-As such, a minimal hypothesis is that the presence of the FeCZ is the underlying physical cause and represent a possible unified model for the appearance of turbulence, magnetic spots, low-frequency photometric variability and wind structure and variability in massive stars. 
+First we have microturbulence and macroturbulence, and both can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence.  
+Then we have the observation of  bright spots in early-type stars \citep[e.g.][]{Ramiaramanantsoa:2014}, which can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. These photospheric magnetic spots can then be responsible for another ubiquitous phenomena in early-type stars, the presence of discrete absorption components (DACs) in their UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997}. 
+Overall (Sub)surface convection is expected to drive velocity and density perturbations at the stellar surface \citep[e.g.][]{Cantiello:2009}. These perturbations could explain the ubiquitous line profile variability \citep[LPV,][]{Fullerton:1996} and provide a seed for the rapid development of wind instabilities that lead to wind clumping \citep[e.g.][]{Owocki:1988,Sundqvist:2013}.
+Finally, these surface velocity and density perturbations  would necessarily induce photometric variability, and we have shown here that the observed low-frequency stochastic noise detected in the majority of massive stars correlates very well with the presence and properties of the FeCZ. 
 
-\subsection{Discussion}\label{sec:discussion}
-\subsection{Above the Iron Convection Zone}\label{sec:connecting_mechanisms}
-The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Moreover, multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,2018Natur.561..498J}. 
-The simplified MLT treatment in our one dimensional calculations is unable to capture the complex phenomenology of these layers, but the fact that it can reproduce both the  timescales and the trends in amplitude of the observed photometric variabilty is compelling. It calls for radiation hydrodynamics simulations covering the parameter space of the TESS observations in order to unravel the precise mechanism connecting (sub)surface convection zones to the observed surface variability. 
+An economical hypothesis emerges: the presence of (sub)surface convection, and in particular of the FeCZ, could be the common underlying physical cause for the appearance of turbulence, magnetic spots, low-frequency photometric variability, as well as wind and spectroscopic variability in early-type stars. 
 
-\subsection{The Impact of $\alphamlt$}\label{sec:mlt}
-\subsection{Conclusions}
+
+%\subsection{The Impact of $\alphamlt$}\label{sec:mlt}
+\section{Conclusions}
 
 
 
