@@ -146,12 +146,13 @@ We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Vel
 observed photometric variability. 
 
 \subsection{Core Convection and Photometric Variability}
+[{\bf Daniel, this might need your touch}].
 Early-type stars posses convective cores during their main sequence. Turbulent convection in these convective cores excites internal gravity waves \citep{1990ApJ...363..694G,2013ApJ...772...21R,2013MNRAS.430.2363L,2013MNRAS.430.1736S,2019ApJ...876....4E}, that can propagate through the stellar envelope and reach the stellar surface \citep[e.g.][]{Lecoanet:2020,Ratnasingam:2020}. These waves could in principle be responsible for both the observed macroturbulence and photometric variability in early-type stars \citep{2009A&A...508..409A,2017A&A...597A..22S,2019A&A...621A.135B,2019NatAs...3..760B}.  However, \citet{Lecoanet:2020} studied the effects of wave propagation and radiative damping in the stellar envelope, concluding that is unlikely that the observed photometric variability is caused by internal gravity waves launched by the convective core.  %However, it is not clear if this mechanism can explain the observed properties of the observed photometric variability.
 One of the biggest uncertainties is the excitation spectrum of internal gravity waves. While \citet{2018JFM...854R...3C} found... \cite{2019ApJ...876....4E} claims that...
 
 
 
-Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with the amplitude and characteristic frequency of the observed surface variability. The flux of Internal Gravity Waves excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}. We expect the relative surface radial displacement $\xi_r/R$ produced by internal gravity waves launched from the core to be proportional to the quantity $\sqrt{{\rm F}_{\rm IGW}/ {\rm F}_*} = \sqrt{\macha}$ (see Appendix~\ref{}).  We show this quantity in Fig.~\ref{fig:nuchar_core}. The Mach number in the convective core is on the order of $10^{-3} \dots 10^{-4}$, with a trend of increasing values for lower $\logteff$ and higher $\logl$. This trend matches the observed trend in the photometric variability pretty well. 
+Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with the amplitude and characteristic frequency of the observed surface variability. The flux of IGWs excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}. We expect the luminosity fluctuations to be proportional to the relative surface radial displacement $\xi_r/R$ produced by these waves at the stellar surface \citep[e.g.][]{Dziembowski:1977,Aerts:2010}.  It can be shown that  $\xi_r/R \propto \sqrt{{\rm F}_{\rm IGW}/ {\rm F}_*} = \sqrt{\macha}$ (see Appendix~\ref{appen:xir}) [{\bf MC: according to the theory this should actually be  $\sqrt{{\rm F}_{\rm IGW}/ {\rm F}_0}$. Using $F_0$ leads to similar trends, but with values of $\xi_r/R > 1$...}].  This quantity is presented in Fig.~\ref{fig:nuchar_core}. The Mach number in the convective core is on the order of $10^{-3} \dots 10^{-4}$, with a trend of increasing values for lower $\logteff$ and higher $\logl$. Despite neglecting the effects of radiative damping, this trend matches the observed trend in the photometric variability pretty well. 
 
 
 
@@ -262,7 +263,7 @@ This again points against an explanation of macroturbulence based on IGWs.
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/kr_40Msun.pdf}
-\caption{Properties of waves launched by the FeCZ in a 40$\mso$ model. The plot shows the outer 10\% of the star in radial coordinate. }
+\caption{Properties of waves launched by the FeCZ in a 40$\mso$ model. The plot shows the outer 10\% of the star in radial coordinate. [{\bf MC: do we need this plot? Probably not if we do not discuss in detail IGW launched by the FeCZ. Which is probably better for this paper}]}
 \end{center}\label{fig:kr}
 \end{figure}
 
@@ -274,6 +275,7 @@ This again points against an explanation of macroturbulence based on IGWs.
 The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Moreover, multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,Jiang:2017,2018Natur.561..498J}. Therefore it could be that the observed stochastic photometric variability simply represents the direct manifestation of turbulent, radiation-dominated convection at the stellar surface.  
 The simplified MLT treatment in our one dimensional calculations is unable to capture the complex phenomenology of these layers, but the fact that it can reproduce both the  timescales and the trends in amplitude of the observed photometric variabilty is compelling. It calls for radiation hydrodynamics simulations covering the parameter space of the TESS observations in order to unravel the precise mechanism connecting subsurface convection zones to the observed surface variability. 
 
+[{\bf MC: Discuss recent results in YSGs, post main sequence stars and lower mass objects (Trevor Dorn-Wallenstein and Sergio Simon-Diaz results)}].
 
 \subsection{A unified model for surface phenomena in massive stars}
 The presence of subsurface convection can simultaneously account for a large variety of puzzling phenomena that appear ubiquitous at the surface of early-type stars.
@@ -348,23 +350,33 @@ Calculations were done with \code{MESA} version 11701.
 The \code{MESA} EOS is a blend of the OPAL \citet{Rogers2002}, SCVH
 \citet{Saumon1995}, PTEH \citet{Pols1995}, HELM
 \citet{Timmes2000}, and PC \citet{Potekhin2010} EOSes.
-
 Radiative opacities are primarily from OPAL \citep{Iglesias1993,
 Iglesias1996}, with low-temperature data from \citet{Ferguson2005}
 and the high-temperature, Compton-scattering dominated regime by
 \citet{Buchler1976}.  Electron conduction opacities are from
 \citet{Cassisi2007}.
-
 Nuclear reaction rates are a combination of rates from
 NACRE \citep{Angulo1999}, JINA REACLIB \citep{Cyburt2010}, plus
 additional tabulated weak reaction rates \citet{Fuller1985, Oda1994,
 Langanke2000}. Screening is included via the prescription of \citet{Chugunov2007}.
 Thermal neutrino loss rates are from \citet{Itoh1996}.
-
 The inlists, processing scripts, and model output are available at~\url{Zenodo.org}.
 
 \section{Radial Displacement from IGWs}
 \label{appen:xir}
+Let's consider traveling internal gravity waves in the WKB approximation. 
+The wave flux  is  $F_{\rm IGW} = \frac{1}{2} \rho \, |u|^2 u_{g,r}$
+ with the group velocity $u_{g,r} = \partial \omega/\partial \kappa $.
+Since  $u_{g,r} = (\omega/N)^2 \sqrt{N^2 - \omega^2} / k_h$,  $|u|^2 = (N/\omega)^2 u_r^2$, and 
+$u_r = \omega \xi_r$ we obtain: 
+\begin{equation}
+F_{\rm IGW} = \frac{1}{2} \,\rho\, \xi_r^2 \omega^2 \frac{\sqrt{N^2-\omega^2}}{k_h}.
+\end{equation}
+Using  $k_h = \sqrt{\ell(\ell+1)}/r$ we can then write the relative radial displacement as:
+\begin{equation}
+\frac{\xi_r}{r} = \left[ \frac{F_{\rm IGW} \sqrt{\ell(\ell+1)}}{1/2 \rho \,r^3 \omega^2 \sqrt{N^2-\omega^2}} \right]^{1/2} \propto \sqrt{\frac{F_{\rm IGW}}{F_0}}
+\end{equation}
+
 
 
 \section{Grids at Different Metallicities}
