@@ -133,6 +133,17 @@ This shows that $\alphazero$ represents the amplitude at zero
 frequency. $\nucharobs$ is defined as in Eq.~\ref{eq:nuchar} with $\tau$ the typical timescale of the stochastic photometric variability.  
 Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm W}$ is a white noise term.
  
+
+\begin{figure*}[htp]
+  \centering
+  \subfloat{\includegraphics[width=1.01\columnwidth]{../figures/freq_FeCZ_data.pdf}}\hfill
+  \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}
+   \caption{ Left panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$. Right panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
+    \label{fig:nuchar_fecz}
+\end{figure*}
+
+
+
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=1.0\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}
@@ -144,14 +155,6 @@ Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm 
 
 
 
-\begin{figure*}[htp]
-  \centering
-  \subfloat{\includegraphics[width=1.01\columnwidth]{../figures/freq_FeCZ_data.pdf}}\hfill
-  \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}
-   \caption{ Left panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\nu_{\rm char}$. Right panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic photometric variability as grey dots. The size of the dot is proportional to $\alpha_0$.}
-    \label{fig:nuchar_fecz}
-\end{figure*}
-
 %Luminosity fluctuations expected due to IGWs launched by the FeCZ. This scales with the square root of the relative IGWs flux, with a correction factor accounting for the likely scale of the perturbation. We assumed uncorrelated perturbations at the surface  with typical scale of a convective cell, so a correction factor $\sim 1/\sqrt{\rm N_{\rm Cells}}$. The IGWs flux is calculated multiplying the convective flux in the FeCZ by the average convective Mach number (this is calculated in the top pressure scale height of the convective region. The agreement is pretty good, considering that uncertainties of a factor of 2 in the MLT $\alpha$ parameters for these regions result in a factor of 20 in luminosity perturbations).
 
 
@@ -162,13 +165,13 @@ While the characteristic frequencies found by \citet{Bowman:2020} seem to be lar
 
 
 
-We proceed with mapping quantities that measure the amplitude of perturbations at the location of the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and photometric variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:connecting_mechanisms}.
+We proceed with mapping quantities that measure the amplitude of perturbations at the location of the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and photometric variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:discussion}.
 We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{Grassitelli:2015}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 10$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{Cantiello:2019}. We plot the average Mach number $\macha$ of convection in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report the  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
 observed photometric variability. 
 
 \subsection{Core Convection and Photometric Variability}
 [{\bf Daniel, this might need your touch}].
-Early-type stars posses convective cores during their main sequence. Turbulent convection in these convective cores excites internal gravity waves \citep{1990ApJ...363..694G,2013ApJ...772...21R,2013MNRAS.430.2363L,2013MNRAS.430.1736S,Edelmann:2019}, that can propagate through the stellar envelope and reach the stellar surface \citep[e.g.][]{Lecoanet:2020,Ratnasingam:2020}. These waves could in principle be responsible for both the observed macroturbulence and photometric variability in early-type stars \citep{2009A&A...508..409A,2017A&A...597A..22S,Bowman:2019,2019NatAs...3..760B}.  However, \citet{Lecoanet:2020} studied the effects of wave propagation and radiative damping in the stellar envelope, concluding that is unlikely that the observed photometric variability is caused by internal gravity waves launched by the convective core.  %However, it is not clear if this mechanism can explain the observed properties of the observed photometric variability.
+Early-type stars posses convective cores during their main sequence. Turbulent convection in these convective cores excites internal gravity waves \citep{1990ApJ...363..694G,2013ApJ...772...21R,2013MNRAS.430.2363L,Shiode:2013,Edelmann:2019}, that can propagate through the stellar envelope and reach the stellar surface \citep[e.g.][]{Lecoanet:2020,Ratnasingam:2020}. These waves could in principle be responsible for both the observed macroturbulence and photometric variability in early-type stars \citep{2009A&A...508..409A,2017A&A...597A..22S,Bowman:2019,2019NatAs...3..760B}.  However, \citet{Lecoanet:2020} studied the effects of wave propagation and radiative damping in the stellar envelope, concluding that is unlikely that the observed photometric variability is caused by internal gravity waves launched by the convective core.  %However, it is not clear if this mechanism can explain the observed properties of the observed photometric variability.
 One of the biggest uncertainties is the excitation spectrum of internal gravity waves. While \citet{2018JFM...854R...3C} found... \cite{Edelmann:2019} claims that...
 
 
@@ -191,7 +194,7 @@ Here we focus on the core convective properties of our models, and similarly to 
 Next, we focus on the characteristic timescale of waves excited by core convection. 
 %The characteristic angular frequency of the waves is the angular convective
 %turnover frequency $\omega_{c} = \vc/\lambda$ near the radiative-convective interface, where $\lambda$ is the mixing length and $\vc$ is the convective velocity.
-We expect the maximum of the IGW flux to be launched at frequencies close to $\nuchar = (2\pi\tau_{\rm c})^{-1}$, with $\tau_{\rm c}$ defined in Eq.~\ref{eq:turnover}.  Fig.~\ref{fig:nuchar_core} shows that the predicted values of $\nuchar$ are in the range $0.02\dots0.008\,{\rm  d}^{-1}$ ($0.2\dots0.08\, \muhz$), in agreement with the results of \citet{2013MNRAS.430.1736S}. These values are about 2 orders of magnitude smaller than the typical characteristic frequencies of stochastic photometric variability observed by \citep{Bowman:2019,2019NatAs...3..760B}.  Wave propagation through the stellar envelope affects the spectrum, changing the frequency of maximum power of waves reaching the surface \citep{Lecoanet:2020}. Radiative damping efficiently suppresses low-frequency IGWs (because these waves have high radial wavenumbers), so that the the peak of the spectrum observed at the surface is expected to move to higher frequencies. The amplitude of this effect depends on the envelope properties, which are a function of $\logteff$ and $\logl$. Nevertheless, let's assume that the trends of predicted $\nuchar$ as function of $\logteff$ and $\logl$ is mostly determined by the core convective properties and not by radiative damping. 
+We expect the maximum of the IGW flux to be launched at frequencies close to $\nuchar = (2\pi\tau_{\rm c})^{-1}$, with $\tau_{\rm c}$ defined in Eq.~\ref{eq:turnover}.  Fig.~\ref{fig:nuchar_core} shows that the predicted values of $\nuchar$ are in the range $0.02\dots0.008\,{\rm  d}^{-1}$ ($0.2\dots0.08\, \muhz$), in agreement with the results of \citet{Shiode:2013}. These values are about 2 orders of magnitude smaller than the typical characteristic frequencies of stochastic photometric variability observed by \citep{Bowman:2019,2019NatAs...3..760B}.  Wave propagation through the stellar envelope affects the spectrum, changing the frequency of maximum power of waves reaching the surface \citep{Lecoanet:2020}. Radiative damping efficiently suppresses low-frequency IGWs (because these waves have high radial wavenumbers), so that the the peak of the spectrum observed at the surface is expected to move to higher frequencies. The amplitude of this effect depends on the envelope properties, which are a function of $\logteff$ and $\logl$. Nevertheless, let's assume that the trends of predicted $\nuchar$ as function of $\logteff$ and $\logl$ is mostly determined by the core convective properties and not by radiative damping. 
 Under this assumption, Fig.~\ref{fig:nuchar_core} shows that the expectation is that $\nuchar$ should increase with both $\logteff$ and $\logl$, so that the characteristic frequencies of peak IGWs should increase as stars evolve on the main sequence. This is exactly the opposite of what is observed:  the characteristic frequencies of stochastic photometric variability is largest for stars early on on the main sequence, and seem to decreases as stars evolve.  
 Therefore either radiative damping is able to revert this trend, or the observed variability might not be caused by IGWs launched by the core. 
 
@@ -207,9 +210,9 @@ Using the dispersion relation for IGWs in a magentic medium, the radial componen
 \begin{align}
 	B_{r, \rm crit} = \frac{\omega}{2 k_r}\sqrt{4\pi \rho},
 \end{align}
-where $\omega=\nu/2\pi$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wavenumber.
+where $\omega=\nu/2\pi$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wave-number.
 For IGWs the radial wave-number is related to the azimuthal quantum number $\ell$ by
-\begin{align}
+\begin{align}\label{eq:kr}
 	k_r \approx \frac{\sqrt{\ell(\ell+1)}}{r}\left(\frac{N}{\omega}\right),
 \end{align}
 where $N$ is the \brvs\ frequency.
@@ -289,7 +292,7 @@ This again points against an explanation of macroturbulence based on IGWs.
 
 
 
-\section{Discussion}\label{sec:discussion}
+\section{Discussion}\label{sec:discussion}\label{sec:discussion}
 
 %\subsection{Above the Iron Convection Zone}\label{sec:connecting_mechanisms}
 The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Moreover, multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,Jiang:2017,2018Natur.561..498J}. Therefore it could be that the observed stochastic photometric variability simply represents the direct manifestation of turbulent, radiation-dominated convection at the stellar surface.  
@@ -308,11 +311,17 @@ This said it's clear that the regime of early-A and late-B type stars is the mos
 Stochastic photometric variability with similar properties to the massive main sequence stars discussed by \citep{Bowman:2019,Bowman:2020} was recently observed in evolved massive stars.
 \citet{Naze:2021} detected red noise in both luminous blue variables (LBV) and Wolf-Rayet (WR) stars, and \citet{Dorn:2020} found the same photometric signature in yellow supergiants (YSG).  
 LBV, WR and YSG are known to correspond to later stages of evolution. In particular, WR stars and YSG  are likely burning helium in their cores. 
-The internal structure of OB, LBV, WR and YSG changes dramatically. This is expected to substantially affect the generation and propagation of internal gravity waves. In particular, the amount of radiative damping is expected to change due to the sheer differences in envelope temperature and densities. Compact WR stars have surface temperatures $\approx 10^5$K, while the surface of extended YSG is cooler than $10^4$K. 
-With different type of core convection (H-burning vs He-burning) and radiative damping properties, it would be surprising if core-generated IGW in OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below the surface in both OB and WR stars, and with similar velocities and convective turnover times. 
+The internal structure of OB, LBV, WR and YSG stars changes dramatically. This is expected to substantially affect the generation and propagation of internal gravity waves. In particular, the amount of radiative damping is expected to change due to the sheer differences in envelope temperature and densities.  We recall here that the radiative damping rate for a traveling g-mode is given by
+\begin{align}\label{eqn:gammarad}
+	&\rm \gamma_{rad} (\omega, \ell, r) = K_{\rm rad} (r) \, k_{r}^{2},\\ \label{eqn:Krad}
+	&K_{\rm rad} (r) = \frac{16 \, \sigma \, T(r)^{3}}{3 \, \rho(r)^{2} \kappa(r) \, c_{p}(r)}, \\ \label{eqn:kr}
+%	&k_{r} \approx \frac{\Lambda}{r} \frac{N}{\omega}.
+\end{align}
+%where $\Lambda^{2} \equiv \ell \, (\ell + 1)$ and $k_{r}$ is the radial wavenumber and the approximation in eqn. \ref{eqn:kr} relies on the WKB dispersion relation for g-modes ($\omega \ll  N, S_{\ell}$). 
+where $k_{r}$ is the radial wavenumber (eqn.~\ref{eq:kr}) and $\kappa$ is the opacity.
+Compact WR stars have surface temperatures that can exceed $\approx 10^5$K, while OB stars and LBVs have effective temperatures $\approx 10^{4.7\dots4}$K, with LBVs found at the cooler end of this range.  The surface of extended, low-density, YSGs is cooler than $10^4$K.  With different types of core convection (H-burning vs He-burning) and radiative damping properties, it would be surprising if core-generated IGW in e.g. OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below/at the surface in both OB and WR stars, and with similar velocities and convective turnover times. 
 
-The discussion is a bit more complicated for LBV and YSG, since at lower temperatures other convective regions can become prominent (H and He). We plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work.
- \citet{Dorn:2020} ruled out a (near) surface origin for the observed red noise in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}. However, this argument is not directly applicable to the case of the subsurface convective regions \citep{Lecoanet:2020}. Unlike in classic granulation, the variability visible at the surface can be driven by subsurface convective regions, which properties do not follow the classic \citet{Kallinger:2014} scaling  \citep[see e.g. Fig.B.1 in][]{Grassitelli:2015b}. 
+The discussion is a bit more complicated for LBVs and YSGs, since at lower temperatures other convective regions can become prominent \citep[Driven by H and He recombination, see e.g. ][]{2018Natur.561..498J}. We plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work.  \citet{Dorn:2020} ruled out a (near) surface origin for the observed red noise in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}. The Kallinger-scaling is applicable to granulation driven by surface convection, but in the case of subsurface convection the timescale of the perturbation can vary in complicated ways with the surface properties  \citep[see e.g. Fig.B.1 in][]{Grassitelli:2015b}. Therefore the argument of \citet{Dorn:2020} is not directly applicable, and  subsurface convective regions can not be ruled out  \citep{Lecoanet:2020}.
 
 
 [{\bf MC: Discuss recent results in YSGs, post main sequence stars and lower mass objects (Trevor Dorn-Wallenstein and Sergio Simon-Diaz results)}].
