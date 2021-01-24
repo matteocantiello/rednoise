@@ -5,6 +5,20 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Aerts}(2019)}]{Aerts:2019}
+{Aerts}, C. 2019, arXiv e-prints, arXiv:1912.12300.
+\newblock \doarXiv{1912.12300}
+
+\bibitem[{{Aerts} {et~al.}(2010){Aerts}, {Christensen-Dalsgaard}, \&
+  {Kurtz}}]{Aerts:2010}
+{Aerts}, C., {Christensen-Dalsgaard}, J., \& {Kurtz}, D.~W. 2010,
+  {Asteroseismology}
+
+\bibitem[{{Aerts} {et~al.}(2019){Aerts}, {Mathis}, \&
+  {Rogers}}]{Aerts_araa:2019}
+{Aerts}, C., {Mathis}, S., \& {Rogers}, T.~M. 2019, \araa, 57, 35,
+  \dodoi{10.1146/annurev-astro-091918-104359}
+
 \bibitem[{{Aerts} {et~al.}(2009){Aerts}, {Puls}, {Godart}, \&
   {Dupret}}]{2009A&A...508..409A}
 {Aerts}, C., {Puls}, J., {Godart}, M., \& {Dupret}, M.~A. 2009, \aap, 508, 409,
@@ -19,32 +33,58 @@
 {Angulo}, C., {Arnould}, M., {Rayet}, M., {et~al.} 1999, Nuclear Physics A,
   656, 3, \dodoi{10.1016/S0375-9474(99)00030-5}
 
+\bibitem[{{Bailey} {et~al.}(2015){Bailey}, {Nagayama}, {Loisel}, {Rochau},
+  {Blancard}, {Colgan}, {Cosse}, {Faussurier}, {Fontes}, {Gilleron},
+  {Golovkin}, {Hansen}, {Iglesias}, {Kilcrease}, {Macfarlane}, {Mancini},
+  {Nahar}, {Orban}, {Pain}, {Pradhan}, {Sherrill}, \& {Wilson}}]{Bailey:2015}
+{Bailey}, J.~E., {Nagayama}, T., {Loisel}, G.~P., {et~al.} 2015, \nat, 517, 56,
+  \dodoi{10.1038/nature14048}
+
+\bibitem[{{Blomme} {et~al.}(2011){Blomme}, {Mahy}, {Catala}, {Cuypers},
+  {Gosset}, {Godart}, {Montalban}, {Ventura}, {Rauw}, {Morel}, {Degroote},
+  {Aerts}, {Noels}, {Michel}, {Baudin}, {Baglin}, {Auvergne}, \&
+  {Samadi}}]{Blomme:2011}
+{Blomme}, R., {Mahy}, L., {Catala}, C., {et~al.} 2011, \aap, 533, A4,
+  \dodoi{10.1051/0004-6361/201116949}
+
 \bibitem[{{B{\"o}hm-Vitense}(1958)}]{1958ZA.....46..108B}
 {B{\"o}hm-Vitense}, E. 1958, \zap, 46, 108
 
-\bibitem[{{Bowman} {et~al.}(2019{\natexlab{a}}){Bowman}, {Aerts}, {Johnston},
-  {Pedersen}, {Rogers}, {Edelmann}, {Sim{\'o}n-D{\'\i}az}, {Van Reeth},
-  {Buysschaert}, {Tkachenko}, \& {Triana}}]{2019A&A...621A.135B}
-{Bowman}, D.~M., {Aerts}, C., {Johnston}, C., {et~al.} 2019{\natexlab{a}},
-  \aap, 621, A135, \dodoi{10.1051/0004-6361/201833662}
+\bibitem[{{Bowman}(2020)}]{BowmanReview:2020}
+{Bowman}, D.~M. 2020, arXiv e-prints, arXiv:2008.11162.
+\newblock \doarXiv{2008.11162}
 
-\bibitem[{{Bowman} {et~al.}(2019{\natexlab{b}}){Bowman}, {Burssens},
+\bibitem[{{Bowman} {et~al.}(2020){Bowman}, {Burssens}, {Sim{\'o}n-D{\'\i}az},
+  {Edelmann}, {Rogers}, {Horst}, {R{\"o}pke}, \& {Aerts}}]{Bowman:2020}
+{Bowman}, D.~M., {Burssens}, S., {Sim{\'o}n-D{\'\i}az}, S., {et~al.} 2020,
+  \aap, 640, A36, \dodoi{10.1051/0004-6361/202038224}
+
+\bibitem[{{Bowman} {et~al.}(2019{\natexlab{a}}){Bowman}, {Burssens},
   {Pedersen}, {Johnston}, {Aerts}, {Buysschaert}, {Michielsen}, {Tkachenko},
   {Rogers}, {Edelmann}, {Ratnasingam}, {Sim{\'o}n-D{\'\i}az}, {Castro},
   {Moravveji}, {Pope}, {White}, \& {De Cat}}]{2019NatAs...3..760B}
 {Bowman}, D.~M., {Burssens}, S., {Pedersen}, M.~G., {et~al.}
-  2019{\natexlab{b}}, Nature Astronomy, 3, 760,
+  2019{\natexlab{a}}, Nature Astronomy, 3, 760,
   \dodoi{10.1038/s41550-019-0768-1}
+
+\bibitem[{{Bowman} {et~al.}(2019{\natexlab{b}}){Bowman}, {Aerts}, {Johnston},
+  {Pedersen}, {Rogers}, {Edelmann}, {Sim{\'o}n-D{\'\i}az}, {Van Reeth},
+  {Buysschaert}, {Tkachenko}, \& {Triana}}]{Bowman:2019}
+{Bowman}, D.~M., {Aerts}, C., {Johnston}, C., {et~al.} 2019{\natexlab{b}},
+  \aap, 621, A135, \dodoi{10.1051/0004-6361/201833662}
 
 \bibitem[{{Buchler} \& {Yueh}(1976)}]{Buchler1976}
 {Buchler}, J.~R., \& {Yueh}, W.~R. 1976, \apj, 210, 440, \dodoi{10.1086/154847}
 
-\bibitem[{{Cantiello} \& {Braithwaite}(2019)}]{2019ApJ...883..106C}
-{Cantiello}, M., \& {Braithwaite}, J. 2019, \apj, 883, 106,
-  \dodoi{10.3847/1538-4357/ab3924}
+\bibitem[{{Cantiello} \& {Braithwaite}(2011)}]{Cantiello:2011}
+{Cantiello}, M., \& {Braithwaite}, J. 2011, \aap, 534, A140,
+  \dodoi{10.1051/0004-6361/201117512}
+
+\bibitem[{{Cantiello} \& {Braithwaite}(2019)}]{Cantiello:2019}
+---. 2019, \apj, 883, 106, \dodoi{10.3847/1538-4357/ab3924}
 
 \bibitem[{{Cantiello} {et~al.}(2009){Cantiello}, {Langer}, {Brott}, {de Koter},
-  {Shore}, {Vink}, {Voegler}, {Lennon}, \& {Yoon}}]{2009A&A...499..279C}
+  {Shore}, {Vink}, {Voegler}, {Lennon}, \& {Yoon}}]{Cantiello:2009}
 {Cantiello}, M., {Langer}, N., {Brott}, I., {et~al.} 2009, \aap, 499, 279,
   \dodoi{10.1051/0004-6361/200911643}
 
@@ -63,14 +103,31 @@
 {Couston}, L.-A., {Lecoanet}, D., {Favier}, B., \& {Le Bars}, M. 2018, Journal
   of Fluid Mechanics, 854, R3, \dodoi{10.1017/jfm.2018.669}
 
+\bibitem[{{Cranmer} \& {Owocki}(1996)}]{Cranmer:1996}
+{Cranmer}, S.~R., \& {Owocki}, S.~P. 1996, \apj, 462, 469,
+  \dodoi{10.1086/177166}
+
 \bibitem[{{Cyburt} {et~al.}(2010){Cyburt}, {Amthor}, {Ferguson}, {Meisel},
   {Smith}, {Warren}, {Heger}, {Hoffman}, {Rauscher}, {Sakharuk}, {Schatz},
   {Thielemann}, \& {Wiescher}}]{Cyburt2010}
 {Cyburt}, R.~H., {Amthor}, A.~M., {Ferguson}, R., {et~al.} 2010, \apjs, 189,
   240, \dodoi{10.1088/0067-0049/189/1/240}
 
+\bibitem[{{de Mink} {et~al.}(2014){de Mink}, {Sana}, {Langer}, {Izzard}, \&
+  {Schneider}}]{deMink:2014}
+{de Mink}, S.~E., {Sana}, H., {Langer}, N., {Izzard}, R.~G., \& {Schneider},
+  F.~R.~N. 2014, \apj, 782, 7, \dodoi{10.1088/0004-637X/782/1/7}
+
+\bibitem[{{Dorn-Wallenstein} {et~al.}(2020){Dorn-Wallenstein}, {Levesque},
+  {Neugent}, {Davenport}, {Morris}, \& {Gootkin}}]{Dorn:2020}
+{Dorn-Wallenstein}, T.~Z., {Levesque}, E.~M., {Neugent}, K.~F., {et~al.} 2020,
+  \apj, 902, 24, \dodoi{10.3847/1538-4357/abb318}
+
+\bibitem[{{Dziembowski}(1977)}]{Dziembowski:1977}
+{Dziembowski}, W. 1977, \actaa, 27, 203
+
 \bibitem[{{Edelmann} {et~al.}(2019){Edelmann}, {Ratnasingam}, {Pedersen},
-  {Bowman}, {Prat}, \& {Rogers}}]{2019ApJ...876....4E}
+  {Bowman}, {Prat}, \& {Rogers}}]{Edelmann:2019}
 {Edelmann}, P.~V.~F., {Ratnasingam}, R.~P., {Pedersen}, M.~G., {et~al.} 2019,
   \apj, 876, 4, \dodoi{10.3847/1538-4357/ab12df}
 
@@ -83,17 +140,46 @@
 {Fuller}, G.~M., {Fowler}, W.~A., \& {Newman}, M.~J. 1985, \apj, 293, 1,
   \dodoi{10.1086/163208}
 
+\bibitem[{{Fuller} {et~al.}(2015){Fuller}, {Cantiello}, {Stello}, {Garcia}, \&
+  {Bildsten}}]{2015Sci...350..423F}
+{Fuller}, J., {Cantiello}, M., {Stello}, D., {Garcia}, R.~A., \& {Bildsten}, L.
+  2015, Science, 350, 423, \dodoi{10.1126/science.aac6933}
+
+\bibitem[{{Fullerton} {et~al.}(1996){Fullerton}, {Gies}, \&
+  {Bolton}}]{Fullerton:1996}
+{Fullerton}, A.~W., {Gies}, D.~R., \& {Bolton}, C.~T. 1996, \apjs, 103, 475,
+  \dodoi{10.1086/192285}
+
+\bibitem[{{Fullerton} {et~al.}(1997){Fullerton}, {Massa}, {Prinja}, {Owocki},
+  \& {Cranmer}}]{Fullerton:1997}
+{Fullerton}, A.~W., {Massa}, D.~L., {Prinja}, R.~K., {Owocki}, S.~P., \&
+  {Cranmer}, S.~R. 1997, \aap, 327, 699
+
 \bibitem[{{Goldreich} \& {Kumar}(1990)}]{1990ApJ...363..694G}
 {Goldreich}, P., \& {Kumar}, P. 1990, \apj, 363, 694, \dodoi{10.1086/169376}
 
-\bibitem[{{Grassitelli} {et~al.}(2015){Grassitelli}, {Fossati},
-  {Sim{\'o}n-Di{\'a}z}, {Langer}, {Castro}, \& {Sanyal}}]{2015ApJ...808L..31G}
-{Grassitelli}, L., {Fossati}, L., {Sim{\'o}n-Di{\'a}z}, S., {et~al.} 2015,
-  \apjl, 808, L31, \dodoi{10.1088/2041-8205/808/1/L31}
+\bibitem[{{Grassitelli} {et~al.}(2015{\natexlab{a}}){Grassitelli}, {Fossati},
+  {Langer}, {Miglio}, {Istrate}, \& {Sanyal}}]{Grassitelli:2015b}
+{Grassitelli}, L., {Fossati}, L., {Langer}, N., {et~al.} 2015{\natexlab{a}},
+  \aap, 584, L2, \dodoi{10.1051/0004-6361/201527289}
+
+\bibitem[{{Grassitelli} {et~al.}(2015{\natexlab{b}}){Grassitelli}, {Fossati},
+  {Sim{\'o}n-Di{\'a}z}, {Langer}, {Castro}, \& {Sanyal}}]{Grassitelli:2015}
+{Grassitelli}, L., {Fossati}, L., {Sim{\'o}n-Di{\'a}z}, S., {et~al.}
+  2015{\natexlab{b}}, \apjl, 808, L31, \dodoi{10.1088/2041-8205/808/1/L31}
 
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{1998SSRv...85..161G}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
   \dodoi{10.1023/A:1005161325181}
+
+\bibitem[{{Horst} {et~al.}(2020){Horst}, {Edelmann}, {Andr{\'a}ssy},
+  {R{\"o}pke}, {Bowman}, {Aerts}, \& {Ratnasingam}}]{Horst:2020}
+{Horst}, L., {Edelmann}, P.~V.~F., {Andr{\'a}ssy}, R., {et~al.} 2020, \aap,
+  641, A18, \dodoi{10.1051/0004-6361/202037531}
+
+\bibitem[{{Howarth} \& {Prinja}(1989)}]{Howarth:1989}
+{Howarth}, I.~D., \& {Prinja}, R.~K. 1989, \apjs, 69, 527,
+  \dodoi{10.1086/191321}
 
 \bibitem[{{Iglesias} \& {Rogers}(1993)}]{Iglesias1993}
 {Iglesias}, C.~A., \& {Rogers}, F.~J. 1993, \apj, 412, 752,
@@ -107,15 +193,34 @@
 {Itoh}, N., {Hayashi}, H., {Nishikawa}, A., \& {Kohyama}, Y. 1996, \apjs, 102,
   411, \dodoi{10.1086/192264}
 
+\bibitem[{{Jermyn} \& {Cantiello}(2020)}]{Jermyn:2020}
+{Jermyn}, A.~S., \& {Cantiello}, M. 2020, \apj, 900, 113,
+  \dodoi{10.3847/1538-4357/ab9e70}
+
 \bibitem[{{Jiang} {et~al.}(2015){Jiang}, {Cantiello}, {Bildsten}, {Quataert},
   \& {Blaes}}]{2015ApJ...813...74J}
 {Jiang}, Y.-F., {Cantiello}, M., {Bildsten}, L., {Quataert}, E., \& {Blaes}, O.
   2015, \apj, 813, 74, \dodoi{10.1088/0004-637X/813/1/74}
 
+\bibitem[{{Jiang} {et~al.}(2017){Jiang}, {Cantiello}, {Bildsten}, {Quataert},
+  \& {Blaes}}]{Jiang:2017}
+---. 2017, \apj, 843, 68, \dodoi{10.3847/1538-4357/aa77b0}
+
 \bibitem[{{Jiang} {et~al.}(2018){Jiang}, {Cantiello}, {Bildsten}, {Quataert},
   {Blaes}, \& {Stone}}]{2018Natur.561..498J}
 {Jiang}, Y.-F., {Cantiello}, M., {Bildsten}, L., {et~al.} 2018, \nat, 561, 498,
   \dodoi{10.1038/s41586-018-0525-0}
+
+\bibitem[{{Kallinger} {et~al.}(2014){Kallinger}, {De Ridder}, {Hekker},
+  {Mathur}, {Mosser}, {Gruberbauer}, {Garc{\'\i}a}, {Karoff}, \&
+  {Ballot}}]{Kallinger:2014}
+{Kallinger}, T., {De Ridder}, J., {Hekker}, S., {et~al.} 2014, \aap, 570, A41,
+  \dodoi{10.1051/0004-6361/201424313}
+
+\bibitem[{{Kaper} {et~al.}(1997){Kaper}, {Henrichs}, {Fullerton}, {Ando},
+  {Bjorkman}, {Gies}, {Hirata}, {Kambe}, {McDavid}, \& {Nichols}}]{Kaper:1997}
+{Kaper}, L., {Henrichs}, H.~F., {Fullerton}, A.~W., {et~al.} 1997, \aap, 327,
+  281
 
 \bibitem[{{Langanke} \& {Mart{\'{\i}}nez-Pinedo}(2000)}]{Langanke2000}
 {Langanke}, K., \& {Mart{\'{\i}}nez-Pinedo}, G. 2000, Nuclear Physics A, 673,
@@ -130,8 +235,7 @@
   \dodoi{10.1093/mnras/stt055}
 
 \bibitem[{{Lecoanet} {et~al.}(2019){Lecoanet}, {Cantiello}, {Quataert},
-  {Couston}, {Burns}, {Pope}, {Jermyn}, {Favier}, \& {Le
-  Bars}}]{2019ApJ...886L..15L}
+  {Couston}, {Burns}, {Pope}, {Jermyn}, {Favier}, \& {Le Bars}}]{Lecoanet:2020}
 {Lecoanet}, D., {Cantiello}, M., {Quataert}, E., {et~al.} 2019, \apjl, 886,
   L15, \dodoi{10.3847/2041-8213/ab5446}
 
@@ -139,10 +243,19 @@
 {MacDonald}, J., \& {Petit}, V. 2019, \mnras, 487, 3904,
   \dodoi{10.1093/mnras/stz1545}
 
+\bibitem[{{Naze} {et~al.}(2021){Naze}, {Rauw}, \& {Gosset}}]{Naze:2021}
+{Naze}, Y., {Rauw}, G., \& {Gosset}, E. 2021, arXiv e-prints, arXiv:2101.05521.
+\newblock \doarXiv{2101.05521}
+
 \bibitem[{{Oda} {et~al.}(1994){Oda}, {Hino}, {Muto}, {Takahara}, \&
   {Sato}}]{Oda1994}
 {Oda}, T., {Hino}, M., {Muto}, K., {Takahara}, M., \& {Sato}, K. 1994, Atomic
   Data and Nuclear Data Tables, 56, 231, \dodoi{10.1006/adnd.1994.1007}
+
+\bibitem[{{Owocki} {et~al.}(1988){Owocki}, {Castor}, \&
+  {Rybicki}}]{Owocki:1988}
+{Owocki}, S.~P., {Castor}, J.~I., \& {Rybicki}, G.~B. 1988, \apj, 335, 914,
+  \dodoi{10.1086/166977}
 
 \bibitem[{{Paxton} {et~al.}(2011){Paxton}, {Bildsten}, {Dotter}, {Herwig},
   {Lesaffre}, \& {Timmes}}]{Paxton2011}
@@ -181,6 +294,27 @@
 {Potekhin}, A.~Y., \& {Chabrier}, G. 2010, Contributions to Plasma Physics, 50,
   82, \dodoi{10.1002/ctpp.201010017}
 
+\bibitem[{{Ramiaramanantsoa} {et~al.}(2014){Ramiaramanantsoa}, {Moffat},
+  {Chen{\'e}}, {Richardson}, {Henrichs}, {Desforges}, {Antoci}, {Rowe},
+  {Matthews}, {Kuschnig}, {Weiss}, {Sasselov}, {Rucinski}, \&
+  {Guenther}}]{Ramiaramanantsoa:2014}
+{Ramiaramanantsoa}, T., {Moffat}, A.~F.~J., {Chen{\'e}}, A.-N., {et~al.} 2014,
+  \mnras, 441, 910, \dodoi{10.1093/mnras/stu619}
+
+\bibitem[{{Ratnasingam} {et~al.}(2019){Ratnasingam}, {Edelmann}, \&
+  {Rogers}}]{Ratnasingam:2019}
+{Ratnasingam}, R.~P., {Edelmann}, P.~V.~F., \& {Rogers}, T.~M. 2019, \mnras,
+  482, 5500, \dodoi{10.1093/mnras/sty3086}
+
+\bibitem[{{Ratnasingam} {et~al.}(2020){Ratnasingam}, {Edelmann}, \&
+  {Rogers}}]{Ratnasingam:2020}
+---. 2020, \mnras, \dodoi{10.1093/mnras/staa2296}
+
+\bibitem[{{Richer} {et~al.}(2000){Richer}, {Michaud}, \&
+  {Turcotte}}]{Richer:2000}
+{Richer}, J., {Michaud}, G., \& {Turcotte}, S. 2000, \apj, 529, 338,
+  \dodoi{10.1086/308274}
+
 \bibitem[{{Rogers} \& {Nayfonov}(2002)}]{Rogers2002}
 {Rogers}, F.~J., \& {Nayfonov}, A. 2002, \apj, 576, 1064,
   \dodoi{10.1086/341894}
@@ -190,13 +324,19 @@
 {Rogers}, T.~M., {Lin}, D.~N.~C., {McElwaine}, J.~N., \& {Lau}, H.~H.~B. 2013,
   \apj, 772, 21, \dodoi{10.1088/0004-637X/772/1/21}
 
+\bibitem[{{Sana} {et~al.}(2012){Sana}, {de Mink}, {de Koter}, {Langer},
+  {Evans}, {Gieles}, {Gosset}, {Izzard}, {Le Bouquin}, \&
+  {Schneider}}]{Sana:2012}
+{Sana}, H., {de Mink}, S.~E., {de Koter}, A., {et~al.} 2012, Science, 337, 444,
+  \dodoi{10.1126/science.1223344}
+
 \bibitem[{{Saumon} {et~al.}(1995){Saumon}, {Chabrier}, \& {van
   Horn}}]{Saumon1995}
 {Saumon}, D., {Chabrier}, G., \& {van Horn}, H.~M. 1995, \apjs, 99, 713,
   \dodoi{10.1086/192204}
 
 \bibitem[{{Shiode} {et~al.}(2013){Shiode}, {Quataert}, {Cantiello}, \&
-  {Bildsten}}]{2013MNRAS.430.1736S}
+  {Bildsten}}]{Shiode:2013}
 {Shiode}, J.~H., {Quataert}, E., {Cantiello}, M., \& {Bildsten}, L. 2013,
   \mnras, 430, 1736, \dodoi{10.1093/mnras/sts719}
 
@@ -205,6 +345,14 @@
   {Grassitelli}}]{2017A&A...597A..22S}
 {Sim{\'o}n-D{\'\i}az}, S., {Godart}, M., {Castro}, N., {et~al.} 2017, \aap,
   597, A22, \dodoi{10.1051/0004-6361/201628541}
+
+\bibitem[{{Sim{\'o}n-D{\'\i}az} \& {Herrero}(2014)}]{Simon-Diaz:2014}
+{Sim{\'o}n-D{\'\i}az}, S., \& {Herrero}, A. 2014, \aap, 562, A135,
+  \dodoi{10.1051/0004-6361/201322758}
+
+\bibitem[{{Sundqvist} \& {Owocki}(2013)}]{Sundqvist:2013}
+{Sundqvist}, J.~O., \& {Owocki}, S.~P. 2013, \mnras, 428, 1837,
+  \dodoi{10.1093/mnras/sts165}
 
 \bibitem[{Sundqvist {et~al.}(2013)Sundqvist, Petit, Owocki, Wade, Puls, \&
   Collaboration}]{10.1093/mnras/stt921}
