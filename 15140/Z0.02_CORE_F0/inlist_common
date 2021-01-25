@@ -1,0 +1,80 @@
+
+
+&star_job
+
+      !create_pre_main_sequence_model = .true.
+
+      !change_lnPgas_flag = .true.
+      !new_lnPgas_flag = .true.
+
+      history_columns_file ='../history_columns.list'
+      profile_columns_file ='../profile_columns.list'
+
+     ! save_model_when_terminate = .true.
+     ! save_model_filename = 'tams.mod'
+
+      pgstar_flag = .true.
+
+
+/ ! end of star_job namelist
+
+&controls
+
+
+      ! MAIN PARAMS
+      mixing_length_alpha = 1.6
+      !initial_mass = 15.0
+      initial_z = 0.02
+
+      ! OUTPUT
+      !photostep = 1000
+      profile_interval = 10
+      history_interval = 1
+      !terminal_cnt = 10
+      !write_header_frequency = 10
+      max_allowed_nz = 20000        
+      max_num_profile_models = 1000
+
+      ! WHEN TO STOP
+      ! max_age = 2d10
+      ! xa_central_lower_limit_species(1) = 'h1'
+      ! xa_central_lower_limit(1) = 0.01
+      ! Teff_lower_limit = 9560 ! Vega Temperature (See. Hill et al. 2010 http://iopscience.iop.org/0004-637X/712/1/250/pdf/apj_712_1_250.pdf )
+
+      ! OVERSHOOTING
+      !Exponential overshoot, with f = 0.014 and f0 = 0.004 for all convective boundaries
+
+      overshoot_scheme(1) = 'exponential'
+      overshoot_zone_type(1) = 'any'
+      overshoot_zone_loc(1) = 'any'
+      overshoot_bdy_loc(1) = 'any'
+      overshoot_f(1) = 0.014
+      overshoot_f0(1) = 0.004
+
+      ! RESOLUTION
+      mesh_delta_coeff = 0.3
+
+      ! GOLD TOLERANCES
+
+      use_gold_tolerances = .true.
+      delta_lg_XH_cntr_limit = 0.01
+      varcontrol_target = 1d-4
+      min_timestep_limit = 1d-1
+
+     !better resolution of the Henyey hook
+     delta_lg_XH_cntr_max = -2
+     !limit on magnitude of relative change at any grid point
+     delta_lgTeff_limit = 0.005
+     delta_lgTeff_hard_limit = 0.005
+     delta_lgL_limit = 0.005
+
+
+
+/ ! end of controls namelist
+
+
+&pgstar
+
+
+
+/ ! end of pgstar namelist
