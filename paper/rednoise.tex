@@ -95,6 +95,14 @@ We conclude suggesting that subsurface convection represents a possible unifying
 
 
 
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{../figures/kipp_radius_norm_20.pdf}
+\caption{\label{fig:kipp20} Evolution of the normalized radial location of the FeCZ in a 20$\mso$ model during the main sequence (first 4.7 Myr of evolution). The HeCZ is also visible very close to the surface. Location where the local pressure is e time the surface pressure is shown  as a dashed line marked by H$_{\rm P}$. Location for $P(r)/P(R_*) = e^n$ are also shown.}
+\end{center}
+\end{figure}
+
+
   
 
 \section{Methods}
@@ -139,6 +147,26 @@ This shows that $\alphazero$ represents the amplitude at zero
 frequency. $\nucharobs$ is defined as in Eq.~\ref{eq:nuchar} with $\tau$ the typical timescale of the stochastic photometric variability.  
 Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm W}$ is a white noise term.
 Since the stochastic photometric variability is usually observed at low-frequencies, in the literature this is also referred to as ``red noise''. We will use these terms interchangeably in the rest of the paper.
+
+
+
+
+
+\begin{figure*}[htp]
+  \centering
+    \subfloat{\includegraphics[width=1\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}}\hfill
+  \subfloat{\includegraphics[width=1.\columnwidth]{../figures/vc_FeCZ_turbulentpressure.pdf}}
+ \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected macroturbulent velocity as grey dots. The size of the dot is proportional to the observed macroturbulence. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone (FeCZ largely dominates, except for stars at  low luminosity where turbulent pressure is provided by Helium convection.}\label{fig:macroturbulence}
+ \end{figure*}
+
+
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=1.0\columnwidth]{../figures/mach_rednoise_nodata.pdf}
+%\caption{\label{fig:mach}Mach number in the FeCZ.}
+%\end{center}
+%\end{figure}
+
  
 
 \begin{figure*}[htp]
@@ -149,14 +177,6 @@ Since the stochastic photometric variability is usually observed at low-frequenc
     \label{fig:nuchar_fecz}
 \end{figure*}
 
-
-
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}
-\caption{\label{fig:vconv} Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram. We also show the observed stars with detected macroturbulent velocity as grey dots. The size of the dot is proportional to the observed macroturbulence.}\label{fig:macroturbulence}
-\end{center}
-\end{figure}
 
 
 
@@ -174,7 +194,9 @@ While the characteristic frequencies found by \citet{Bowman:2020} seem to be lar
 
 
 We proceed with mapping quantities that measure the amplitude of perturbations at the location of the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and photometric variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:discussion}.
-We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{Grassitelli:2015}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 8$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{Cantiello:2019}. We plot the average Mach number $\macha$ of convection in the FeCZ in Fig.~\ref{fig:mach}, showing that contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
+We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. This trend is similar to what is observed for the macroturbulent velocity field at the surface of massive stars. This  is in agreement with the results of \citet{Grassitelli:2015}, who found a tight correlation between the turbulent pressure (P$_{\rm turb} \propto \vc^2$) in the FeCZ  and spectroscopically-derived macroturbulent velocities in massive stars. Interestingly, the range of the velocity field in the FeCZ is also similar to the observed range of macroturbulent velocities. Again the caveat is the large uncertainty (a factor $\approx 8$) of the convective velocities calculated using the MLT in inefficient convective zones \citep{Cantiello:2019}. 
+%We plot the average Mach number $\macha$ of convection in the FeCZ in Fig.~\ref{fig:mach}, showing that 
+Contrary to core convection the FeCZ is just mildly subsonic, with values of the Mach number ranging from 0.01 to 0.3. The relative convective flux in these regions is shown in Fig.~\ref{fig:nuchar_fecz}, where we also report  the observed amplitude of photometric variability. Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of 
 observed photometric variability. The properties of the FeCZ correlate very well with the timescale and amplitude of the observed stochastic photometric variability, as well as the amplitude of macroturbulence.
  
 
@@ -210,6 +232,8 @@ Next, we focus on the characteristic timescale of waves excited by core convecti
 We expect the maximum of the IGW flux to be launched at frequencies close to $\nuchar = (2\pi\tau_{\rm c})^{-1}$, with $\tau_{\rm c}$ defined in Eq.~\ref{eq:turnover}.  Fig.~\ref{fig:nuchar_core} shows that the predicted values of $\nuchar$ are in the range $0.02\dots0.008\,{\rm  d}^{-1}$ ($0.2\dots0.08\, \muhz$), in agreement with the results of \citet{Shiode:2013}. These values are about 2 orders of magnitude smaller than the typical characteristic frequencies of stochastic photometric variability observed by \citep{Bowman:2019,2019NatAs...3..760B}.  This is because wave propagation through the stellar envelope affects the spectrum, changing the frequency of maximum power of waves reaching the surface \citep{Lecoanet:2020}. Radiative damping efficiently suppresses low-frequency IGWs (because these waves have high radial wavenumbers), so that the the peak of the spectrum observed at the surface is expected to move to higher frequencies. The amplitude of this effect depends on the envelope properties, which are a function of $\logteff$ and $\logl$. Nevertheless, as a first approximation, we will assume that $\nuchar$, as function of $\logteff$ and $\logl$, is still set by the core convective properties. 
 Under this assumption, Fig.~\ref{fig:nuchar_core} shows that $\nuchar$ should increase with both $\logteff$ and $\logl$, so that the characteristic frequencies of peak IGWs should increase as stars evolve on the main sequence. This is exactly the opposite of what is observed:  the characteristic frequencies of stochastic photometric variability is largest for stars early on on the main sequence, and seem to decreases as stars evolve.  
 Therefore either radiative damping is able to revert this trend, or the observed variability might not be caused by IGWs launched by the core. 
+
+
 
 
  
@@ -275,34 +299,27 @@ This again points against an explanation of macroturbulence based on IGWs.
 
 
 
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/ncells_fecz.pdf}
-\caption{\label{fig:ncells} Expected number of convective cells in the FeCZ. This is calculated assuming the size of convective cells is about  the average pressure scale height in the FeCZ}
-\end{center}\label{fig:ncells}
-\end{figure}
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=1.0\columnwidth]{../figures/ncells_fecz.pdf}
+%\caption{\label{fig:ncells} Expected number of convective cells in the FeCZ. This is calculated assuming the size of convective cells is about  the average pressure scale height in the FeCZ}
+%\end{center}\label{fig:ncells}
+%\end{figure}
 
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/mach_rednoise_nodata.pdf}
-\caption{\label{fig:mach}Mach number in the FeCZ.}
-\end{center}
-\end{figure}
-
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/Propagation_40Msun_zoom.pdf}
-\caption{Propagation diagram for a 40$\mso$ model showing the outer 30\% of the star in radial coordinate.}
-\end{center}\label{fig:propagationfecz}
-\end{figure}
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=1.0\columnwidth]{../figures/Propagation_40Msun_zoom.pdf}
+%\caption{Propagation diagram for a 40$\mso$ model showing the outer 30\% of the star in radial coordinate.}
+%\end{center}\label{fig:propagationfecz}
+%\end{figure}
 
 
-\begin{figure}[ht!]
-\begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/kr_40Msun.pdf}
-\caption{Properties of waves launched by the FeCZ in a 40$\mso$ model. The plot shows the outer 10\% of the star in radial coordinate. [{\bf MC: do we need this plot? Probably not if we do not discuss in detail IGW launched by the FeCZ. Which is probably better for this paper}]}
-\end{center}\label{fig:kr}
-\end{figure}
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=1.0\columnwidth]{../figures/kr_40Msun.pdf}
+%\caption{Properties of waves launched by the FeCZ in a 40$\mso$ model. The plot shows the outer 10\% of the star in radial coordinate. [{\bf MC: do we need this plot? Probably not if we do not discuss in detail IGW launched by the FeCZ. Which is probably better for this paper}]}
+%\end{center}\label{fig:kr}
+%\end{figure}
 
 
 
