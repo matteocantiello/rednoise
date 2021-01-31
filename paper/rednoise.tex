@@ -52,11 +52,12 @@
 
 \begin{abstract}
 High-precision photometric observations have revealed a new ubiquitous phenomena in early type stars: stochastic low-frequency photometric variability. 
-Possible explanations for the origin of this photometric variability include internal gravity waves launched by the convective core, or the presence of subsurface convection.  Here we show theoretical predictions for the trend of characteristic frequency and amplitude of the perturbation induced by subsurface convection in massive stars, and compare these predictions to observations. We found that both the characteristic frequency $\nu_{\rm char}$ and amplitude $\alpha_0$ of the observed photometric variability correlate very well with properties in the iron subsurface convection zone. For the same stars we also confirm that the amplitude of macroturbulence tracks the convective velocity in the iron convection zone. 
+Possible explanations for the origin of this photometric variability include internal gravity waves launched by the convective core, or the presence of subsurface convection.  Here we show theoretical predictions for the trend of characteristic frequency and amplitude of the perturbation induced by subsurface convection in massive stars, and compare these predictions to observations. We found that both the characteristic frequency $\nu_{\rm char}$ and amplitude $\alpha_0$ of the observed photometric variability correlate very well with properties in the iron subsurface convection zone. For the same stars we also confirm that the amplitude of macroturbulence tracks the convective velocity and turbulent pressure in the iron convection zone. 
 We show that an explanation for the observed surface photometric variability and macroturbulence relying on convective core driven internal gravity waves encounters a number of difficulties, and seems unlikely to be able to explain the observed trends.
-We suggest a unified picture in which low-frequency, stochastic photometric variability, surface turbulence, and magnetic spots 
+We suggest that  low-frequency, stochastic photometric variability and surface turbulence
+%, and magnetic spots 
 %and wind variability 
-in massive stars could all have the same origin: the presence of subsurface convection zones.
+in massive stars are caused by the the presence of subsurface convection.
 
   
 %This connection is also supported by the observations of strongly magnetized early-type stars, showing no macroturbulence only for magnetic fields above the critical value required to shut-off turbulent convection in the FeCZ. We find that IGWs coming from the stellar core would be reflected or damped for values of the magnetic field well below this critical value. The fact that stars with strong but subcritical magnetic fields show typical values of macro- turbulence points against a convective core origin of this surface perturbation.
@@ -123,11 +124,11 @@ We conclude suggesting that subsurface convection represents a possible unifying
 We calculated stellar evolution models using the Modules for Experiments in Stellar Astrophysics
 \citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
-The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
+%The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
 We focused on the structure and convective properties of our models, in order to calculate typical frequencies and convective fluxes. 
 Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,Cantiello:2019}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
-Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{Cantiello:2009} we define the average of a quantity  $\overline{q}$ as
+Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{Cantiello:2009} {\bf we define the average of a generic quantity $q$} as
 \begin{equation}
 \overline{q} \equiv \frac{1}{\alphamlt \hp} \int_{\Rtop-\alphamlt\hp}^{\Rtop} q(r)\; dr
 \label{aver}
@@ -136,7 +137,7 @@ where  $\hp$ is the pressure scale height calculated at the upper boundary ($\Rt
 convective zone of interest.  We tested using different average procedures, and found that our results do not depend much on the specific choice.  
 
 Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
-The most important subsurface convection zone for the massive stars discussed in this work is the iron convection zone (FeCZ) \citep{Cantiello:2009}, although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2019}. 
+The most important subsurface convection zone for the massive stars discussed in this work is the iron convection zone (FeCZ, see Fig.~\ref{fig:kipp20}), although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2009,Cantiello:2019}. 
 %For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
 We define the characteristic frequency as 
 \begin{equation}\label{eq:nuchar}
@@ -210,8 +211,7 @@ pressure and the average convective velocity
 over the uppermost pressure scale height of the convective zone slightly differ in the implied wave-generation mechanism. 
 The first considers the waves as stochastically-generated by the Lagrangian
 perturbation of turbulent pressure, including finite-amplitude fluctuations
-following the local departure from hydrostatic equilibrium \citep{Grassitelli:2015}. The latter,
-instead, invokes the interaction between the convective eddies and the
+following the local departure from hydrostatic equilibrium \citep{Grassitelli:2015}. The latter invokes the interaction between the convective eddies and the
 overlying radiative layers \citep{Cantiello:2009}, in which the convective elements conserve their
 inertia as they reach layers stable against convection, and transform their
 kinetic energy into stochastically-generated waves \citep[e.g.][]{1990ApJ...363..694G}.  }
@@ -236,7 +236,7 @@ Early-type stars posses convective cores during their main sequence. Turbulent c
 Although the physics of wave generation by convection is still uncertain, here we analyze the core convective properties of our models.
 If the surface variability is due to core convection, one would expect the characteristic frequency and amplitude of the SLF variability to correlate with the properties of the core convection.
 %Here we focus on the core convective properties of our models, and similarly to the case of the FeCZ we look for correlations with the amplitude and characteristic frequency of the observed surface variability.
-The flux of IGWs excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}. We expect the luminosity fluctuations to be proportional to the relative surface radial displacement $\xi_r/R$ produced by these waves at the stellar surface \citep[e.g.][]{Dziembowski:1977,Aerts:2010}.  It can be shown that  $\xi_r/R \propto \sqrt{{\rm F}_{\rm IGW}/ {\rm F}_0} $ (see Appendix~\ref{appen:xir}).  This quantity is presented in Fig.~\ref{fig:nuchar_core}. One important caveat is that this estimate neglects the important role of radiative damping, which is essential in shaping both the amplitude and the shape of the spectrum of waves at the surface \citep[e.g.][]{Lecoanet:2020}.
+The flux of IGWs excited by turbulent convection at the core boundary is F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G}, {\bf where $\macha$ is the average Mach number calculated using Eq.~\ref{aver} and the local adiabatic sound speed.} We expect the luminosity fluctuations to be proportional to the relative surface radial displacement $\xi_r/R$ produced by these waves at the stellar surface \citep[e.g.][]{Dziembowski:1977,Aerts:2010}.  It can be shown that  $\xi_r/R \propto \sqrt{{\rm F}_{\rm IGW}/ {\rm F}_0} $ (see Appendix~\ref{appen:xir}).  This quantity is presented in Fig.~\ref{fig:nuchar_core}. One important caveat is that this estimate neglects the important role of radiative damping, which is essential in shaping both the amplitude and the shape of the spectrum of waves at the surface \citep[e.g.][]{Lecoanet:2020}.
 The Mach number in the convective core is on the order of $10^{-3} \dots 10^{-4}$, with a trend of increasing values for lower $\logteff$ and higher $\logl$. Despite neglecting the important effect of radiative damping, the trend for the relative radial displacement at the surface do show some interesting correlations with the observed trend in SLF variability (left panel in Fig.~\ref{fig:nuchar_core}).  
 
 
@@ -387,15 +387,18 @@ where $k_{r}$ is the radial wavenumber (eqn.~\ref{eq:kr}) and $\kappa$ is the op
 Compact WR stars have surface temperatures that can exceed $\approx 10^5$K, while OB stars and LBVs have effective temperatures $\approx 10^{4.7\dots4}$K, with LBVs found at the cooler end of this range.  The surface of extended, low-density, YSGs is cooler than $10^4$K.  With different types of core convection (H-burning vs He-burning) and radiative damping properties, it would be surprising if core-generated IGWs in e.g. OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below/at the surface in both OB and WR stars, and with similar velocities and convective turnover times. This seems to strengthen the main thesis of this work,  adding support to a (sub)surface origin of the observed SLF variability.
 
 %MC: Still working on this 
-The discussion is a bit more complicated for LBV and YSG, since at lower temperatures other convective regions can become prominent \citep[driven by H and He recombination, see e.g.][]{2018Natur.561..498J}.  \citet{Dorn:2020} ruled out a near-surface origin for the observed SLF variability in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}.  However, we believe that the scaling of \citet{Kallinger:2014} is not applicable in the regime explored by \citet{Dorn:2020}. Their sample consists of luminous YSGs covering an effective temperature range $\logteff$=4.1...3.5. They show
-how the residual power spectra change as they move toward lower photospheric temperatures, with a rather steep increase in amplitudes and characteristic
-frequencies below $\logteff \approx3.7$. This is actually in agreement with a near-surface convective origin for the observed increase in variability because, following \citet{Grassitelli:2015b}, late-type stars have vigorous
-near-surface convection induced by the large opacities associated with the recombination of Hydrogen. The latter appears in the stellar evolutionary models only below $\logteff \sim 3.75$ \citep[see Fig.1 in][]{Grassitelli:2015b}. %(see fig.1 by Grassitelli+15a),
-which explains the observed increase in amplitudes and decrease in timescales, respectively, at  $\logteff \sim$3.6-3.7. It is the HCZ, and not the FeCZ, which dominates the spectrum of waves stochastically-excited by turbulent convection below Teff$\approx$8kK. 
+{\bf The discussion is a bit more complicated for LBV and YSG, since at lower temperatures other convective regions can become prominent \citep[driven by H and He recombination, see e.g.][]{2018Natur.561..498J}.  \citet{Dorn:2020} disfavor a near-surface origin for the observed SLF variability in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}.  However, we believe that the scaling of \citet{Kallinger:2014} is not applicable in the regime explored by \citet{Dorn:2020}. This scaling was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of hydrogen, and it is not directly applicable to earlier
+spectral subtypes.  Interestingly, the characteristic timescales of 0.1-1 days found by \citet{Dorn:2020} at $\logteff \approx$4 are consistent with the convective turnover timescale in the FeCZ  (e.g. Fig.~\ref{fig:nuchar_fecz}). Moreover, in their lower temperature sample ($\logteff < 3.75$) the rapid increase in in amplitudes and characteristic frequencies  of the variability  is in agreement with the development of near-surface convection induced by the large opacities associated with the recombination of hydrogen. We suggest that surface and near-surface convection could be indeed responsible for the variability observed by \citet{Dorn:2020}, and we plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work. }
 
-Moreover, \citet{Kallinger:2014} relation was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of Hydrogen, and it is not applicable to the early
-spectral subtypes above the threshold for H-recombination beneath the surface, i.e. stars without granulation. When we compare the characteristic timescales found by \citet{Dorn:2020} at log(Teff/K)$\approx$4, of about
-0.1-1 days, to Fig.~\ref{fig:nuchar_fecz}, we can see that they are consistent with the convective turnover timescale in the FeCZ. At log(Teff/K)$\approx$3.6, instead, the observed timescale are within the range log$\tau\approx$-1.5-0, comparable with the range in Fig.~1 of \citet{Grassitelli:2015b}.  We plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work. 
+%Their sample consists of luminous YSGs covering an effective temperature range $\logteff$=4.1...3.5. They show
+%how the residual power spectra change as they move toward lower photospheric temperatures, with a rather steep increase in amplitudes and characteristic
+%frequencies below $\logteff \approx3.7$. This is actually in agreement with a near-surface convective origin for the observed increase in variability because, following \citet{Grassitelli:2015b}, late-type stars have vigorous
+%near-surface convection induced by the large opacities associated with the recombination of Hydrogen. The latter appears in the stellar evolutionary models only below $\logteff \sim 3.75$ \citep[see Fig.1 in][]{Grassitelli:2015b}. %(see fig.1 by Grassitelli+15a),
+%which explains the observed increase in amplitudes and decrease in timescales, respectively, at  $\logteff \sim$3.6-3.7. It is the HCZ, and not the FeCZ, which dominates the spectrum of waves stochastically-excited by turbulent convection below Teff$\approx$8kK. 
+
+%Moreover, \citet{Kallinger:2014} relation was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of Hydrogen, and it is not applicable to the early
+%spectral subtypes above the threshold for H-recombination beneath the surface, i.e. stars without granulation. When we compare the characteristic timescales found by \citet{Dorn:2020} at log(Teff/K)$\approx$4, of about
+%0.1-1 days, to Fig.~\ref{fig:nuchar_fecz}, we can see that they are consistent with the convective turnover timescale in the FeCZ. At log(Teff/K)$\approx$3.6, instead, the observed timescale are within the range log$\tau\approx$-1.5-0, comparable with the range in Fig.~1 of \citet{Grassitelli:2015b}.  We plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work. 
 %Nonetheless, it is beyond the scope of this work to investigate in detail post-main-sequence
 %objects.
 
