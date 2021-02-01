@@ -9,6 +9,7 @@
 \submitjournal{ApJ}
 \shorttitle{Stochastic Photometric Variability in Massive Stars}
 \shortauthors{Cantiello et al.}
+\newcommand{\todo}[1]{ {\color{blue} \noindent\footnotesize \\\textsf{ASJ Suggestion:} \textsf{#1}\\\noindent }}
 
 \input{snippets/commands}
 
@@ -142,21 +143,24 @@ Following \citet{Cantiello:2009} {\bf we define the average of a generic quantit
 \label{aver}
 \end{equation}
 where  $\hp$ is the pressure scale height calculated at the upper boundary ($\Rtop$) of the 
-convective zone of interest.  We tested a variety of different average procedures and found that our results do not depend much on the specific choice.  
+convective zone of interest.  We tested a variety of different average prescriptions and found that our results do not depend much on the specific choice of prescription.  
 
-Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
-The most important subsurface convection zone for the massive stars discussed in this work is the iron convection zone (FeCZ, see Fig.~\ref{fig:kipp20}), although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2009,Cantiello:2019}. 
+Using equation~\eqref{aver} we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
+The most important subsurface convection zone for the massive stars we focus on is the iron convection zone (FeCZ, see Fig.~\ref{fig:kipp20}), although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2009,Cantiello:2019}. 
 %For each stellar model we evaluated the average convective velocity and convective turnover timescale in subsurface convection zones. 
+
 We define the characteristic frequency as 
 \begin{equation}\label{eq:nuchar}
 \nuchar \equiv \frac{1}{2\pi\tau},
 \end{equation}
-where $\tau$ is a characteristic timescale. When calculating the characteristic frequency in our models, we set $\tau$ to be the  average convective turnover time 
+where $\tau$ is a characteristic timescale which we set to be the average convective turnover time 
 \begin{equation}\label{eq:turnover}
-\turnover = \alphamlt \hpa / \vca 
+\turnover = \alphamlt \hpa / \vca,
 \end{equation}
 calculated either in the FeCZ or in the convective core.  
-We proceeded to calculate convective turnover timescales and other relevant properties like convective fluxes $F_{\rm c} = \rhoa \vca^3$. 
+
+\todo{List the quantities explicitly as we reference the figures.}
+We calculated the convective flux $F_{\rm c} = \rhoa \vca^3$, .... 
 We did this as a function of both mass and evolutionary history for stars ranging from $5-120 M_\odot$.
 Here we present results for an initial metallicity of Z=0.02, but in Appendix~\ref{appen:grids} we report results for model grids with Z = 0.014, 0.006 and 0.002 as well.
 
@@ -534,7 +538,7 @@ Using  $k_h = \sqrt{\ell(\ell+1)}/r$ we can then write the relative radial displ
 Here we present results for the critical and surface magnetic field at metallicities of Z=0.014, Z=0.006, and Z=0.002,
 representing early-type stars in the Galaxy (MW), Large Magellanic Cloud (LMC), and Small Magellanic Cloud (SMC) respectively  \citep[e.g.][]{2013MNRAS.433.1114Y}. The initial Helium content of the grids is
 Y=0.2659 (MW), Y=0.2559 (LMC), and Y=0.2508 (SMC). The metallicity is initialized scaling the standard solar composition of \citet{1998SSRv...85..161G}.
-
+\todo{I don't see any grids.}
 
 \bibliographystyle{aasjournal}
 \bibliography{refs.bib}
