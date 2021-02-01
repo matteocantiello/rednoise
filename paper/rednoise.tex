@@ -132,16 +132,17 @@ We calculated stellar evolution models using the Modules for Experiments in Stel
 \citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
 %The inlists used to run our models can be found in this \href{https://github.com/matteocantiello/rednoise}{GitHub repository}\footnote{https://github.com/matteocantiello/rednoise}.
-We focused on the structure and convective properties of our models, in order to calculate typical frequencies and convective fluxes. 
-Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While in efficient convection zones (e.g. stellar cores) the choice of this parameter does not change results much, this is not true in superadiabatic, inefficient convective regions close to the stellar surface \citep{2015ApJ...813...74J,Cantiello:2019}. We discuss in Section~\ref{sec:discussion} how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
+We focused on the structure and convective properties of our models in order to calculate typical frequencies and convective fluxes. 
+Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While efficient convection zones (e.g. stellar cores) are insensitive to the choice of this parameter, inefficient convective regions close to the stellar surface \emph{do} depend on $\alphamlt$ \citep{2015ApJ...813...74J,Cantiello:2019}. In Section~\ref{sec:discussion} we discuss how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
-Since we are interested in the excitation of surface phenomena, we focus on the upper part of convective zones and following \citet{Cantiello:2009} {\bf we define the average of a generic quantity $q$} as
+Since we are interested in the excitation of surface phenomena we focus on the upper part of convective zones.
+Following \citet{Cantiello:2009} {\bf we define the average of a generic quantity $q$} as
 \begin{equation}
-\overline{q} \equiv \frac{1}{\alphamlt \hp} \int_{\Rtop-\alphamlt\hp}^{\Rtop} q(r)\; dr
+\overline{q} \equiv \frac{1}{\alphamlt \hp} \int_{\Rtop-\alphamlt\hp}^{\Rtop} q(r)\; dr,
 \label{aver}
 \end{equation}
 where  $\hp$ is the pressure scale height calculated at the upper boundary ($\Rtop$) of the 
-convective zone of interest.  We tested using different average procedures, and found that our results do not depend much on the specific choice.  
+convective zone of interest.  We tested a variety of different average procedures and found that our results do not depend much on the specific choice.  
 
 Using this definition, we extracted the average Mach number $\macha$, convective velocity $\vca$ and density $\rhoa$ in the convective core and in the subsurface convection zones of our models.
 The most important subsurface convection zone for the massive stars discussed in this work is the iron convection zone (FeCZ, see Fig.~\ref{fig:kipp20}), although in the low luminosity regime He-driven convection zones could play a role as well \citep{Cantiello:2009,Cantiello:2019}. 
