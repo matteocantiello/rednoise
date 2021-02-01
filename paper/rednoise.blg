@@ -1,49 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: rednoise.aux
 The style file: aasjournal.bst
 Database file #1: refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in Aerts:2010
-You've used 75 entries,
+You've used 77 entries,
             3168 wiz_defined-function locations,
-            1255 strings with 24541 characters,
-and the built_in function-call counts, 36193 in all, are:
-= -- 2963
-> -- 2897
-< -- 23
-+ -- 970
-- -- 1064
-* -- 3371
-:= -- 6682
-add.period$ -- 78
-call.type$ -- 75
-change.case$ -- 449
-chr.to.int$ -- 73
-cite$ -- 76
-duplicate$ -- 1265
-empty$ -- 2064
-format.name$ -- 1165
-if$ -- 7242
-int.to.chr$ -- 3
+            1272 strings with 25480 characters,
+and the built_in function-call counts, 37290 in all, are:
+= -- 3040
+> -- 3007
+< -- 24
++ -- 1005
+- -- 1103
+* -- 3480
+:= -- 6892
+add.period$ -- 80
+call.type$ -- 77
+change.case$ -- 459
+chr.to.int$ -- 76
+cite$ -- 78
+duplicate$ -- 1299
+empty$ -- 2119
+format.name$ -- 1208
+if$ -- 7457
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 75
-newline$ -- 236
-num.names$ -- 300
-pop$ -- 491
+missing$ -- 77
+newline$ -- 242
+num.names$ -- 308
+pop$ -- 503
 preamble$ -- 1
-purify$ -- 449
+purify$ -- 459
 quote$ -- 0
-skip$ -- 1056
+skip$ -- 1087
 stack$ -- 0
-substring$ -- 1342
-swap$ -- 4
+substring$ -- 1379
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 672
+type$ -- 690
 warning$ -- 1
-while$ -- 281
+while$ -- 288
 width$ -- 0
-write$ -- 825
+write$ -- 847
 (There was 1 warning)
