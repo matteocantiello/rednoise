@@ -385,8 +385,44 @@ Using  $k_h = \sqrt{\ell(\ell+1)}/r$ we can then write the relative radial displ
 \section{Grids at Different Metallicities}
 \label{appen:grids}
 Here we present results for the critical and surface magnetic field at metallicities of Z=0.006 and Z=0.002,
-representing early-type stars in the Large Magellanic Cloud (LMC) and Small Magellanic Cloud (SMC) respectively  \citep[e.g.][]{2013MNRAS.433.1114Y}. The initial Helium content of the grids is
+representing early-type stars in the Large Magellanic Cloud (LMC, Fig.~\ref{fig:vconv_LMC} and \ref{fig:nuchar_fecz_LMC}) and Small Magellanic Cloud (SMC, Fig.~\ref{fig:vconv_SMC} and \ref{fig:nuchar_fecz_SMC}) respectively  \citep[e.g.][]{2013MNRAS.433.1114Y}. The initial Helium content of the grids is
 Y=0.2559 (LMC) and Y=0.2508 (SMC). The metallicity is initialized scaling the standard solar composition of \citet{1998SSRv...85..161G}.
+
+
+\begin{figure*}[htp]
+  \centering
+    \subfloat{\includegraphics[width=0.48\columnwidth]{../figures/vc_FeCZ_macroturbulence_LMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.51\columnwidth]{../figures/vc_FeCZ_turbulentpressure_LMC.pdf}}
+ \caption{\label{fig:vconv_LMC} Left: Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram for models with Z=0.006 (LMC). The size of the dot is proportional to the observed macroturbulence. {\bf The FeCZ is absent in models with $\loglsun \lesssim 3.2$}. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at  low luminosity where turbulent pressure is provided by a helium convection zone.} 
+ \end{figure*}
+ 
+
+\begin{figure*}[htp]
+  \centering
+    \subfloat{\includegraphics[width=0.5\columnwidth]{../figures/flux_FeCZ_rednoise_LMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.49\columnwidth]{../figures/freq_FeCZ_LMC.pdf}}
+   \caption{  Left panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram  for models with Z=0.006 (LMC). Right panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines.}
+    \label{fig:nuchar_fecz_LMC}
+\end{figure*}
+
+
+\begin{figure*}[htp]
+  \centering
+    \subfloat{\includegraphics[width=0.48\columnwidth]{../figures/vc_FeCZ_macroturbulence_SMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.51\columnwidth]{../figures/vc_FeCZ_turbulentpressure_SMC.pdf}}
+ \caption{\label{fig:vconv_SMC} Left: Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram for models with Z=0.002 (SMC). The size of the dot is proportional to the observed macroturbulence. {\bf The FeCZ is absent in models with $\loglsun \lesssim 3.2$}. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at  low luminosity where turbulent pressure is provided by a helium convection zone.} 
+ \end{figure*}
+ 
+
+\begin{figure*}[htp]
+  \centering
+    \subfloat{\includegraphics[width=0.5\columnwidth]{../figures/flux_FeCZ_rednoise_SMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.49\columnwidth]{../figures/freq_FeCZ_SMC.pdf}}
+   \caption{  Left panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram  for models with Z=0.002 (SMC). Right panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines.}
+    \label{fig:nuchar_fecz_SMC}
+\end{figure*}
+
+
 
 \bibliographystyle{aasjournal}
 \bibliography{refs.bib}
