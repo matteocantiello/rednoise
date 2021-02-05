@@ -118,11 +118,6 @@
 {Dorn-Wallenstein}, T.~Z., {Levesque}, E.~M., {Neugent}, K.~F., {et~al.} 2020,
   \apj, 902, 24, \dodoi{10.3847/1538-4357/abb318}
 
-\bibitem[{{Dufton} {et~al.}(2006){Dufton}, {Ryans}, {Sim{\'o}n-D{\'\i}az},
-  {Trundle}, \& {Lennon}}]{Dufton:2006}
-{Dufton}, P.~L., {Ryans}, R.~S.~I., {Sim{\'o}n-D{\'\i}az}, S., {Trundle}, C.,
-  \& {Lennon}, D.~J. 2006, \aap, 451, 603, \dodoi{10.1051/0004-6361:20054600}
-
 \bibitem[{{Dziembowski}(1977)}]{Dziembowski:1977}
 {Dziembowski}, W. 1977, \actaa, 27, 203
 
@@ -155,22 +150,36 @@
 {Fullerton}, A.~W., {Massa}, D.~L., {Prinja}, R.~K., {Owocki}, S.~P., \&
   {Cranmer}, S.~R. 1997, \aap, 327, 699
 
+\bibitem[{{Godart} {et~al.}(2017){Godart}, {Sim{\'o}n-D{\'\i}az}, {Herrero},
+  {Dupret}, {Gr{\"o}tsch-Noels}, {Salmon}, \& {Ventura}}]{Godart:2017}
+{Godart}, M., {Sim{\'o}n-D{\'\i}az}, S., {Herrero}, A., {et~al.} 2017, \aap,
+  597, A23, \dodoi{10.1051/0004-6361/201628856}
+
 \bibitem[{{Goldreich} \& {Kumar}(1990)}]{1990ApJ...363..694G}
 {Goldreich}, P., \& {Kumar}, P. 1990, \apj, 363, 694, \dodoi{10.1086/169376}
 
+\bibitem[{{Grassitelli} {et~al.}(2015{\natexlab{a}}){Grassitelli}, {Fossati},
+  {Langer}, {Miglio}, {Istrate}, \& {Sanyal}}]{Grassitelli:2015b}
+{Grassitelli}, L., {Fossati}, L., {Langer}, N., {et~al.} 2015{\natexlab{a}},
+  \aap, 584, L2, \dodoi{10.1051/0004-6361/201527289}
+
 \bibitem[{{Grassitelli} {et~al.}(2016){Grassitelli}, {Fossati}, {Langer},
   {Sim{\'o}n-D{\'\i}az}, {Castro}, \& {Sanyal}}]{Grassitelli:2016}
-{Grassitelli}, L., {Fossati}, L., {Langer}, N., {et~al.} 2016, \aap, 593, A14,
-  \dodoi{10.1051/0004-6361/201628912}
+---. 2016, \aap, 593, A14, \dodoi{10.1051/0004-6361/201628912}
 
-\bibitem[{{Grassitelli} {et~al.}(2015){Grassitelli}, {Fossati},
+\bibitem[{{Grassitelli} {et~al.}(2015{\natexlab{b}}){Grassitelli}, {Fossati},
   {Sim{\'o}n-Di{\'a}z}, {Langer}, {Castro}, \& {Sanyal}}]{Grassitelli:2015}
-{Grassitelli}, L., {Fossati}, L., {Sim{\'o}n-Di{\'a}z}, S., {et~al.} 2015,
-  \apjl, 808, L31, \dodoi{10.1088/2041-8205/808/1/L31}
+{Grassitelli}, L., {Fossati}, L., {Sim{\'o}n-Di{\'a}z}, S., {et~al.}
+  2015{\natexlab{b}}, \apjl, 808, L31, \dodoi{10.1088/2041-8205/808/1/L31}
 
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{1998SSRv...85..161G}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
   \dodoi{10.1023/A:1005161325181}
+
+\bibitem[{{Hopkins} {et~al.}(2014){Hopkins}, {Kere{\v{s}}}, {O{\~n}orbe},
+  {Faucher-Gigu{\`e}re}, {Quataert}, {Murray}, \& {Bullock}}]{Hopkins:2014}
+{Hopkins}, P.~F., {Kere{\v{s}}}, D., {O{\~n}orbe}, J., {et~al.} 2014, \mnras,
+  445, 581, \dodoi{10.1093/mnras/stu1738}
 
 \bibitem[{{Horst} {et~al.}(2020){Horst}, {Edelmann}, {Andr{\'a}ssy},
   {R{\"o}pke}, {Bowman}, {Aerts}, \& {Ratnasingam}}]{Horst:2020}
@@ -225,6 +234,9 @@
 \bibitem[{{Langanke} \& {Mart{\'{\i}}nez-Pinedo}(2000)}]{Langanke2000}
 {Langanke}, K., \& {Mart{\'{\i}}nez-Pinedo}, G. 2000, Nuclear Physics A, 673,
   481, \dodoi{10.1016/S0375-9474(00)00131-7}
+
+\bibitem[{{Langer}(2012)}]{Langer:2012}
+{Langer}, N. 2012, \araa, 50, 107, \dodoi{10.1146/annurev-astro-081811-125534}
 
 \bibitem[{{Langer} \& {Kudritzki}(2014)}]{2014A&A...564A..52L}
 {Langer}, N., \& {Kudritzki}, R.~P. 2014, \aap, 564, A52,
@@ -352,11 +364,17 @@
 {Shiode}, J.~H., {Quataert}, E., {Cantiello}, M., \& {Bildsten}, L. 2013,
   \mnras, 430, 1736, \dodoi{10.1093/mnras/sts719}
 
-\bibitem[{{Sim{\'o}n-D{\'\i}az} {et~al.}(2017){Sim{\'o}n-D{\'\i}az}, {Godart},
-  {Castro}, {Herrero}, {Aerts}, {Puls}, {Telting}, \&
+\bibitem[{{Sim{\'o}n-D{\'\i}az}
+  {et~al.}(2017{\natexlab{a}}){Sim{\'o}n-D{\'\i}az}, {Godart}, {Castro},
+  {Herrero}, {Aerts}, {Puls}, {Telting}, \& {Grassitelli}}]{Simon-Diaz:2017}
+{Sim{\'o}n-D{\'\i}az}, S., {Godart}, M., {Castro}, N., {et~al.}
+  2017{\natexlab{a}}, \aap, 597, A22, \dodoi{10.1051/0004-6361/201628541}
+
+\bibitem[{{Sim{\'o}n-D{\'\i}az}
+  {et~al.}(2017{\natexlab{b}}){Sim{\'o}n-D{\'\i}az}, {Godart}, {Castro},
+  {Herrero}, {Aerts}, {Puls}, {Telting}, \&
   {Grassitelli}}]{2017A&A...597A..22S}
-{Sim{\'o}n-D{\'\i}az}, S., {Godart}, M., {Castro}, N., {et~al.} 2017, \aap,
-  597, A22, \dodoi{10.1051/0004-6361/201628541}
+---. 2017{\natexlab{b}}, \aap, 597, A22, \dodoi{10.1051/0004-6361/201628541}
 
 \bibitem[{{Sim{\'o}n-D{\'\i}az} \& {Herrero}(2014)}]{Simon-Diaz:2014}
 {Sim{\'o}n-D{\'\i}az}, S., \& {Herrero}, A. 2014, \aap, 562, A135,
