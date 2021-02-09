@@ -101,7 +101,7 @@ We focused on the structure and convective properties of our models in order to 
 Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While the properties of efficient convection zones (e.g. stellar cores) are insensitive to the choice of this parameter, those of inefficient convective regions close to the stellar surface \emph{do} depend on $\alphamlt$ \citep{2015ApJ...813...74J,Cantiello:2019}. In Section~\ref{sec:discussion} we discuss how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
 Since we are interested in the excitation of surface phenomena we focus on the upper part of convective zones.
-Following \citet{Cantiello:2009} {\bf we define the average of a generic quantity $q$} as
+Following \citet{Cantiello:2009}  we define the average of a generic quantity $q$ as
 \begin{equation}
 \overline{q} \equiv \frac{1}{\alphamlt \hp} \int_{\Rtop-\alphamlt\hp}^{\Rtop} q(r)\; dr,
 \label{aver}
@@ -155,7 +155,7 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
   \centering
     \subfloat{\includegraphics[width=1\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}}\hfill
   \subfloat{\includegraphics[width=1.\columnwidth]{../figures/vc_FeCZ_turbulentpressure.pdf}}
- \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence. {\bf The FeCZ is absent in models with $\loglsun \lesssim 2.5$}. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone (HeCZ).}\label{fig:macroturbulence}
+ \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence.  The FeCZ is absent in models with $\loglsun \lesssim 2.5$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone (HeCZ).}\label{fig:macroturbulence}
  \end{figure*}
 
 
@@ -163,10 +163,10 @@ We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}, lef
 
 In the right panel of the same figure we also show the maximum of the ratio of turbulent pressure to total pressure (P$_{\rm turb} \propto \vc^2$),  which, in agreement with the results of \citet{Grassitelli:2015}, shows a strong correlation with the spectroscopically-derived macroturbulent velocities in massive stars. 
 
-The two quantities in Fig.~\ref{fig:vconv} measure the strength of the inefficient convection, and are related to different possible mechanisms for how motions in the FeCZ could lead to surface velocities.
+The two quantities in Fig.~\ref{fig:vconv} measure the strength of the inefficient convection.%, and are related to different possible mechanisms for how motions in the FeCZ could lead to surface velocities.
 If one assumes convective elements conserve their inertia as they reach layers stable against convection \citep[e.g., because they are thermally diffusive, see][]{Cantiello:2009}, then the surface velocities should be proportional to the convective velocity; see the left panel of Fig.~\ref{fig:vconv}.
 Alternatively, one can assume IGWs are excited with pressure perturbations $\delta p \sim P_{\rm turb}\propto \vc^2$, the turbulent pressure of the convection \citep{Press:1981}.
-Using the polarization relations of adiabatic IGWs \citep{sutherland_2010}, a wave with pressure perturbation $\delta p$ has an associated horizontal velocity $u_h \sim (\delta p/\rho_0) k_h/\omega$, where $k_h$ is the horizontal wavenumber of the wave and $\omega$ is its frequency.
+Using the polarization relations of adiabatic IGWs \citep[e.g.,][]{sutherland_2010}, a wave with pressure perturbation $\delta p$ has an associated horizontal velocity $u_h \sim (\delta p/\rho_0) k_h/\omega$, where $k_h$ is the horizontal wavenumber of the wave and $\omega$ is its frequency.
 The dominant waves will have $k_h\sim1/{\mathrm{H}}_{\mathrm P}$ and $\omega\sim1/\tau_c$.
 So IGWs would have surface velocities which also scale like $u_h \sim \vc$ at the surface.
 In the  right panel of Fig.~\ref{fig:vconv} we also report  the ratio of turbulent pressure to total pressure in the FeCZ. According to \citet{Grassitelli:2015}, this quantity traces the stochastic Lagrangian pressure perturbation associated with the convective motions, which is responsible for local deviation from hydrostatic equilibrium and the excitation of high-order pulsations with frequencies close to the spectrum of the fluctuations. 
@@ -329,10 +329,10 @@ The amount of radiative damping is expected to change due to the large differenc
 where $k_{r}$ is the radial wavenumber (eqn.~\ref{eq:kr}) and $\kappa$ is the opacity.
 Compact WR stars have surface temperatures that can exceed $\approx 10^5$K, while OB stars and LBVs have effective temperatures $\approx 10^{4\dot4.7}$K, with LBVs found at the cooler end of this range.  The surface of extended, low-density, YSGs is cooler than $10^4$K.  With different types of core convection (H-burning vs He-burning) and radiative damping rates, it would be surprising if core-generated IGWs in e.g. OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below/at the surface in both OB and WR stars, and with similar velocities and convective turnover times. This seems to strengthen the main thesis of this work,  adding support to a (sub)surface origin of the observed SLF variability.
 
-{\bf The discussion is more complicated for LBVs and YSGs, since at lower temperatures other convective regions can become prominent \citep[driven by H and He recombination, see e.g.][]{2018Natur.561..498J}.  \citet{Dorn:2020} disfavor a near-surface origin for the observed SLF variability in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}.  However, we believe that the scaling of \citet{Kallinger:2014} is not applicable in the regime explored by \citet{Dorn:2020}. This scaling was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of hydrogen, and it is not directly applicable to earlier
+ The discussion is more complicated for LBVs and YSGs, since at lower temperatures other convective regions can become prominent \citep[driven by H and He recombination, see e.g.][]{2018Natur.561..498J}.  \citet{Dorn:2020} disfavor a near-surface origin for the observed SLF variability in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}.  However, we believe that the scaling of \citet{Kallinger:2014} is not applicable in the regime explored by \citet{Dorn:2020}. This scaling was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of hydrogen, and it is not directly applicable to earlier
 spectral subtypes. 
 
-Interestingly, the characteristic timescales of 0.1-1 days found by \citet{Dorn:2020} at $\logteff \approx$4 are consistent with the convective turnover timescale in the FeCZ  (e.g. Fig.~\ref{fig:nuchar_fecz}). Moreover, in their lower temperature sample ($\logteff < 3.75$) the rapid increase in amplitudes and characteristic frequencies  of the variability  is in agreement with the development of near-surface convection induced by the large opacities associated with the recombination of hydrogen \citep{Grassitelli:2015b}. We suggest that surface and near-surface convection could be indeed responsible for the variability observed by \citet{Dorn:2020}, and we plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work. }
+Interestingly, the characteristic timescales of 0.1-1 days found by \citet{Dorn:2020} at $\logteff \approx$4 are consistent with the convective turnover timescale in the FeCZ  (e.g. Fig.~\ref{fig:nuchar_fecz}). Moreover, in their lower temperature sample ($\logteff < 3.75$) the rapid increase in amplitudes and characteristic frequencies  of the variability  is in agreement with the development of near-surface convection induced by the large opacities associated with the recombination of hydrogen \citep{Grassitelli:2015b}. We suggest that surface and near-surface convection could be indeed responsible for the variability observed by \citet{Dorn:2020}, and we plan to systematically study the properties of (sub)surface convection in these evolved, cool stars in future work. 
 
 
 \subsection{Towards a unified model for surface phenomena in massive stars}
@@ -414,7 +414,7 @@ Using  $k_h = \sqrt{\ell(\ell+1)}/r$ we can then write the relative radial displ
 
 \section{Grids at Different Metallicities}
 \label{appen:grids}
-Here we present results for the critical and surface magnetic field at metallicities of Z=0.006 and Z=0.002,
+Here we present results for models at metallicities of Z=0.006 and Z=0.002,
 representing early-type stars in the Large Magellanic Cloud (LMC, Fig.~\ref{fig:vconv_LMC} and \ref{fig:nuchar_fecz_LMC}) and Small Magellanic Cloud (SMC, Fig.~\ref{fig:vconv_SMC} and \ref{fig:nuchar_fecz_SMC}) respectively  \citep[e.g.][]{2013MNRAS.433.1114Y}. The initial helium content of the grids is
 Y=0.2559 (LMC) and Y=0.2508 (SMC). The metallicity is initialized scaling the standard solar composition of \citet{1998SSRv...85..161G}.
 
