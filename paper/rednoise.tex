@@ -128,14 +128,15 @@ Finally, $\gamma$ is the gradient of the linear part of the profile and $P_{\rm 
 
 \section{Results}
 We want to test a possible correlation between the properties of the FeCZ and observed photospheric phenomena, in particular SLF variability and turbulent velocities at the stellar surface (macroturbulence).
-We proceed by calculating quantities that measure the amplitude of perturbations in the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and SLF variability.  While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:discussion}.
+We proceed by calculating quantities that measure the amplitude of perturbations in the FeCZ. We then check if some of these properties correlate with the amplitude of observed photospheric phenomena, including turbulent velocity fluctuations and SLF variability.  
+%While here we are agnostic about the particular mechanism, we assume that some physical process connects the subsurface layers to the photosphere. We  discuss  the most likely candidates for this process in Sec.~\ref{sec:discussion}.
 
-For these purposes we define the characteristic frequency as 
+We define the characteristic frequency as 
 \begin{equation}\label{eq:nuchar}
 \nuchar \equiv \frac{1}{2\pi\tau},
 \end{equation}
 where $\tau$ is a characteristic timescale.
-For comparing comparing with observations we set $\tau$ to be the average convective turnover time 
+For  comparing with observations we set $\tau$ to be the average convective turnover time 
 \begin{equation}\label{eq:turnover}
 \turnover = \alphamlt \hpa / \vca,
 \end{equation}
@@ -154,11 +155,11 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
   \centering
     \subfloat{\includegraphics[width=1\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}}\hfill
   \subfloat{\includegraphics[width=1.\columnwidth]{../figures/vc_FeCZ_turbulentpressure.pdf}}
- \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram. We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence. {\bf The FeCZ is absent in models with $\loglsun \lesssim 2.5$}. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone.}\label{fig:macroturbulence}
+ \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence. {\bf The FeCZ is absent in models with $\loglsun \lesssim 2.5$}. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone.}\label{fig:macroturbulence}
  \end{figure*}
 
 
-We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}, left panel. Velocities of the order $10 \dots 100\ \kms$ are found across the upper H-R diagram, with a trend of increasing $\vc$ for higher luminosities. Note that, contrary to core convection, the FeCZ is just mildly subsonic, with Mach numbers ranging from 0.01 to 0.3, though these are uncertain by a factor of $\approx 8$ due to a dependence on the uncertain $\alpha_{\rm MLT}$ \citep{Cantiello:2019}. 
+We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}, left panel. Velocities of the order $10 \dots 100\ \kms$ are found across the upper spectroscopic H-R diagram \citep[$\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$;][]{2014A&A...564A..52L}, with a trend of increasing $\vc$ for higher luminosities. Note that, contrary to core convection, the FeCZ is just mildly subsonic, with Mach numbers ranging from 0.01 to 0.3, though these are uncertain by a factor of $\approx 8$ due to a dependence on the uncertain $\alpha_{\rm MLT}$ \citep{Cantiello:2019}. 
 
 {\bf In the right panel of the same figure we also show the maximum of the ratio of turbulent pressure to total pressure (P$_{\rm turb} \propto \vc^2$),  which, in agreement with the results of \citet{Grassitelli:2015}, shows a strong correlation with the spectroscopically-derived macroturbulent velocities in massive stars. }
 
@@ -167,7 +168,7 @@ The two quantities in Fig.~\ref{fig:vconv} measure the strength of the inefficie
 If one assumes convective elements conserve their inertia as they reach layers stable against convection \citep[e.g., because they are thermally diffusive][]{Cantiello:2009}, then the surface velocities should be proportional to the convective velocity; see the left panel of Fig.~\ref{fig:vconv}.
 Alternatively, one can assume IGWs are excited with pressure perturbations $\delta p \sim P_{\rm turb}\propto \vc^2$, the turbulent pressure of the convection \citep{Press:1981}.
 Using the adiabatic wave polarization relations, a wave with pressure perturbation $\delta p$ has an associated horizontal velocity $\xi \sim (\delta p/\rho_0) k_h/\omega$, where $k_h$ is the horizontal wavenumber of the wave and $\omega$ is its frequency.
-The dominant waves will have $k_h\sim1/H_P$ and $\omega\sim1/\tau_c$.
+The dominant waves will have $k_h\sim1/{\mathrm{H}}_{\mathrm P}$ and $\omega\sim1/\tau_c$.
 So IGWs would have surface velocities which also scale like $\xi \sim \vc$ at the surface.
 In the  right panel of Fig.~\ref{fig:vconv} we also report  the ratio of turbulent pressure to total pressure in the FeCZ. According to \citet{Grassitelli:2015}, this quantity traces the stochastic Lagrangian pressure perturbation associated with the convective motions, which is responsible for local deviation from hydrostatic equilibrium and the excitation of high-order pulsations with frequencies close to the spectrum of the fluctuations. 
 \color{black}
@@ -181,21 +182,22 @@ We confirm that convective velocities and the ratio of turbulent pressure to tot
 
 \begin{figure*}[htp]
   \centering
-    \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}\hfill
-  \subfloat{\includegraphics[width=1.01\columnwidth]{../figures/freq_FeCZ_data.pdf}}
-   \caption{  Left panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$. Right panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines. We also show the observed stars with detected stochastic photometric variability as grey dots. The area of the dot is proportional to the observed $\nu_{\rm char}$ from eqn.~\eqref{eq:rednoise}.}
+  \subfloat{\includegraphics[width=1.0\columnwidth]{../figures/freq_FeCZ_data.pdf}}\hfill
+    \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}
+  
+   \caption{  Left panel:   Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines. We also show the observed stars with detected stochastic photometric variability as grey dots. The area of the dot is proportional to the observed $\nu_{\rm char}$ from eqn.~\eqref{eq:rednoise}. Right panel: Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.}
     \label{fig:nuchar_fecz}
 \end{figure*}
 
 
 
 If the SLF variability is caused by the FeCZ, a natural choice of proxy for the typical timescale of this variability is the convective turnover timescale.  We find typical values of the convective turnover timescale to be about $\sim 0.1\dots2$ d in the FeCZ, with a tendency for shorter values in models with high effective temperature and surface luminosity \citep{Cantiello:2009}.
-We computed $\nuchar$ using eqn.~\ref{eq:nuchar} and plot this alongside observed characteristic frequencies\footnote{These were inferred via eqn.~\eqref{eq:rednoise}.} of SLF variability on a spectroscopic H-R diagram in Fig.~\ref{fig:nuchar_fecz} (right panel)\citep{2014A&A...564A..52L}.
+We computed $\nuchar$ using eqn.~\ref{eq:nuchar} and plot this alongside observed characteristic frequencies\footnote{These were inferred via eqn.~\eqref{eq:rednoise}.} of SLF variability on the spectroscopic H-R diagram, see left panel in Fig.~\ref{fig:nuchar_fecz}.
 
 We see good agreement, with our models reproducing both the typical values of the observed $\nuchar$ and the trend with  $\logl$ and $\logteff$. 
 While the characteristic frequencies found by \citet{Bowman:2020} seem to be larger by a factor of $\approx$ 3, our predictions for the turnover timescale are affected by uncertainty in the convective velocities arising from the MLT treatment ($\vc \propto \alphamlt^{3}$, so $\nuchar \propto \alphamlt^{2}$), {\bf as well as our limited knowledge of the frequency spectrum generated by turbulent convection.} Since $\alphamlt$ is uncertain by a factor of 2 or so, our estimates of the characteristic frequency in the FeCZ are uncertain by a factor of  $\approx$ 4 and so are consistent with the observations.
 
-We also compare the amplitude of SLF variability with the relative convective flux in the FeCZ (left panel in Fig.~\ref{fig:nuchar_fecz}). Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of observed SLF variability. 
+We also compare the amplitude of SLF variability with the relative convective flux in the FeCZ (right panel in Fig.~\ref{fig:nuchar_fecz}). Values of F$_{\rm c}$/F$_{*}$ tend to increase with increasing $\logl$ and decreasing $\logteff$, a trend that is also found for the values of observed SLF variability. 
 
 Overall the turnover timescale and relative flux in the FeCZ correlate very well with the timescale and amplitude of the observed SLF variability. 
  
@@ -204,10 +206,12 @@ Overall the turnover timescale and relative flux in the FeCZ correlate very well
 
 \begin{figure*}[htp]
   \centering
-      \subfloat{\includegraphics[width=1\columnwidth]{../figures/F0_relative_flux_IGW_ahp_core_rednoise_data.pdf}}\hfill
-  \subfloat{\includegraphics[width=1.05\columnwidth]{../figures/freq_core_data_days.pdf}}
+  \subfloat{\includegraphics[width=1.05\columnwidth]{../figures/freq_core_data_days.pdf}}\hfill
+      \subfloat{\includegraphics[width=1\columnwidth]{../figures/F0_relative_flux_IGW_ahp_core_rednoise_data.pdf}}
+      
  
-\caption{ Left panel: Square root of the ratio between the flux of gravity waves launched by the convective core and $F_0 = 1/2 \rho(r) \,r^3 \omega^2 \sqrt{N(r)^2-\omega^2}$, evaluated at the stellar surface. In the absence of damping, this quantity is expected to be proportional to the relative luminosity fluctuations at the surface (See Appendix~\ref{appen:xir}).  The IGW flux is calculated multiplying the core convective flux by the average convective Mach number in the top pressure scale height of the convective region. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$. Right panel: Characteristic frequency $\nu_{\rm char}$ in the convective core as function of the location of stellar models in the spectroscopic HRD. We also show the observed stars with detected photometric variability as grey dots. The area of the dot is proportional to $\nu_{\rm char}$.}
+\caption{ Left panel:  Characteristic frequency $\nu_{\rm char}$ in the convective core as function of the location of stellar models in the spectroscopic H-R diagram. We also show the observed stars with detected photometric variability as grey dots. The area of the dot is proportional to $\nu_{\rm char}$.
+ Right panel: Square root of the ratio between the flux of gravity waves launched by the convective core and $F_0 = 1/2 \rho(r) \,r^3 \omega^2 \sqrt{N(r)^2-\omega^2}$, evaluated at the stellar surface. In the absence of damping, this quantity is expected to be proportional to the relative luminosity fluctuations at the surface (See Appendix~\ref{appen:xir}).  The IGW flux is calculated multiplying the core convective flux by the average convective Mach number in the top pressure scale height of the convective region. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$. }
     \label{fig:nuchar_core}
 \end{figure*}
 
@@ -327,17 +331,28 @@ spectral subtypes.  Interestingly, the characteristic timescales of 0.1-1 days f
 
 \subsection{Towards a unified model for surface phenomena in massive stars}
 The presence of subsurface convection can simultaneously account for a large variety of puzzling phenomena that appear ubiquitous at the surface of early-type stars.
-First we have microturbulence and macroturbulence, and both can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015,2015ApJ...813...74J}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence \citep{10.1093/mnras/stt921}.  
-Then we have the observation of  bright spots in early-type stars \citep[e.g.][]{Ramiaramanantsoa:2014}, which can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. These photospheric magnetic spots can then be responsible for another ubiquitous phenomena in early-type stars, the presence of discrete absorption components (DACs) in their UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997}. 
-Overall subsurface convection is expected to drive velocity and density perturbations at the stellar surface \citep[e.g.][]{Cantiello:2009,2015ApJ...813...74J}. These perturbations could explain the ubiquitous line profile variability in hot stars \citep{Fullerton:1996} and provide a seed for the rapid development of wind instabilities that lead to wind clumping \citep{Owocki:1988}, but see also \citet{Sundqvist:2013}.
-Finally, these surface velocity and density perturbations  would necessarily induce photometric variability, and we have shown here that the observed SLF variability detected in OB stars correlates very well with the presence and properties of the FeCZ. 
-
+\begin{itemize}
+\item {\bf Microturbulence and Macroturbulence} can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015,2015ApJ...813...74J}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence \citep{10.1093/mnras/stt921}. 
+\item {\bf Bright spots}  in early-type stars have been observed  \citep[e.g.][]{Ramiaramanantsoa:2014}, and can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. 
+\item {\bf Discrete absorption components (DACs)} in UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997} can then be caused by the aforementioned bright spots \citep{Cantiello:2011}. 
+\item {\bf Line profile variability}   is another ubiquitous phenomena in hot stars \citep{Fullerton:1996}, and can be explained by surface velocity and density perturbations seeded by subsurface convection \citep[e.g.][]{Cantiello:2009,2015ApJ...813...74J}.
+\item {\bf Wind clumping} can also be seeded by these surface density and velocity perturbations, which are amplified by the development of instabilities in the stellar wind \citep[][but see also \citet{Sundqvist:2013}]{Owocki:1988}.
+\item {\bf SLF variability}  can also be caused by the presence of  subsurface convection zones, as discussed in this work.  
+\end{itemize}
 An economical hypothesis emerges: the presence of subsurface convection, and in particular of the FeCZ, could be the common underlying physical cause for the appearance of turbulence, magnetic spots, SLF variability, as well spectroscopic variability in early-type stars. 
+
+%MC: Keeping old version of this section in case we won't revert from the current bullet points list.
+%First we have microturbulence and macroturbulence, and both can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015,2015ApJ...813...74J}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence \citep{10.1093/mnras/stt921}.  
+%Then we have the observation of  bright spots in early-type stars \citep[e.g.][]{Ramiaramanantsoa:2014}, which can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. These photospheric magnetic spots can then be responsible for another ubiquitous phenomena in early-type stars, the presence of discrete absorption components (DACs) in their UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997}. 
+%Overall subsurface convection is expected to drive velocity and density perturbations at the stellar surface \citep[e.g.][]{Cantiello:2009,2015ApJ...813...74J}. These perturbations could explain the ubiquitous line profile variability in hot stars \citep{Fullerton:1996} and provide a seed for the rapid development of wind instabilities that lead to wind clumping \citep{Owocki:1988}, but see also \citet{Sundqvist:2013}.
+%Finally, these surface velocity and density perturbations  would necessarily induce photometric variability, and we have shown here that the observed SLF variability detected in OB stars correlates very well with the presence and properties of the FeCZ. 
+
+%An economical hypothesis emerges: the presence of subsurface convection, and in particular of the FeCZ, could be the common underlying physical cause for the appearance of turbulence, magnetic spots, SLF variability, as well spectroscopic variability in early-type stars. 
 
 
 \section{Conclusions}
 
-We used one-dimensional stellar evolution calculations to study the predicted trends in the properties of subsurface convection in the spectroscopic HR-Diagram.
+We used one-dimensional stellar evolution calculations to study the predicted trends in the properties of subsurface convection in the spectroscopic H-R diagram.
 We found that the trends of relative convective flux and convective turnover timescale in the FeCZ of our models match very well the trends in timescale 
 and amplitude of stochastic, low-frequency  photometric variability in OB stars observed by TESS and K2.
 
