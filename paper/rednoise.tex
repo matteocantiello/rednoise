@@ -1,4 +1,5 @@
 \documentclass[twocolumn]{aastex63}
+%\documentclass[linenumbers]{aastex63}
 \usepackage{amsmath}
 \usepackage[caption=false]{subfig}
 \usepackage{graphicx}
@@ -28,7 +29,7 @@
 \affiliation{\input{snippets/affiliations}}
 \affiliation{Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA}
 
-\author{Daniel Lecoanet}
+\author[0000-0002-7635-9728]{Daniel Lecoanet}
 \affiliation{Department of Engineering Sciences \& Applied Mathematics, Northwestern University, Evanston, IL 60201, USA}
 \affiliation{CIERA, Northwestern University, Evanston, IL 60201, USA}
 \affiliation{Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA}
@@ -37,7 +38,7 @@
 \affiliation{\input{snippets/affiliations}}
 
 
-\author{Luca Grassitelli}
+\author[0000-0001-9324-3359]{Luca Grassitelli}
 \affiliation{Argelander-Institut f\"ur Astronomie der Universit\"at Bonn, Auf dem H\"ugel 71, D-53121 Bonn, Germany}
 
 
@@ -61,7 +62,7 @@ Massive stars largely drive the dynamical and chemical evolution of gas in galax
 These compact remnants can merge and generate the gravitational waves observed by LIGO/Virgo \citep{2016PhRvL.116f1102A}. The evolutionary trajectory starting with a massive star burning hydrogen in its core and ending with a compact remnant is understood only qualitatively. We still do not know how to map initial properties of the star, like mass, rotation rate, and metallicity, to e.g. the final mass and spin of the compact remnant it leaves behind. The picture is further complicated by the fact that the majority of massive stars are found in multiple systems \citep{Sana:2012}, with a large fraction expected to interact with their companions \citep{deMink:2014}. 
 
 The path towards a detailed understanding of massive stars begins with a quantitative study of their internal structure on the main sequence. In recent years asteroseismology has opened a new window on these challenging astrophysical environments, with high precision photometry from space delivering many new exciting results \citep[e.g., MOST, CoRoT, BRITE, Kepler/K2 and TESS, see ][]{BowmanReview:2020}.
-The latest discovery is the detection of a new ubiquitous phenomenon in massive stars: stochastic low-frequency photometric variability \citep[SLF variability;][]{2019NatAs...3..760B,Bowman:2019,Pedersen:2019,Bowman:2020}. 
+The latest discovery is the detection of a new ubiquitous phenomenon in massive stars: stochastic low-frequency photometric variability \citep[SLF variability;][]{Blomme:2011,2019NatAs...3..760B,Bowman:2019,Pedersen:2019,Bowman:2020,Rauw:2021}. 
 This joins a number of other surface and wind phenomena that are routinely observed in early-type stars, including surface velocity fluctuations  \citep[Macroturbulence;][]{Simon-Diaz:2014}, line profile variability \citep{Fullerton:1996}, and discrete absorption components in UV spectra \citep{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997}. Surface magnetism and bright spots are harder to observe but could still be common in these stars \citep[e.g.][]{Ramiaramanantsoa:2014}.
 
 The origin of this SLF variability is currently debated.
@@ -86,7 +87,7 @@ Based on these considerations we suggest that subsurface convection represents a
 
 \begin{figure}[ht!]
 \begin{center}
-\includegraphics[width=1.0\columnwidth]{../figures/kipp_radius_norm_20.pdf}
+\includegraphics[width=1.0\columnwidth]{figures/kipp_radius_norm_20.pdf}
 \caption{\label{fig:kipp20} Evolution of the normalized radial location of the FeCZ in a 20$\mso$ model during the main sequence (first 4.7 Myr of evolution). The HeCZ is also visible very close to the surface. Locations of P(r)/P($R_*$) = $e^n$  for $n=[1,3,5,7]$ are also shown and labelled as $n {\rm H}_{\rm P}$.}
 \end{center}
 \end{figure}
@@ -153,8 +154,8 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
 
 \begin{figure*}
   \centering
-    \subfloat{\includegraphics[width=1\columnwidth]{../figures/vc_FeCZ_macroturbulence.pdf}}\hfill
-  \subfloat{\includegraphics[width=1.\columnwidth]{../figures/vc_FeCZ_turbulentpressure.pdf}}
+    \subfloat{\includegraphics[width=1\columnwidth]{figures/vc_FeCZ_macroturbulence.pdf}}\hfill
+  \subfloat{\includegraphics[width=1.005\columnwidth]{figures/vc_FeCZ_turbulentpressure.pdf}}
  \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence.  The FeCZ is absent in models with $\loglsun \lesssim 2.5$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone (HeCZ).}\label{fig:macroturbulence}
  \end{figure*}
 
@@ -181,8 +182,8 @@ We confirm that convective velocities and the ratio of turbulent pressure to tot
 
 \begin{figure*}[htp]
   \centering
-  \subfloat{\includegraphics[width=1.0\columnwidth]{../figures/freq_FeCZ_data.pdf}}\hfill
-    \subfloat{\includegraphics[width=1\columnwidth]{../figures/flux_FeCZ_rednoise.pdf}}
+  \subfloat{\includegraphics[width=1.0\columnwidth]{figures/freq_FeCZ_data.pdf}}\hfill
+    \subfloat{\includegraphics[width=1\columnwidth]{figures/flux_FeCZ_rednoise.pdf}}
   
    \caption{  Left panel:   Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines. We also show the observed stars with detected stochastic photometric variability as grey dots. The area of the dot is proportional to the observed $\nu_{\rm char}$ from eqn.~\eqref{eq:rednoise}. Right panel: Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.}
     \label{fig:nuchar_fecz}
@@ -206,8 +207,8 @@ Overall the turnover timescale and relative flux in the FeCZ correlate very well
 \begin{figure*}[htp]
   \centering
   
-      \subfloat{\includegraphics[width=1\columnwidth]{../figures/F0_relative_flux_IGW_ahp_core_rednoise_data.pdf}}\hfill
-      \subfloat{\includegraphics[width=1.05\columnwidth]{../figures/freq_core_data_days.pdf}}
+      \subfloat{\includegraphics[width=1\columnwidth]{figures/F0_relative_flux_IGW_ahp_core_rednoise_data.pdf}}\hfill
+      \subfloat{\includegraphics[width=1.03\columnwidth]{figures/freq_core_data_days.pdf}}
       
  
 \caption{ Left panel:  Square root of the ratio between the flux of gravity waves launched by the convective core and $F_0 = 1/2 \rho(r) \,r^3 \omega^2 \sqrt{N(r)^2-\omega^2}$, evaluated at the stellar surface. In the absence of damping, this quantity is expected to be proportional to the relative radial displacement (Appendix~\ref{appen:xir}) and hence to the relative luminosity fluctuations at the surface.  The IGW flux is calculated multiplying the core convective flux by the average convective Mach number in the top pressure scale height of the convective region. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.
@@ -253,7 +254,7 @@ Using the dispersion relation for IGWs in a magnetic medium, the radial componen
 \begin{align}
 	B_{r, \rm crit} = \frac{\omega}{2 k_r}\sqrt{4\pi \rho},
 \end{align}
-where $\omega=\nu/2\pi$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wave-number.
+where $\omega=2\pi\nu$ is the angular frequency of the waves, $\rho$ is the density, and $k_r$ is the radial wave-number.
 For IGWs the radial wave-number is related to the spherical harmonic degree $\ell$ by
 \begin{align}\label{eq:kr}
 	k_r \approx \frac{\sqrt{\ell(\ell+1)}}{r}\left(\frac{N}{\omega}\right),
@@ -282,7 +283,7 @@ This again points against an explanation of macroturbulence based on core-genera
 
 \begin{figure}[ht!]
 \begin{center}
-\includegraphics[width=1.0\columnwidth]{../magnetic_models/work_30Msun/composite.pdf}
+\includegraphics[width=1.0\columnwidth]{figures/composite.pdf}
 \caption{\label{fig:magnetic} The critical radial magnetic field strength needed to reflect internal gravity waves of different $\ell$ and $\nu$ is show as a function of fractional depth for a $30 M_\odot$ stellar model at an age of $4\,\mathrm{Myr}$. The frequency $\nu_{\rm char,MLT}$ is that given by eqn.~\ref{eq:nuchar} but evaluated for the core convection zone instead of the subsurface FeCZ. The frequency $\nu_{\rm char,Obs}$ is a typical value of $3\,\mathrm{d}^{-1}$ for the observations.}
 \end{center}
 \end{figure}
@@ -327,7 +328,7 @@ The amount of radiative damping is expected to change due to the large differenc
 	&K_{\rm rad} (r) = \frac{16 \, \sigma \, T(r)^{3}}{3 \, \rho(r)^{2} \kappa(r) \, c_{p}(r)}.%, \\ \label{eqn:kr}
 \end{align*}
 where $k_{r}$ is the radial wavenumber (eqn.~\ref{eq:kr}) and $\kappa$ is the opacity.
-Compact WR stars have surface temperatures that can exceed $\approx 10^5$K, while OB stars and LBVs have effective temperatures $\approx 10^{4\dot4.7}$K, with LBVs found at the cooler end of this range.  The surface of extended, low-density, YSGs is cooler than $10^4$K.  With different types of core convection (H-burning vs He-burning) and radiative damping rates, it would be surprising if core-generated IGWs in e.g. OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below/at the surface in both OB and WR stars, and with similar velocities and convective turnover times. This seems to strengthen the main thesis of this work,  adding support to a (sub)surface origin of the observed SLF variability.
+Compact WR stars have surface temperatures that can exceed $\approx 10^5$K, while OB stars and LBVs have effective temperatures $\approx 10^{4\dots4.7}$K, with LBVs found at the cooler end of this range.  The surface of extended, low-density, YSGs is cooler than $10^4$K.  With different types of core convection (H-burning vs He-burning) and radiative damping rates, it would be surprising if core-generated IGWs in e.g. OB and WR stars showed up at the surface with similar properties. On the other hand, the FeCZ is present below/at the surface in both OB and WR stars, and with similar velocities and convective turnover times. This seems to strengthen the main thesis of this work,  adding support to a (sub)surface origin of the observed SLF variability.
 
  The discussion is more complicated for LBVs and YSGs, since at lower temperatures other convective regions can become prominent \citep[driven by H and He recombination, see e.g.][]{2018Natur.561..498J}.  \citet{Dorn:2020} disfavor a near-surface origin for the observed SLF variability in YSG, on the ground that the observed timescale do not follow the predicted scaling for granulation \citep{Kallinger:2014}.  However, we believe that the scaling of \citet{Kallinger:2014} is not applicable in the regime explored by \citet{Dorn:2020}. This scaling was derived for a sample of red giants and solar-like stars, which all have temperatures well-below the temperature for the recombination of hydrogen, and it is not directly applicable to earlier
 spectral subtypes. 
@@ -340,7 +341,7 @@ The presence of subsurface convection can simultaneously account for a large var
 \begin{itemize}
 \item {\bf Microturbulence and Macroturbulence} can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015,2015ApJ...813...74J}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence \citep{10.1093/mnras/stt921}. 
 \item {\bf Bright spots}  in early-type stars have been observed  \citep[e.g.][]{Ramiaramanantsoa:2014}, and can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. 
-\item {\bf Discrete absorption components (DACs)} in UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997} can then be caused by the aforementioned bright spots \citep{Cantiello:2011}. 
+\item {\bf Discrete absorption components (DACs)} in UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997} can then be caused by the aforementioned bright spots \citep{Cantiello:2011} and associated prominences \citep{Sudnik:2016}. 
 \item {\bf Line profile variability}   is another ubiquitous phenomena in hot stars \citep{Fullerton:1996}, and can be explained by surface velocity and density perturbations seeded by subsurface convection \citep[e.g.][]{Cantiello:2009,2015ApJ...813...74J}.
 \item {\bf Wind clumping} can also be seeded by these surface density and velocity perturbations, which are amplified by the development of instabilities in the stellar wind \citep[][but see also \citet{Sundqvist:2013}]{Owocki:1988}.
 \item {\bf SLF variability}  can also be caused by the presence of  subsurface convection zones, as discussed in this work.  
@@ -379,21 +380,21 @@ This research was supported in part by the National Science Foundation under Gra
 \section{Software Details}
 \label{sec:software}
 
-Calculations were done with \code{MESA} version 11701.
-The \code{MESA} EOS is a blend of the OPAL \citet{Rogers2002}, SCVH
-\citet{Saumon1995}, PTEH \citet{Pols1995}, HELM
-\citet{Timmes2000}, and PC \citet{Potekhin2010} EOSes.
+Calculations were done with \code{MESA} version 15140.
+The \code{MESA} EOS is a blend of the OPAL \citep{Rogers2002}, SCVH
+\citep{Saumon1995}, FreeEOS \citep{Irwin2004}, HELM \citep{Timmes2000},
+and PC \citep{Potekhin2010} EOSes.
 Radiative opacities are primarily from OPAL \citep{Iglesias1993,
 Iglesias1996}, with low-temperature data from \citet{Ferguson2005}
 and the high-temperature, Compton-scattering dominated regime by
 \citet{Buchler1976}.  Electron conduction opacities are from
 \citet{Cassisi2007}.
-Nuclear reaction rates are a combination of rates from
-NACRE \citep{Angulo1999}, JINA REACLIB \citep{Cyburt2010}, plus
+Nuclear reaction rates are from JINA REACLIB \citep{Cyburt2010} plus
 additional tabulated weak reaction rates \citet{Fuller1985, Oda1994,
-Langanke2000}. Screening is included via the prescription of \citet{Chugunov2007}.
+Langanke2000}.  Screening is included via the prescription of \citet{Chugunov2007}.
 Thermal neutrino loss rates are from \citet{Itoh1996}.
-The inlists, processing scripts, and model output are available at~\url{Zenodo.org}.
+
+The inlists, processing scripts, and model output will be made available at~\url{Zenodo.org}.
 
 \section{Radial Displacement from IGWs}
 \label{appen:xir}
@@ -421,16 +422,16 @@ Y=0.2559 (LMC) and Y=0.2508 (SMC). The metallicity is initialized scaling the st
 
 \begin{figure*}[htp]
   \centering
-    \subfloat{\includegraphics[width=0.48\columnwidth]{../figures/vc_FeCZ_macroturbulence_LMC.pdf}}\hfill
-  \subfloat{\includegraphics[width=0.51\columnwidth]{../figures/vc_FeCZ_turbulentpressure_LMC.pdf}}
+    \subfloat{\includegraphics[width=0.495\columnwidth]{figures/vc_FeCZ_macroturbulence_LMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.5\columnwidth]{figures/vc_FeCZ_turbulentpressure_LMC.pdf}}
  \caption{\label{fig:vconv_LMC} Left: Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram for models with Z=0.006 (LMC). The area of the dot is proportional to the observed macroturbulence. The FeCZ is absent in models with $\loglsun \lesssim 3.2$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at  low luminosity where turbulent pressure is provided by a helium convection zone (HeCZ).} 
  \end{figure*}
  
 
 \begin{figure*}[htp]
   \centering
-    \subfloat{\includegraphics[width=0.5\columnwidth]{../figures/flux_FeCZ_rednoise_LMC.pdf}}\hfill
-  \subfloat{\includegraphics[width=0.49\columnwidth]{../figures/freq_FeCZ_LMC.pdf}}
+    \subfloat{\includegraphics[width=0.5\columnwidth]{figures/flux_FeCZ_rednoise_LMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.49\columnwidth]{figures/freq_FeCZ_LMC.pdf}}
    \caption{  Left panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram  for models with Z=0.006 (LMC). Right panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines.}
     \label{fig:nuchar_fecz_LMC}
 \end{figure*}
@@ -438,16 +439,16 @@ Y=0.2559 (LMC) and Y=0.2508 (SMC). The metallicity is initialized scaling the st
 
 \begin{figure*}[htp]
   \centering
-    \subfloat{\includegraphics[width=0.48\columnwidth]{../figures/vc_FeCZ_macroturbulence_SMC.pdf}}\hfill
-  \subfloat{\includegraphics[width=0.51\columnwidth]{../figures/vc_FeCZ_turbulentpressure_SMC.pdf}}
+    \subfloat{\includegraphics[width=0.48\columnwidth]{figures/vc_FeCZ_macroturbulence_SMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.51\columnwidth]{figures/vc_FeCZ_turbulentpressure_SMC.pdf}}
  \caption{\label{fig:vconv_SMC} Left: Average convective velocities in the FeCZ  as function of the location of stellar models in the spectroscopic H-R Diagram for models with Z=0.002 (SMC). The area of the dot is proportional to the observed macroturbulence. The FeCZ is absent in models with $\loglsun \lesssim 3.2$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at  low luminosity where turbulent pressure is provided by a helium convection zone.} 
  \end{figure*}
  
 
 \begin{figure*}[htp]
   \centering
-    \subfloat{\includegraphics[width=0.5\columnwidth]{../figures/flux_FeCZ_rednoise_SMC.pdf}}\hfill
-  \subfloat{\includegraphics[width=0.49\columnwidth]{../figures/freq_FeCZ_SMC.pdf}}
+    \subfloat{\includegraphics[width=0.5\columnwidth]{figures/flux_FeCZ_rednoise_SMC.pdf}}\hfill
+  \subfloat{\includegraphics[width=0.49\columnwidth]{figures/freq_FeCZ_SMC.pdf}}
    \caption{  Left panel:  Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram  for models with Z=0.002 (SMC). Right panel: Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines.}
     \label{fig:nuchar_fecz_SMC}
 \end{figure*}
