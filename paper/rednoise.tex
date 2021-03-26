@@ -98,6 +98,7 @@ Based on these considerations we suggest that subsurface convection represents a
 We calculated stellar evolution models using the Modules for Experiments in Stellar Astrophysics
 \citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
+{\bf Our models have initial mass ranging from 5 to 120$\mso$ and are non-rotating. Since OB stars are known to be rapidly rotating \citep[e.g.][]{Maeder:2000,Dufton:2013,Ramirez:2013}, we discuss the potential impact of rotation on our results in Section~\ref{sec:rotation}. We also neglect the effect of wind mass-loss. While this process is important for the evolution of stars in the upper part of the Hertzsprung-Russell diagram \citep{Smith:2014}, we don't expect mass-loss to significantly affect the properties of the convective layers studied here.}
 We focused on the structure and convective properties of our models in order to calculate typical frequencies and convective fluxes. 
 Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While the properties of efficient convection zones (e.g. stellar cores) are insensitive to the choice of this parameter, those of inefficient convective regions close to the stellar surface \emph{do} depend on $\alphamlt$ \citep{2015ApJ...813...74J,Cantiello:2019}. In Section~\ref{sec:discussion} we discuss how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
@@ -290,9 +291,49 @@ This again points against an explanation of macroturbulence based on core-genera
 
 
 
+\section{Rotation}\label{sec:rotation}
+{\bf
+
+\subsection{Subsurface Convection}
+The sample of stars discussed here have projected rotational velocities $v\ \sin i$ in the range 7 to 320 $\kms$, suggesting rotation could have an important role on the properties of subsurface convection.
+The effect of rotation is usually measured by the convective Rossby number $R_0 = 1 / ( 2 \, \Omega \, \tau_c)$, where $\Omega$ is the stellar rotational frequency. For  $R_0 > 1$ we expect rotation to have a moderate to negligible impact. 
+On the other hand when the rotational period becomes comparable or shorter than the convective turnover time ($R_0 \le 1$), the properties of convection can be altered substantially \citep[e.g.][]{Stevenson:1979,Augustson:2019}.   
+The typical rotational period of OB stars is about 3 days (assuming an equatorial rotational velocity $v_{\rm eq} \approx 150 \kms$), while the convective turnover timescale in the FeCZ is a few hours (See e.g. Fig.~\ref{nuchar_fecz}). 
+Therefore the $R_0$ in the observed sample is likely in the range $1\dots10$. For these values, the convective velocities as calculated in the 1D MLT approximation are affected only at the few percent level \citep[see e.g. Fig.4 in][]{Cantiello:2009}.
+This said, the latitudinal structure of the FeCZ zone is substantially altered at the highest rotation rates \citep{Maeder:2008} , which could have an impact on the way these regions affect the stellar surface. 
+
+\subsection{Core Convection and IGWs}
+Gravity waves are buoyancy oscillations in a stably stratified fluid where the restoring force is gravity. 
+These waves can be excited by stochastic motions in both the bulk of convective regions and at their interfaces with adjacent radiation zones.  
+%Gravity waves propagate in stably stratified stellar radiation zones,  their restoring force being the buoyancy. 
+In the presence of rotation, gravity waves can be perturbed by the Coriolis acceleration and combine with inertial waves. 
+Since rotation also changes the properties of convection \citep[e.g.][]{Stevenson:1979,Augustson:2019}, it also affects the stochastic excitation of gravity and gravito-inertial waves (GIWs) \citep{Mathis:2014,Augustson:2020}. 
+The main result is that the wave amplitude can be enhanced by rotation \citep{Mathis:2014}. 
+
+A study of the surface amplitude of waves excited by core convection in rotating early-type stars is beyond the scope of this paper. However, we note that it is unlikely that GIWs
+are responsible for the observed SLF variability. This is because the visibility of GIWs depends on the inclination of the stellar rotation axis respect to the observer. 
+Internal waves cannot propagate at the poles for $\omega < 2\Omega$, where $\Omega$ is the stellar rotational frequency  and $\omega$ is the wave frequency. The largest wave flux is expected at low latitudes,
+with the degree of  equatorial confinement proportional to $\Omega$.  
+Assuming that the stars in \citet{Bowman:2020} have spin vectors randomly oriented, some should be observed nearly pole-on.
+Then if the SLF variability was due to GIWs, these objects would show very little power at frequencies less than $2\Omega$. 
+Such a sharp decline in variability at low
+frequencies is not observed in any of the stars, suggesting GIWs are not the culprit \citep{Lecoanet:2020}. 
+
+}
+
+%For the wave excitation problem in the presence of rotation, the most important parameter 
+%controlling departures from the non-rotating case 
+%is the wave's Rossby number $\widetilde{R}_0 = \omega/2\Omega$, where $\Omega$ is the stellar angular frequency  and $\omega$ is the wave frequency.  
+%GIWs have been detected in stars rotating close to their critical rotational velocity, where the effect of the Coriolis acceleration  
+
+%GIWs with frequencies above twice the rotation rate (super-inertial waves, $\widetilde{R}_0 > 1$) are evanescent in stellar convective regions. As a consequence they couple weakly to the Reynolds stresses in the bulk of a convective region. Their stochastic excitation is expected to be subdominant.
+%On the other hand GIWs with frequencies below twice the rotation rate (sub-inertial waves, $\widetilde{R}_0 < 1$) propagate as inertial waves in stellar convection zones. As such, they couple to the turbulent convective flows throughout the convection zone and  their stochastic excitation is more efficient \citep{Augustson:2020}.
 
 
-\section{Discussion}\label{sec:discussion}\label{sec:discussion}
+
+
+
+\section{Discussion}\label{sec:discussion}
 
 The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,Jiang:2017,2018Natur.561..498J}.
 In their calculations of OB stars envelopes including the stellar photosphere,  \citet{2015ApJ...813...74J}  observe turbulent velocities reaching the isothermal sound speed ($\approx 50 \kms$) at the stellar surface, demonstrating that velocity fields of amplitude comparable to the observed macroturbulence are naturally explained by the presence of the FeCZ. 
