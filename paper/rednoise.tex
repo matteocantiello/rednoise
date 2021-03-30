@@ -72,7 +72,7 @@ they can hardly justify the apparent ubiquity of macroturbulence and SLF in
 massive stars \citep{Godart:2017,Simon-Diaz:2017}.}.
 Regardless of its origin, this photometric signal likely carries important information about stellar structure, complementing asteroseismic studies that use well-identified oscillation modes \citep[e.g.][]{Aerts:2019,Aerts_araa:2019,BowmanReview:2020}.
 
-Recently the use of high resolution ground-based spectroscopy for the targets observed by K2 and TESS \citep{Bowman:2020} has allowed precise determination of stellar parameters, including spectroscopic mass, luminosity, and macroturbulence.
+Recently the use of high resolution ground-based spectroscopy for the targets observed by K2 and TESS \citep{Bowman:2020} has allowed precise determination of stellar parameters, including spectroscopic mass, luminosity, and macroturbulence \citep{Burssens:2020}.
 The latter is particularly important if, as seems likely, the mechanism exciting surface turbulent velocities is the same as that which produces the observed SLF variability \citep{Grassitelli:2016,Bowman:2020}.
 
 Here we combine spectroscopic and photometric data to compare the observed properties of the stochastic photometric variability and macroturbulence with predictions from {\bf non-rotating} 1D stellar models. 
@@ -157,15 +157,20 @@ Here we present results for an initial metallicity of Z=0.02, but in Appendix~\r
   \centering
     \subfloat{\includegraphics[width=1\columnwidth]{figures/vc_FeCZ_macroturbulence.pdf}}\hfill
   \subfloat{\includegraphics[width=1.005\columnwidth]{figures/vc_FeCZ_turbulentpressure.pdf}}
- \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence.  The FeCZ is absent in models with $\loglsun \lesssim 2.5$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone (HeCZ).}\label{fig:macroturbulence}
+ \caption{\label{fig:vconv} Left: Average convective velocities in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show observed stars with detected macroturbulent velocity as grey dots. The area of the dot is proportional to the observed macroturbulence \citep[data from][]{Burssens:2020,Bowman:2020}.  The FeCZ is absent in models with $\loglsun \lesssim 2.5$. Right: Same as left, but showing predictions for the maximum of the ratio between turbulent pressure and total pressure in any subsurface convection zone. The FeCZ largely dominates, except for stars at low luminosities where turbulent pressure is provided by a helium convection zone (HeCZ).}\label{fig:macroturbulence}
  \end{figure*}
+
+{\bf Macroturbulence is a measure of  velocity fields with a scale larger than the photons mean free path in the stellar atmosphere. The shape of  spectral lines can be used not only to measure the amplitude of the velocity field, but also to infer some of its directionality.  
+\citet{Simon:2010} points out that the line profiles are fitted better by a radial-tangential velocity function  than a Gaussian one. The radial-tangential function that is used to fit macroturbulence under the assumption of an anisotropic velocity field is completely symmetric in the radial  $v_{\rm r}$ and  tangential  $v_{\rm t}$ components of the velocity field once one integrates over the stellar disc (the problem in completely symmetric under any rotation of the star).
+The claim is that the line profiles are fitted better by the radial-tangential velocity function, compared to an isotropic one, with either $v_{\rm r} \gg v_{\rm t}$ or $v_{\rm r} \ll v_{\rm t}$. } 
+
 
 
 We show the average convective velocity in the FeCZ in Fig.~\ref{fig:vconv}, left panel. Velocities of the order $10 \dots 100\ \kms$ are found across the upper spectroscopic H-R diagram \citep[$\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$;][]{2014A&A...564A..52L}, with a trend of increasing $\vc$ for higher luminosities. Note that, contrary to core convection, the FeCZ is just mildly subsonic, with Mach numbers ranging from 0.01 to 0.3, though these are uncertain by a factor of $\approx 8$ due to a dependence on the uncertain $\alpha_{\rm MLT}$ \citep{Cantiello:2019}. 
 
 In the right panel of the same figure we also show the maximum of the ratio of turbulent pressure to total pressure (P$_{\rm turb} \propto \vc^2$),  which, in agreement with the results of \citet{Grassitelli:2015}, shows a strong correlation with the spectroscopically-derived macroturbulent velocities in massive stars. 
 
-The two quantities in Fig.~\ref{fig:vconv} measure the strength of the inefficient convection.%, and are related to different possible mechanisms for how motions in the FeCZ could lead to surface velocities.
+The two quantities in Fig.~\ref{fig:vconv} measure the strength of the inefficient convection. %, and are related to different possible mechanisms for how motions in the FeCZ could lead to surface velocities.
 If one assumes convective elements conserve their inertia as they reach layers stable against convection \citep[e.g., because they are thermally diffusive, see][]{Cantiello:2009}, then the surface velocities should be proportional to the convective velocity; see the left panel of Fig.~\ref{fig:vconv}.
 Alternatively, one can assume IGWs are excited with pressure perturbations $\delta p \sim P_{\rm turb}\propto \vc^2$, the turbulent pressure of the convection \citep{Press:1981}.
 Using the polarization relations of adiabatic IGWs \citep[e.g.,][]{sutherland_2010}, a wave with pressure perturbation $\delta p$ has an associated horizontal velocity $u_h \sim (\delta p/\rho_0) k_h/\omega$, where $k_h$ is the horizontal wavenumber of the wave and $\omega$ is its frequency.
@@ -186,7 +191,7 @@ We confirm that convective velocities and the ratio of turbulent pressure to tot
   \subfloat{\includegraphics[width=1.0\columnwidth]{figures/freq_FeCZ_data.pdf}}\hfill
     \subfloat{\includegraphics[width=1\columnwidth]{figures/flux_FeCZ_rednoise.pdf}}
   
-   \caption{  Left panel:   Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines. We also show the observed stars with detected stochastic photometric variability as grey dots. The area of the dot is proportional to the observed $\nu_{\rm char}$ from eqn.~\eqref{eq:rednoise}. Right panel: Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.}
+   \caption{  Left panel:   Characteristic frequency $\nu_{\rm char}$ in the FeCZ as a function of the location of stellar models in the spectroscopic H-R Diagram (black contour lines). Evolutionary tracks are shown as grey solid lines. We also show the observed stars with detected stochastic photometric variability as grey dots. The area of the dot is proportional to the observed $\nu_{\rm char}$ from eqn.~\eqref{eq:rednoise} \citep[data from][]{Burssens:2020,Bowman:2020}. Right panel: Ratio of FeCZ convective flux to the total stellar flux in the spectroscopic H-R Diagram ($\mathscr{L} \equiv {\rm T}^4_{\rm eff}/g$). We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.}
     \label{fig:nuchar_fecz}
 \end{figure*}
 
@@ -212,7 +217,7 @@ Overall the turnover timescale and relative flux in the FeCZ correlate very well
       \subfloat{\includegraphics[width=1.03\columnwidth]{figures/freq_core_data_days.pdf}}
       
  
-\caption{ Left panel:  Square root of the ratio between the flux of gravity waves launched by the convective core and $F_0 = 1/2 \rho(r) \,r^3 \omega^2 \sqrt{N(r)^2-\omega^2}$, evaluated at the stellar surface. In the absence of damping, this quantity is expected to be proportional to the relative radial displacement (Appendix~\ref{appen:xir}) and hence to the relative luminosity fluctuations at the surface.  The IGW flux is calculated multiplying the core convective flux by the average convective Mach number in the top pressure scale height of the convective region. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$.
+\caption{ Left panel:  Square root of the ratio between the flux of gravity waves launched by the convective core and $F_0 = 1/2 \rho(r) \,r^3 \omega^2 \sqrt{N(r)^2-\omega^2}$, evaluated at the stellar surface. In the absence of damping, this quantity is expected to be proportional to the relative radial displacement (Appendix~\ref{appen:xir}) and hence to the relative luminosity fluctuations at the surface.  The IGW flux is calculated multiplying the core convective flux by the average convective Mach number in the top pressure scale height of the convective region. We also show the observed stars with detected stochastic, low-frequency photometric variability as grey dots. The area of the dot is proportional to $\alpha_0$ \citep[data from][]{Burssens:2020,Bowman:2020}.
  Right panel: Characteristic frequency $\nu_{\rm char}$ in the convective core as function of the location of stellar models in the spectroscopic H-R diagram. We also show the observed stars with detected photometric variability as grey dots. The area of the dot is proportional to $\nu_{\rm char}$.  }
     \label{fig:nuchar_core}
 \end{figure*}
@@ -230,7 +235,7 @@ Although the detailed physics of wave generation by convection is uncertain, we 
 If the surface variability is due to core convection, one would expect the characteristic frequency and amplitude of the SLF variability to correlate with the properties of the core convection.
 The flux of IGWs excited by turbulent convection at the core boundary is of order F$_{\rm IGW} = {\rm F}_* \macha$ \citep{1990ApJ...363..694G},  where we evaluate the average Mach number $\macha$ using eqn.~\ref{aver} and the local adiabatic sound speed.  We expect the luminosity fluctuations to be proportional to the relative surface radial displacement $\xi_r/R$ produced by these waves at the stellar surface \citep[e.g.][]{Dziembowski:1977,Aerts:2010}.  It can be shown that  $\xi_r/R \propto \sqrt{{\rm F}_{\rm IGW}/ {\rm F}_0} $ (see Appendix~\ref{appen:xir}).  This quantity is presented in Fig.~\ref{fig:nuchar_core} along with the observed amplitudes of SFL variability. 
 
-One important caveat is that this estimate neglects the important role of radiative damping, which is essential in shaping both the amplitude and the shape of the spectrum of waves at the surface \citep[e.g.][]{Lecoanet:2020}.
+One important caveat is that this estimate neglects the important role of radiative damping, which is essential in shaping both the amplitude and the shape of the spectrum of waves at the surface \citep[e.g.][]{Lecoanet:2020}. {\bf Rotation might also be key in setting the amplitude and shape of the surface fluctuations spectrum (See Section~\ref{sec:rotation}).}
 Despite neglecting the important effect of radiative damping, the trend for the relative radial displacement at the surface do show some interesting correlations with the observed trend in SLF variability, though they generally proceed the wrong way, with increasing amplitude towards higher luminosities where we expect IGW to show the smallest effects (left panel in Fig.~\ref{fig:nuchar_core}).  
 
 Next, we focus on the characteristic timescale of waves excited by core convection. 
@@ -295,10 +300,10 @@ This again points against an explanation of macroturbulence based on core-genera
 {\bf
 
 \subsection{Subsurface Convection}
-The sample of stars discussed here have projected rotational velocities $v\ \sin i$ in the range 7 to 320 $\kms$, suggesting rotation could have an important role on the properties of subsurface convection.
+The sample of stars discussed here have projected rotational velocities $v_{\rm eq} \sin i$ in the range 7 to 320 $\kms$, suggesting rotation could have an impact on the properties of subsurface convection.
 The effect of rotation is usually measured by the convective Rossby number $R_0 = 1 / ( 2 \, \Omega \, \tau_c)$, where $\Omega$ is the stellar rotational frequency. For  $R_0 > 1$ we expect rotation to have a moderate to negligible impact. 
 On the other hand when the rotational period becomes comparable or shorter than the convective turnover time ($R_0 \le 1$), the properties of convection can be altered substantially \citep[e.g.][]{Stevenson:1979,Augustson:2019}.   
-The typical rotational period of OB stars is about 3 days (assuming an equatorial rotational velocity $v_{\rm eq} \approx 150 \kms$), while the convective turnover timescale in the FeCZ is a few hours (See e.g. Fig.~\ref{fig:nuchar_fecz}). 
+The typical rotational period of OB stars is about 3 days (assuming a typical equatorial rotational velocity $v_{\rm eq} \approx 150 \kms$), while the convective turnover timescale in the FeCZ is a few hours (See e.g. Fig.~\ref{fig:nuchar_fecz}). 
 Therefore the $R_0$ in the observed sample is likely in the range $1\dots10$. For these values, the convective velocities as calculated in the 1D MLT approximation are affected only at the $\sim 10\%$ level \citep[see e.g. Fig.4 in][]{Cantiello:2009}.
 This said, the latitudinal structure of the FeCZ zone is substantially altered at the highest rotation rates \citep{Maeder:2008}, which could have an impact on the way these regions affect the stellar surface. 
 
@@ -314,8 +319,9 @@ At the same time, in the presence of rotation, gravity waves can be perturbed by
 The stochastic excitation of gravity and GIWs by rotating convective zones was studied by \citet{Mathis:2014} and \citet{Augustson:2020}. 
 The main result is that rotation can enhance the  amplitude of stochastically excited waves \citep{Mathis:2014}. 
 
-A study of the surface amplitude of waves excited by core convection in rotating early-type stars is beyond the scope of this paper. However, we note that it is unlikely that GIWs
-are responsible for the observed SLF variability. This is because the visibility of GIWs depends on the inclination of the stellar rotation axis respect to the observer. 
+A study of the surface amplitude of waves excited by core convection in rotating early-type stars is beyond the scope of this paper. 
+The work of \citet{Neiner:2020} shows that in some rapidly rotating stars, stochastically excited GIWs from the core could explain part of the observed low-frequency variability. 
+However, we note that it is unlikely that core-generated GIWs are responsible for the ubiquitous SLF variability. This is because the visibility of GIWs depends on the inclination of the stellar rotation axis respect to the observer. 
 Internal waves cannot propagate at the poles for $\omega < 2\Omega$, where $\Omega$ is the stellar rotational frequency  and $\omega$ is the wave frequency. The largest wave flux is expected at low latitudes,
 with the degree of  equatorial confinement proportional to $\Omega$.  
 Assuming that the stars in \citet{Bowman:2020} have spin vectors randomly oriented, some should be observed nearly pole-on.
