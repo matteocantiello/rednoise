@@ -319,9 +319,8 @@ In the stellar cores of intermediate and massive stars $R_0$ is very likely $<1$
 At the same time, in the presence of rotation, gravity waves can be perturbed by the Coriolis acceleration and combine with inertial waves (gravito-inertial waves, GIWs). 
 The stochastic excitation of gravity and GIWs by rotating convective zones was studied by \citet{Mathis:2014} and \citet{Augustson:2020}. 
 The main result is that rotation can enhance the  amplitude of stochastically excited waves \citep{Mathis:2014}. 
-
-A study of the surface amplitude of waves excited by core convection in rotating early-type stars is beyond the scope of this paper. 
 The work of \citet{Neiner:2020} shows that in some rapidly rotating stars, stochastically excited GIWs from the core could explain part of the observed low-frequency variability. 
+
 However, we note that it is unlikely that core-generated GIWs are responsible for the ubiquitous SLF variability. This is because the visibility of GIWs depends on the inclination of the stellar rotation axis respect to the observer. 
 Internal waves cannot propagate at the poles for $\omega < 2\Omega$, where $\Omega$ is the stellar rotational frequency  and $\omega$ is the wave frequency. The largest wave flux is expected at low latitudes,
 with the degree of  equatorial confinement proportional to $\Omega$.  
@@ -329,6 +328,8 @@ Assuming that the stars in \citet{Bowman:2020} have spin vectors randomly orient
 Then if the SLF variability was due to GIWs, these objects would show very little power at frequencies less than $2\Omega$. 
 Such a sharp decline in variability at low
 frequencies is not observed in any of the stars, suggesting GIWs are not the culprit \citep{Lecoanet:2020}. 
+A detailed study of the surface amplitude of waves excited by core convection in rotating early-type stars is beyond the scope of this paper. 
+
 
 }
 
@@ -345,13 +346,35 @@ frequencies is not observed in any of the stars, suggesting GIWs are not the cul
 
 
 \section{Discussion}\label{sec:discussion}
-
 The presence of a subsurface convection zone can result in variability of photospheric properties via a number of processes, including wave excitation \citep{Cantiello:2009,Grassitelli:2015} and magnetic buoyancy \citep{Cantiello:2011}. Multi dimensional simulations including radiation have been performed in a restricted range of the parameter space, and show that the full turbulent manifestation of these convective regions extends up to the stellar surface \citep{2015ApJ...813...74J,Jiang:2017,2018Natur.561..498J}.
 In their calculations of OB stars envelopes including the stellar photosphere,  \citet{2015ApJ...813...74J}  observe turbulent velocities reaching the isothermal sound speed ($\approx 50 \kms$) at the stellar surface, demonstrating that velocity fields of amplitude comparable to the observed macroturbulence are naturally explained by the presence of the FeCZ. 
 
  Therefore it could be that the observed SLF variability and macroturbulence simply represent the direct manifestation of turbulent, radiation-dominated convection at the stellar surface.  
 The simplified MLT treatment in our one dimensional calculations is unable to capture the complex phenomenology of these layers, but the fact that it can reproduce both the  timescales and the trends in amplitude of the observed SLF variabilty is compelling. It calls for extending the radiation hydrodynamics simulations to cover the parameter space of the TESS observations, in order to unravel the precise mechanism connecting subsurface convection zones to the observed surface variability. 
 
+{\bf 
+\subsection{Perturbation Scale}
+Regardless of the specific coupling mechanism, a good proxy for the typical scale of surface perturbations is provided by the size of convective cells in the FeCZ. 
+This in turn is quantified by the average pressure scale height in the subsurface convection zone. Note that the pressure scale height only decreases slightly moving from the FeCZ to the stellar surface. 
+In general one expects that velocity perturbations induced by the FeCZ should have scales that are  comparable or slightly larger than the line forming region, so  macroturbulence can be explained via this mechanism.
+Rotation could also be responsible for organizing the convective flow on slightly larger scales (see Sec.~\ref{sec:rotation}).
+Since convection also produces motions at smaller scales, the FeCZ could also be responsible for the excitation of surface microturbulence \citep{Cantiello:2009}. 
+
+We show in Fig.~\ref{fig:cells} the number of convective cells $N_{\rm CC} = (R_\star/\overline{H}_{\rm P})^2$,  calculated using the stellar radius  and the average pressure scale height in the FeCZ. 
+We expect approximately $10^2...10^4$ convective cells in the FeCZ of OB stars.  Therefore the order of the perturbation $\ell \propto \sqrt{N_{\rm CC}}\sim 10...100$. Note that this is different than for a pulsation mode, where for such high degree any integrated surface perturbation becomes practically negligible due to cancellation effects. Here the perturbations across the disk are randomly correlated, and can be visible in the integrated light even for large values of $\ell$.
+Similarly to granulation, we expect the amplitude of the integrated surface perturbations to scale as  $1/\sqrt{N_{\rm CC}}$.
+}   
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=1.0\columnwidth]{figures/ncells_fecz.pdf}
+\caption{\label{fig:cells} Number of convective cells in the FeCZ. This was calculated using the average pressure scale height in the FeCZ.}
+\end{center}
+\end{figure}
+
+
+
+\subsection{Metallicity}
 If the FeCZ is responsible for surface macroturbulence and SLF variability, then these phenomena should be affected by the stellar metallicity.  On the other hand we do not expect  a significant metallicity dependence in
 the context of a core-convection origin.
 The results of \citep{Bowman:2019} show that SLF variability is also observed in low-metallicity, LMC stars.  
@@ -399,14 +422,6 @@ The presence of subsurface convection can simultaneously account for a large var
 \item {\bf SLF variability}  can also be caused by the presence of  subsurface convection zones, as discussed in this work.  
 \end{itemize}
 An economical hypothesis emerges: the presence of subsurface convection, and in particular of the FeCZ, could be the common underlying physical cause for the appearance of turbulence, magnetic spots, SLF variability, as well spectroscopic variability in early-type stars. 
-
-%MC: Keeping old version of this section in case we won't revert from the current bullet points list.
-%First we have microturbulence and macroturbulence, and both can be accounted for by velocity fields excited by the underlying FeCZ subsurface convection zone \citep{Cantiello:2009,Grassitelli:2015,2015ApJ...813...74J}. The only stars with no macroturbulence appear to have magnetic fields strong enough to shut off convection in the FeCZ, while stars with slightly lower surface magnetic fields show normal values of macroturbulence \citep{10.1093/mnras/stt921}.  
-%Then we have the observation of  bright spots in early-type stars \citep[e.g.][]{Ramiaramanantsoa:2014}, which can be explained with the presence of magnetic spots rising from subsurface convective layers \citep{Cantiello:2011,Cantiello:2019}. These photospheric magnetic spots can then be responsible for another ubiquitous phenomena in early-type stars, the presence of discrete absorption components (DACs) in their UV spectra \citep[e.g.][]{Howarth:1989,Cranmer:1996,Fullerton:1997,Kaper:1997}. 
-%Overall subsurface convection is expected to drive velocity and density perturbations at the stellar surface \citep[e.g.][]{Cantiello:2009,2015ApJ...813...74J}. These perturbations could explain the ubiquitous line profile variability in hot stars \citep{Fullerton:1996} and provide a seed for the rapid development of wind instabilities that lead to wind clumping \citep{Owocki:1988}, but see also \citet{Sundqvist:2013}.
-%Finally, these surface velocity and density perturbations  would necessarily induce photometric variability, and we have shown here that the observed SLF variability detected in OB stars correlates very well with the presence and properties of the FeCZ. 
-
-%An economical hypothesis emerges: the presence of subsurface convection, and in particular of the FeCZ, could be the common underlying physical cause for the appearance of turbulence, magnetic spots, SLF variability, as well spectroscopic variability in early-type stars. 
 
 
 \section{Conclusions}
