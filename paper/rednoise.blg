@@ -1,49 +1,59 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: rednoise.aux
 The style file: aasjournal.bst
 Database file #1: refs.bib
+Repeated entry---line 974 of file refs.bib
+ : @article{Godart:2017
+ :                     ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2725 of file refs.bib
+ :       
+ :       @ARTICLE{2016PhRvL.116f1102A,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in Aerts:2010
-You've used 82 entries,
+You've used 98 entries,
             3168 wiz_defined-function locations,
-            1303 strings with 26566 characters,
-and the built_in function-call counts, 39723 in all, are:
-= -- 3244
-> -- 3197
-< -- 26
-+ -- 1075
-- -- 1174
-* -- 3706
-:= -- 7350
-add.period$ -- 85
-call.type$ -- 82
-change.case$ -- 499
-chr.to.int$ -- 79
-cite$ -- 83
-duplicate$ -- 1380
-empty$ -- 2253
-format.name$ -- 1282
-if$ -- 7933
+            1427 strings with 49279 characters,
+and the built_in function-call counts, 59521 in all, are:
+= -- 3811
+> -- 6671
+< -- 34
++ -- 2230
+- -- 2338
+* -- 6306
+:= -- 11609
+add.period$ -- 102
+call.type$ -- 98
+change.case$ -- 578
+chr.to.int$ -- 95
+cite$ -- 99
+duplicate$ -- 1641
+empty$ -- 2693
+format.name$ -- 2473
+if$ -- 11314
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 82
-newline$ -- 257
-num.names$ -- 328
-pop$ -- 541
+missing$ -- 97
+newline$ -- 306
+num.names$ -- 392
+pop$ -- 619
 preamble$ -- 1
-purify$ -- 499
+purify$ -- 578
 quote$ -- 0
-skip$ -- 1150
+skip$ -- 1380
 stack$ -- 0
-substring$ -- 1461
+substring$ -- 1725
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 735
+type$ -- 876
 warning$ -- 1
-while$ -- 308
+while$ -- 366
 width$ -- 0
-write$ -- 902
-(There was 1 warning)
+write$ -- 1078
+(There were 2 error messages)
