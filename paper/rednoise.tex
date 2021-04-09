@@ -98,7 +98,7 @@ Based on these considerations we suggest that subsurface convection represents a
 We calculated stellar evolution models using the Modules for Experiments in Stellar Astrophysics
 \citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019} software instrument.
 Details on the microphysics inputs to this software instrument are given in Appendix~\ref{sec:software}. 
-{\bf Our models have initial mass ranging from 5 to 120$\mso$ and are non-rotating. Since OB stars are known to be rapidly rotating \citep[e.g.][]{Maeder:2000,Dufton:2013,Ramirez:2013}, we discuss the potential impact of rotation on our results in Section~\ref{sec:rotation}. We also neglect the effect of wind mass-loss. While this process is important for the evolution of stars in the upper part of the Hertzsprung-Russell diagram \citep{Smith:2014}, we don't expect mass-loss to significantly affect the properties of the convective layers studied here.}
+{\bf Our models have initial mass ranging from 5 to 120$\mso$ and are non-rotating. Since OB stars are known to be rapidly rotating \citep[e.g.][]{Maeder:2000,Dufton:2013,Ramirez:2013}, we discuss the potential impact of rotation on our results in Section~\ref{sec:rotation}. We also neglect the effect of wind mass-loss. While this process is important for the evolution of massive stars \citep{Smith:2014}, the conditions in  subsurface convective zones and the properties of convection depend almost exclusively from the location in the Hertzsprung-Russell diagram.  This is true as long as the outer layers composition is not substantially altered.}
 We focused on the structure and convective properties of our models in order to calculate typical frequencies and convective fluxes. 
 Convection is calculated in the framework of the Mixing Length Theory \citep[][MLT hereafter]{1958ZA.....46..108B}, and we adopted $\alphamlt = 1.6$. While the properties of efficient convection zones (e.g. stellar cores) are insensitive to the choice of this parameter, those of inefficient convective regions close to the stellar surface \emph{do} depend on $\alphamlt$ \citep{2015ApJ...813...74J,Cantiello:2019}. In Section~\ref{sec:discussion} we discuss how uncertainties in the choice of the $\alphamlt$  parameter affect our results. 
 
@@ -484,8 +484,9 @@ Nuclear reaction rates are from JINA REACLIB \citep{Cyburt2010} plus
 additional tabulated weak reaction rates \citet{Fuller1985, Oda1994,
 Langanke2000}.  Screening is included via the prescription of \citet{Chugunov2007}.
 Thermal neutrino loss rates are from \citet{Itoh1996}.
+The inlists, processing scripts, and model output are available as a ZENODO repository: \dataset[https://zenodo.org/record/4676427]{\doi{10.5281/zenodo.4676427}}.
 
-The inlists, processing scripts, and model output will be made available at~\url{Zenodo.org}.
+% be made available at~\url{Zenodo.org}.
 
 \section{Radial Displacement from IGWs}
 \label{appen:xir}
