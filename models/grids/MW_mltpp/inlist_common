@@ -1,0 +1,27 @@
+
+! Milky Way metallicity: Z = 0.014 (Asplund+09)
+! Differential test: identical to MW/inlist_common but with MLT++ enabled
+! (all other grids keep the default okay_to_reduce_gradT_excess = .false.)
+
+&star_job
+
+/ ! end of star_job namelist
+
+&eos
+
+/ ! end of eos namelist
+
+&kap
+      Zbase = 0.014
+/ ! end of kap namelist
+
+&controls
+      initial_z = 0.014
+
+      ! MLT++ (Paxton+2013): reduce superadiabatic gradT excess in radiation-dominated envelopes
+      okay_to_reduce_gradT_excess = .true.
+/ ! end of controls namelist
+
+&pgstar
+
+/ ! end of pgstar namelist

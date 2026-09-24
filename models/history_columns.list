@@ -43,12 +43,12 @@
       star_age ! elapsed simulated time in years since the start of the run
       star_mass ! in Msun units
       log_abs_mdot ! log10(abs(star_mdot)) (in msolar per year)
-      !log_rotational_mdot_boost
+      log_rotational_mdot_boost
       !star_mdot ! d(star_mass)/dt (in msolar per year)
       !time_step ! timestep in years since previous model
       log_dt ! log10 time_step
       num_zones ! number of zones in the model
-      !log_total_angular_momentum
+      log_total_angular_momentum
 
 
 
@@ -102,32 +102,34 @@
    ! information about abundance transitions
 
       he_core_mass
-      c_core_mass
-      o_core_mass
-      si_core_mass
+      co_core_mass
+      !c_core_mass  ! removed in 26.04.1
+      !o_core_mass  ! removed in 26.04.1
+      !si_core_mass ! removed in 26.04.1
       fe_core_mass
+      envelope_mass ! = star_mass - he_core_mass (Msun)
 
    ! info about locations where optical depth is 10 or 100
 
-      tau10_mass ! mass in solar units where optical depth = 10
-      tau10_radius ! radius in solar units where optical depth = 10
-      !tau10_lgP ! estimate for log10(P) at tau = 10
-      ! tau10_lgT ! estimate for log10(T) at tau = 10
-      !tau10_lgRho ! estimate for log10(density) at tau = 10
-      !tau10_L ! estimate for L/Lsun at tau = 10
+      !tau10_mass  ! removed in 26.04.1
+      !tau10_radius ! removed in 26.04.1
+      !tau10_lgP
+      !tau10_lgT
+      !tau10_lgRho
+      !tau10_L
 
-      tau100_mass ! location in solar units where optical depth = 100
-      tau100_radius ! location in solar units where optical depth = 100
-      !tau100_lgP ! estimates for values at tau = 100
-      tau100_lgT
+      !tau100_mass ! removed in 26.04.1
+      !tau100_radius ! removed in 26.04.1
+      !tau100_lgP
+      !tau100_lgT ! removed in 26.04.1
       !tau100_lgRho
       !tau100_L
 
    ! timescales
 
-      !dynamic_timescale ! dynamic timescale (seconds) -- estimated by 2*pi*sqrt(r^3/(G*m))
-      ! kh_timescale ! kelvin-helmholtz timescale (years)
-      !nuc_timescale ! nuclear timescale (years) -- proportional to mass divided by luminosity
+      dynamic_timescale ! dynamic timescale (seconds) -- estimated by 2*pi*sqrt(r^3/(G*m))
+      kh_timescale ! kelvin-helmholtz timescale (years)
+      nuc_timescale ! nuclear timescale (years) -- proportional to mass divided by luminosity
 
    ! integrated power from hydrogen and helium burning
 
@@ -142,15 +144,19 @@
       log_Teff ! log10 effective temperature
       log_R ! log10 radius in Rsun units
       log_g ! log10 gravity
+      photosphere_m ! mass coordinate of the photosphere (Msun)
+      photosphere_csound ! sound speed at the photosphere (cm/s)
 
-     ! surf_avg_j_rot
-     ! surf_avg_omega
-     ! surf_avg_omega_crit
-     ! surf_avg_omega_div_omega_crit
-     ! surf_avg_v_rot ! km/sec rotational velocity at equator
-     ! surf_avg_v_crit ! critical rotational velocity at equator
-     ! surf_avg_v_div_v_crit
-     ! surf_avg_L_div_Ledd
+      surf_avg_j_rot
+      surf_avg_omega
+      surf_avg_omega_crit
+      surf_avg_omega_div_omega_crit
+      surf_avg_v_rot ! km/sec rotational velocity at equator
+      surf_avg_v_crit ! critical rotational velocity at equator
+      surf_avg_v_div_v_crit
+      surf_avg_Lrad_div_Ledd
+      log_L_div_Ledd ! log10(L/L_Eddington)
+      max_L_rad_div_Ledd ! peak Lrad/Ledd anywhere in the star
      ! surf_avg_logT
      ! surf_avg_logRho
      ! surf_avg_opacity
@@ -164,8 +170,8 @@
       log_center_P ! pressure
       !center_degeneracy ! the electron chemical potential in units of k*T
       !center_gamma ! plasma interaction parameter at the centermost meshpoint.
-     ! center_omega
-     ! center_omega_div_omega_crit
+      center_omega
+      center_omega_div_omega_crit
       center_ye
       center_entropy ! in kerg per baryon
 
@@ -174,7 +180,7 @@
       surface he4
       surface c12
       surface n14
-     ! surface o16
+      surface o16
 
      ! surface c13
      ! surface o17
@@ -189,7 +195,7 @@
       center he4
       center c12
       center n14
-     ! center o16
+      center o16
     !  center ne20
      ! center si28
      ! center s32
@@ -288,5 +294,6 @@
       !v_div_csound_surf ! velocity divided by sound speed at outermost grid point
       !v_surf_div_v_kh ! v_surf/(photosphere_r/kh_timescale)
       !surface_accel_div_grav ! (v - v_old)/dt divided by GM/R^2 at outermost grid point
+      min_Pgas_div_P ! minimum Pgas/Ptotal in the star
       num_retries ! total during the run
-      num_backups ! total during the run
+      !num_backups ! removed in 26.04.1

@@ -1,0 +1,85 @@
+
+
+&star_job
+
+      history_columns_file = '../../../history_columns.list'
+      profile_columns_file = '../../../profile_columns.list'
+
+      pgstar_flag = .false.
+
+      ! Asplund+09 photospheric metal fractions (v2, 2026-09-24; v1 used the default GS98)
+      initial_zfracs = 6
+
+/ ! end of star_job namelist
+
+&eos
+
+/ ! end of eos namelist
+
+&kap
+      use_Type2_opacities = .true.
+      ! Asplund+09 opacity tables, consistent with initial_zfracs = 6 (v1 used gs98)
+      kap_file_prefix = 'a09'
+      kap_CO_prefix = 'a09_co'
+      kap_lowT_prefix = 'lowT_fa05_a09p'
+      ! Zbase is set in the per-metallicity inlist_common
+/ ! end of kap namelist
+
+&controls
+
+      ! PHYSICS
+      mixing_length_alpha = 1.6
+
+      ! WINDS — Dutch scheme (Vink+01 hot / de Jager+88 cool)
+      hot_wind_scheme = 'Dutch'
+      cool_wind_RGB_scheme = 'Dutch'
+      cool_wind_AGB_scheme = 'Dutch'
+      Dutch_scaling_factor = 1.0
+      Dutch_wind_lowT_scheme = 'de Jager'
+
+      ! OUTPUT
+      profile_interval = 10
+      history_interval = 1
+      ! Triggered profiles (template_v2 run_star_extras; restart-safe)
+      x_ctrl(5) = 0.05d0   ! one profile every Delta X_c = 0.05 on the MS
+      x_ctrl(6) = 0.05d0   ! post-MS: one profile every 0.05 dex in log Teff
+      ! Fe-bump mesh functions (x_ctrl(1:4), use_other_mesh_functions) left OFF: no effect in test T1c
+
+      ! OVERSHOOTING (array-based syntax for MESA >= 23.05.1)
+      ! Core overshooting (all burning types)
+      overshoot_scheme(1) = 'exponential'
+      overshoot_zone_type(1) = 'any'
+      overshoot_zone_loc(1) = 'core'
+      overshoot_bdy_loc(1) = 'top'
+      overshoot_f(1) = 0.014
+      overshoot_f0(1) = 0.005
+
+      ! Shell overshooting (all burning types)
+      overshoot_scheme(2) = 'exponential'
+      overshoot_zone_type(2) = 'any'
+      overshoot_zone_loc(2) = 'shell'
+      overshoot_bdy_loc(2) = 'top'
+      overshoot_f(2) = 0.014
+      overshoot_f0(2) = 0.005
+
+      ! RESOLUTION
+      mesh_delta_coeff = 0.3
+
+      ! GOLD TOLERANCES
+      use_gold_tolerances = .true.
+      delta_lg_XH_cntr_limit = 0.01
+      varcontrol_target = 1d-4
+      min_timestep_limit = 1d-8   ! was 1d-1 (2026-09-23): 1d-1 aborted converging models, e.g. MW M120 pre-MS
+
+      ! Better resolution of the Henyey hook
+      delta_lg_XH_cntr_max = -2
+      ! Limit on magnitude of relative change at any grid point
+      delta_lgTeff_limit = 0.005
+      delta_lgTeff_hard_limit = 0.005
+      delta_lgL_limit = 0.005
+
+/ ! end of controls namelist
+
+&pgstar
+
+/ ! end of pgstar namelist
