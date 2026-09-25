@@ -1,0 +1,6 @@
+zone,n_on_grid,n_zone_present,n_zone_absent,spearman,median_log_ratio,spearman_hot,spearman_cool,n_cool
+FeCZ,792,544,248,0.784,-0.002,0.778,0.436,227
+HeII,788,604,184,-0.307,1.355,0.415,-0.284,273
+HeI,793,50,743,-0.224,4.230,,-0.561,36
+HI,790,374,416,0.335,-0.441,,0.335,374
+MAX,794,771,23,0.584,-0.354,0.789,0.423,408

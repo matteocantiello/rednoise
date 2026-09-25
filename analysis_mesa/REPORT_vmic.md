@@ -24,3 +24,30 @@ Sample: 443 stars with log T_eff > 4.0 (69 pulsating); 27 with v_mic = 0 are exc
 - The agreement in magnitude with MLT v_c,max at log ℒ 3.2–3.8, and its failure above, mirror the macroturbulence result: MLT
   velocities describe the photospheric field where the Fe zone is sub-Eddington and weakly turbulent, not near Γ_Fe ≈ 1
   (REPORT_regime.md).
+
+## Update 2026-09-25 evening: the full sample on the sHRD, and every subsurface zone
+*Code: `make_fig_vmic_hrd.py` → `figures_v2/fig_vmic_shrd.png`, `figures_v2/fig_vmic_zones.png`, `data_obs/vmic_zones.csv`.
+All 1823 Markova+2025 stars (1424 non-pulsating, 366 pulsating, 33 with v_mic = 0). 1380 are cooler than 10 kK and many
+lie below the model grid (log ℒ < 2.3, below 5 M☉). The zone comparison uses the ~790 stars on the MW v2 grid (ω = 0, MS +
+post-MS), with each zone's v_c,max interpolated between tracks and set to 0 where the zone is absent.*
+
+| model zone | stars with the zone | Spearman ρ | median log(v_mic / v_c,max) | ρ hot (> 20 kK) | ρ cool (< 10 kK) |
+|---|---|---|---|---|---|
+| **Fe bump (FeCZ)** | 544 | **+0.78** | **0.00** | +0.78 | +0.44 |
+| He II | 604 | −0.31 | +1.35 | +0.42 | −0.28 |
+| He I | 50 | −0.22 | +4.2 (zone negligible) | — | −0.56 |
+| H I | 374 | +0.34 | −0.44 | — | +0.34 |
+| largest of all zones | 771 | +0.58 | −0.35 | +0.79 | +0.42 |
+
+- **Where a star has an FeCZ, v_mic equals the model FeCZ convective velocity on average, with no normalisation** (median log
+  ratio 0.00, ρ = +0.78 over 544 stars). This is the strongest model–data match in the project. The earlier profile test
+  (above) found the model too high at the very top; that remains true for the most luminous O stars, where v_c,max reaches 50–100 km/s
+  and v_mic saturates at ~15–20 km/s.
+- He II and He I zones are far too weak in MLT (≲ 1 km/s and ≲ 10⁻³ km/s) to set v_mic. Their anticorrelation only
+  reflects where in the HRD they exist.
+- For the cool supergiants (< 10 kK) the H I recombination zone is vigorous in the models (5–15 km/s), but v_mic there is
+  only 1–7 km/s (median −0.44 dex) and weakly correlated (ρ = +0.34). The H I panel has two clumps. At v_mic ≈ 3–7 km/s there are
+  251 stars at log T_eff ≈ 3.77 and model v_c ≈ 12 km/s, 75% of them pulsators (table E2). At v_mic ≈ 1–2.5 km/s there are 89
+  cooler, non-pulsating stars (log T_eff ≈ 3.64, 1% pulsators) with model v_c ≈ 4 km/s.
+- Below log ℒ ≈ 2.5 (outside the grid, and without an FeCZ at MW composition) v_mic falls to ~1 km/s, and to ≲ 0.5 km/s in
+  the coolest dwarfs.

@@ -61,14 +61,39 @@ FeCZ recipes (blue, orange) follow the data; core waves (green) do not.*
   With the new homogeneous data (Pedersen & Bildsten 2025) that break disappears. It was created by mixing in LMC stars
   measured on a different scale. Galactic amplitudes rise smoothly with luminosity, which the models also predict.
   (`REPORT_pb25.md`)
-- **Microturbulence behaves like a weaker macroturbulence.** It rises smoothly with ℒ, has no threshold, matches the model
-  FeCZ velocity in the middle of the range, and shares star-to-star fluctuations with v_macro. (`REPORT_vmic.md`)
+- **Microturbulence behaves like a weaker macroturbulence.** It rises smoothly with ℒ, has no threshold, and shares
+  star-to-star fluctuations with v_macro. Where the models have an FeCZ, v_mic equals the model FeCZ convective velocity on
+  average (details below). (`REPORT_vmic.md`)
 - **Rotation is not a strong lever:** giving each star its own rotation does not improve the fits. (`REPORT_rotation_Z.md`)
 - **Magnetic stars are not quieter.** Magnetic OB stars have red noise at least as strong as normal stars at the same
   position. Too few have fields above the value that should suppress the FeCZ to make this a sharp test. (`REPORT_magnetic.md`)
 
-![Microturbulence](analysis_mesa/figures_v2/fig_vmic.png)
-*Microturbulence (blue) vs macroturbulence (orange) and the model FeCZ velocity (dashed), and the v_mic–v_macro correlation.*
+#### Microturbulence in more detail
+Microturbulence (Markova et al. 2025) is our largest new dataset: 1823 stars, from O stars down to cool dwarfs.
+
+![Microturbulence on the sHRD](analysis_mesa/figures_v2/fig_vmic_shrd.png)
+*Microturbulence on the spectroscopic HR diagram (colour = v_mic). The blue lines are the model main sequence (stars ≥ 5
+M☉); the black and brown lines enclose where the models have an iron-bump (FeCZ) and a hydrogen convection zone. v_mic is
+largest (10–20 km/s) in the luminous hot stars, where the FeCZ is strongest, and falls to ~1 km/s in the low-luminosity
+stars.*
+
+We then compared v_mic with every subsurface convection zone in the models, not just the FeCZ:
+
+![Microturbulence vs all convection zones](analysis_mesa/figures_v2/fig_vmic_zones.png)
+*Top: the model convective velocity of each near-surface convection zone (iron bump, He II, He I, H I, and the largest of
+them), with grey where the zone is absent; the stars on the same colour scale. Bottom: v_mic against the model velocity, star
+by star (colour = the star's temperature); dashed line = equality.*
+
+- **The iron-bump zone matches v_mic remarkably well:** for the 544 stars where the models have an FeCZ, v_mic equals the
+  model's convective velocity on average, with no fudge factor (median ratio 1.0, rank correlation 0.78). It overshoots
+  only in the most luminous O stars.
+- The helium zones are far too weak in the models to matter.
+- In the cool supergiants the hydrogen zone is vigorous in the models (5–15 km/s), but v_mic there is lower (1–7 km/s) and
+  only weakly related to it.
+
+![Microturbulence profiles](analysis_mesa/figures_v2/fig_vmic.png)
+*Microturbulence (blue) vs macroturbulence (orange) and the model FeCZ velocity (dashed) against luminosity for hot stars,
+and the v_mic–v_macro correlation (right).*
 
 ### 3.3 Metallicity: the key test, and what the new models say
 Lower metallicity pushes the FeCZ to higher luminosity. The new models quantify how far: the FeCZ first appears at
@@ -126,8 +151,9 @@ like.*
 
 ## 4. The bottom line so far
 
-1. **In the Milky Way the FeCZ picture works:** it gets the onset, the trends with luminosity and age, the link between
-   brightness noise and line broadening, and microturbulence right. Core IGWs don't.
+1. **In the Milky Way the FeCZ picture works:** it gets the onset, the trends with luminosity and age, and the link between
+   brightness noise and line broadening right. For microturbulence it even gets the absolute velocity right, star by star.
+   Core IGWs don't.
 2. **What it doesn't get right:** the saturation of macroturbulence in the most luminous stars. Probably a limit of 1D
    convection theory, since 3D simulations point the same way.
 3. **Metallicity is the decisive test, and it is now partly possible.** The LMC agrees with the models. The SMC samples mostly
