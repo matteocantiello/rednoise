@@ -1,0 +1,59 @@
+observed: primary 196, alpha0 OB 222, vmac hot 579
+primary domain: logL 2.75-4.21, logT 4.23-4.61, MS log M 1.01-1.70
+
+(1) ONSET: median over MS models with log Teff > 4.3, log L_spec where the median first exceeds
+ Z   w  L_first_FeCZ  L_v1  L_v3  L_v10  L_F1e3  L_F1e2  L_F1e1
+MW 0.0         2.575 2.725 3.075  3.575   2.875   3.575   4.075
+MW 0.2         2.575 2.725 3.075  3.575   2.875   3.525   4.125
+MW 0.4         2.575 2.675 3.025  3.575   2.825   3.525   4.125
+MW 0.6         2.525 2.625 2.975  3.525   2.775   3.525   4.125
+
+(2) SATURATION (hot MS models, L_spec+Teff basis): d log Q / d log L_spec
+  w=0.0 log_v     below +1.40 [+1.37,+1.44]  above +1.96 [+1.79,+2.12]
+  w=0.0 log_F     below +3.09 [+2.99,+3.18]  above +3.18 [+2.76,+3.56]
+  w=0.0 log_mach  below +1.20 [+1.16,+1.23]  above +0.87 [+0.73,+1.00]
+  w=0.2 log_v     below +1.40 [+1.36,+1.44]  above +2.13 [+2.01,+2.32]
+  w=0.2 log_F     below +3.07 [+2.98,+3.17]  above +3.57 [+3.39,+3.89]
+  w=0.2 log_mach  below +1.19 [+1.16,+1.22]  above +0.96 [+0.89,+1.06]
+  w=0.4 log_v     below +1.39 [+1.34,+1.43]  above +2.15 [+2.01,+2.24]
+  w=0.4 log_F     below +3.03 [+2.90,+3.13]  above +3.66 [+3.41,+3.87]
+  w=0.4 log_mach  below +1.17 [+1.14,+1.20]  above +0.93 [+0.86,+1.04]
+  observed v_macro: below +0.81, above +0.29 (hot IACOB, two-hinge fit)
+
+(3) SENSITIVITY RATIOS  d log(F_c/F) / d log v_c  (model)  vs  d log alpha0 / d log v_macro (observed)
+     axis  obs_ratio  obs_ratio_lo  obs_ratio_hi  w0.0_dlogF  w0.0_dlogv  w0.0_dlogrho  w0.0_ratio  w0.0_ratio_lo  w0.0_ratio_hi  w0.0_naive_ratio  w0.0_beta_alpha  w0.0_beta_v  w0.2_ratio  w0.4_ratio
+logL_spec   5.309278      4.914089      5.773196    2.846496    1.355768     -1.159851    2.099545       2.030433       2.191534          2.144506         0.542773     0.214639    2.152147    2.164474
+      tau   6.367647      4.881620      8.617117    2.312814    0.747043     -0.375926    3.095959       2.999960       3.187436          2.496781         0.748871     0.364102    3.098138    3.063766
+    log M   2.190713      1.755134      2.662587    1.770957    1.652397     -1.904312    1.071750       0.815838       1.268668          1.847546         0.745924     0.364924    1.073940    0.893374
+
+(5) EVOLUTION at fixed mass (MW w0.0, complete MS, log M in observed range):
+  log_v    d/dtau +0.75 [+0.74,+0.76]  d/dlogM +1.65   (obs vmac: tau +0.27, logM +0.60)
+  log_F    d/dtau +2.31 [+2.28,+2.34]  d/dlogM +1.77   (obs alpha0: tau +1.73, logM +1.32)
+  log_nuc  d/dtau -0.18 [-0.22,-0.14]  d/dlogM +0.37   (obs nuchar: tau -0.33)
+
+(4) nu_char(GP) vs nu_c(model FeCZ) on the trustworthy GP cells covered by models
+  w        region  n_cells  median_offset_dex      p16      p84  offset_dlogL  offset_dlogT  model_dlogL  model_dlogT  gp_dlogL  gp_dlogT
+0.0 OB (logT>4.3)     2855           0.397566 0.208891 0.549568      0.196065     -1.385726    -0.358481     2.850292 -0.162416  1.464566
+0.0           all     6135           0.782594 0.340728 1.547887      0.046459     -2.310031    -0.243299     2.984629 -0.196840  0.674598
+0.2 OB (logT>4.3)     2672           0.387730 0.197283 0.552173      0.186942     -1.468403    -0.342538     2.827700 -0.155597  1.359298
+0.2           all     6056           0.791599 0.338124 1.591112     -0.009538     -2.355756    -0.198335     2.987093 -0.207873  0.631338
+0.4 OB (logT>4.3)     2545           0.380601 0.194749 0.543505      0.201484     -1.504748    -0.334022     2.769228 -0.132538  1.264479
+0.4           all     5817           0.767814 0.333979 1.568902      0.055582     -2.335499    -0.259967     2.965512 -0.204385  0.630012
+  model rows (MS, sHRD domain): d log nu_c/d log Teff +1.72 [+1.49,+1.95], d/d log L -0.13 [-0.17,-0.07]   (obs +1.53, -0.23)
+
+(6) COOL SIDE (MW w0.0, MS+post-MS, time-weighted): observed nu_char hot 1.47, BSG 0.27, YSG 0.30 1/d
+                            region zone  time_frac_present  nuc_d_med  nuc_d_p16  nuc_d_p84  vmax_kms_med      FcF_med
+                hot OB (logT>=4.3) FeCZ           0.821936   0.513363   0.311777   0.639446      3.534720 2.271520e-03
+                hot OB (logT>=4.3) HeII           0.900181   0.004640   0.000964   0.016328      0.007657 9.543480e-13
+                hot OB (logT>=4.3)  HeI           0.000000        NaN        NaN        NaN           NaN          NaN
+                hot OB (logT>=4.3)   HI           0.000000        NaN        NaN        NaN           NaN          NaN
+evolved OB/BSG (4.0-4.3, logL>3.6) FeCZ           1.000000   0.017278   0.014057   0.023573     10.802100 4.088780e-01
+evolved OB/BSG (4.0-4.3, logL>3.6) HeII           1.000000   0.000758   0.000652   0.000852      0.257323 1.359220e-07
+evolved OB/BSG (4.0-4.3, logL>3.6)  HeI           0.000000        NaN        NaN        NaN           NaN          NaN
+evolved OB/BSG (4.0-4.3, logL>3.6)   HI           0.000000        NaN        NaN        NaN           NaN          NaN
+                    YSG (3.75-4.0) FeCZ           0.853936   0.006440   0.003633   0.012602      1.866350 1.031670e-01
+                    YSG (3.75-4.0) HeII           0.999043   0.009726   0.002915   0.015060      1.435010 1.575690e-03
+                    YSG (3.75-4.0)  HeI           0.178021   0.000016   0.000002   0.000029      0.000568 1.443290e-15
+                    YSG (3.75-4.0)   HI           0.920044   0.015542   0.000157   0.048635     11.497900 5.546450e-01
+
+written: compare_obs.txt, fig8_inputs.npz, mesa_coolside.csv, mesa_ms.csv, mesa_ms_MWw0.0.csv, mesa_ms_MWw0.2.csv, mesa_ms_MWw0.4.csv, mesa_ms_MWw0.6.csv, mesa_nuc_offset.csv, mesa_onset.csv, mesa_post.csv, mesa_post_MWw0.0.csv, mesa_post_MWw0.2.csv, mesa_post_MWw0.4.csv, mesa_post_MWw0.6.csv, mesa_ratios.csv, mesa_slopes.csv, obs_binned.csv, scenarios_MW_w0.0.csv, scenarios_MW_w0.0.txt, scenarios_MW_w0.2.csv, scenarios_MW_w0.2.txt, scenarios_MW_w0.4.csv, scenarios_MW_w0.4.txt, scenarios_MW_w0.6.csv, scenarios_MW_w0.6.txt, transfer_tests_MW_w0.0.csv, transfer_tests_MW_w0.0.txt, transfer_tests_MW_w0.2.csv, transfer_tests_MW_w0.2.txt, transfer_tests_MW_w0.4.csv, transfer_tests_MW_w0.4.txt, transfer_tests_MW_w0.6.csv, transfer_tests_MW_w0.6.txt

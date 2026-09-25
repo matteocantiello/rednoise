@@ -24,7 +24,7 @@ import pandas as pd
 sys.path.insert(0, '/mnt/home/mcantiello/work/rednoise/models/grids')
 import grid_io as g
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+OUT = os.environ.get('RN_DATA', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data'))
 os.makedirs(OUT, exist_ok=True)
 XC_TAMS = 1e-3
 N_MS = 201

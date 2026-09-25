@@ -13,7 +13,7 @@ from test_transfer import sub
 
 plt.rcParams.update({"font.size": 8, "axes.titlesize": 8.5, "axes.labelsize": 8, "legend.fontsize": 6.3,
                      "xtick.labelsize": 7, "ytick.labelsize": 7})
-FIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'figures')
+FIG = os.environ.get('RN_FIG', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'figures'))
 SHOW = {'S3t M_t F_c waves, v saturated': ('#2a78d6', '-'), 'S0 MLT at the FeCZ': ('#eb6834', '--'),
         'S4 core IGW (undamped)': ('#1baf7a', ':')}
 LBL = {'S3t M_t F_c waves, v saturated': r'waves $F_w=\mathcal{M}_t F_c$, $v$ saturated at $c_s$',

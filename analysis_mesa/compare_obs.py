@@ -21,8 +21,8 @@ import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OBS = '/mnt/home/mcantiello/work/rednoise/handoff/project_handoff/data'
-D = f'{HERE}/data'
-FIG = f'{HERE}/figures'
+D = os.environ.get('RN_DATA', f'{HERE}/data')        # RN_DATA/RN_FIG: e.g. data_v2, figures_v2
+FIG = os.environ.get('RN_FIG', f'{HERE}/figures')
 os.makedirs(FIG, exist_ok=True)
 rng = np.random.default_rng(1)
 NBOOT = 1000

@@ -30,7 +30,7 @@ import transfer_models as tm
 warnings.filterwarnings('ignore')
 HERE = os.path.dirname(os.path.abspath(__file__))
 OBS = '/mnt/home/mcantiello/work/rednoise/handoff/project_handoff/data'
-D = f'{HERE}/data'
+D = os.environ.get('RN_DATA', f'{HERE}/data')
 Z, W = (sys.argv[1], float(sys.argv[2])) if len(sys.argv) > 2 else ('MW', 0.0)
 rng = np.random.default_rng(2)
 NBOOT = 300

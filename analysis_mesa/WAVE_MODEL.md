@@ -303,3 +303,38 @@ Settings: ℓ = 1–3, 0.2–5 d⁻¹ INVERSE scans, nad_search = AD, MAGNUS_GL2
   forcing in the FeCZ (Goldreich–Kumar-type stochastic excitation); `xi_r`, `xi_h`, `dE_dx` in the detail
   files give the eigenfunction there.
 - Repeat across masses/ages (the pulse-data restart recipe works; T3 took ~3 min).
+
+## 7. What the 3D envelope literature changes (read 2026-09-24; summary in the project memory)
+
+Papers: Schultz, Bildsten & Jiang 2020, 2022, 2023; Ma, Bildsten & Jiang 2026 (3D Athena++ envelopes);
+Lecoanet et al. 2021 and Anders et al. 2023 (core IGWs). All in `../literature/`.
+
+1. **There is no quiescent radiative layer above the FeCZ in 3D.** In every simulated envelope (13–80 Msun,
+   MS to BSG) the Fe-peak convection overshoots to the photosphere, and the photospheric velocities track
+   the zone's rms velocities. The picture behind sections 2–3 and 5 (waves launched at the FeCZ top,
+   propagating and damping through a static radiative layer) therefore does not describe the surface signal
+   of turbulent envelopes. There, the light-curve variability is radiation diffusing through a turbulent,
+   inhomogeneous medium. The linear-wave/GYRE route remains relevant for (a) waves the FeCZ sends
+   **downward** into the deep radiative envelope (global g modes; our GYRE result that damping sits at
+   0.9–0.97 R is consistent with this), and (b) the weak-turbulence regime (low L, or τ_Fe ≪ τ_crit),
+   where 1D and 3D agree.
+2. **Velocities:** the photospheric v ≈ v_FeCZ in 3D supports the v2 finding that bare MLT v_c,max is the
+   best v_macro predictor (S0). MLT is within 22–32% of 3D at the Fe peak except when τ_Fe ≪ τ_crit (×3 too
+   high).
+3. **Frequencies:** the observed ν_char lies between the MLT turnover frequency (×3 low; wrong slope in v2)
+   and the FeCZ thermal frequency (3D 35 Msun: 7.2 against 2.2–3.7 d⁻¹; BSG ×3 high; our "thermal,
+   overlying" predictor is ×4 high with almost no trend, β = 0.13). 3D matches only at 13 Msun TAMS
+   (1.5 d⁻¹). A physically motivated interpolation between the two timescales (e.g. set by τ_Fe/τ_crit,
+   i.e. by how radiatively lossy the plumes are) is a concrete hypothesis.
+4. **Amplitudes:** 3D α₀ = (per-patch amplitude)/√n, with n the number of uncorrelated patches (size ~H_Fe)
+   on the visible disk: our S1 "incoherent cells" scenario is the 1D analogue. The spectral slope γ ≈ 1.9
+   comes out of 3D (1.9 ± 0.2) and is also what we observe universally.
+5. **Regime parameters to compute on the grid:** τ_Fe/τ_crit with τ_crit = c P_rad/((P_rad+P_gas) v_c);
+   Γ_Edd at the Fe peak; the pseudo-Mach Y = L/(4πr² a T⁴ c_iso); the Mach number (transsonic → P_turb).
+   The v_macro saturation at log ℒ ≈ 3.7 and the ν_char slope may map onto these.
+6. **For the GYRE work:** Lecoanet 2021 fixes the excitation law, F ∝ k_h⁴ f^(−13/2) (so p = 4 in `source.py`,
+   not a free parameter), and gives the finite-linewidth mode-amplitude formula |u|² ∝ F Δω R/γ². Anders
+   2023 (and their public code) is a full template for a GYRE-based transfer function, including
+   A_corr = 0.4 and TESS-band magnitude eigenfunctions via MSG. The novel calculation would be FeCZ-excited
+   global g modes (source at the FeCZ bottom, going downward) as a possible contributor, especially below the
+   onset and in the weak-turbulence regime.

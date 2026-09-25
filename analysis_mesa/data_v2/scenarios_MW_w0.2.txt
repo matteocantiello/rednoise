@@ -1,0 +1,31 @@
+dBIC < 0: better than the empirical L_spec+Teff plane (3 params) with 1-2 params; beta = 1 everywhere
+
+                       scenario  vmac_dBIC  vmac_a  vmac_floor  vmac_hot_dBIC  alpha0_dBIC  alpha0_a  alpha0_floor  nuchar_dBIC  nuchar_a  joint_dBIC
+             S0 MLT at the FeCZ      -19.2  0.0119        27.4           39.6         19.8       3.6           120        -4.15     0.415       -3.56
+            S1 incoherent cells      -19.2  0.0119        27.4           39.6         21.3      4.78           168        -4.15     0.415       -2.06
+S2 Cantiello+09 microturbulence        152   -9.82        45.9            191         79.2     -8.41           340          126     0.064         358
+  S3 M_x F_c waves, v saturated       17.6 -0.0923        22.7           17.8         25.7      4.11           144        -4.15     0.415        39.2
+ S3t M_t F_c waves, v saturated       15.2 -0.0637        22.8           20.6         8.08      5.11           141        -4.15     0.415        19.1
+  S3c as S3, cells-diluted flux       17.6 -0.0923        22.7           17.8         28.2      5.26           183        -4.15     0.415        41.7
+         S4 core IGW (undamped)        -27 -0.0876        18.3           8.11         57.8       6.1          27.9        0.865      2.45        31.7
+
+ratio intervals (16-84%, bootstrap over stars):
+                       scenario  ratio_logL  ratio_logL_lo  ratio_logL_hi  ratio_tau  ratio_tau_lo  ratio_tau_hi  ratio_logM  ratio_logM_lo  ratio_logM_hi
+             S0 MLT at the FeCZ        3.60           2.98           4.14       4.83          3.99          5.73        1.84           1.50           2.13
+            S1 incoherent cells        3.60           2.93           4.22       4.69          3.69          5.77        1.64           1.29           1.96
+S2 Cantiello+09 microturbulence        0.00          -0.01        4533.18       0.01          0.00    2492806.58        1.00        -969.04       10741.71
+  S3 M_x F_c waves, v saturated        5.20           4.31           6.03       8.68          6.85         10.32        2.20           1.74           2.56
+ S3t M_t F_c waves, v saturated        5.32           4.53           6.00       7.77          6.50          9.01        1.70           1.33           2.00
+  S3c as S3, cells-diluted flux        5.04           4.06           5.95       8.25          6.13          9.98        1.89           1.45           2.24
+         S4 core IGW (undamped)        1.51           1.30           1.72       1.79          1.56          2.24        1.24           1.06           1.39
+
+Implied slopes (predictions at the observed stars, regressed as the data) and ratios
+observed: vmac dlogL +0.29 dlogT +0.10 dtau +0.27 dlogM +0.60 | alpha0 dlogL +1.55 dlogT -3.13 dtau +1.73 dlogM +1.32 | nu dlogT +1.53 dlogL -0.23 dtau -0.33 | ratios {'logL': 5.31, 'tau': 6.37, 'logM': 2.19}
+                       scenario  vmac_slope_logL  vmac_slope_logTeff  vmac_slope_tau  vmac_slope_logM  alpha0_slope_logL  alpha0_slope_logTeff  alpha0_slope_tau  alpha0_slope_logM  nuchar_slope_logTeff  nuchar_slope_logL  nuchar_slope_tau  ratio_logL  ratio_tau  ratio_logM
+             S0 MLT at the FeCZ            +0.35               -0.26           +0.24            +0.59              +1.25                 -2.99             +1.15              +1.09                 +3.20              -0.30             -0.66       +3.60      +4.83       +1.84
+            S1 incoherent cells            +0.35               -0.26           +0.24            +0.59              +1.25                 -3.34             +1.12              +0.97                 +3.20              -0.30             -0.66       +3.60      +4.69       +1.64
+S2 Cantiello+09 microturbulence            +0.00               -0.00           +0.00            -0.00              +0.00                 -0.00             +0.00              -0.00                 -1.62              -0.88             -0.17       +0.00      +0.01       +1.00
+  S3 M_x F_c waves, v saturated            +0.23               +0.15           +0.12            +0.50              +1.19                 -2.78             +1.06              +1.10                 +3.20              -0.30             -0.66       +5.20      +8.68       +2.20
+ S3t M_t F_c waves, v saturated            +0.26               -0.01           +0.17            +0.50              +1.39                 -4.14             +1.36              +0.85                 +3.20              -0.30             -0.66       +5.32      +7.77       +1.70
+  S3c as S3, cells-diluted flux            +0.23               +0.15           +0.12            +0.50              +1.16                 -3.01             +1.01              +0.94                 +3.20              -0.30             -0.66       +5.04      +8.25       +1.89
+         S4 core IGW (undamped)            +0.27               +0.22           +0.09            +0.62              +0.41                 +0.11             +0.16              +0.77                 -0.80              +0.24             +0.27       +1.51      +1.79       +1.24

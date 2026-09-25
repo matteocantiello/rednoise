@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-D, FIG = f'{HERE}/data', f'{HERE}/figures'
+D, FIG = os.environ.get('RN_DATA', f'{HERE}/data'), os.environ.get('RN_FIG', f'{HERE}/figures')
 plt.rcParams.update({"font.size": 8, "axes.titlesize": 8.5, "axes.labelsize": 8, "legend.fontsize": 6.5,
                      "xtick.labelsize": 7, "ytick.labelsize": 7})
 C0, C2, C4 = '#2a78d6', '#eb6834', '#1baf7a'   # model w0.0, w0.2, w0.4
