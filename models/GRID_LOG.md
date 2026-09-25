@@ -196,3 +196,22 @@ created 8 sub-grids × 34 models, with the same rotation controls and --chdir su
   $MESA_DIR/data/kap_data/cache, so grid jobs will not race to create them); profiles contain mlt_vc.
 - **To submit** (each job asks for 6 exclusive nodes):
   `sbatch grids_v2/{LMC,SMC}/w0.{0,2,4,6}/submit_grid.sh`
+
+## 2026-09-25 ~10:55 — v1 grid stopped
+
+The user cancelled all remaining v1 jobs (7096904–7096916, 13 sub-grid jobs incl. MW_mltpp, and rerun 7097002),
+because v2 supersedes v1 (consistent A09 composition; rotating-model FeCZ diagnostics fixed) and the v1 jobs were
+holding the per-user CPU limit that kept the v2 SMC jobs pending. Final v1 state (`grids/grid_status.txt`, written
+right after cancellation): 257 complete, 82 failed after the TAMS, 58 failed on the MS, 45 interrupted mid-run
+(42 listed as "running" because rn.out had just been written, plus MW_mltpp M80/M100/M120 stuck on the pre-MS).
+All v1 output stays on Ceph. Non-rotating v1 results remain valid for GS98-at-Z=0.014 comparisons; rotating v1
+FeCZ quantities are biased (see the template_v2 entry).
+
+## 2026-09-25 — composition bracket (local runs, not a Slurm grid)
+
+To measure how strongly the FeCZ results depend on Galactic Fe, two small trees copy the v2 MW ω = 0 setup
+(template_v2, A09 mixture and tables, same inlist_base) with only Z changed: Z = 0.010 and 0.018 (±0.13 dex around
+0.014). Masses 10, 13, 16, 20, 25, 30 Msun, non-rotating, main sequence only (stop at X_c = 1e-3); triggered
+profiles as in v2. Location: `/home/mcantiello/rednoise_tests/zbracket_Z010/` and `zbracket_Z018/` (local NVMe,
+same `{MW}/w0.0/M*` layout, so `RN_GRID=/home/mcantiello/rednoise_tests/zbracket_Z010` works with grid_io and the
+analysis scripts). Launched at 10:59 by `run_zbracket.sh`, 12 runs × 2 OpenMP threads, 24 h timeout.

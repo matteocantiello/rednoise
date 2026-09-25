@@ -1,0 +1,121 @@
+scenario,observable,mode,n,dBIC,a,floor,rms,free_beta,free_dBIC
+S0 MLT at the FeCZ,vmac,per-star omega,516,-17.77,-0.03759,27.95,0.2178,,
+S0 MLT at the FeCZ,vmac,fixed omega 0.0,516,-13.44,-0.04707,28.35,0.2187,,
+S0 MLT at the FeCZ,vmac,fixed omega 0.2,516,-14.63,-0.04748,28.21,0.2185,,
+S0 MLT at the FeCZ,vmac,fixed omega 0.4,516,-18.5,-0.04404,27.74,0.2177,,
+S0 MLT at the FeCZ,vmac,fixed omega 0.6,516,-22.72,-0.0318,27.09,0.2168,,
+S1 incoherent cells,vmac,per-star omega,516,-17.77,-0.03759,27.95,0.2178,,
+S1 incoherent cells,vmac,fixed omega 0.0,516,-13.44,-0.04707,28.35,0.2187,,
+S1 incoherent cells,vmac,fixed omega 0.2,516,-14.63,-0.04748,28.21,0.2185,,
+S1 incoherent cells,vmac,fixed omega 0.4,516,-18.5,-0.04404,27.74,0.2177,,
+S1 incoherent cells,vmac,fixed omega 0.6,516,-22.72,-0.0318,27.09,0.2168,,
+S2 Cantiello+09 microturbulence,vmac,per-star omega,516,246.5,-0.5075,48.55,0.2814,,
+S2 Cantiello+09 microturbulence,vmac,fixed omega 0.0,516,243.9,-0.3652,47.2,0.2807,,
+S2 Cantiello+09 microturbulence,vmac,fixed omega 0.2,516,243.5,-0.3397,47.07,0.2806,,
+S2 Cantiello+09 microturbulence,vmac,fixed omega 0.4,516,242.5,-0.2822,46.88,0.2803,,
+S2 Cantiello+09 microturbulence,vmac,fixed omega 0.6,516,244.5,-0.3435,47.86,0.2808,,
+"S3 M_x F_c waves, v saturated",vmac,per-star omega,516,23.08,-0.04528,21.34,0.2266,,
+"S3 M_x F_c waves, v saturated",vmac,fixed omega 0.0,516,21.96,-0.06255,21.95,0.2264,,
+"S3 M_x F_c waves, v saturated",vmac,fixed omega 0.2,516,21.7,-0.05995,21.71,0.2263,,
+"S3 M_x F_c waves, v saturated",vmac,fixed omega 0.4,516,20.35,-0.0492,21,0.226,,
+"S3 M_x F_c waves, v saturated",vmac,fixed omega 0.6,516,23.25,-0.03239,20.4,0.2266,,
+"S3t M_t F_c waves, v saturated",vmac,per-star omega,516,17.42,-0.02269,21.43,0.2254,,
+"S3t M_t F_c waves, v saturated",vmac,fixed omega 0.0,516,17.21,-0.04156,22.06,0.2253,,
+"S3t M_t F_c waves, v saturated",vmac,fixed omega 0.2,516,16.54,-0.03839,21.83,0.2252,,
+"S3t M_t F_c waves, v saturated",vmac,fixed omega 0.4,516,13.82,-0.02559,21.16,0.2246,,
+"S3t M_t F_c waves, v saturated",vmac,fixed omega 0.6,516,12.46,-0.003972,20.56,0.2243,,
+"S3c as S3, cells-diluted flux",vmac,per-star omega,516,23.08,-0.04528,21.34,0.2266,,
+"S3c as S3, cells-diluted flux",vmac,fixed omega 0.0,516,21.96,-0.06255,21.95,0.2264,,
+"S3c as S3, cells-diluted flux",vmac,fixed omega 0.2,516,21.7,-0.05995,21.71,0.2263,,
+"S3c as S3, cells-diluted flux",vmac,fixed omega 0.4,516,20.35,-0.0492,21,0.226,,
+"S3c as S3, cells-diluted flux",vmac,fixed omega 0.6,516,23.25,-0.03239,20.4,0.2266,,
+S4 core IGW (undamped),vmac,per-star omega,522,-30.45,-0.09499,18.64,0.2144,,
+S4 core IGW (undamped),vmac,fixed omega 0.0,522,-32.2,-0.09774,18.59,0.2141,,
+S4 core IGW (undamped),vmac,fixed omega 0.2,522,-32.66,-0.1027,18.81,0.214,,
+S4 core IGW (undamped),vmac,fixed omega 0.4,522,-29.8,-0.1042,18.98,0.2145,,
+S4 core IGW (undamped),vmac,fixed omega 0.6,522,-29.6,-0.09387,18.63,0.2146,,
+S5 v_c + M_t F_c/F + turnover,vmac,per-star omega,516,-17.77,-0.03759,27.95,0.2178,,
+S5 v_c + M_t F_c/F + turnover,vmac,fixed omega 0.0,516,-13.44,-0.04707,28.35,0.2187,,
+S5 v_c + M_t F_c/F + turnover,vmac,fixed omega 0.2,516,-14.63,-0.04748,28.21,0.2185,,
+S5 v_c + M_t F_c/F + turnover,vmac,fixed omega 0.4,516,-18.5,-0.04404,27.74,0.2177,,
+S5 v_c + M_t F_c/F + turnover,vmac,fixed omega 0.6,516,-22.72,-0.0318,27.09,0.2168,,
+S0 MLT at the FeCZ,alpha0,per-star omega,177,34.28,3.704,104.3,0.4438,,
+S0 MLT at the FeCZ,alpha0,fixed omega 0.0,177,34.31,3.701,107.3,0.4438,,
+S0 MLT at the FeCZ,alpha0,fixed omega 0.2,177,34.04,3.701,105.4,0.4435,,
+S0 MLT at the FeCZ,alpha0,fixed omega 0.4,177,33.3,3.704,100.2,0.4426,,
+S0 MLT at the FeCZ,alpha0,fixed omega 0.6,177,31.83,3.717,92.54,0.4407,,
+S1 incoherent cells,alpha0,per-star omega,177,26.17,4.792,166.5,0.4337,,
+S1 incoherent cells,alpha0,fixed omega 0.0,177,26.84,4.79,169.5,0.4346,,
+S1 incoherent cells,alpha0,fixed omega 0.2,177,26.52,4.786,168.5,0.4342,,
+S1 incoherent cells,alpha0,fixed omega 0.4,177,25.88,4.786,165.2,0.4334,,
+S1 incoherent cells,alpha0,fixed omega 0.6,177,25.05,4.796,161.1,0.4324,,
+S2 Cantiello+09 microturbulence,alpha0,per-star omega,177,142.3,4.168,343.6,0.6022,,
+S2 Cantiello+09 microturbulence,alpha0,fixed omega 0.0,177,140.1,4.11,337.6,0.5984,,
+S2 Cantiello+09 microturbulence,alpha0,fixed omega 0.2,177,137.2,4.177,325.3,0.5936,,
+S2 Cantiello+09 microturbulence,alpha0,fixed omega 0.4,177,132.7,4.302,313.4,0.586,,
+S2 Cantiello+09 microturbulence,alpha0,fixed omega 0.6,177,130.5,4.465,302.8,0.5823,,
+"S3 M_x F_c waves, v saturated",alpha0,per-star omega,177,39.54,4.205,132.4,0.4504,,
+"S3 M_x F_c waves, v saturated",alpha0,fixed omega 0.0,177,39.88,4.203,135.4,0.4509,,
+"S3 M_x F_c waves, v saturated",alpha0,fixed omega 0.2,177,39.79,4.202,134.3,0.4507,,
+"S3 M_x F_c waves, v saturated",alpha0,fixed omega 0.4,177,39.46,4.2,130.5,0.4503,,
+"S3 M_x F_c waves, v saturated",alpha0,fixed omega 0.6,177,38.48,4.206,125.7,0.4491,,
+"S3t M_t F_c waves, v saturated",alpha0,per-star omega,177,6.8,5.174,134.9,0.4106,,
+"S3t M_t F_c waves, v saturated",alpha0,fixed omega 0.0,177,6.44,5.145,135,0.4102,,
+"S3t M_t F_c waves, v saturated",alpha0,fixed omega 0.2,177,5.957,5.148,135.5,0.4097,,
+"S3t M_t F_c waves, v saturated",alpha0,fixed omega 0.4,177,5.528,5.167,137,0.4092,,
+"S3t M_t F_c waves, v saturated",alpha0,fixed omega 0.6,177,5.055,5.205,139.3,0.4086,,
+"S3c as S3, cells-diluted flux",alpha0,per-star omega,177,35.14,5.265,182.8,0.4449,,
+"S3c as S3, cells-diluted flux",alpha0,fixed omega 0.0,177,35.86,5.266,185.9,0.4458,,
+"S3c as S3, cells-diluted flux",alpha0,fixed omega 0.2,177,35.55,5.261,184.9,0.4454,,
+"S3c as S3, cells-diluted flux",alpha0,fixed omega 0.4,177,34.84,5.26,181.5,0.4445,,
+"S3c as S3, cells-diluted flux",alpha0,fixed omega 0.6,177,33.92,5.267,177.8,0.4433,,
+S4 core IGW (undamped),alpha0,per-star omega,178,104.8,6.254,3.181e-07,0.5391,,
+S4 core IGW (undamped),alpha0,fixed omega 0.0,178,104,6.258,2.495e-06,0.5379,,
+S4 core IGW (undamped),alpha0,fixed omega 0.2,178,105.7,6.251,4.966,0.5406,,
+S4 core IGW (undamped),alpha0,fixed omega 0.4,178,106.5,6.253,2.146e-06,0.5417,,
+S4 core IGW (undamped),alpha0,fixed omega 0.6,178,108.3,6.237,12.17,0.5445,,
+S5 v_c + M_t F_c/F + turnover,alpha0,per-star omega,177,6.8,5.174,134.9,0.4106,,
+S5 v_c + M_t F_c/F + turnover,alpha0,fixed omega 0.0,177,6.44,5.145,135,0.4102,,
+S5 v_c + M_t F_c/F + turnover,alpha0,fixed omega 0.2,177,5.957,5.148,135.5,0.4097,,
+S5 v_c + M_t F_c/F + turnover,alpha0,fixed omega 0.4,177,5.528,5.167,137,0.4092,,
+S5 v_c + M_t F_c/F + turnover,alpha0,fixed omega 0.6,177,5.055,5.205,139.3,0.4086,,
+S0 MLT at the FeCZ,nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+S0 MLT at the FeCZ,nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+S0 MLT at the FeCZ,nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+S0 MLT at the FeCZ,nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+S0 MLT at the FeCZ,nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74
+S1 incoherent cells,nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+S1 incoherent cells,nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+S1 incoherent cells,nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+S1 incoherent cells,nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+S1 incoherent cells,nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74
+S2 Cantiello+09 microturbulence,nuchar,per-star omega,175,158.9,0.1257,,0.6505,-0.2065,7.425
+S2 Cantiello+09 microturbulence,nuchar,fixed omega 0.0,175,152.9,0.08346,,0.6394,-0.1531,10.66
+S2 Cantiello+09 microturbulence,nuchar,fixed omega 0.2,175,153.3,0.09557,,0.6402,-0.1647,10.08
+S2 Cantiello+09 microturbulence,nuchar,fixed omega 0.4,175,152,0.1511,,0.6378,-0.1897,8.858
+S2 Cantiello+09 microturbulence,nuchar,fixed omega 0.6,175,145.5,0.238,,0.6261,-0.2125,8.051
+"S3 M_x F_c waves, v saturated",nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+"S3 M_x F_c waves, v saturated",nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+"S3 M_x F_c waves, v saturated",nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+"S3 M_x F_c waves, v saturated",nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+"S3 M_x F_c waves, v saturated",nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74
+"S3t M_t F_c waves, v saturated",nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+"S3t M_t F_c waves, v saturated",nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+"S3t M_t F_c waves, v saturated",nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+"S3t M_t F_c waves, v saturated",nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+"S3t M_t F_c waves, v saturated",nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74
+"S3c as S3, cells-diluted flux",nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+"S3c as S3, cells-diluted flux",nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+"S3c as S3, cells-diluted flux",nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+"S3c as S3, cells-diluted flux",nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+"S3c as S3, cells-diluted flux",nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74
+S4 core IGW (undamped),nuchar,per-star omega,178,17.5,2.399,,0.4323,-0.9752,10.54
+S4 core IGW (undamped),nuchar,fixed omega 0.0,178,15.84,2.404,,0.4302,-0.9606,11.16
+S4 core IGW (undamped),nuchar,fixed omega 0.2,178,15.67,2.405,,0.43,-0.9129,11.37
+S4 core IGW (undamped),nuchar,fixed omega 0.4,178,16.32,2.404,,0.4308,-0.8857,11.27
+S4 core IGW (undamped),nuchar,fixed omega 0.6,178,16.86,2.399,,0.4315,-0.6697,11.91
+S5 v_c + M_t F_c/F + turnover,nuchar,per-star omega,175,-9.969,0.4212,,0.4015,0.6691,-11.61
+S5 v_c + M_t F_c/F + turnover,nuchar,fixed omega 0.0,175,-6.039,0.4307,,0.4061,0.6272,-10.01
+S5 v_c + M_t F_c/F + turnover,nuchar,fixed omega 0.2,175,-11.02,0.4257,,0.4003,0.6819,-12.03
+S5 v_c + M_t F_c/F + turnover,nuchar,fixed omega 0.4,175,-15.43,0.4154,,0.3953,0.7409,-14.04
+S5 v_c + M_t F_c/F + turnover,nuchar,fixed omega 0.6,175,-17.19,0.4009,,0.3933,0.7739,-14.74

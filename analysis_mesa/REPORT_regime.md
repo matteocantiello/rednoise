@@ -61,3 +61,9 @@ is weak overall (the plane barely beats a constant).
 - Rotating grids need the MLT velocity in profiles (`mlt_vc` column) or a history-based Γ_Fe/τ_crit
   (add to run_star_extras for the next grid generation).
 - Frequencies remain open: the GYRE damped-mode continuum and direct 3D comparisons are the next tools.
+
+## Update 2026-09-25: LMC (Z = 0.006)
+`regime_crossings.py data_v2/regime_LMCw0.0.csv` (404 hot MS profiles, 31 tracks): Γ_Fe = 0.8 / 0.9 / 1.0 at
+log ℒ_spec = 3.89 / 3.99 / 4.10 (MW 3.65 / 3.76 / 3.88), i.e. the predicted saturation moves up by ≈0.24 dex. The
+onset proxy v_c = 3 km/s moves by +0.60 (3.02 → 3.62), the MLT Mach = 0.2 crossing by +0.32, and Y_Fe = 1 moves
+down (3.29 → 3.12). Details and the observational prospects: REPORT_rotation_Z.md §4.

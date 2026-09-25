@@ -37,6 +37,8 @@ models/grids_v2/*/w*/M*/
 # ---- analysis_mesa: large regenerable extracts (python3 extract_mesa.py) ----
 analysis_mesa/data*/mesa_ms*.csv
 analysis_mesa/data*/mesa_post*.csv
+analysis_mesa/data*/**/mesa_ms*.csv
+analysis_mesa/data*/**/mesa_post*.csv
 analysis_mesa/data*/fig8_inputs.npz
 
 # ---- handoff: keep text and small tables only ----

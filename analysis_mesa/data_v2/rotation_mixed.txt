@@ -1,0 +1,59 @@
+vmac: 509 of 562 stars with an omega from v sin i; omega median 0.28, 16-84% 0.07-0.60, at the 0.6 cap: 0.28
+alpha0: 133 of 183 stars with an omega from v sin i; omega median 0.30, 16-84% 0.14-0.60, at the 0.6 cap: 0.27
+nuchar: 133 of 183 stars with an omega from v sin i; omega median 0.30, 16-84% 0.14-0.60, at the 0.6 cap: 0.27
+
+dBIC against the empirical plane (beta = 1; < 0 is better), identical stars in every row of a scenario
+observable                                       alpha0  nuchar   vmac  joint
+scenario                        mode                                         
+S0 MLT at the FeCZ              fixed omega 0.0    34.3    -6.0  -13.4   14.8
+                                fixed omega 0.2    34.0   -11.0  -14.6    8.4
+                                fixed omega 0.4    33.3   -15.4  -18.5   -0.6
+                                fixed omega 0.6    31.8   -17.2  -22.7   -8.1
+                                per-star omega     34.3   -10.0  -17.8    6.5
+S1 incoherent cells             fixed omega 0.0    26.8    -6.0  -13.4    7.4
+                                fixed omega 0.2    26.5   -11.0  -14.6    0.9
+                                fixed omega 0.4    25.9   -15.4  -18.5   -8.1
+                                fixed omega 0.6    25.0   -17.2  -22.7  -14.9
+                                per-star omega     26.2   -10.0  -17.8   -1.6
+S2 Cantiello+09 microturbulence fixed omega 0.0   140.1   152.9  243.9  536.8
+                                fixed omega 0.2   137.2   153.3  243.5  534.0
+                                fixed omega 0.4   132.7   152.0  242.5  527.1
+                                fixed omega 0.6   130.5   145.5  244.5  520.5
+                                per-star omega    142.3   158.9  246.5  547.8
+S3 M_x F_c waves, v saturated   fixed omega 0.0    39.9    -6.0   22.0   55.8
+                                fixed omega 0.2    39.8   -11.0   21.7   50.5
+                                fixed omega 0.4    39.5   -15.4   20.3   44.4
+                                fixed omega 0.6    38.5   -17.2   23.3   44.5
+                                per-star omega     39.5   -10.0   23.1   52.7
+S3c as S3, cells-diluted flux   fixed omega 0.0    35.9    -6.0   22.0   51.8
+                                fixed omega 0.2    35.6   -11.0   21.7   46.2
+                                fixed omega 0.4    34.8   -15.4   20.3   39.8
+                                fixed omega 0.6    33.9   -17.2   23.3   40.0
+                                per-star omega     35.1   -10.0   23.1   48.3
+S3t M_t F_c waves, v saturated  fixed omega 0.0     6.4    -6.0   17.2   17.6
+                                fixed omega 0.2     6.0   -11.0   16.5   11.5
+                                fixed omega 0.4     5.5   -15.4   13.8    3.9
+                                fixed omega 0.6     5.1   -17.2   12.5    0.3
+                                per-star omega      6.8   -10.0   17.4   14.3
+S4 core IGW (undamped)          fixed omega 0.0   104.0    15.8  -32.2   87.6
+                                fixed omega 0.2   105.7    15.7  -32.7   88.7
+                                fixed omega 0.4   106.5    16.3  -29.8   93.0
+                                fixed omega 0.6   108.3    16.9  -29.6   95.5
+                                per-star omega    104.8    17.5  -30.5   91.8
+S5 v_c + M_t F_c/F + turnover   fixed omega 0.0     6.4    -6.0  -13.4  -13.0
+                                fixed omega 0.2     6.0   -11.0  -14.6  -19.7
+                                fixed omega 0.4     5.5   -15.4  -18.5  -28.4
+                                fixed omega 0.6     5.1   -17.2  -22.7  -34.8
+                                per-star omega      6.8   -10.0  -17.8  -20.9
+
+nu_char free beta by mode:
+mode                             fixed omega 0.0  fixed omega 0.2  fixed omega 0.4  fixed omega 0.6  per-star omega
+scenario                                                                                                           
+S0 MLT at the FeCZ                          0.63             0.68             0.74             0.77            0.67
+S1 incoherent cells                         0.63             0.68             0.74             0.77            0.67
+S2 Cantiello+09 microturbulence            -0.15            -0.16            -0.19            -0.21           -0.21
+S3 M_x F_c waves, v saturated               0.63             0.68             0.74             0.77            0.67
+S3c as S3, cells-diluted flux               0.63             0.68             0.74             0.77            0.67
+S3t M_t F_c waves, v saturated              0.63             0.68             0.74             0.77            0.67
+S4 core IGW (undamped)                     -0.96            -0.91            -0.89            -0.67           -0.98
+S5 v_c + M_t F_c/F + turnover               0.63             0.68             0.74             0.77            0.67

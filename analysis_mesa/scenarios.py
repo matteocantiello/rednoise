@@ -24,6 +24,9 @@ SCEN = {
     'S3t M_t F_c waves, v saturated':   ('sat[wave M_t F_c, v_g=v]', 'M_t F_c/F', '1/(2pi t_c)'),
     'S3c as S3, cells-diluted flux':    ('sat[wave M_x F_c, v_g=v]', 'M_x F_c/F x cells', '1/(2pi t_c)'),
     'S4 core IGW (undamped)':           ('core IGW, v_g=c_s', 'core IGW flux/F*', 'core turnover'),
+    # post hoc (2026-09-25): the best single predictor per observable on the full v2 MW grid; physically, the
+    # 3D picture (Schultz+2023): photospheric v ~ FeCZ v, brightness ~ Mach-scaled convective flux
+    'S5 v_c + M_t F_c/F + turnover':    ('v_c,max', 'M_t F_c/F', '1/(2pi t_c)'),
 }
 OBS_RATIO = {'logL': 5.31, 'tau': 6.37, 'logM': 2.19}
 NOFECZ = ('core', 'dynamical', 'nu_max')
