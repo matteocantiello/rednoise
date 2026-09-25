@@ -114,7 +114,7 @@ def eight_panel(z, w, tracks, kind):
     fig, axes = plt.subplots(2, 4, figsize=(16, 8.5))
     rot = 'non-rotating' if w == 'w0.0' else f'$\\omega/\\omega_c = {w[1:]}$'
     fig.suptitle(f"Sub-surface convection on the {'spectroscopic ' if kind == 'sHRD' else ''}HRD — "
-                 f'{g.ZTITLE[z]}, {rot} ({len(tracks)} tracks)', fontsize=13, fontweight='bold', y=0.97)
+                 f'{g.ZTITLE[z]}, {rot} ({len(tracks)} tracks)' + g.GRID_TAG, fontsize=13, fontweight='bold', y=0.97)
     for j, (p, lab, cmap) in enumerate(PROPS):
         ax = axes[j // 4, j % 4]
         grid, zz = interp(x, y, props[p])
@@ -161,7 +161,7 @@ def overview(all_tracks, prop, kind='sHRD'):
     ticks = np.unique(np.round(levels[::2], 1))
     cb.set_ticks(ticks); cb.set_ticklabels([f'$10^{{{t:.1f}}}$' for t in ticks])
     cb.set_label(LABEL[prop])
-    fig.suptitle(f'{LABEL[prop]} across metallicity and rotation (ZAMS onward)', fontsize=14, x=0.45, y=0.94)
+    fig.suptitle(f'{LABEL[prop]} across metallicity and rotation (ZAMS onward)' + g.GRID_TAG, fontsize=14, x=0.45, y=0.94)
     out = f'{FIGDIR}/{kind}_overview_{prop}.png'
     fig.savefig(out, dpi=150, bbox_inches='tight', facecolor='white')
     plt.close(fig)

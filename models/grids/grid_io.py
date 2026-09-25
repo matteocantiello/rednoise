@@ -14,6 +14,8 @@ GRID = os.path.abspath(os.environ.get('RN_GRID', _HERE))
 CACHE = '/mnt/ceph/users/mcantiello/rednoise/cache/history_npz'
 if GRID != _HERE:
     CACHE += '_' + os.path.basename(GRID)
+# label for figure titles: empty for the default (v1) grid, e.g. ' [grids_v2]' otherwise
+GRID_TAG = '' if GRID == _HERE else f' [{os.path.basename(GRID)}]'
 
 MASSES = [5.0, 5.2, 5.4, 5.6, 5.8, 6.0, 6.5, 7.0, 7.5, 8.0, 9.0,
           10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,

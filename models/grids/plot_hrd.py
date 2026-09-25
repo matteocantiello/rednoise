@@ -61,7 +61,7 @@ cb = fig.colorbar(sm, ax=axes, pad=0.01, fraction=0.02, aspect=40)
 cb.set_label(r'Initial mass [$M_\odot$]')
 cb.set_ticks([5, 7, 10, 15, 20, 30, 50, 80, 120])
 cb.set_ticklabels(['5', '7', '10', '15', '20', '30', '50', '80', '120'])
-fig.suptitle('Rednoise MESA grid — HRD from ZAMS (Dutch winds, no MLT++)', fontsize=14, x=0.45, y=0.93)
+fig.suptitle('Rednoise MESA grid — HRD from ZAMS (Dutch winds, no MLT++)' + g.GRID_TAG, fontsize=14, x=0.45, y=0.93)
 out = f'{g.GRID}/hrd_grids.png'
 fig.savefig(out, dpi=150, bbox_inches='tight', facecolor='white')
 print('Saved', out)
