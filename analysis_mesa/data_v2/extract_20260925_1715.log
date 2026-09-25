@@ -1,0 +1,51 @@
+== MW/w0.0 17:03
+MW/w0.0: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (32 with complete MS)
+mesa_post.csv: 12743 rows
+== MW/w0.2 17:04
+MW/w0.2: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (31 with complete MS)
+mesa_post.csv: 12071 rows
+== MW/w0.4 17:05
+MW/w0.4: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (31 with complete MS)
+mesa_post.csv: 11929 rows
+== MW/w0.6 17:06
+MW/w0.6: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (31 with complete MS)
+mesa_post.csv: 11987 rows
+== LMC/w0.0 17:07
+LMC/w0.0: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (34 with complete MS)
+mesa_post.csv: 13384 rows
+== LMC/w0.2 17:08
+LMC/w0.2: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (34 with complete MS)
+mesa_post.csv: 12751 rows
+== LMC/w0.4 17:09
+LMC/w0.4: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (33 with complete MS)
+mesa_post.csv: 12599 rows
+== LMC/w0.6 17:10
+LMC/w0.6: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (31 with complete MS)
+mesa_post.csv: 12037 rows
+== SMC/w0.0 17:12
+SMC/w0.0: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (34 with complete MS)
+mesa_post.csv: 11744 rows
+== SMC/w0.2 17:13
+SMC/w0.2: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (34 with complete MS)
+mesa_post.csv: 11573 rows
+== SMC/w0.4 17:14
+SMC/w0.4: 34 tracks
+mesa_ms.csv: 6834 rows, 34 tracks (29 with complete MS)
+mesa_post.csv: 10093 rows
+== regime SMC/w0.0 17:15
+SMC/w0.0: 1098 profiles
+wrote data_v2/regime_SMCw0.0.csv: 1098 rows, 34 masses
+== regime LMC/w0.0 17:16
+LMC/w0.0: 1172 profiles
+wrote data_v2/regime_LMCw0.0.csv: 1172 rows, 34 masses
+done 17:18

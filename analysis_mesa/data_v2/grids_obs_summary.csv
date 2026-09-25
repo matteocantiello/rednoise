@@ -1,0 +1,12 @@
+Z,sample,k_nu,k_alpha,n_nu,n_alpha,quantity,n,median_log_obs_over_model,n_no_fecz,n_on_grid,frac_no_fecz,frac_no_fecz_SLF,n_SLF,frac_no_fecz_none,n_none
+MW,scale,3.390,236731.992,189.000,189.000,,,,,,,,,,
+MW,rn_MW,,,,,nuchar,178.000,-0.015,0.000,,,,,,
+MW,vmac_MW,,,,,vmac,630.000,0.350,0.000,,,,,,
+LMC,rn_LMC,,,,,nuchar,26.000,0.009,0.000,,,,,,
+LMC,vmac_LMC,,,,,vmac,34.000,0.252,0.000,,,,,,
+SMC,rn_SMC,,,,,nuchar,17.000,0.741,5.000,,,,,,
+SMC,bloem,,,,,,778.000,,,757.000,0.622,,,,
+SMC,vd,,,,,,47.000,,,46.000,0.065,0.000,24.000,0.200,15.000
+SMC,rn_SMC,,,,,,23.000,,,23.000,0.217,,,,
+LMC,vmac_LMC,,,,,,136.000,,,116.000,0.017,,,,
+LMC,rn_LMC,,,,,,34.000,,,29.000,0.000,,,,

@@ -215,3 +215,16 @@ To measure how strongly the FeCZ results depend on Galactic Fe, two small trees 
 profiles as in v2. Location: `/home/mcantiello/rednoise_tests/zbracket_Z010/` and `zbracket_Z018/` (local NVMe,
 same `{MW}/w0.0/M*` layout, so `RN_GRID=/home/mcantiello/rednoise_tests/zbracket_Z010` works with grid_io and the
 analysis scripts). Launched at 10:59 by `run_zbracket.sh`, 12 runs × 2 OpenMP threads, 24 h timeout.
+
+## 2026-09-25 17:00 — v2 grid status snapshot
+
+`RN_GRID=../grids_v2 python3 plot_grid_status.py` (from `grids/`) → `grids_v2/grid_status.{txt,png}`. 408 models:
+304 done, 67 running, 3 failed, 34 not started (SMC w0.6, job 7105365 pending on QOSMaxCpuPerUserLimit).
+All 5–25 Msun models are complete in every MW/LMC sub-grid, and in SMC w0.0 and w0.2 up to 40 Msun. Still running: the
+30/40–120 Msun models; MW ones are post-MS (X_c ≈ 0) except M100/M120; SMC w0.4 high masses are still mid-MS
+(X_c 0.5–0.7). Failures, all solver `min_timestep_limit` (dt < 1e-8 s after "give up in solver"):
+- SMC/w0.2/M60 on the MS at X_c = 0.066 (model 15250);
+- SMC/w0.4/M25 on the MS at X_c = 0.10 (model 3633);
+- LMC/w0.2/M50 after the TAMS (X_c ≈ 0; MS usable).
+The two SMC MS failures are rerun candidates. Their neighbours succeeded, so a restart from the last photo with tighter
+timestep controls (or a small mass offset) is the first thing to try. Not yet rerun.

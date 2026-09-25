@@ -12,7 +12,7 @@ This repository holds two projects:
 
 Shared reading: [`literature/`](literature/) and [`references/`](references/) (paper PDFs).
 
-**Current state and next steps: [`STATUS.md`](STATUS.md)** (restart point for a new session).
+**Plain-language overview with figures: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md).** Current state and next steps: [`STATUS.md`](STATUS.md) (restart point for a new session).
 
 ## 1. Cantiello et al. 2021 — `cantiello2021/`
 

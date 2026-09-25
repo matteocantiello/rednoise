@@ -1,6 +1,6 @@
 # STATUS: where the project stands (restart point for a new session)
 
-*Last updated 2026-09-25 17:30 EDT. Read this first, then `models/GRID_LOG.md` (grids) and the `analysis_mesa/REPORT_*.md`
+*Last updated 2026-09-25 18:00 EDT. Plain-language overview with figures: `PROJECT_SUMMARY.md`. Read this first, then `models/GRID_LOG.md` (grids) and the `analysis_mesa/REPORT_*.md`
 files named below. Standing rules: org CLAUDE.md LAWs (Slurm: read-only commands only, no polling; scoped searches); log all
 grid work in `models/GRID_LOG.md`; never rebuild or modify `models/template_new`; commit/push only when the user asks
 (message ends with the Co-Authored-By line); never add a reference without a resolved DOI.*
@@ -8,7 +8,7 @@ grid work in `models/GRID_LOG.md`; never rebuild or modify `models/template_new`
 ## 1. Running right now (check, don't poll)
 | what | where | state at 16:45 on 2026-09-25 |
 |---|---|---|
-| v2 grids (Slurm, user-submitted) | `models/grids_v2/{MW,LMC,SMC}/w*` | MW and LMC: 24–29 of 34 masses done per sub-grid, high masses still running. **SMC: w0.0 and w0.2 running, w0.4 and w0.6 pending** (one `squeue -u $USER` at ~15:00). Status file `models/grids_v2/grid_status.txt` (last written 10:11; regenerate with the grid scripts). |
+| v2 grids (Slurm, user-submitted) | `models/grids_v2/{MW,LMC,SMC}/w*` | Snapshot 17:00 (`grids_v2/grid_status.png`): 304/408 done, 67 running, 3 failed, SMC w0.6 (job 7105365) pending on the QOS CPU limit. All ≤ 25 Msun complete except SMC w0.4 M24/M25; running = 30–120 Msun. MS failures to rerun: SMC/w0.2/M60 (X_c 0.066), SMC/w0.4/M25 (X_c 0.10); LMC/w0.2/M50 failed after the TAMS (MS usable). See GRID_LOG 2026-09-25 17:00. |
 | composition bracket (local, not Slurm) | `/home/mcantiello/rednoise_tests/zbracket_Z0{10,18}/MW/w0.0/M{10..30}` | 12 runs via `run_zbracket.sh` since 10:59; at models 1150–1270; 24 h timeout. MS only (stop X_c = 1e-3). See GRID_LOG entry "composition bracket". |
 
 ## 2. Done on 2026-09-25 (after commit f555c5f; all uncommitted)
@@ -19,6 +19,7 @@ grid work in `models/GRID_LOG.md`; never rebuild or modify `models/template_new`
 | Van Daele 2026 replication | `REPORT_vandaele.md` | `vandaele_fit.py` (env-configurable), `digitize_vandaele.py`, `vandaele_compare.py` | Not reproducible star by star (fit-metric choice alone: 0.17 dex); ensemble slopes only partly reproduced (table corrected after the placement bug). |
 | Homogeneous MW vs SMC ν_char | `REPORT_mw_smc.md` | `tess_mw_download.py` (lightkurve venv), `mw_smc_nuchar.py`, `smc_instrumental_check.py` | 171 Galactic stars / 532 SPOC sectors; our pipeline matches Shen 2024 per sector (−0.02 dex). Raw SMC deficit −0.15 to −0.33 dex (30 stars). PSF floor is not separable from SLF at the periodogram level. |
 | Noise-floor model | `REPORT_floor.md` | `smc_floor_model.py` (FLOOR_STEP=calib/fits/inject), `floor_analysis.py` (+ `expected_R()`, `expected_detection()`) → `data_obs/floor_*.csv` | Whittle fits with an empirical floor from the 38 non-variable stars; 3328 injections. Only 24% of SLF-class sectors are above the floor (17% false positives). Galactic-like SLF is disfavoured (expected naive log ν −0.35 vs −0.69 observed): SMC SLF is ≲ 0.1× Galactic amplitude or ≳ 0.4 dex slower. Model-dependent. |
+| **v2 update, all datasets (evening)** | `analysis_mesa/REPORT_update_20260925.md` | extracts for 11 sub-grids; `make_fig_grids_obs.py` → `figures_v2/fig_{shrd_grids_obs,profiles_Z,fecz_window}` | MW results unchanged. SMC thresholds: FeCZ onset +0.95 dex vs MW; v_c = 3 km/s at 4.08. **0/24 Van Daele SLF stars sit in the SMC no-FeCZ window** (62% of BLOeM do). 5/23 Bowman 2024 SMC stars do (weaker, but not significantly). Tension: SMC ν_char near the threshold is 1 dex above the model turnover. LMC ν_char matches the model (+0.01 dex). |
 | Van Daele correspondence | `Vandaele_correspondence/README.md` | — | Email thread logged (timeline, v1 → published changes, action items, paper implications). **Private: keep out of public repos** (not yet in `.gitignore`; user to decide). |
 | Email to Van Daele | `Vandaele_correspondence/email_draft_2026-09-25.md` | `make_fig_vandaele_email.py` → `fig{1,2,3}_*.png` | **Draft, not sent.** User to review tone and whether to include the forward-model result; could be placed into a Gmail draft on request. |
 
@@ -47,7 +48,8 @@ Update draft for the claude.ai-synced `vizier-catalog-harmonize` (−1 sentinel 
    v2 is complete.
 
 ## 4. Next steps (in order)
-1. **When the SMC v2 grid finishes:** rerun the extraction and regime chain
+1. *(partly done 2026-09-25 evening: SMC maps, window fractions and ν offsets in REPORT_update_20260925.md; items (a) and
+   (b) below are done for ω = 0; (c) and the high-mass end remain.)* **When the SMC v2 grid finishes:** rerun the extraction and regime chain
    (`RN_GRID=../models/grids_v2 RN_DATA=data_v2 RN_FIG=figures_v2 python3 extract_mesa.py SMC/w0.0`, then
    `regime_crossings.py`). Then:
    - (a) SMC FeCZ-present map with the Van Daele (SLF / no SLF), full BLOeM and Bowman 2024 stars overlaid, reporting the
