@@ -7,14 +7,20 @@ and mtime, so re-plotting only re-reads models that changed.
 import os, re, glob, time
 import numpy as np
 
-GRID = os.path.dirname(os.path.abspath(__file__))
+# Grid to read: this directory (v1) by default; set RN_GRID to another grid tree (e.g. ../grids_v2).
+# Each non-default grid gets its own cache directory, because cache files are keyed by sub-grid/mass only.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+GRID = os.path.abspath(os.environ.get('RN_GRID', _HERE))
 CACHE = '/mnt/ceph/users/mcantiello/rednoise/cache/history_npz'
+if GRID != _HERE:
+    CACHE += '_' + os.path.basename(GRID)
 
 MASSES = [5.0, 5.2, 5.4, 5.6, 5.8, 6.0, 6.5, 7.0, 7.5, 8.0, 9.0,
           10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
           21, 22, 23, 24, 25, 30, 40, 50, 60, 80, 100, 120]
 SUBGRIDS = [(z, w) for z in ('MW', 'LMC', 'SMC') for w in ('w0.0', 'w0.2', 'w0.4', 'w0.6')]
 SUBGRIDS += [('MW_mltpp', 'w0.0')]
+SUBGRIDS = [(z, w) for z, w in SUBGRIDS if os.path.isdir(f'{GRID}/{z}/{w}')]   # only those set up
 ZVAL = {'MW': 0.014, 'MW_mltpp': 0.014, 'LMC': 0.006, 'SMC': 0.002}
 ZTITLE = {'MW': r'MW ($Z=0.014$)', 'LMC': r'LMC ($Z=0.006$)',
           'SMC': r'SMC ($Z=0.002$)', 'MW_mltpp': r'MW + MLT++ ($Z=0.014$)'}

@@ -153,3 +153,30 @@ written. Nothing reached `grids_v2` or Ceph. Fix: the v2 submit scripts (and `se
 `#SBATCH --chdir=<sub-grid dir>`, so logs and tasks go to the sub-grid regardless of where `sbatch` runs.
 Resubmitted: jobs 7104231 (w0.0), 7104232 (w0.2), 7104235 (w0.4), 7104236 (w0.6), pending on Priority with the
 correct working directories (`grids_v2/MW/w0.*`).
+
+## 2026-09-24 ~22:45 — v2 MW status and a crash fix
+
+After 2 h 52 min (jobs 7104231/2/5/6): 100 of 136 done (He exhaustion), 28 running (23 still on the MS),
+8 crashed. Status tooling now reads any grid: `RN_GRID=../grids_v2 python3 plot_grid_status.py` (from
+`grids/`) writes `grids_v2/grid_status.{txt,png}`. The history cache for non-default grids is kept apart
+(`.../cache/history_npz_grids_v2`), because cache files are keyed by sub-grid and mass only.
+
+| sub-grid | done | running | crashed |
+|---|---|---|---|
+| MW ω=0 / 0.2 / 0.4 / 0.6 | 26 / 25 / 25 / 24 | 6 / 7 / 7 / 8 | 2 / 2 / 2 / 2 |
+
+For comparison, v1 MW ω=0.6 had only 14 of 34 done after ~25 h, with 15 failures.
+
+**Crash:** M22 and M25 in all four sub-grids, at models 1–4 (pre-MS): `Index '1466' of 's%r' above upper
+bound 1465` in `get_conv_velocities` (run_star_extras.f90:1307), called from the extra history columns. Cause:
+the new `get_conv_regions_mlt` scans all cells with T < 1e6 K. Early pre-MS models can be below that
+everywhere and fully convective, so a region could end at the centre cell nz, and callers read r(k+1).
+**Fix:** `n_limit = min(n_limit, s% nz - 1)` (backup `template_v2/src/run_star_extras.f90.pre_nzfix`).
+Compile-tested in a scratch copy; M22 and M25 (ω=0) then ran cleanly past model 60 locally
+(`/home/mcantiello/rednoise_tests/v2smoke/MW/w0.0/`). Other models are unaffected (the fix only changes
+the pre-MS edge case).
+**Rerun prepared, not submitted:** `grids_v2/MW/submit_rerun_nzfix.sh` (1 node, disBatch, 8 models from
+scratch; task list `grids_v2/MW/rerun_nzfix_tasks.txt`). It requires the live `template_v2/star` to be rebuilt
+first; running jobs keep their already-loaded binary.
+**23:05:** live `template_v2/star` rebuilt with the fix (user approved); verified locally on v2 MW ω=0 M25 with
+the live binary (20 models, no runtime error). Ready to submit: `sbatch grids_v2/MW/submit_rerun_nzfix.sh`.

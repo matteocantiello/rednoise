@@ -1,0 +1,8 @@
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.0/M22 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.0/M25 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.2/M22 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.2/M25 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.4/M22 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.4/M25 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.6/M22 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1
+cd /mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.6/M25 && rm -f LOGS/* photos/* && export OMP_NUM_THREADS=16 && ./rn > rn.out 2>&1

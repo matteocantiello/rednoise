@@ -1002,9 +1002,6 @@
            do k = 1, s% nz
               if (s% T(k) < T_limit) n_limit = k
            end do
-           ! Early pre-MS models can be below T_limit everywhere; never let a region end at the
-           ! centre cell, since callers use r(k+1) (crashed v2 MW M22/M25 at models 1-4, 2026-09-24)
-           n_limit = min(n_limit, s% nz - 1)
            inside = .false.
            do k = 1, n_limit
               if (s% mlt_mixing_type(k) == convective_mixing) then
