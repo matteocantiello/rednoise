@@ -12,6 +12,8 @@ This repository holds two projects:
 
 Shared reading: [`literature/`](literature/) and [`references/`](references/) (paper PDFs).
 
+**Current state and next steps: [`STATUS.md`](STATUS.md)** (restart point for a new session).
+
 ## 1. Cantiello et al. 2021 — `cantiello2021/`
 
 The FeCZ properties of MESA models (r15140, non-rotating, Z = 0.02 / LMC / SMC) are compared with the
@@ -31,7 +33,7 @@ link `github.com/matteocantiello/rednoise/blob/master/<path>` still works as `..
 | [`paper_apj/`](paper_apj/) | AASTeX 6.3.1 manuscript (`main.tex`), tables (incl. machine-readable tables), figures. Build: `pdflatex main && bibtex main && pdflatex main && pdflatex main`. §5.6 and the appendix describe the MESA grid. |
 | [`handoff/`](handoff/) | Observational catalogues and results the manuscript is built on: `project_handoff/PROJECT_HANDOFF.md` (overview), `project_handoff/data/` (red-noise and macroturbulence catalogues, fit tables, Bowman+2020 tables, `make_figures.py`). |
 | [`models/`](models/) | New MESA r26.04.1 grids. **Start with [`models/GRID_LOG.md`](models/GRID_LOG.md)**, the dated record of every grid, physics change, bug and test. |
-| [`analysis_mesa/`](analysis_mesa/) | Grid vs. observations: `extract_mesa.py` (grid → tables), `compare_obs.py`, transfer models (`transfer_models.py`, `test_transfer.py`, `scenarios.py`), figure scripts; findings in `REPORT_transfer.md`. |
+| [`analysis_mesa/`](analysis_mesa/) | Grid vs. observations: `extract_mesa.py` (grid → tables), `compare_obs.py`, transfer models (`transfer_models.py`, `test_transfer.py`, `scenarios.py`), figure scripts; findings in `REPORT_*.md` (index in `STATUS.md` §2). |
 
 ### `models/` layout
 | Path | What |

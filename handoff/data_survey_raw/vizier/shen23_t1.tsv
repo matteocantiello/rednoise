@@ -1,0 +1,168 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-25T17:42:27 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-25T17:42:27	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/955/123/table1&-out.max=unlimited&-out.all=2	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_19550123
+#Name: J/ApJ/955/123
+#Title: Variability of magnetic hot stars from TESS obs. (Shen+, 2023)
+#INFO	ivoid=ivo://cds.vizier/j/apj/955/123	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/apj/955/123	    IVOID of underlying data collection
+#INFO	creator=Shen D.-X.	    First author or institution
+#INFO	cites=bibcode:2023ApJ...955..123S	    Article or Data origin sources
+#INFO	journal=ApJ	    Journal name
+#INFO	original_date=2023	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJ/955/123	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier/ba-xv-3v	    Dataset identifier that can be used for citation
+#INFO	publication_date=2026-07-02	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	J2000_2000.000:	eq_FK5 J2000
+#Table	J_ApJ_955_123_table1:
+#Name: J/ApJ/955/123/table1
+#Title: Identification numbers, physical parameters and variability classifications of the 118 magnetic hot stars
+#Column	Name	(a11)	Stellar identifier	[ucd=meta.id;meta.main]
+#Column	TIC	(I10)	[4289780/2055137574] TESS Input Catalog identifier	[ucd=meta.id]
+#Column	SpT	(a13)	Spectral type	[ucd=src.spType]
+#Column	logL	(F5.2)	[0.73/5.7]? Log luminosity	[ucd=phys.luminosity]
+#Column	e_logL	(F5.2)	[0.01/0.6]? Uncertainty in logL	[ucd=stat.error;phys.luminosity]
+#Column	logT	(F5.2)	[3.83/4.59]? Log effective temperature	[ucd=phys.temperature.effective]
+#Column	e_logT	(F5.2)	[0.0/0.08]? Uncertainty in logT	[ucd=stat.error;phys.temperature.effective]
+#Column	logg	(F5.2)	[0.0/4.75]? Log surface gravity	[ucd=phys.gravity]
+#Column	e_logg	(F5.2)	[0.0/2.0]? Uncertainty in log (g)	[ucd=stat.error;phys.gravity]
+#Column	Ref	(a9)	Reference for spectroscopic analyses (1)	[ucd=meta.ref]
+#Column	Var	(a25)	Variability (2)	[ucd=meta.code;src.var]
+#Column	Nf	(I3)	Number of SLF fitting parameter measurements for this star (link to Table 2)	[ucd=meta.number]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+Name	TIC	SpT	logL	e_logL	logT	e_logT	logg	e_logg	Ref	Var	Nf	Simbad	_RA	_DE
+ 	 	 	[Lsun]	[Lsun]	K	K	[cm/s2]	[cm/s2]	 	 	 	 	deg	deg
+-----------	----------	-------------	-----	-----	-----	-----	-----	-----	---------	-------------------------	---	------	---------	---------
+ALS 15218  	 458859193	O8.5Vp       	 5.00	 0.10	 4.53	 0.03	 4.00	 0.20	R1       	cont. + SLF              	  2	Simbad	161.28431	-59.76860
+ALS 3694   	  37053664	B1           	 3.80	 0.20	 4.40	 0.02	 4.00	 0.10	R2       	rot. + SLF               	  2	Simbad	250.14124	-48.88782
+CD-59 3239 	 390668263	B0.5V        	 4.30	 0.20	 4.36	 0.06	 3.60	 0.20	R1       	cont. + SLF              	  2	Simbad	160.65064	-59.99057
+CPD-28 2561	 129361218	O6Ifp        	 5.50	 0.20	 4.54	 0.02	 4.00	 0.20	R1       	unknown + SLF            	  1	Simbad	118.97021	-28.62966
+CPD-60 944B	 358467049	B8III        	 2.26	 0.02	 4.18	 0.03	 4.75	 0.25	this work	unknown                  	  0	Simbad	119.19276	-60.81619
+CPD-62 2124	 290796936	B2IV         	 3.80	 0.20	 4.37	 0.00	 4.05	 0.10	R2       	rot. + SLF               	  2	Simbad	173.90359	-63.26348
+HD 101412  	 320547523	B9           	 1.65	 0.01	 4.00	 0.04	 4.10	 0.40	this work	unknown + SLF            	  1	Simbad	174.93524	-60.17437
+HD 105382  	 333670665	B6III        	 3.00	 0.20	 4.26	 0.01	 4.13	 0.07	R1       	rot. + SLF               	  2	Simbad	182.02176	-50.66127
+HD 108     	 406893156	O6f?p-O8fp   	 5.70	 0.10	 4.54	 0.02	 3.50	 0.20	R1       	Multi + SLF              	  1	Simbad	001.51412	+63.67966
+HD 121743  	 359762838	B2IV         	 3.60	 0.20	 4.32	 0.03	 4.02	 0.12	R1       	hybird + SLF             	  2	Simbad	209.56778	-42.10076
+HD 125823  	 167480388	B7IIIp       	 3.20	 0.20	 4.28	 0.05	 4.14	 0.12	R1       	rot. + SLF               	  2	Simbad	215.75933	-39.51182
+HD 127381  	 457686485	B1V          	 3.76	 0.06	 4.36	 0.02	 4.02	 0.10	R1       	rot. + SLF               	  2	Simbad	218.15440	-50.45715
+HD 130807  	 455309397	B5           	 2.70	 0.20	 4.23	 0.03	 4.25	 0.10	R1       	Multi + SLF              	  2	Simbad	222.90960	-43.57536
+HD 136504  	 147226597	B2IV-V       	 3.70	 0.20	 4.31	 0.01	 3.97	 0.15	R1       	Multi + {beta} Cep  + SLF	  1	Simbad	230.67028	-44.68962
+HD 149277  	 229331994	B2IV/V       	 3.50	 0.20	 4.30	 0.04	 3.75	 0.15	R3       	Multi + SLF              	  2	Simbad	248.95066	-45.67876
+HD 149438  	 205175750	B0.2V        	 4.50	 0.10	 4.50	 0.01	 4.00	 0.10	R1       	unknown + SLF            	  2	Simbad	248.97064	-28.21602
+HD 156324  	 153805844	B2V          	 3.80	 0.60	 4.34	 0.06	 4.00	 0.30	R2       	Multi + SLF              	  2	Simbad	259.59757	-32.40402
+HD 156424  	 154190068	B2V          	 3.50	 0.40	 4.30	 0.07	 3.99	 0.10	R4       	Multi + {beta} Cep + SLF 	  2	Simbad	259.72729	-32.34575
+HD 175362  	 113272022	B5V          	 2.60	 0.10	 4.25	 0.01	 4.24	 0.10	R1       	rot. + SLF               	  1	Simbad	284.16869	-37.34325
+HD 176582  	 120355394	B5IV         	 2.90	 0.10	 4.23	 0.03	 4.00	 0.10	R2       	rot. + SLF               	  2	Simbad	284.80122	+39.21732
+HD 189775  	 303247444	B5V          	 2.90	 0.10	 4.24	 0.01	 4.12	 0.08	R2       	rot. + SLF               	  3	Simbad	299.81394	+52.05569
+HD 191612  	 378273410	O6f?p        	 5.40	 0.20	 4.54	 0.01	 3.50	 1.00	R1       	unknown + SLF            	  1	Simbad	302.36921	+35.73369
+HD 200775  	 387813185	B1           	 4.00	 0.30	 4.25	 0.05	 3.40	 0.20	R1       	unknown + SLF            	  1	Simbad	315.40384	+68.16327
+HD 205021  	 321818578	B1IV         	 4.30	 0.10	 4.40	 0.02	 3.80	 0.15	R1       	{beta} Cep + SLF         	  2	Simbad	322.16499	+70.56072
+HD 23478   	  26432264	B3IV         	 3.20	 0.20	 4.30	 0.04	 4.20	 2.00	R2       	rot. + SLF               	  1	Simbad	056.67030	+32.29019
+HD 25558   	 407615454	B3V          	 2.80	 0.30	 4.23	 0.02	 4.20	 0.20	R1       	Multi + SLF              	  2	Simbad	060.93585	+05.43562
+HD 306795  	 290682018	B2V          	 3.20	 0.30	 4.25	 0.05	 3.90	 0.20	R1       	unknown + SLF            	  1	Simbad	173.96664	-61.66102
+HD 3360    	 240669906	B2IV         	 3.82	 0.06	 4.32	 0.00	 3.80	 0.05	R1       	{beta} Cep + SLF         	  1	Simbad	009.24285	+53.89691
+HD 345439  	 424048289	B2IV         	 4.00	 0.30	 4.36	 0.04	 4.29	 0.19	R2       	rot. + SLF               	  1	Simbad	299.70204	+23.08932
+HD 35298   	 269118344	B3Vw         	 2.40	 0.10	 4.20	 0.02	 4.25	 0.12	R1       	rot. + SLF               	  2	Simbad	080.95983	+02.08217
+HD 35502   	   4289780	B5V          	 3.00	 0.10	 4.26	 0.01	 4.30	 0.20	R2       	Multi + SLF              	  2	Simbad	081.25502	-02.81547
+HD 35912   	 464839773	B1.5Ve       	 3.30	 0.30	 4.25	 0.02	 4.00	 0.10	R1       	SPB + SLF                	  2	Simbad	082.00613	+01.29825
+HD 36485   	  50743458	B2Ve         	 3.50	 0.10	 4.30	 0.04	 4.00	 0.10	R2       	Multi + SLF              	  2	Simbad	083.00169	-00.28454
+HD 36526   	  50787573	B8Vp         	 2.30	 0.20	 4.17	 0.06	 4.10	 0.14	R1       	rot. + SLF               	  2	Simbad	083.05451	-01.60048
+HD 36982   	 427395300	B1.5Vp       	 3.00	 0.20	 4.34	 0.04	 4.40	 0.20	R1       	unknown + SLF            	  1	Simbad	083.79098	-05.46478
+HD 37017   	 427393058	B1.5-2.5IV-Vp	 3.40	 0.20	 4.32	 0.04	 4.10	 0.20	R2       	Multi + SLF              	  2	Simbad	083.84111	-04.49417
+HD 37022   	 427394772	O6V          	 5.30	 0.10	 4.59	 0.01	 4.10	 0.10	R1       	Multi + SLF              	  2	Simbad	083.81861	-05.38970
+HD 37058   	 427393350	B3VpC        	 2.90	 0.10	 4.27	 0.01	 4.17	 0.07	R1       	unknown + SLF            	  1	Simbad	083.88897	-04.83755
+HD 37479   	  11286209	B2Vp         	 3.50	 0.20	 4.36	 0.04	 4.20	 0.20	R2       	rot. + SLF               	  2	Simbad	084.69669	-02.59459
+HD 37742   	  11360636	O8f?p        	 5.60	 0.10	 4.46	 0.01	 3.20	 0.10	R1       	Multi + SLF              	  1	Simbad	085.18970	-01.94257
+HD 37776   	  11400909	B2Vp         	 3.30	 0.20	 4.34	 0.02	 4.25	 0.20	R2       	rot. + SLF               	  0	Simbad	085.23488	-01.50718
+HD 43317   	 265080539	B3IV         	 2.95	 0.08	 4.24	 0.00	 4.07	 0.10	R5       	hybird + SLF             	  2	Simbad	093.94589	+04.28364
+HD 44743   	  34590771	B1II/III     	 4.41	 0.06	 4.39	 0.01	 3.78	 0.08	R6       	{beta} Cep + SLF         	  2	Simbad	095.67494	-17.95592
+HD 46328   	  47763235	B1III        	 4.50	 0.10	 4.43	 0.02	 3.78	 0.07	R1       	{beta} Cep + SLF         	  2	Simbad	097.96403	-23.41842
+HD 47129   	 220197273	O7Vp         	 5.09	 0.04	 4.52	 0.03	 4.10	 0.10	R1       	Multi + SLF              	  1	Simbad	099.35018	+06.13538
+HD 47777   	 220322778	B3V          	 3.42	 0.15	 4.34	 0.02	 4.20	 0.10	R1       	rot. + SLF               	  2	Simbad	100.17622	+09.65592
+HD 52089   	  63198307	B1.5II       	 4.35	 0.05	 4.35	 0.01	 3.40	 0.08	R6       	unknown + SLF            	  2	Simbad	104.65645	-28.97209
+HD 54879   	 177860391	O9.7V        	     	     	     	     	     	     	         	unknown + SLF            	  2	Simbad	107.53395	-11.80273
+HD 55522   	  65403216	B2IV/V       	 3.00	 0.20	 4.24	 0.01	 3.95	 0.06	R1       	rot. + SLF               	  1	Simbad	108.05089	-25.94259
+HD 57682   	 187458882	O7.5III      	 4.80	 0.20	 4.53	 0.01	 4.00	 0.20	R1       	unknown + SLF            	  2	Simbad	110.50856	-08.97938
+HD 58260   	 284735369	B3Vp         	 3.20	 0.30	 4.28	 0.03	 4.20	 0.20	R1       	cont. + SLF              	  1	Simbad	110.83167	-36.34015
+HD 61556   	 110798652	B5V          	 3.10	 0.20	 4.27	 0.02	 4.10	 0.15	R1       	rot. + SLF               	  2	Simbad	114.70779	-26.80385
+HD 63425   	 175599737	B0.5V        	 4.49	 0.07	 4.47	 0.01	 4.00	 0.10	R1       	cont. + SLF?             	  0	Simbad	116.77996	-41.50373
+HD 64740   	 268971806	B1.5Vp       	 3.80	 0.20	 4.39	 0.02	 4.01	 0.09	R2       	rot. + SLF               	  2	Simbad	118.26514	-49.61304
+HD 66522   	 238314043	B2III        	 3.50	 0.20	 4.32	 0.04	 3.88	 0.23	R1       	cont.? + SLF             	  2	Simbad	120.39626	-50.60560
+HD 66665   	 443848410	B0.5V        	 4.70	 0.20	 4.45	 0.02	 3.90	 0.10	R1       	cont. + SLF              	  2	Simbad	121.19938	+06.18606
+HD 66765   	 238381092	B1/B2V       	 3.40	 0.20	 4.30	 0.04	 4.13	 0.20	R2       	Multi + SLF              	  3	Simbad	120.73215	-48.32499
+HD 67621   	 238489837	B2IV         	 3.30	 0.10	 4.32	 0.01	 4.18	 0.10	R1       	rot. + SLF               	  3	Simbad	121.67337	-48.49739
+HD 9289    	 136842396	A3V          	 0.94	 0.07	 3.94	 0.02	 4.50	 0.20	this work	rot. + SLF               	  2	Simbad	022.81864	-11.11887
+HD 96446   	 466675723	B1IVp/B2Vp   	 3.80	 0.20	 4.36	 0.02	 3.74	 0.10	R1       	{beta} Cep + SLF         	  1	Simbad	166.52426	-59.94988
+NGC 1624 2 	 354879267	O7V          	 5.10	 0.20	 4.54	 0.02	 4.00	 0.20	R1       	unknown + SLF            	  1	Simbad	070.15532	+50.46140
+HD 184927  	  41099689	B2Vp         	 3.60	 0.20	 4.34	 0.02	 3.90	 0.23	R1       	rot. + SLF               	  1	Simbad	293.88338	+31.27665
+HD 105770  	 357310008	B9V          	 2.22	 0.11	 4.12	 0.01	     	     	R7       	rot. + SLF               	  1	Simbad	182.78921	-83.77820
+HD 115226  	 394272819	A3V          	 0.86	 0.12	 3.88	 0.01	     	     	R7       	rot. + SLF               	  2	Simbad	199.50008	-72.95026
+HD 117025  	 314265097	A2V          	 1.42	 0.05	 3.95	 0.02	     	     	R7       	rot. + SLF               	  1	Simbad	202.28296	-64.67580
+HD 118913  	 342995661	A0V          	 1.67	 0.14	 3.98	 0.01	     	     	R7       	rot. + SLF               	  1	Simbad	205.61231	-69.24692
+HD 119308  	 305716720	A0V          	 1.48	 0.15	 4.00	 0.01	     	     	R7       	rot. + SLF               	  1	Simbad	205.80327	-35.29025
+HD 122983  	 329012708	B9           	 1.75	 0.22	 4.02	 0.01	 4.00	 0.34	this work	rot. + SLF               	  1	Simbad	211.55709	-48.38686
+HD 127453  	 446846414	B8V          	 2.25	 0.17	 4.08	 0.01	     	     	R7       	rot. + SLF               	  1	Simbad	218.74987	-69.45318
+HD 12932   	 268751602	A5V          	 1.07	 0.04	 3.92	 0.02	 3.50	 0.30	this work	cont.                    	  2	Simbad	031.56584	-19.12397
+HD 136933  	 148822705	A0V          	     	     	     	     	     	     	         	rot. + SLF               	  1	Simbad	231.18757	-39.71025
+HD 138758  	 425871448	B9V          	 1.68	 0.17	 4.02	 0.02	     	     	R7       	rot. + SLF               	  1	Simbad	235.11348	-74.44321
+HD 146555  	 208684639	A0V          	 2.37	 0.12	 4.11	 0.01	 4.00	 0.34	this work	rot. + SLF               	  1	Simbad	244.99729	-57.90784
+HD 150562  	  44827786	A5V          	 0.86	 0.04	 3.83	 0.03	 3.50	 0.50	this work	cont. + SLF              	  2	Simbad	251.04771	-48.65503
+HD 154708  	 173372645	A2V          	 0.73	 0.14	 3.83	 0.01	     	     	R7       	rot. + SLF               	  2	Simbad	257.61882	-58.00484
+HD 157751  	 160367734	B9V          	 1.38	 0.15	 3.99	 0.01	     	     	R7       	rot. + SLF               	  1	Simbad	261.67164	-34.09236
+HD 161459  	 363716787	A2V          	 1.09	 0.04	 3.86	 0.01	 3.50	 0.50	this work	rot. + SLF               	  2	Simbad	267.12314	-51.91737
+HD 166473  	 368866492	A5V          	 0.98	 0.01	 3.88	 0.01	 4.50	 0.24	this work	cont. + SLF              	  1	Simbad	273.10764	-37.75258
+HD 172690  	 469692862	A0V          	 2.05	 0.15	 4.06	 0.02	     	     	R7       	rot. + SLF               	  1	Simbad	285.56006	-83.93979
+HD 176196  	 387132889	B9V          	 1.81	 0.15	 4.00	 0.01	     	     	R7       	cont. + SLF              	  1	Simbad	286.73386	-74.75744
+HD 187474  	 300279840	A0V          	 1.88	 0.08	 4.00	 0.01	     	     	R7       	unknown                  	  2	Simbad	297.96088	-39.87437
+HD 190290  	 318007796	A0V          	 0.83	 0.01	 3.85	 0.01	 4.00	 0.30	this work	rot. + SLF               	  2	Simbad	303.48485	-78.87841
+HD 19918   	 348717688	A5V          	 1.09	 0.01	 3.87	 0.01	 4.00	 0.10	this work	cont. + SLF              	  2	Simbad	045.15452	-81.90203
+HD 201018  	 115150623	A2V          	     	     	     	     	     	     	         	Multi + SLF              	  1	Simbad	317.03172	-37.04524
+HD 203932  	 211404370	A5V          	 1.02	 0.01	 3.89	 0.01	 4.50	 0.41	this work	unknown + SLF            	  2	Simbad	321.51612	-29.93004
+HD 218495  	 237336864	A2V          	 1.00	 0.01	 3.93	 0.01	 0.00	 0.00	this work	rot. + SLF               	  1	Simbad	347.36547	-63.65336
+HD 45583   	  42884620	B9V          	 2.33	 0.10	 4.20	 0.05	 3.75	 0.25	this work	rot. + SLF               	  1	Simbad	097.04486	-04.89903
+HD 49299   	  49314893	A0V          	 2.43	 0.05	 4.23	 0.04	 4.00	 0.10	this work	unknown + SLF            	  1	Simbad	101.73586	-20.65196
+HD 53921   	 766092864	B9III+B8V    	     	     	     	     	     	     	         	Multi + SLF              	  2	Simbad	105.81291	-59.17811
+HD 56350   	 344175577	BV           	 1.79	 0.08	 4.02	 0.02	     	     	R7       	rot. + SLF               	  1	Simbad	108.41615	-53.66781
+HD 65712   	 358467700	A0V          	 1.48	 0.04	 3.95	 0.01	 4.00	 0.30	this work	rot. + SLF               	  6	Simbad	119.09450	-61.28393
+HD 65987   	 372913684	B9V          	 2.62	 0.06	 4.11	 0.02	 4.00	 0.20	this work	rot. + SLF               	  5	Simbad	119.51213	-60.61479
+HD 66295   	 410451777	B8V          	 1.62	 0.05	 4.05	 0.08	 4.00	 0.20	this work	rot. + SLF               	  3	Simbad	119.83873	-60.81566
+HD 66318   	 410451752	A0V          	 1.48	 0.03	 3.93	 0.01	 4.00	 0.10	this work	unknown + SLF?           	  4	Simbad	119.86447	-60.79643
+HD 87240   	 462162948	B9V          	 2.90	 0.40	 4.10	     	 3.60	     	R8       	rot. + SLF               	  1	Simbad	150.43371	-59.85005
+HD 89103   	 219614759	B9V          	 1.67	 0.12	 4.07	 0.02	     	     	R7       	rot. + SLF               	  1	Simbad	153.89343	-49.22414
+HD 92499   	 146715928	A2V          	 1.05	 0.17	 3.86	 0.01	     	     	R7       	cont. + SLF              	  2	Simbad	160.03580	-43.08070
+HD 94660   	 147622676	A0V          	 1.98	 0.09	 4.03	 0.02	     	     	R7       	rot. + SLF               	  2	Simbad	163.75422	-42.25110
+HD 9672    	  54003409	A1V          	 1.25	 0.02	 3.98	 0.01	 4.00	 0.20	this work	cont. + SLF              	  2	Simbad	023.65741	-15.67636
+HD 10840   	 231844926	B3V          	 1.93	 0.11	 4.07	 0.02	 4.22	 0.20	R9       	cont. + SLF              	  1	Simbad	026.13738	-61.01871
+HD 115440  	 394308408	B9V          	 1.90	 0.11	 4.08	 0.02	 4.29	 0.20	R9       	rot. + SLF               	  1	Simbad	200.01876	-76.41919
+HD 116890  	 340963903	B9V          	 2.45	 0.12	 4.11	 0.02	 3.97	 0.21	R9       	rot. + SLF               	  1	Simbad	202.19494	-69.62712
+HD 127575  	 421348273	B9V          	 1.77	 0.11	 4.08	 0.02	 4.36	 0.20	R9       	rot. + SLF               	  1	Simbad	218.89620	-68.73912
+HD 128775  	 128886984	B9V          	 2.09	 0.14	 4.07	 0.02	 4.07	 0.24	R9       	rot. + SLF               	  1	Simbad	220.08030	-45.79384
+HD 129899  	 402517183	A0V          	 2.28	 0.12	 4.03	 0.02	 3.74	 0.22	R9       	rot. + SLF               	  1	Simbad	222.87515	-77.17597
+HD 149764  	  83824229	A0V          	 2.03	 0.11	 4.11	 0.02	 4.31	 0.20	R9       	rot. + SLF               	  1	Simbad	249.62892	-39.15233
+HD 149822  	 148207172	B9V          	 1.66	 0.10	 4.02	 0.02	 4.21	 0.20	R9       	rot. + SLF               	  2	Simbad	249.17891	+15.49745
+HD 212385  	 278804454	A3V          	 1.36	 0.10	 3.93	 0.03	 4.05	 0.22	R9       	rot. + SLF               	  2	Simbad	336.15671	-39.12708
+HD 24188   	  32035258	A0V          	 1.98	 0.10	 4.10	 0.02	 4.29	 0.18	R9       	rot. + SLF               	  3	Simbad	056.34890	-71.65813
+HD 34797   	 408217716	B8V          	 2.43	 0.14	 4.12	 0.02	 4.04	 0.26	R9       	rot. + SLF               	  2	Simbad	079.82630	-18.50955
+HD 37633   	  11295912	B9V          	 1.90	 0.14	 4.11	 0.02	 4.39	 0.23	R9       	rot. + SLF               	  1	Simbad	084.94249	-02.67559
+HD 63401   	 175604551	B8V          	 2.32	 0.10	 4.13	 0.02	 4.15	 0.18	R9       	rot. + SLF               	  2	Simbad	116.77399	-39.33100
+HD 69067   	 182362832	B8V          	 1.91	 0.12	 4.09	 0.02	 4.30	 0.21	R9       	rot. + SLF               	  1	Simbad	123.44415	-37.72427
+HD 83625   	 440537642	A0V          	 1.88	 0.11	 4.07	 0.02	 4.27	 0.20	R9       	rot. + SLF               	  1	Simbad	144.51340	-54.21911
+HD 86199   	 469253078	B9V          	 2.23	 0.11	 4.10	 0.02	 4.11	 0.20	R9       	rot. + SLF               	  1	Simbad	148.77500	-57.38292
+HD 88158   	 375583232	B8V          	 2.31	 0.10	 4.11	 0.02	 4.07	 0.19	R9       	rot. + SLF               	  1	Simbad	151.98595	-62.22142
+HD 88385   	 462877348	A0V          	 1.63	 0.11	 3.99	 0.02	 4.12	 0.22	R9       	rot. + SLF               	  1	Simbad	152.45603	-56.74812
+HD 218994  	2055137574	ApSr         	     	     	     	     	     	     	R10      	{delta} Sct              	  0	Simbad	348.31683	-60.58413
+

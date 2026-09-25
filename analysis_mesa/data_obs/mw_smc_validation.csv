@@ -1,0 +1,5 @@
+ref,metric,n,median,mad,within_0p1,spearman
+Shen2024 same sector,lin,227,-0.023,0.199,0.269,0.693
+Bowman2020 per star (sectors <= 13),lin,64,-0.154,0.093,0.344,0.752
+Shen2024 same sector,log,242,0.067,0.145,0.405,0.774
+Bowman2020 per star (sectors <= 13),log,63,-0.061,0.117,0.476,0.818

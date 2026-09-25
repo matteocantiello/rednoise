@@ -99,7 +99,8 @@ def astropy_config_fix(base=".cache"):
         os.environ[k] = p
 
 def xmatch_coords(df_a, ra_a, de_a, df_b, ra_b, de_b, radius_arcsec=2.0):
-    """Nearest-neighbour sky match; returns (idx_into_b, sep_arcsec) aligned to df_a (NaN if none)."""
+    """Nearest-neighbour sky match; returns (idx_into_b, sep_arcsec) aligned to df_a.
+    Unmatched rows get idx = -1 (NOT NaN); guard with idx >= 0 before any .iloc (iloc[-1] = last row)."""
     astropy_config_fix()
     from astropy.coordinates import SkyCoord
     import astropy.units as u

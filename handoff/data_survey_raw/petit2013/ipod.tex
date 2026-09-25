@@ -1,0 +1,1260 @@
+
+\documentclass[useAMS,usenatbib]{mn2e}
+
+
+% If you wish to typeset the paper in Times font (if you do not have the
+% PostScript Type 1 Computer Modern fonts you will need to do this to get
+% smoother fonts in a PDF file) then uncomment the next line
+% \usepackage{Times}
+
+%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%
+
+
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{dcolumn}
+\usepackage{longtable}
+
+\usepackage{pdflscape}
+
+
+\newcommand{\nstars}{64}
+
+\newcommand{\mcc}[1]{\multicolumn{1}{c}{#1}}
+
+\newcommand{\etas}{\eta_\ast}
+\newcommand{\ra}{R_\mathrm{A}}
+\newcommand{\rk}{R_\mathrm{K}}
+\newcommand{\rs}{R_\ast}
+\newcommand{\ms}{M_\ast}
+\newcommand{\rp}{R_\mathrm{p}}
+\newcommand{\vrot}{V_\mathrm{rot}}
+\newcommand{\vcrit}{V_\mathrm{orb}}
+\newcommand{\vesc}{V_\mathrm{esc}}
+\newcommand{\vsini}{v \sin i}
+\newcommand{\vinf}{V_\infty}
+
+\newcommand{\beq}{B_\mathrm{eq}}
+\newcommand{\bc}{B_\mathrm{c}}
+\newcommand{\bp}{B_\mathrm{p}}
+\newcommand{\mbl}{\langle B_{z}\rangle}
+
+\newcommand{\mdot}{\dot{M}_{B=0}}
+\newcommand{\qbar}{\bar{Q}}
+\newcommand{\gae}{\Gamma_e}
+\newcommand{\alf}{\alpha_\mathrm{eff}}
+
+\newcommand{\teff}{T_\mathrm{eff}}
+\newcommand{\lbol}{L_\mathrm{bol}}
+\newcommand{\lsun}{L_\odot}
+\newcommand{\ls}{L_\star}
+\newcommand{\lx}{L_\mathrm{X}}
+\newcommand{\lum}{\log(L_\star/L_\odot)}
+\newcommand{\lxls}{\log(\lx/\ls)}
+\newcommand{\logg}{\log g}
+
+\newcommand{\tauj}{\tau_\mathrm{J}}
+\newcommand{\tsmax}{t_{\mathrm{s,max}}}
+\newcommand{\ts}{t_\mathrm{s}}
+
+\newcommand{\sm}{\,s$^{-1}$}
+
+\newcommand{\rsol}{R_\odot}
+\newcommand{\msol}{M_\odot}
+\newcommand{\msolyr}{$M_\odot$\,yr$^{-1}$}
+
+
+\newcommand{\oriunc}{$\theta^1$\,Ori\,C}
+\newcommand{\sigorie}{$\sigma$\,Ori\,E}
+\newcommand{\zetaoria}{$\zeta$\,Ori\,A}
+
+
+% Stan's LaTeX definitions
+\newcommand{\beqn}{\begin{equation}}
+\newcommand{\eeqn}{\end{equation}}
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+
+
+
+%\newenvironment{zetable}{\onecolumn}{\twocolumn}
+
+%\usepackage[nolists,noheads,nomarkers]{endfloat}
+%\DeclareDelayedFloatFlavour{zetable}{table}
+%\renewcommand{\efloatseparator}{\mbox{}}
+
+
+\usepackage{color}
+%\usepackage{soul}
+%\definecolor{jaune}{rgb}{1.0, 1.0, 0.0}
+%\definecolor{stan}{rgb}{0.0, 0.65, 0.0}
+%\definecolor{vero}{rgb}{1.0, 0.50, 0.75}
+%\definecolor{jon}{rgb}{1.0, 0.4, 0.2}
+%\definecolor{david}{rgb}{0.48, 0.40, 0.93}
+%\definecolor{gregg}{rgb}{0.37, 0.62, 0.62}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.60}
+
+\usepackage{hyperref}
+\hypersetup{bookmarks=true, colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+
+%\newcommand{\hlj}[1]{\protect\sethlcolor{jaune}\hl{#1}}
+
+%\newcommand{\stan}[1]{\textcolor{stan}{\bf #1}}
+%\newcommand{\jon}[1]{\textcolor{jon}{\bf #1}}
+%\newcommand{\vero}[1]{\textcolor{vero}{\bf #1}}
+%\newcommand{\david}[1]{\textcolor{david}{\bf #1}}
+%\newcommand{\gregg}[1]{\textcolor{gregg}{\bf #1}}
+
+%\setlength{\pdfpageheight}{27in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Classification of Massive Star Magnetospheres]{A Magnetic Confinement vs.\ Rotation Classification of Massive-Star Magnetospheres
+%\thanks{Based on observations obtained at the Canada-France-Hawaii Telescope (CFHT) and at the T\'elescope Bernard Lyot (TBL). CFHT is operated by the National Research Concil of Canada, the Institut National des Sciences de l'Univers of the Centre National de la Recherche Scientifique of France, and the University of Hawaii. TBL is operated by CNRS/INSU.}
+}
+
+
+\author[Petit et al.]{%
+V. Petit$^{1}$\thanks{E-mail: VPetit@wcupa.edu}, 
+S.~P. Owocki$^{2}$,
+G.~A. Wade$^{3}$,
+D.~H. Cohen$^{4}$,
+J.~O. Sundqvist$^{2}$,
+\newauthor
+M. Gagn\'e$^{1}$,
+J. Ma\'iz Apell\'aniz$^{5}$,
+M.~E. Oksala$^{6}$,
+D.~A. Bohlender$^{7}$,
+Th. Rivinius$^{8}$,
+\newauthor
+H.~F. Henrichs$^{9}$,
+E. Alecian$^{10}$,
+R.~H.~D Townsend$^{11}$,
+A. ud-Doula$^{12}$
+\newauthor
+and the MiMeS Collaboration
+\\
+$^{1}$Dept. of Geology \& Astronomy, West Chester University, West Chester, PA 19383\\
+$^{2}$Dept. of Physics \& Astronomy, University of Delaware, Bartol Research Institute, Newark, Delaware 19716, USA\\
+$^{3}$Dept. of Physics, Royal Military College of Canada, PO Box 17000, Stn Forces, Kingston, Ontario K7K 7B4, Canada\\
+$^{4}$Dept. of Physics \& Astronomy, Swarthmore College, Swarthmore, PA 19081, USA\\
+$^{5}$Instituto de Astrof\'isica de Andaluc\'ia-CSIC, Glorieta de la Astronom\'ia s/n, E-18008 Granada, Spain\\
+$^{6}$Astronomick\'y \'ustav, Akademie v\v{e}d \v{C}esk\'e republiky, Fri\v{c}ova 298, 251\,65 Ond\v{r}ejov, Czech Republic\\
+$^{7}$National Research Council of Canada, Herzberg Institute of Astrophysics, 5071 West Saanich Road, Victoria, BC V9E 2E7, Canada\\
+$^{8}$ESO - European Organisation for Astronomical Research in the Southern Hemisphere, Casilla 19001, Santiago 19, Chile\\
+$^{9}$Astronomical Institute Anton Pannekoek, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, Netherlands\\
+$^{10}$LESIA, Observatoire de Paris, CNRS UMR 8109, UPMC, Universit\'e Paris Diderot, 5 place Jules Janssen, 92190 Meudon, France\\
+$^{11}$Department of Astronomy, University of Wisconsin-Madison, 475 N Charter Street, Madison, WI 53706, USA\\
+$^{12}$Penn State Worthington Scranton, Dunmore, PA 18512, USA
+}
+\begin{document}
+
+
+
+\include{aas_macros}
+
+\date{Accepted 2012 November 1.  Received 2012 November 1; in original form 2012 October 2 }
+
+\pagerange{\pageref{firstpage}--\pageref{lastpage}} \pubyear{2012}
+
+\maketitle
+
+\label{firstpage}
+
+\begin{abstract}
+
+
+Building on results from the Magnetism in Massive Stars (MiMeS) project, this paper shows how a two-parameter classification of massive-star magnetospheres in terms of the magnetic wind confinement (which sets the Alfv\'{e}n radius $\ra$) and stellar rotation (which sets the Kepler co-rotation radius $\rk$) provides a useful organisation of both observational signatures and theoretical predictions. 
+We compile the first comprehensive study of inferred and observed values for relevant stellar and magnetic parameters of \nstars\ confirmed magnetic OB stars with $\teff \ga 16$\,kK.
+Using these parameters, we locate the stars in the magnetic confinement-rotation diagram, a log-log plot of $\rk$ vs.\ $\ra$. 
+This diagram can be subdivided into regimes of {\em centrifugal magnetospheres} (CM), with $\ra > \rk$, vs. {\em dynamical magnetospheres} (DM), with $\rk > \ra$.
+We show how key observational diagnostics, like the presence and characteristics of H$\alpha$ emission, depend on a star's position within the diagram, as well as other parameters, especially the expected wind mass-loss rates.
+In particular, we identify two distinct populations of magnetic stars with H$\alpha$ emission: namely, slowly rotating O-type stars with narrow emission consistent with a DM, and more rapidly rotating B-type stars with broader emission associated with a CM.
+For O-type stars, the high mass-loss rates are sufficient to accumulate enough material for line emission even within the relatively short free-fall timescale associated with a DM: this high mass-loss rate also leads to a rapid magnetic spindown of the stellar rotation. For the B-type stars, the longer confinement of a CM is required to accumulate sufficient emitting material from their relatively weak winds, which also lead to much longer spindown timescales.
+Finally, we discuss how other observational diagnostics, e.g. variability of UV wind lines or X-ray emission, relate to the inferred magnetic properties of these stars, and summarise prospects for future developments in our understanding of massive-star magnetospheres. 
+
+
+
+
+
+\end{abstract}
+
+\begin{keywords}
+stars: magnetic fields -- stars: early-type --circumstellar matter -- stars: mass-loss-- stars: rotation--  stars: fundamental parameters -- stars: emission-line, Be -- ultraviolet: stars -- X-rays: stars.
+\end{keywords}
+
+\section{Introduction}
+
+%Massive, hot (OB type) stars lack the hydrogen-recombination convection zone thought to power the dynamos that drive the magnetic activity of the Sun and other cool stars. 
+%But 
+Building on pioneering detections of strong (kG) fields in the chemically peculiar Ap and Bp stars \citep[e.g.][]{1947ApJ...105..105B,1980ApJS...42..421B}, new generations of spectropolarimeters have directly revealed large-scale, organised (often predominantly dipolar) magnetic fields ranging in dipolar strength\footnote{In the following all field strengths will be given as dipolar, unless explicitly noted otherwise.} from order of 0.1 to 10 kG in several dozen OB stars \citep[e.g.][]{2002MNRAS.333...55D,2006MNRAS.365L...6D,2006MNRAS.369L..61H,2008MNRAS.387L..23P,2009MNRAS.400L..94G,2010MNRAS.407.1423M}.
+In recent years,  an observational consortium known as MiMeS (for Magnetism in Massive Stars) has been carrying out surveys to detect new magnetic OB stars, while also monitoring known magnetic OB stars with high resolution spectroscopy and polarimetry \citep{2010arXiv1009.3563W}.
+Concurrently, theoretical models \citep{2005ApJ...630L..81T,2007MNRAS.382..139T} and magnetohydrodynamical (MHD) simulations 
+\citep{2002ApJ...576..413U,2008MNRAS.385...97U,2009MNRAS.392.1022U} have explored the dynamical interaction of such fields with stellar rotation and mass loss, showing for example how suitably strong fields can channel the radiatively driven stellar wind outflow into a circumstellar \textit{magnetosphere}.
+This paper aims now to provide an initial classification of the observed magnetospheric properties for a broad sample of magnetic massive stars.
+
+The idea of a magnetosphere has been exploited to explain particular properties of some massive stars, for example the photometric light curve and H$\alpha$ variations of the He-strong star \sigorie\ \citep{1978ApJ...224L...5L}, the UV resonance line variations of magnetic Bp stars \citep{1990ApJ...365..665S}, the X-ray properties of the O-type star \oriunc\ \citep{2005ApJ...628..986G}, and the radio emission of Ap-Bp stars that correlates with the field strength \citep{1992ApJ...393..341L}.
+
+
+For a few specific stars, previous work has already shown some promising agreement between theoretical predictions and key observational characteristics. 
+For example, the luminosity, hardness, and rotational modulation of X-rays observed in the O-type star \oriunc\ all match well the X-rays computed in MHD simulations of magnetically confined wind shocks, which result from the collision of the wind from opposite footpoints of closed magnetic loops in its $\sim1$\,kG dipole field \citep{2005ApJ...628..986G}.
+In the B2p star \sigorie, the combination of its very strong ($\sim 10$\,kG) field and moderately fast (1.2-day period) rotation leads to formation of a centrifugally supported magnetosphere with observed, rotationally modulated Balmer line emission reasonably well explained within the Rigidly Rotating Magnetosphere model \citep[RRM;][]{2005MNRAS.357..251T,2005ApJ...630L..81T}. 
+Most recently, \citet{2012MNRAS.423L..21S} showed that, even in the very slowly rotating (537-day period) O-type star HD\,191612, the magnetic confinement and transient, dynamical suspension of its strong wind mass loss leads to sufficient density to likewise match the observed rotationally modulated Balmer line emission.
+
+
+
+Building on these results, along with those from the MiMeS observational survey, this paper compiles an exhaustive list of confirmed magnetic, hot OB stars, along with their physical, rotational and magnetic properties (\S \ref{sec:stars}). 
+As a basis for organising this compilation according to modelling predictions, we follow (\S \ref{sec:theo})  the two-parameter theoretical study of \citet{2008MNRAS.385...97U}, which characterised MHD simulation results according to the strength of wind magnetic confinement ($\etas$) and  fraction of stellar rotation to orbital speed at the stellar equatorial radius ($W$). 
+These dimensionless parameters uniquely define associated characteristic radii, namely the Alfv\'en radius $\ra$ and Kepler co-rotation radius $\rk$.
+
+
+We show in particular (\S \ref{sec:disc}) that an associated log-log plot of known magnetic stars in the $\ra$-vs.-$\rk$ (or equivalently  $\etas$-vs.-$W$) plane, the \textit{magnetic confinement-rotation diagram}, provides a particularly useful initial classification for interpreting the H$\alpha$ properties of their associated magnetospheres. Furthermore, we also explore the UV and X-ray characteristics as potential additional proxies of magnetospheres (\S \ref{sec:other}). 
+We briefly review our main findings and conclusions in \S \ref{sec:conclu}.
+
+
+
+
+%************************************************************
+\section{Exhaustive list of magnetic O-type and early B-type stars}
+\label{sec:stars}
+
+A central goal of this paper is to compile a comprehensive list of OB stars for which magnetic fields have been convincingly detected via the Zeeman effect, so that their magnetospheres can be classified. 
+
+The work here is done within the context of the MiMeS project \citep{2010arXiv1009.3563W}, which aims to expand the population of known magnetic stars, confirm the detection of poorly studied magnetic OB stars, and provide a modern determination of their magnetic field characteristics. These goals are being achieved through Large Program observing allocations at the Canada-France-Hawaii Telescope (CFHT), the T\'elescope Bernard-Lyot (TBL) and the ESO 3.6m Telescope to collect high resolution, high signal-to-noise ratio spectropolarimetric observations of massive stars \citep[see][respectively]{2010arXiv1009.3563W,2012MNRAS.419..959O,2011A&A...536L...6A}.
+
+Table \ref{tab:stars} lists our derived sample of \nstars\ magnetic stars, ordered by spectral type and temperature. Column (1) gives the numerical identification (ID) we use in the figures. Column (2) gives the HD number or a SIMBAD-friendly\footnote{\href{http://simbad.u-strasbg.fr}{http://simbad.u-strasbg.fr}} designation. A dagger indicates that a note for that particular star is available in Appendix \ref{sec:notes}. Columns (3) and (4) give a commonly used designation and the spectral type, respectively. Column (5) indicates if the star is a known single- or double-line spectroscopic binary (SB1/2), slowly pulsating B-type star (SPB), $\beta$\,Cep-type pulsator ($\beta$\,Cep), or a Herbig Be star (HeBe). 
+Table \ref{tab:ref} compiles, for each star, the list of references where information can be found or how it is derived from MiMeS observations or other archival data.
+
+
+%-----------------------
+%\begin{zetable}
+%\small
+%	\begin{landscape}
+%		\input{ipod_table_param}
+%	\end{landscape}
+%\end{zetable}
+%\begin{table*}
+%\caption{\label{tab:stars}}
+%\vspace{1in}
+%Landscape table to go here
+%\vspace{11in}
+%\end{table*}
+%-----------------------
+\clearpage
+\onecolumn
+\begin{landscape}
+	{\small \input{ipod_table_param.tex}}
+\end{landscape}
+\twocolumn
+
+%-----------------------
+%\begin{zetable}
+%\afterpage{\newpage Landscape table to go here}
+
+\newpage
+\onecolumn
+		{\small \input{ipod_table_ref.tex}}
+\twocolumn
+%\end{zetable}
+%\begin{table*}
+%\caption{\label{tab:ref}}
+%\vspace{1in}
+%Landscape table to go here
+%\vspace{1in}
+%\end{table*}
+%-----------------------
+
+\subsection{Sample selection}
+\label{sec:sample}
+
+
+Magnetic fields in hot stars can be detected through the circular polarisation induced in spectral lines by the Zeeman effect, using various types of instruments. The bulk of cooler magnetic ApBp stars were generally detected with first-generation photo-polarimeters, measuring for example the degree of polarisation in the wings of a Balmer line \citep[e.g.][]{1980ApJS...42..421B}. 
+
+However, apart from a few strongly magnetic He-strong stars such as \sigorie, the bulk of hot magnetic OB stars were detected with second generation instruments, such as the low resolution ($R\simeq$ a few thousands) spectropolarimetry optics used in FORS 1 and 2 (VLT) and the high resolution ($R\simeq$ a few tens of thousands) spectropolarimeters MUSICOS, ESPaDOnS, Narval and HARPSpol at the TBL, CFHT, TBL and ESO-3.6m, respectively. These two classes of instruments differ in that low resolution spectropolarimeters are only sensitive to the disk-integrated, brightness-weighted longitudinal field component, whereas high-resolution instruments can probe field configurations through the rotationally induced Doppler shifts within the resolved line profiles \citep[see][]{2009ARA&A..47..333D,2010arXiv1010.2248P}. 
+
+
+
+We use the existing compilations of ApBp stars \citep[e.g.][]{2005A&A...430.1143B,2007A&A...470..685L,2008AstBu..63..139R} as well as an exhaustive review of the literature to identify hot stars with confirmed field detections, which we complement with new detections from the MiMeS project. 
+
+Some concerns have recently been raised about claimed magnetic detections (usually near the $3\sigma$ level) obtained with the FORS instruments that were not reproduced with other high-resolution instruments \citep[see][]{2009MNRAS.398.1505S,2012ApJ...750....2S}. \citet{2012A&A...538A.129B} performed an in-depth study of the complete set of FORS circular polarisation measurements in the ESO archive, exploring the effect of various data reduction procedures and carefully considering all known sources of uncertainties. Using their new prescription for FORS data analysis, most of the claimed marginal detections were found to have very low significance, in agreement with the results from high-resolution instruments. They also provided updated longitudinal field values and new magnetic detection statuses for stars that were reported magnetic in the literature at the $<6\sigma$ level. We therefore base our selection on these new detection statuses for stars that were only detected with the FORS instruments. 
+
+It is worth noting that stars with chemical abundance peculiarities can have effective temperatures that do not reflect their spectral types, as the latter is determined from spectral morphology. 
+In particular He-strong/weak stars, which form the majority of the cooler part of our sample, are identified by their unusually strong/weak He lines, lines that are the basic means to classify B-type stars.
+Given that photometric/spectral effective temperature determinations are not always readily available, it is therefore difficult to assess the completeness of our sample at the low temperature boundary. 
+We therefore consider all magnetic stars with spectral type B5 and earlier, as well as additional stars of later spectral type known to have effective temperatures greater than 16\,kK. We believe the sample at these temperatures (and above) to be a substantially complete representation of the currently known hot magnetic stars.
+
+Although we consider a detailed review of the large sample of stars evaluated for inclusion in Table \ref{tab:stars} beyond the scope of this work, two noteworthy objects require a brief mention. The first of these is the Be star $\omega$\,Ori, reported to be magnetic by \citet{2003A&A...409..275N} based on MuSiCoS longitudinal field measurements. Recently, \citet{neiner_omegaori} have retracted this claim based on new ESPaDOnS and Narval measurements. The second is $\zeta$\,Ori\,A, reported to be magnetic by \citet{2008MNRAS.389...75B}. While no single observation of this star yields a significant magnetic detection, overall we consider the evidence presented by \citet{2008MNRAS.389...75B} to be sufficiently compelling that we retain this star in our list. Note that $\zeta$\,Ori\,A occupies a unique position in the magnetic confinement-rotation diagram (see \S\,\ref{sec:theo}).
+
+
+
+
+
+
+\subsection{Physical parameters}
+\label{sec:physical}
+
+
+Effective temperatures and surface gravities (columns 6 and 7 of Table \ref{tab:stars}) were retrieved from the literature.
+An $s$ superscript in column (6) indicates stellar parameters that were determined by modern spectral modelling, with NTLE model atmospheres such as \textsc{cmfgen}, \textsc{tlusty} or \textsc{fastwind} for the hotter stars, or such as LTE \textsc{atlas} models with the polarised radiative transfer code \textsc{zeeman} for the cooler stars \citep{1998ApJ...496..407H,2003ApJS..146..417L,2005A&A...435..669P,1979ApJS...40....1K,1988ApJ...326..967L,2001A&A...374..265W}.
+For the other stars, temperatures and gravities were generally derived from photometry combined with spectral type calibrations. 
+Some details are given in the notes of Appendix \ref{sec:notes} in cases where significant discrepancies were found in the literature values or when we had to estimate $\logg$ from the luminosity class.
+
+When modern spectral modelling is available, we use the literature value for the luminosity, radius and mass (columns 8, 9 and 10). 
+The luminosity is generally obtained through a distance estimate and photometry, and the spectroscopic mass is derived from the surface gravity and radius, unless a better estimate is available from a binary orbit. 
+
+For most of the remaining stars, marked with superscript $p$ or $c$ in column (8), we derive the luminosity from photometry (see \S \ref{sec:lum}) using tabulated bolometric corrections, or using the spectral energy distribution (SED) fitting code \textsc{Chorizos} \citep{2004PASP..116..859M} for stars with sufficient photometric data. 
+
+In Figure \ref{fig:HR}, we locate the magnetic OB stars on the HR diagram. The symbol shapes represent the O-type stars (circles), B-type stars hotter than 22\,kK (squares), those between 22\,kK and 19\,kK (triangles) and those that are cooler than 19\,kK (pentagons), and known Herbig Be stars (HeBe; diamonds). The luminosity classes are colour coded. 
+The labels refer to the identification numbers in column (1) of Table \ref{tab:stars}. 
+
+%--------------
+\begin{figure*}
+	\begin{center}
+	\includegraphics[width=168mm]{fig_hr_mod.pdf}
+	\caption{\label{fig:HR} Location of the magnetic stars in the HR diagram. The labels refer to ID sequence number listed in column (1) of Table \ref{tab:stars}. The various symbol shapes represent effective temperature ranges and colours denote luminosity classes, as indicated in the legend. The shaded region shows the main sequence, from ZAMS to TAMS \citep[from the galactic evolutionary tracks of][]{2011A&A...530A.115B}. The grey line shows the mid-way main sequence with spectral types calibrations from \citet{2005A&A...436.1049M} for O-type stars and \citet{1987A&A...177..217D} for B-type stars. }
+	\end{center}
+\end{figure*}
+%---------------
+
+The position of the spectral types, from the calibrations of \citet{2005A&A...436.1049M} for the O-type stars and \citet{1987A&A...177..217D} for the B-type stars, are indicated on the dark grey line that runs approximately mid-way between the zero-age main sequence and the terminal-age main sequence; the main sequence itself is shown by the light grey shaded area \citep[from the galactic evolutionary tracks of][]{2011A&A...530A.115B}. 
+
+
+
+
+
+\subsubsection{Luminosity derivation}
+\label{sec:lum}
+
+
+For each star in our sample without modern spectral modelling, Table \ref{tab:phot} gathers visual magnitudes and colours (columns 3-5) in the Johnson $UBV$ system, from the compilations of \citet{2006yCat.2168....0M} and \citet{2005yCat.5125....0R}\footnote{As no Johnson $UBV$ measurements are available for HD\,61556 (ID\,60) and HD\,306795 (ID\,51), we use Str\"omgren photometry from \citet{1998A&AS..129..431H} with the transformation given by \citet{1990PASP..102.1331T}.}. 
+We also provide $RJHK$ magnitudes (columns 6-9) from the NOMAD catalog \citep{2005yCat.1297....0Z}, which will be used below for SED fitting with \textsc{Chorizos}.
+
+
+%-----------------------
+\begin{table*}
+	\begin{center}
+	\caption{\label{tab:phot}Photometry of magnetic stars without modern spectral modelling (\S\,\ref{sec:lum}).}
+		{\input{ipod_table_phot.tex}}
+	\end{center}
+\end{table*}
+%-----------------------
+
+
+
+
+For all these stars, we derive the luminosity using bolometric corrections ($BC$) and extinction ($A_V$) evaluated from the intrinsic colour $(B-V)_0$. The results are compiled in Table \ref{tab:BC}. 
+The distance modulus ($DM$; column 4) is estimated using either Hipparcos parallax measurements or a distance estimate from an association with a stellar cluster.
+The Hipparcos distances are corrected for Lutz-Kelker-type effects \citep{1973PASP...85..573L} using the technique described by \citeauthor{2001AJ....121.2737M} \citeyearpar{2001AJ....121.2737M,2005ESASP.576..179M} updated to the new reduction of the Hipparcos data \citep{2007A&A...474..653V} by \citet{2008arXiv0804.2553M}.
+%-----------------------
+\begin{table*}
+	\begin{center}
+	\caption{\label{tab:BC}Luminosity determination based on bolometric correction and extinction from intrinsic colours (\S\,\ref{sec:lum}).}
+		{\input{ipod_table_BC.tex}}
+	\end{center}
+\end{table*}
+%-----------------------
+
+The theoretical $BC$ and $(B-V)_0$ (columns 5 and 6) are determined from a smooth interpolation of the grids provided by \citet{2005A&A...436.1049M}, and \citet{2006A&A...457..637M} for the O-type stars and \citet{2007ApJS..169...83L} for the B-type stars. 
+We use an extinction $R_\mathrm{V}=3.1$ to derive the extinction $A_V=R_V\,E(B-V)$ (column 7). 
+The absolute visual magnitude ($M_V=V-A_V-DM$), the bolometric magnitude ($M_\mathrm{bol}=M_V+BC$) and the luminosity [$\lum=(M_{\mathrm{bol},\odot}-M_\mathrm{bol})/2.5$] are given in columns 8 to 10.
+
+With a typical uncertainty of 2\,000\,K in $\teff$ and 0.3\,dex in $\logg$, we estimate an uncertainty of 0.2 and 0.02\,mag in $BC$ and $(B-V)_0$, respectively. Given the wide range of $R_\mathrm{V}$ often encountered in the literature for OB stars, we adopt a conservative error in $A_V$ of 0.25\,mag. 
+In most cases, $BC$, $A_\mathrm{V}$ and $DM$ contribute equally to the uncertainty, leading to 0.2-0.3\,dex for the luminosity.  In five cases (ID: 36, 37, 40, 53 and 57) the luminosity error estimate from the bolometric correction method is more than 0.4\,dex, given the large uncertainty in distance.
+
+
+
+
+
+%-----------------------
+\begin{table*}
+	\begin{center}
+	\caption{\label{tab:lumCho}Luminosity determination based on SED fitting with \textsc{Chorizos} (\S\,\ref{sec:lum}).}
+		{\input{ipod_table_Cho.tex}}
+	\end{center}
+\end{table*}
+%-----------------------
+
+For the stars with a complete set of $UBVRJHK$ photometry, we perform SED fitting using the Bayesian (spectro)photometric code \textsc{Chorizos}. The results are presented in Table \ref{tab:lumCho}.  
+In the latest \textsc{Chorizos} version, the user can select distance to be an independent parameter, by applying atmosphere models (\textsc{tlusty} for OB stars) calibrated in luminosity with the help of Geneva stellar evolution tracks (excluding rotational effects).  
+The parameters of such models are the logarithmic distance (column 3), the extinction (here fixed at $R_{5495}=3.1$\footnote{The extinction law is defined by the monochromatic quantity $R_{5495} \equiv A_{5495}/E(4405-5495)$ instead of a band-integrated one such as $R_{V} \equiv A_{V}/E(B-V)$, because the former depends only on the properties of the dust while the latter also depends on the input SED and the amount of dust present along the line of sight. See Ma\'{\i}z Apell\'aniz (2012) for details.}), the reddening (transformed to $A_\mathrm{V}$ in column 4), the effective temperature (here fixed to the literature estimate) and the luminosity class. 
+The distance prior probability range has been left relatively wide around the Hipparcos or cluster-estimated value and the luminosity class prior probability was based on the gravity estimates used for the bolometric correction approach (column 3 of table \ref{tab:BC}) with an interval of 1.5$\sigma$.
+From these fitted values, we can derive an estimate of the surface gravity (column 5), the evolutionary mass 
+(column 6) and the luminosity (column 7). 
+
+
+
+Good fits to the photometry are achieved for the 13 stars displayed in Table \ref{tab:lumCho}, leading to better estimates of their luminosity (especially for the two stars with the largest uncertainty with the bolometric correction approach). 
+Poorer fits were obtained for the remaining 9 stars with complete photometry.  
+Incompatibility between optical and near-IR photometry, probably due to near-IR excess, could be a possible cause of the discrepancy. 
+Therefore, for the stars with good fits, we use the luminosity, gravity and mass derived from \textsc{Chorizos}. 
+For the remaining stars, we opt for the bolometric correction luminosity determination. 
+
+ 
+
+
+
+\subsection{Rotational and magnetic parameters}
+\label{sec:rb}
+
+Monitoring of the disk-integrated longitudinal field variations provides a natural and direct way to determine rotational periods for magnetic stars \citep[in the context of the Oblique Rotator Model; e.g.][]{1950MNRAS.110..395S}. Photometric and spectral variability associated with the magnetic field also provide a convenient and easy way to determine periods, even though some ambiguity can exist between e.g. short rotational periods and long pulsation periods. 
+
+
+In Table \ref{tab:stars}, column (11) gives the rotational period in days. When no period is available we use the measured $\vsini$ (column 12) as a lower limit to the equatorial velocity. In two cases (ALS\,15211, ID\,19; ALS\,15956, ID\,27), no $\vsini$ measurements are available, due to a lack of high-resolution spectra.
+These stars would be prime candidates for further monitoring. 
+
+
+In four cases (HD\,96446,  HD\,136504, HD\,58260 and HD\,37058; ID 24, 35, 48 and 56) more than one period is reported in the literature. In these cases, we use the longest period for a lower limit on the equatorial velocity. We provide the magnetospheric calculations for the alternative periods in the notes of Appendix \ref{sec:notes}. 
+
+
+Column (13) gives the estimated polar strength ($B_p$) of the surface dipole in kilogauss. When only longitudinal magnetic measurements are available, we use a value of three times the strongest longitudinal field measurement (corresponding to a conservative limb-darkening coefficient\footnote{In the case of a dipolar field, the dipole strength can be expressed as $\bp\geq 4\frac{15-5\epsilon}{15+\epsilon}|\mbl |_\mathrm{max}$, where $\epsilon$ is the limb-darkening coefficient and $|\mbl|_\mathrm{max}$ is the maximum of the disk-integrated longitudinal field variation \citep{1967ApJ...150..547P}.} of 0.6), setting a lower limit on the dipolar field strength. A superscript $m$ in column (13) indicates stars that are known to possess a magnetic field with a significant contribution from multipole components higher than a simple dipole. 
+
+
+
+
+%************************************************************
+\section{Two-parameter classification of magnetospheres}
+\label{sec:theo}
+
+\subsection{Alfv\'en radius $\ra$ vs.\ Kepler co-rotation radius $\rk$}
+\label{sec:mcp}
+
+The high luminosity of massive stars drives powerful, high-speed stellar winds.
+MHD  simulation studies \cite[e.g.][]{2002ApJ...576..413U,2008MNRAS.385...97U}
+show that the overall net effect of a large-scale, dipole magnetic field in diverting such a wind can be well
+characterised by a single
+\textit{wind magnetic confinement parameter},
+\begin{equation}
+\eta_{\ast} \equiv \frac {B_{eq}^2 \, \rs^2} {\mdot \, \vinf}
+\, ,
+\label{eq:esdef}
+\end{equation}
+where $\beq = \bp/2$ is the field strength at the magnetic equatorial surface radius $\rs$,
+and $\mdot$ and $\vinf$ are the fiducial mass-loss rate and terminal speed that the star \textit{would have} in the \textit{absence} of any magnetic field.
+
+This confinement parameter sets the scaling for the ratio of the magnetic to wind kinetic energy density.
+For a dipole field, the  $r^{-6}$ radial decline of magnetic energy density is much steeper than the $r^{-2}$ decline of the wind's mass and energy density;
+this means the wind always dominates beyond the \textit{Alfv\'en radius} $\ra$ \citep{2008MNRAS.385...97U}, 
+given by the approximate general scaling, 
+\begin{equation}
+    \frac{\ra}{\rs} \approx 0.3 + \left ( \etas + 0.25 \right)^{1/4} 
+    \, .
+    \label{eq:radef}
+\end{equation}
+Magnetic loops extending above $\ra$ are drawn open by the wind, while those with an apex below $\ra$ remain closed.
+Indeed, the trapping of wind upflow from opposite footpoints of closed magnetic loops leads to strong collisions that may form X-ray emitting, magnetically confined wind shocks \citep[MCWS][see \S\ref{sec:xray}]{1997ApJ...485L..29B,1997A&A...323..121B}.
+In models with negligible rotation, the post-shock material eventually cools and falls back onto the star, leading to a relatively complex, dynamic pattern of infall and wind outflow \citep[see e.g. lower row of Figure 9 of][also Figure\,\ref{fig:cartoon}]{2008MNRAS.385...97U}.
+
+
+For the simple 2D axisymmetric case of a magnetic dipole that is aligned with a star's rotation axis,
+\citet{2008MNRAS.385...97U}
+extended these MHD simulation studies to explore the additional effect of stellar rotation.
+They found it convenient to cast results in terms of the ratio of the rotation speed $\vrot$ to orbital speed $\vcrit$ at the equatorial surface radius $\rs$,
+%-----------------
+\begin{equation}
+W \equiv  \frac{\vrot}{\vcrit} = \frac{\omega\rs}{\sqrt{G\ms/\rs}} 
+\, ,
+\label{eq:wdef}
+\end{equation}
+%---------------
+where the latter equality expresses this ratio in terms of the angular rotation frequency $\omega$, 
+with $\ms$ the  stellar mass.
+%
+To avoid the complications associated with a rotationally distorted, oblate stellar surface, \citet{2008MNRAS.385...97U}  restricted their simulations to cases with $W \le 0.5$.
+But if we associate $\rs$ with the \textit{actual equatorial} radius for the given rotation rate $\omega$ , then even for more rapid,  near-critical rotation, $W$ simply compares the star's equatorial rotation speed to the speed $\vcrit$ needed to reach Keplerian orbit near this equatorial surface\footnote{
+For critical rotation ($W=1$), $\rs = 3 \rp /2$, where $\rp$ is the \textit{fixed} polar radius.
+In terms of the associated critical rotational frequency 
+$\omega_\mathrm{crit}  \equiv \sqrt{8GM/27 \rp^3}$, 
+one can alternatively define a critical rotation ratio
+ $\Omega\equiv\omega/\omega_\mathrm{crit}$. 
+ We then find $W=\Omega (2\rs / 3\rp)$, with
+  $\rs / \rp =  3 \cos[(\cos^{-1}[\Omega]+\pi)/3]/\Omega$ \citep{1966ApJ...146..152C}.
+}. 
+
+
+In a magnetic star, torques from the magnetic field on any wind outflow can maintain rigid-body co-rotation up to roughly the  
+Alfv\'en radius, so that the azimuthal speed of the confined wind plasma \textit{increases} with radius as $v_\phi = \vrot r/\rs$.
+The outward centrifugal force from such rigid-body rotation will balance the inward force of gravity at the
+\textit{Kepler corotation radius},
+%---------------
+\begin{equation}
+\rk \equiv  \left(\frac{GM}{\omega^2}\right)^{1/3} = W^{-2/3} \rs
+    \, .
+    \label{eq:rkdef}
+\end{equation}
+%---------------
+Together the two parameters $\etas$ and $W$ thus define the relative locations of the 
+Alfv\'en and Kepler radii with respect to the equatorial radius.
+
+
+
+\subsection{Dynamical vs.\ Centrifugal Magnetospheres}
+\label{sec:dmcm}
+
+
+For the simple case of  field-aligned rotation, \citet{2008MNRAS.385...97U} carried out an extensive MHD simulation parameter study varying both $W$ and $\etas$.
+For $\etas < 1$, the field exerts only a modest perturbation on the wind;
+but for $\etas > 1$,  outflow near the magnetic equator is trapped  within the Alfv\'{e}n radius by closed magnetic loops, forming a wind-fed circumstellar \textit{magnetosphere}. 
+It was found that the dynamical evolution of this trapped magnetospheric material depends crucially on the rotation parameter $W$, and specifically on the relative magnitude of the associated Kepler vs.\ the Alfv\'{e}n radii.
+
+In a simplified, schematic form, Figure \ref{fig:cartoon} here illustrates that, depending on the relative positions of $\rk$ vs.\ $\ra$, regions of trapped equatorial material can be alternatively characterised as forming a \textit{dynamical} vs. \textit{centrifugal} magnetosphere (DM vs. CM).
+ As sketched in the upper panel of Figure \ref{fig:cartoon}, for slowly rotating stars with $\ra < \rk $, material trapped in closed magnetic loops falls back to the star on a dynamical timescale, forming a DM 
+ \citep{2012MNRAS.423L..21S}. 
+In contrast, the lower panel shows that, for the more rapidly rotating case with $\ra > \rk$, material caught in the region between $\ra$ and $\rk$ is centrifugally supported against infall, and so builds up to a much denser CM (for a given fiducial mass-loss rate).
+ Even for such rapid rotators, the inner regions below $\rk$ again have the infall of a DM, but the plasma density, and thus any circumstellar emission, is much lower than that of the CM region.
+
+%--------------
+\begin{figure}
+\begin{center}
+	\includegraphics[width=50mm]{fig_cartoon.pdf}
+\caption{\label{fig:cartoon}
+Sketch of the regimes for dynamical vs.\ centrifugal magnetospheres (DM vs. CM).\
+The top panel illustrates the case of a slowly rotating star with Kepler radius beyond the Alfv\'{e}n radius ($\rk > \ra$);
+the lack of centrifugal support means that trapped material falls back to the star on a dynamical timescale, forming a DM, with colour illustrating the rough time-averaged distribution of density.
+The lower panel is for a star with more rapid rotation and $\rk < \ra$, leading then to a region between these radii where a net outward centrifugal force against gravity is balanced by the magnetic tension of closed loops; this allows material to build up to  the much higher density of CM.	
+}
+\end{center}
+\end{figure}
+%---------------
+
+
+
+ Indeed, since the much longer confinement time allows material to accumulate to high density even if the feeding by the wind mass flux is weak, such a CM can exhibit rotationally modulated line emission even in the relatively low-luminosity, but strongly magnetic Bp stars, so long as the stellar rotation is sufficient to give $ \rk < \ra$
+\citep{2005MNRAS.357..251T,2005ApJ...630L..81T}.
+For slowly rotating magnetic stars with a DM, accumulating sufficiently high density plasma for line emission requires a much stronger wind to overcome the dynamical timescale leakage of infall back onto the star. For the luminous, slowly rotating magnetic O-type star HD\,191612 (ID\,4), 
+\cite{2012MNRAS.423L..21S} showed that the emission from its wind-fed DM matches its observed H$\alpha$ emission quite well.
+
+ 
+ 
+
+
+The transition from stars with a pure DM to those with a CM occurs near $\rk = \ra$; 
+from equations (\ref{eq:radef}) and (\ref{eq:rkdef}), the associated transition value $W_\mathrm{t}$ for the rotation fraction is
+\begin{equation}
+W_\mathrm{t} =  \left [  0.3 + \left ( \etas + 0.25 \right)^{1/4} \right]^{-3/2} 
+\, ,
+\end{equation}
+which in the strong confinement limit, $\etas \gg 1$,  simply requires $W_\mathrm{t}  \approx \etas^{-3/8}$.
+
+Figure \ref{fig:etaW} plots our sample of magnetic stars in the magnetic confinement-rotation diagram, a log-log plane with $\rk/\rs$ increasing downward on the ordinate vs.\ $\ra/\rs$ increasing to the right along the  abscissa.
+As detailed in the next subsection (\S\,\ref{sec: mparams}),
+the placement of the individual stars depends on inference of the relevant parameters that set the magnetic confinement $\etas$ (noted on the top axis) and rotation fraction $W$ (on the right axis).
+The vertical line at $\etas = 1$ ($\ra/\rs \approx 1.3$) separates  weakly magnetised winds at the far left from the broad domain of stars with significant magnetospheres, with the diagonal line separating the stars with a CM to the upper right from those with just a DM to the lower left.
+As detailed in \S\,\ref{sec:spindown},
+the additional upper and right axes refer to associated stellar spindown properties, namely the stellar spindown timescale ($\tauj$) and the maximum spindown age ($\tsmax$), respectively.
+Stars above the horizontal dotted line have a maximum spindown age $\tsmax$  that is less than one spindown time $\tauj$.
+
+
+%--------------
+\begin{figure*}
+\begin{center}
+
+	\includegraphics[width=168mm]{fig_rark_mod.pdf}
+	\caption{\label{fig:etaW}	
+	Location of magnetic massive stars in the magnetic confinement-rotation diagram; a log-log plot with Kepler radius $\rk$ increasing downward and Alfv\'{e}n radius $\ra$  increasing to the right.
+	The right and upper axes give respectively the corresponding rotation fraction $W$ and magnetic confinement parameter $\etas$. The solid lines separates the magnetosphere domains of weakly magnetised winds (with $\etas<1$), dynamical magnetospheres with $\ra<\rk$ (DM), and centrifugal magnetospheres with $\ra>\rk$ (CM), as defined in \S\ref{sec:dmcm}. 
+	The additional upper and right axes give respectively the corresponding spindown timescale $\tauj$ (normalised by the value in a non-magnetised wind) and maximum spindown age $\tsmax$ (normalised by the spindown time and therefore the number of spindown e-folds), as defined in \S\,\ref{sec:spindown}. Stars above the dashed line have a maximum spindown age less than one spindown time.
+	As in Figure \ref{fig:HR}, the symbol shapes denote spectral type, and the numbers correspond to the ID in column (1) of Table \ref{tab:stars}. The three downward arrows indicate two stars (ALS\,15211, ID\,19; ALS\,15956, ID\,27) for which no $\vsini$ measurement is available (e.g. $W>0$), and HD\,108 (ID\,7) for which $\rk\sim500\rs$. }
+
+\end{center}
+\end{figure*}
+%---------------
+
+
+\subsection{Calculation of magnetospheric parameters}
+\label{sec: mparams}
+
+In this section, we determine the magnetospheric parameters described in \S\,\ref{sec:mcp} for all the stars in the sample.
+Table \ref{tab:magneto} compiles our calculations of $\eta_\star$, $\ra/\rs$, $W$ and $\rk/\rs$ (equations 1 to 4) in columns (4) to (7). 
+
+
+%-----------------------
+%\begin{zetable}
+%\small
+%	\begin{landscape}
+%		\input{ipod_table_magneto}
+%	\end{landscape}
+%\end{zetable}
+%\afterpage{\addtocounter{page}{1}}
+%\begin{table*}
+%\caption{\label{tab:magneto}}
+%\vspace{1in}
+%Landscape table to go here
+%\vspace{11in}
+%\end{table*}
+
+\afterpage{\small \onecolumn \begin{landscape}  \input{ipod_table_magneto}  \end{landscape} \twocolumn }
+
+%-----------------------
+
+\subsubsection{Wind momentum}
+\label{sec:mv}
+
+
+To compute $\etas$ and $\ra$ from equations \ref{eq:esdef} and \ref{eq:radef}, we need, in addition to the stellar radius and surface magnetic field, estimates of the wind mass-loss rate $\mdot $ and terminal speed $\vinf$. Simulation models define the confinement in terms of wind properties a star \textit{would} have if it had \textit{no} magnetic field. 
+Therefore instead of making empirical estimates of the wind properties of each magnetic star 
+\citep[which are in any case difficult to obtain, see][]{2012MNRAS.423L..21S,2012arXiv1207.6988G}, we derive theoretical values based on inferred stellar parameters applied to radiation line-driven wind theory.
+
+Following standard theory, we take  the wind terminal speed $\vinf$ to scale with the star's effective surface escape speed,
+%-----
+\begin{equation}
+	\label{eq:vesc}
+	\vesc \equiv  \left(\frac{2G\ms(1-\gae)}{\rs} \right)^{1/2},
+\end{equation}
+%--------
+where $\gae \equiv \kappa_\mathrm{e} L/4 \pi G\ms c$ is the Eddington parameter for electron scattering opacity $\kappa_\mathrm{e}$.
+For the order-unity ratio $\vinf/\vesc$, we use the factors recommended by \citet{2000A&A...362..295V,2001A&A...369..574V} \citep[based on the empirical study of][]{1995ApJ...455..269L}, which declines abruptly from 2.6 to 1.3 from the hot to cool side of the so-called  ``bi-stability''  jump at $\teff \approx 25,000$\,K (see below).
+
+
+For mass-loss rates, we also use the recipe given by \citet{2000A&A...362..295V,2001A&A...369..574V}, assuming solar metallicity for all stars.
+This predicts an associated strong mass-loss increase of nearly an order of magnitude from the hot to cool side of this bi-stability jump,
+because iron recombination makes available more efficient driving-lines and so produces an increase in the line force.
+But note that, whereas the expected decrease in $\vinf$ over this bi-stability jump is empirically quite well established, this predicted increase in $\mdot$ is not yet observationally confirmed \citep[e.g.][]{2008A&A...478..823M}.
+
+For comparison, we therefore also compute mass-loss rates based on the standard (finite-disk-corrected) \citet[][hearafter CAK]{1975ApJ...195..157C} scaling.
+Using the notation from \citet{1995ApJ...454..410G},  this can be written in the form,
+\begin{equation}
+	\label{eq:cak_mdot}
+	\dot{M}_{B=0,\mathrm{CAK}}
+	=
+	\frac{1}{(1+\alf)^{1/\alf}}
+	\frac{\alf}{1-\alf}
+	\frac{\ls}{c^2}
+	\left( \frac{\qbar\gae}{1-\gae} \right)^{-1+1/\alf},
+\end{equation}
+where we adopt $\qbar = 1000$ and $\alf \approx 0.55$ for the full sample, to represent the normalisation and effective power-exponent of the line opacity distribution, 
+where the latter has been adjusted to account for ionisation effects \citep{2000A&AS..141...23P}, and is in good agreement with the observationally inferred value for non-magnetic O-type stars \citep{2004A&A...415..349R}.
+
+The left panel of Figure \ref{fig:mdot}  compares the two mass-loss rate values for our full sample of magnetic massive stars, while
+the right panel illustrates the shift in the confinement-rotation diagram resulting from switching between the two scalings.
+%--------------
+\begin{figure*}
+\begin{center}
+	\includegraphics[width=84mm]{fig_mdot.pdf}
+	\includegraphics[width=84mm]{fig_rark_link.pdf}
+   \caption{\label{fig:mdot} \textit{Left:} Comparison between the
+mass-loss rate calculations by \citet{2000A&A...362..295V,2001A&A...369..574V} and the CAK scaling law described in \S\,\ref{sec:mv}. Note the large change in mass-loss over the bi-stability jump in the \citeauthor{2000A&A...362..295V} rates.  
+\textit{Right:} Shift in Alv\'en radius from switching between the \citeauthor{2000A&A...362..295V} rates (filled symbols) and the CAK scaling law (empty symbols). 
+The error bar in the lower right represents uncertainty in $\rk$ and $\ra$ estimated from the propagation of typical uncertainty in the stellar parameters \textit{only} ($\sim25$\,percent). The uncertainty in $\ra$ is in fact dominated by systematics in the mass-loss rate determinations. However, the relative position in the magnetic confinement-rotation diagram, and hence the magnetospheric classification, is not too sensitive to these systematics, as described in \S\,\ref{sec:mv}. }
+\end{center}
+\end{figure*}
+%---------------
+
+For the hotter O-type stars the CAK scaling agrees quite well with the \citeauthor{2001A&A...369..574V} recipe, and, because of the weak $\ra \sim \mdot^{-1/4}$ dependence, this translates to a negligible shift in the confinement-rotation diagram. 
+Of course, this comparison only reflects uncertainties due to different theoretical mass-loss descriptions. But recent multi-wavelength spectroscopic studies aiming to derive mass-loss rates in the O-type star domain typically yield rates that deviate from the \citeauthor{2001A&A...369..574V} prescription only by factors of $\sim$2-3, if small-scale wind inhomogeneities (``clumping'') are adequately accounted for \citep{2011A&A...528A..64S,2011A&A...535A..32N,2012arXiv1205.3075B} 
+And as illustrated by Figure\,\ref{fig:mdot}, such discrepancies barely affect stellar positions in the confinement-rotation diagram.
+
+For B-type stars, however, mass-loss rate differences are generally much larger, an order or magnitude or more near the bi-stability jump. Empirical mass-loss determinations for B-type dwarfs (which comprise most of our magnetic sample) are difficult at most, but studies of B-type supergiants have found a decrease in wind momentum compared to the theoretical \citeauthor{2001A&A...369..574V} predictions for the complete low-temperature region \citep{2008A&A...478..823M}. 
+Further deviations from theoretical wind momentum of similar magnitude have also been observed for some late O-type stars with so-called weak winds \citep[for an overview see][]{2008A&ARv..16..209P}. 
+
+Even with the weak $\mdot^{-1/4}$ scaling, the shift in $\ra$ associated with these large deviations can approach 0.3\,dex. 
+For other quantities, such as the stellar spindown time, which scales as $\ra^2 \sim 1/\sqrt{\mdot}$, there can be a substantial change, by a factor of several,  for different mass-loss values near and below the bi-stability region, as discussed further in \S\,\ref{sec:spindown}.
+
+In summary, these relatively large systematic differences in the adopted mass-loss rate will be a important concern for performing detailed modelling of magnetosphere signatures for individual stars.
+However, it can be seen from Figure \ref{fig:mdot} (right) that despite these large differences, the overall appearance of the rotation-confinement diagram is not much affected and the basic, qualitative classification results presented here are quite robust against errors in the wind parameters.
+To maintain a uniform standard, all the presented magnetosphere parameter values in Table \ref{tab:magneto} are based on the  \citeauthor{2001A&A...369..574V} scalings.
+
+
+
+
+\subsubsection{Rotational oblateness}
+\label{sec:oblate}
+
+
+As mentioned in \S\,\ref{sec:mcp}, calculation of the Alfv\'en and Kepler radii requires the actual equatorial radius of the  star, in principle accounting for any rotationally induced oblateness. In practice, a 15 percent oblateness requires $\Omega\approx 0.8$, equivalent to $W=0.6$, and so except for the most rapid rotators, the difference between the polar and equatorial radii is generally much smaller than the uncertainty in the radius determination.
+In our sample, only three stars have a period short enough for oblateness to become potentially significant.
+For HD\,182180 (ID\,45) and HD\,142184 (ID\,47), we use the equatorial radii derived by \citet{RiviniusHR7355_sub} and \citet{2012MNRAS.419.1610G} from spectral analysis including the oblateness. 
+As no such analysis is available for HD\,35502 (ID\,57), we use the radius derived from the Stefan-Boltzmann equation.
+
+For simplicity, we ignore the effect of gravity darkening on the wind driving from the stellar surface.
+For aligned rotators, the wind feeding the equatorial magnetosphere originates from mid-latitudes, where gravity darkening is weaker.
+For non-aligned rotators, the magnetosphere will have a complex 3D structure that requires detailed modelling for each case.
+But in general terms, the maximum density occurs near $\rk$ along the line defined by the \textit{intersection} between the magnetic and rotational equators \citep{2005MNRAS.357..251T,2005ApJ...630L..81T}.
+In this context, the relative confinement and centrifugal support of the such magnetospheres should be well characterised by the Alfv\'{e}n and Kepler radius relative to the star's \textit{equatorial} radius, accounting for any rotational oblateness.
+
+
+
+\subsubsection{Uncertainties  in Kepler and Alfv\'en radii}
+\label{sec:error}
+
+Let us now explore the effect of stellar parameter uncertainty on the position of the stars in the confinement-rotation diagram. 
+As the radius and mass of the stars are generally derived from $\teff$, $\lum$ and $\logg$, we propagate the uncertainty on these quantities, assuming they are independent. 
+
+
+
+
+The Kepler radius can be expressed as,
+%------
+\begin{equation}
+	\label{eq:e_rk}
+	\frac{\rk}{\rs} \propto \frac{g^{1/3}\teff^{3/2}}{L^{1/6}\omega^{2/3}}.
+\end{equation}
+%------
+In general, the rotational periods are accurate at 1-2 percent, so their uncertainty can be neglected. 
+The quantities $\teff$, $\logg$ and $\lum$ have typical uncertainties of 10 percent, 0.2\,dex and 0.25\,dex, respectively. From equation \ref{eq:e_rk}, they contribute 15, 15 and 10 percent uncertainties to $\rk$, for a total uncertainty of 23 percent.
+Figure \ref{fig:error} shows a histogram of the Kepler radius uncertainty distribution (grey shade) for our sample, confirming that the mean uncertainty is around 25 percent. A corresponding vertical error bar is shown in the confinement-rotation diagram in Figure \ref{fig:mdot} (right). 
+
+%--------------
+\begin{figure}
+\begin{center}
+	\includegraphics[width=84mm]{fig_error.pdf}
+	\caption{\label{fig:error} Distribution of uncertainties in our determination of the Kepler radius(shaded) and Alv\'en radius  (hatched), estimated by propagating the uncertainty on the stellar parameters ($\teff$, $\lum$ and $\logg$). }
+\end{center}
+\end{figure}
+%---------------
+
+
+For the error propagation in Alfv\'en radius, we follow the CAK scaling (for fixed $\alf=0.55$), for the dependence of wind momentum on stellar parameters (equations \ref{eq:vesc} and \ref{eq:cak_mdot}),
+
+%------
+\begin{equation}
+	\mdot\vinf \propto \frac{\teff^{2.24}\,\ls^{1.25}}{g^{0.31}}.
+\end{equation}
+%-------
+With the typical uncertainties quoted above, $\teff$, $\logg$ and $\lum$ contribute respectively 22, 14 and 72 percent uncertainties to the wind momentum, for a total uncertainty of 76 percent. This uncertainty from stellar parameters is much smaller than that associated with the systematics discussed in \S\,\ref{sec:mv}. 
+As such, we estimate the total uncertainty in $\ra$ through the scaling, 
+%-----------
+\begin{equation}
+	\frac{\ra}{\rs} \propto \frac{\bp^2\,\ls^{1/4}}{\teff\, (\mdot\vinf)^{1/4}}.
+\end{equation}
+%-----------
+As a large fraction of our sample has only lower limits on the dipole field strength, let us ignore for now its contribution to the uncertainty. Again with the uncertainties quoted above, $\teff$ and $\lum$ contribute to 10 and 14 percent uncertainties, whereas $\mdot\vinf$ contributes 20 percent uncertainty, for a total uncertainty in $\ra$ of 26 percent. Figure \ref{fig:error} presents the uncertainty distribution attributed to the stellar parameters for $\ra$ (hashed histogram) with a mean value again confirming the above estimate. 
+One can see that the corresponding horizontal error bar in the confinement-rotation diagram of Figure \ref{fig:mdot} (right) is smaller than the systematic uncertainty associated with the theoretical mass-loss rate determination. 
+ 
+ Moreover, since the dipolar field strength is generally constrained with an accuracy of $\sim30$ percent, it would only contribute a 15 percent  uncertainty to $\ra$, again much smaller than the systematic uncertainty from the wind momentum. 
+
+  
+
+
+
+\subsection{Spindown time and spindown age}
+\label{sec:spindown}
+
+
+Let us next turn to considering the rotational evolution for our sample of magnetic massive stars.
+The angular momentum loss rate from a magnetised wind can be written in terms of the mass-loss rate, the Alfv\'{e}n radius $\ra$, and the stellar rotation frequency $\omega = \vrot/\rs$ \citep{1967ApJ...148..217W,2009MNRAS.392.1022U},
+%---------
+\beqn
+{\dot J} \approx \frac{2}{3} \mdot \omega \ra^2 \, .
+\label{jdotdef}
+\eeqn
+%---------
+The associated timescale for magnetic-wind-induced spindown of the stellar angular momentum $J = I \omega$ can then be written in the form
+%---------
+\begin{align}
+\tauj \equiv \frac{J}{\dot J}  \approx \frac{3}{2} \, \frac{f \ms \rs^2 \omega}{\mdot \ra^2 \omega}
+&= \frac{3}{2} \, f \tau_M  \left ( \frac{\rs}{\ra} \right )^2\, , \label{taujdef} \\
+&= \tau_{J,B=0}  \left ( \frac{\rs}{\ra} \right )^2\, , \nonumber 
+\end{align}
+%---------
+where $\tau_M \equiv \ms/\mdot$ is a characteristic mass-loss timescale,
+and $\tau_{J,B=0}$ defines the spindown time in the case of no magnetic field (i.e. $\ra=\rs$).
+The star's moment of inertia $I= f \ms \rs^2$ can be evaluated from the radius of gyration $\beta=f^{1/2}$ tabulated from internal structure models such as \citet{2004A&A...424..919C}.
+If we assume for simplicity a fixed radius $\rs$ and moment of inertia factor $f \approx 0.1$, as well as a constant angular momentum loss rate ${\dot J}$, 
+then the stellar rotational period $P$ will simply increase exponentially with age $t$ from its initial value $P_o$,
+%---------
+\beqn
+P(t) = P_o e^{t/\tauj} \, .
+\label{eq:poft}
+\eeqn
+%---------
+We can then use equation \ref{eq:poft} to define a star's spindown \textit{age}, $t_s$, in terms of the spindown time $\tauj$, and its inferred present-day critical rotation fraction $W = P_\mathrm{orb}/P$ relative to its initial rotation fraction $W_o$ at age $t=0$,
+%---------
+\beqn
+\frac{\ts}{\tauj} = \ln{W_o} - \ln{W}
+\, .
+\label{tstauj}
+\eeqn
+%---------
+Taking the initial rotation to be critical, $W_o =1$, yields a simple upper limit to the spindown age,
+%---------
+\beqn
+\tsmax = \tauj ~  \ln (1/W)
+\, .
+\label{tsmax}
+\eeqn
+%---------
+If the initial rotation is subcritical, $W_o < 1$, then the actual spindown age is shorter by a time $\Delta \ts =  \tauj \, \ln W_o$.
+
+As noted previously, the extra axes in Figure \ref{fig:etaW} give the spindown timescale $\tauj$ normalised by the value in a non-magnetised wind (i.e. by how much the magnetic braking enhances the stellar spindown) along the top, and the maximum spindown age $\tsmax$ normalised by the spindown time (i.e. the number of spindown e-folds) along the right.
+For each of the individual magnetic OB stars, columns (8) and (9) of Table \ref{tab:magneto} also list estimated values  for respectively 
+the spindown time $\tauj$ and the maximum spindown age $\tsmax$ in Myr.
+Future studies can thereby compare $\tsmax$ with other indicators of stellar age, for example from stellar evolution tracks or cluster association. To the extent that such independent age estimates are available, then within the limits of the stated assumptions of constancy in $\rs$, $f$, and ${\dot J}$, a comparison with this spindown age could be used to estimate an initial rotation fraction $W_o$.
+
+More immediately, note that among the full magnetic sample, many of the most slowly rotating stars are O-type stars.
+The high luminosities of these stars drive strong stellar winds that lead to a rapid angular momentum mass loss and thus very short spindown times.
+These characteristics help to explain their very slow rotation relative to many of the B-type targets. 
+Except for Plaskett's star (ID\,6), which has likely been spun up by binary interaction and show CM-type emission at high velocity  \citep{Grunhut2012_plaskett}, all the rapidly rotating stars near the top of Figure \ref{fig:etaW} are lower luminosity B-type stars with weaker winds;  for magnetic B-type stars, the spindown time is thus generally longer than for the magnetic O-type stars, typically several Myrs.
+
+
+Indeed,  extended photometric monitoring of the strongly magnetic B-type star $\sigma$\,Ori\,E (ID\,31) has provided a direct measurement of the change in rotation period, yielding  a spindown time of 1.34\,Myr \citep{2010ApJ...714L.318T,Townsend2012_MOST}. This is remarkably close to the spindown time of 1.4\,Myr   \textit{predicted} previously by the scaling developed from MHD simulations \citep{2009MNRAS.392.1022U}, but such very close agreement was likely fortuitous given the uncertainties in the mass-loss rate and stellar parameters. Indeed, the \citet{2000A&A...362..295V,2001A&A...369..574V} mass-loss rate we use here is roughly a factor 10 smaller than the CAK mass-loss rate assumed by \citet{2009MNRAS.392.1022U}, leading to a factor $\sim \sqrt{10}$ longer estimate for the spindown time, 4.6\,Myr. This emphasises that our listed values spindown time and age are only estimates accurate to within a factor of 3 or so\footnote{A change of period has also been measured for HD\,37776 \citep[ID\,34,][]{2011A&A...534L...5M} with a spindown timescale of 0.37\,Myr, comparable to our $\tauj$ of 0.68\,Myr. However, as discussed by \citet{2009MNRAS.392.1022U}, the complex field geometry of HD\,37776 \citep{2011ApJ...726...24K} will have a potentially strong impact on the angular momentum evolution of this star.}.
+
+\section{H$\alpha$ as a magnetospheric proxy}
+\label{sec:disc}
+
+We now explore how magnetospheric H$\alpha$ emission characteristics correlate with their position in the magnetic confinement-rotation diagram. 
+
+\subsection{Identification of H$\alpha$ magnetospheric emission}
+\label{sec:ha_obs}
+
+In Table \ref{tab:magneto}, column (11) indicates the emission (em) versus absorption (abs) nature of the H$\alpha$ line, and, if enough observations ($\ga 5$) are available, whether the profile is stable (stab) or variable (var).
+We flag Herbig Be stars (HeBe) because of the difficulty in disentangling magnetospheric emission from the emission produced by the accretion disks characteristic to this class of pre-main sequence stars. 
+Similarly in the case of spectroscopic binaries, slowly pulsating B-stars and $\beta$\,Cep stars (indicated in column 3), variation in the absorption line profile may have non-magnetic origins, but emission can generally be attributed to a magnetosphere. 
+
+This emission can have various distinguishing characteristics: (1) a central absorption core with broad emission wings that extend well beyond the photospheric $\vsini$ (Fig. \ref{fig:pro_ha}, left), (2) strong, narrow emission that overwhelms the photospheric absorption profile (Fig. \ref{fig:pro_ha}, right, grey profile), (3) weak overlying emission that only partially fills the underlying absorption (Fig. \ref{fig:pro_ha}, right, black profile). 
+
+%-------------
+\begin{figure*}
+\begin{center}
+	\includegraphics[width=84mm]{fig_ha_sigorie.pdf}
+	\includegraphics[width=84mm]{fig_ha_191612.pdf}
+	\caption{\label{fig:pro_ha} Example of H$\alpha$ line profiles, from MiMeS observations, for a centrifugal magnetosphere (left, \sigorie, ID\,31) and a dynamical magnetosphere (right, HD\,191612, ID\,4) and minimum (black) and maximum (grey) emission. Note how the extended emission wings are located at large velocities (outside $\vsini$) for the CM, whereas the central emission is localised in a narrow range of velocities (inside $\vsini$) in the line core for the DM.}
+\end{center}
+\end{figure*}
+%-------------
+
+For type (3), there can be confusion with the line-filling effect of a non-magnetised stellar wind; a clear identification requires monitoring for rotational modulation\footnote{Modulated variations in the core of absorption lines could also have other origins, for example changes in the photospheric structure due to large helium abundance inhomogeities on the surface of chemically peculiar stars  \citep[e.g. a\,Cen; ID\,63,][]{2010A&A...520A..44B} }. 
+For type (1) and (2), a single observation can suffice to identify a magnetospheric origin. 
+
+For type (1) the extended emission wings suggest plasma held in extended rigid-body rotation around the star, presumably by the stellar magnetic field. These correspond to centrifugal magnetospheres, as described by \citet{2005MNRAS.357..251T}. Multiple occurrences of this type of emission can be found in \citet{2011AJ....141..169B}, \citet{2012MNRAS.419..959O}, \citet{Grunhut2012_plaskett}, as well as the references listed in Table \ref{tab:ref}.
+
+For type (2), the narrow central emission suggests that the trapped plasma is kept at low velocities, without much broadening from rotation or from a high-speed outflow like in a non-magnetic stellar wind \citep{2012MNRAS.423L..21S}. 
+These correspond to dynamical magnetospheres. Example of such emission can be found in \citet{2007MNRAS.381..433H}, \citet{2012arXiv1207.6988G}, \citet{2012MNRAS.425.1278W}, as well as the references listed in Table \ref{tab:ref}.
+
+
+\subsection{H$\alpha$ emission in the classification diagram}
+\label{sec:ha_rark}
+
+%--------------
+\begin{figure*}
+\begin{center}
+
+	\includegraphics[width=84mm]{fig_rark_ha.pdf}
+	\includegraphics[width=84mm]{fig_rark_uv.pdf}
+	\caption{\label{fig:rark_ha} Location of magnetic massive stars in the magnetic confinement-rotation diagram (see Figure \ref{fig:etaW}). 
+	The symbols are coloured to mark the presence (dark pink) or absence (light purple) of a magnetospheric signature in H$\alpha$ emission (left) and UV resonance line (right), as described in Table \ref{tab:magneto}, and in \S \ref{sec:ha_obs} and \S \ref{sec:uv} respectively. The symbols are empty when no information is available. 
+ }
+
+\end{center}
+\end{figure*}
+%---------------
+
+Figure \ref{fig:rark_ha} (left) again plots stars in the confinement-rotation diagram, 
+with symbols now coloured to mark the presence (dark pink) or absence (light purple) of magnetospheric H$\alpha$ emission. Herbig stars are omitted here because of their intrinsic emission not associated with magnetic fields. 
+While stars with and without emission are found throughout the diagram, note that in the DM region with $\ra < \rk$, all the emission occurs, (with just one exception, HD\,156424; ID\,36) in O-type stars, for which the large luminosity suggests the wind feeding of the DM is strong enough to build up sufficient density for emission within the dynamical infall timescale.
+The same strong wind mass loss that feeds the DM emission means that they have relatively strong angular momentum loss that spins down the stars to their observed slow rotation rates near the bottom of the confinement-rotation diagram. 
+
+Conversely, in the CM region with $\ra > \rk$, the emission (again with one exception, Plaskett's star, ID\,6) occurs in B-type stars, for which the lower luminosity and wind feeding requires the longer retention timescale of a CM to build up sufficient density for emission.
+In fact, all the non-emitting stars in this region are also B-type, indicating that a CM is a necessary but not sufficient condition for emission for such low luminosity stars with relatively weak wind mass loss. Most of the B-type stars with emission are in the extreme upper right of the diagram, with both strong confinement and rapid rotation. Their wide separation from the $\ra=\rk$  line implies a large radial extent for their CM.
+
+Overall, this link between H$\alpha$ emission and location in the magnetic confinement-rotation diagram provides a useful categorisation that connects the rotation, mass loss, and circumstellar emission properties of massive star magnetospheres.
+
+
+
+\subsection{Magnetospheric vs stellar properties}
+\label{sec:ha_param}
+
+%-------------
+\begin{figure*}
+	\begin{center}
+	\includegraphics[width=84mm]{fig_teff_ha.pdf}
+	\includegraphics[width=84mm]{fig_lum_ha.pdf}
+	\caption{\label{fig:par_ha}
+	Location of magnetic massive stars in a $\log$-$\log$ plot of $\ra/\rk$ vs. the effective temperature (left) and the luminosity (right). The symbols are coloured to mark the presence (dark pink) or absence (light purple) of magnetospheric H$\alpha$ emission, as described in Table \ref{tab:magneto} and \S\ref{sec:ha_obs}. The symbols are empty when no H$\alpha$ information is available. Single arrows indicate a limit on either $\ra$ or $\rk$, whereas double arrows mark stars for which both $\ra$ and $\rk$ are limits. 
+	In the righthand diagram, the vertical dashed line represents the luminosity transition between O-type and B-type main sequence stars. The horizontal dotted line and the diagonal dot-dashed line are illustrative division of the CM domain according to potential mass leakage mechanisms (see discussion in \S\ref{sec:ha_param}). }
+	\end{center}
+\end{figure*}
+%-------------
+
+
+%-------------
+\begin{figure*}
+	\begin{center}
+	\includegraphics[width=84mm]{fig_teff_chart_mod.pdf}
+	\includegraphics[width=84mm]{fig_lum_chart_mod.pdf}
+	\caption{\label{fig:par_chart}
+	Finding charts for the location of magnetic massive stars in a $\log$-$\log$ plot of $\ra/\rk$ vs. the effective temperature (left) and the luminosity (right). The label numbers correspond to the ID in column (1) of Table \ref{tab:stars}.}
+	\end{center}
+\end{figure*}
+%-------------
+
+
+
+To explore further this categorisation, Figure \ref{fig:par_ha} plots (again for all the non-Herbig stars) the log of  the ratio $\ra/\rk$ (column 10 of Table \ref{tab:magneto}) vs. stellar effective temperature $\teff$ (left) or bolometric luminosity $\ls$ (right), with symbols again marking spectral type, coloured for the presence (dark pink) or absence (light purple) of magnetospheric H$\alpha$ emission (Figure \ref{fig:par_chart} provides a finding chart). 
+The single upward arrows indicate stars that could be shifted upward due to either a higher polar field than the minimum inferred from the available longitudinal field measurements (increasing $\ra$), or a higher rotation rate than the minimum inferred from the measured $\vsini$ (decreasing $\rk$); 
+the {\em double} upward arrows indicate stars for which {\em both} limits are at play.
+
+The solid horizontal line at $\ra = \rk$ separates the domains for dynamical magnetospheres at the bottom from centrifugal magnetospheres at the top, with the distance above the line characterising the radial extent for the centrifugal support.
+Each plot again shows that H$\alpha$ emission occurs both in O-type stars to the left, and in B-type stars to the (mostly upper) right;  but the demarcation is particularly distinct in the plot vs. bolometric luminosity.
+
+ In that plot, the vertical dashed line corresponds roughly to the main sequence transition from O- to B-type stars \citep{2005A&A...436.1049M}.
+The O-type stars to the left all have clear Balmer emission. Except for Plaskett's star (ID\,6), which has likely been spun up by binary interaction, they also are all relatively slow rotators with $\ra < \rk$ (DM).
+Their high luminosity means they have strong stellar winds, implying both a rapid stellar spindown, as well as a sufficient magnetospheric density to give line emission in the short residence time for a dynamical magnetosphere.
+
+For B-type stars to the right of this vertical  line, emission is most common in the most rapidly rotating stars above the horizontal dotted line at $\log (\ra/\rk ) = 0.9$.
+The 4 stars above this line without detected emission are all relatively late type stars, with low luminosity and so likely a very low wind mass-loss rate to feed the expected CM.
+The 3 stars {\em below} this line {\em with} detected emission have arrows indicating they could shift upward, with the two lower luminosity stars (HD\,156424 and HD\,156324; ID\,36, 37) having double arrows indicating potentially significant revision in both field strength and rotation rate.
+Indeed, although the current MiMeS observations do not allow for clear determination of a rotation period, in both cases the nightly variation of longitudinal field measurements points toward periods of order a day. These stars are prime candidates for follow up observations.
+
+The third, relatively high-luminosity B-type star ($\xi^1$\,CMa; ID\,15) has a well determined period 
+and Kepler radius,
+ but still has a single arrow from 
+the limited polar field estimate.
+Its current position --  just above the horizontal solid line,  and just to the right of the vertical dashed line -- makes it a particularly interesting test case for magnetospheric models, very near the transition from DM to CM, and from O-type stars to B-type stars mass loss.
+
+Indeed, if the CM/B-type star occurrence of H$\alpha$ emission depends on a {\em combination} of the radial extent of the CM (set by $\ra/\rk$ and thus the vertical position in Figure \ref{fig:par_ha}) and on the mass-loss rate feeding the CM (set by the luminosity and thus the horizontal position in Figure \ref{fig:par_ha}), then we can identify a possible further division along the illustrative {\em diagonal} dot-dashed line in Figure \ref{fig:par_ha}. 
+It would thus be of particular interest to clarify the position, and the emission properties, of stars  with current placements near this illustrative diagonal line. 
+
+Establishing empirically whether the onset of emission is better delineated by the horizontal dotted line or the diagonal dot-dashed line has potentially important implications for our theoretical understanding of the magnetospheric mass budget.
+The former would indicate that the CM mass depends mainly on the {\em capacity} for the magnetic field to confine centrifugally supported material, which eventually fills to a fixed level even if at the slow rate from a weak wind.
+The latter would indicate a competing {\em leakage} from the CM that decreases with distance above the $\ra=\rk$ line.
+To build up sufficient density for emission, stars near the $\ra=\rk$ line with high leakage require a high mass-loss rate and thus high luminosity, representing the left end of the diagonal; stars further above the line with lower leakage can fill their CM even with the weaker wind from a lower luminosity, representing the upper right end of the diagonal.
+
+As a shorthand, we might identify these as the `capacity' vs. `leakage' models for determining the onset of  CM emission.  Hopefully, the classification and physical arguments here will motivate a concentrated observational program to clarify the position, and the emission properties, of the key stars for establishing this discrimination.
+
+\section{Other magnetospheric proxies}
+\label{sec:other}
+
+\subsection{Ultraviolet variability}
+\label{sec:uv}
+
+
+In hot, massive stars, strong UV resonance lines like C\,\textsc{iv}\,$\lambda\lambda$\,1548, 1550, Si\,\textsc{iv}\,$\lambda\lambda$\,1393, 1403 and N\,\textsc{v}\,$\lambda\lambda$\,1239, 1243 are typically used as diagnostics of the stellar wind. In O-type stars with dense winds, the line profiles generally exhibit a characteristic P-Cygni profile showing red-side emission and blue-side absorption, with the blue edge of the latter marking the wind terminal speed.
+In B-type stars with weaker winds, the emission is weak or absent, and the blue edge of the shallower absorption may not extend to the terminal speed.
+Both types can exhibit intrinsic variability, but this is most common, distinctive and well-studied in O-type stars, 
+for which it is generally
+characterised by discrete absorption components (DACs) that start near line-centre and 
+slowly propagate across the blue absorption trough \citep[e.g.][]{1989ApJS...69..527H,1996A&AS..116..257K}. 
+These are likely representations of spiral-shaped density compressions, referred to as Corotating Interacting Regions
+\citep[CIRs,][]{1986A&A...165..157M}, caused by faster moving streams overtaking slower moving streams, where the interacting interface between the two is shocked. The projected velocity in the line of sight progresses because of the stellar rotation, rather than because of the outflow itself \citep{1996ApJ...462..469C}
+
+In magnetic OB stars these UV lines can be strongly affected by changes in velocity, density, and/or ionisation balance.
+Indeed, it was recognised early on that \textit{periodic} variations of the resonance lines could point toward the presence of a rotating magnetosphere \cite[e.g.][]{1990ApJ...365..665S,1993npsp.conf..186H,1994ApJ...425L..29W}.
+In contrast, the appearance of DACs is often found to be cyclical but never strictly periodic.
+Moreover, unlike the blueward-propagating DACs, in magnetic OB stars  UV line variation occurs nearly coherently and  synchronously over the full velocity range of the profile \citep[e.g.][]{2012MNRAS.422.2314M,henrichs_siglupi}.
+Thus, even in those stars without sufficient monitoring to clearly establish a period, one could use the morphological character of variations between two or more observations to flag the likely presence of a strong field \citep[e.g.][]{henrichs_siglupi}.
+
+In B-type stars, UV profiles show only shallow (if any) blueward wind absorption and weak or absent redward emission. The appearance of strong redward emission along with filling in of the absorption \cite[see Figure 5 of][]{1990ApJ...365..665S} can likewise be used to flag the likely presence of a magnetosphere, even without multiple observations to show variability.
+
+
+Column (12) of Table \ref{tab:magneto} gives a summary characterisation of UV resonance lines for the full sample of magnetic stars.
+The listed UV signatures of a field include periodicity (per), profile variability with morphology similar to periodic stars (var), and, for B-type stars, distinct redward emission with missing blueward absorption (em).
+Stars lacking a clear UV magnetic signature are those with only pure absorption (abs), and those with 5 or more observations showing stable absorption (stab abs).
+When available, these characterisations are from the literature, as summarised in Table \ref{tab:ref}, and otherwise are based on visual inspection of IUE archive spectra.
+
+
+In analogy with the organisation of H$\alpha$ signatures shown in the left panel of Figure \ref{fig:rark_ha}, the right panel again plots stars in the magnetic confinement-rotation diagram, 
+but now with stars showing one or more UV signatures for a field marked in dark pink, and those with absorption profiles consistent with lack of a field marked in light purple.
+Stars without UV observations (or IUE spectra with too low signal-to-noise ratio) have empty symbols. 
+
+Note that, in contrast to H$\alpha$ emission, such UV magnetic signatures occur throughout the diagram,  and for all spectral types.  In particular,  B-type stars with weak winds  show a UV magnetic signature even in the slow-rotation, DM region, for which B-type star H$\alpha$ emission is not seen.
+Thus UV variation seems to be a wide-spread phenomenon among magnetic OB stars, as long as some confinement is present, and therefore represents a relatively robust proxy of magnetism. In fact, a number of magnetic OB stars had been first identified as peculiar UV stars \citep[e.g.][]{1993npsp.conf..186H,2003A&A...406.1019N,henrichs_siglupi}. 
+
+The few stars without signs of UV variability cluster at lower $\ra$, but many other stars show UV field signatures in the same region of the diagram. As suggested by \citet{1990ApJ...365..665S} for some of the Bp stars, the exact behaviour of the variability might be closely tied with the geometry of the magnetic field with respect to the observer. Thus detailed modelling of the UV line profiles for magnetic OB stars may help constrain the geometry of the magnetospheres and clarify the velocity and ionisation structure of the trapped material.
+
+Indeed, UV resonance-line synthesis from MHD models shows clear P-Cygni absorption troughs that are modulated on the rotation phase. 
+For relatively strong lines, such troughs are actually deeper when viewing the magnetosphere pole-on than equator-on \citep{2008cihw.conf..125U}. 
+This somewhat counterintuitive effect occurs because the overdense material around the magnetic equator is characterised by very low velocities, whereas the outflow above the pole more closely resembles that of a normal, non-magnetic wind. 
+Thus the absorption column above the pole covers a much wider velocity range, leading to wider and deeper troughs.
+
+However, further calculations also suggest that the phase variability of such UV lines is quite sensitive to the actual strength of the line itself, and so may depend critically on the stellar mass-loss rate as well as on the magnetospheric ionisation state (Sundqvist et al. in prep). 
+The strong UV lines in  HD\,108 (ID\,7) indeed seem to display the characteristic variability described above \citep{2012MNRAS.422.2314M}, but 
+those in \oriunc\ (ID\,3) show effectively the opposite behaviour \citep{2008cihw.conf..125U}.
+Thus further modelling work is still needed to fully understand how magnetic fields affect the formation of UV lines of OB stars.
+
+
+
+\subsection{X-rays}
+\label{sec:xray}
+
+
+
+Massive stars are generally X-ray bright due to the intrinsic instability of the line-driving mechanism for radiative stellar winds \citep{1997A&A...322..878F,2002A&A...381.1015R,2003A&A...406L...1D}, with a well known canonical value for early OB star X-ray luminosity, $\lx,$ of $\sim10^{-7.2}\ls$ \citep{1997A&A...322..167B,2011ApJS..194....7N,2011ApJS..194....5G}. 
+The magnetically channeled wind shocks (MCWS scenario) associated with magnetic massive stars should also generate even stronger and harder X-ray emission, by the radiative cooling of the shock heated plasma in the magnetosphere \citep{1997ApJ...485L..29B}. 
+For example, the X-rays from the O-type star \oriunc\ (ID\,3) are more luminous and harder than in typical O-type stars, and modulated by the rotational period. \citet{2005ApJ...628..986G} used 2D MHD simulations, including an explicit energy equation, to track the shock heated material and its radiative cooling, and were able to reproduce the X-ray properties of \oriunc,  including the star's elevated X-ray luminosity, high plasma temperature, rotational modulation, and narrow spectral lines. Therefore, it seems at first glance that luminous, hard and variable X-ray emission could be a proxy for magnetism in massive stars. 
+
+However, these characteristics are not always present in magnetic massive stars.
+For example, the B-type star $\tau$\,Sco (ID\,11) is X-ray luminous and indeed displays a hard X-ray spectrum \citep{2003A&A...398..203M}, but it does not show evidence of rotational modulation \citep{2010ApJ...721.1412I}. 
+The B-type star NU\,Ori (ID\,12) does not show any significant variability over the duration of a $\sim10$\,d \textit{Chandra} observation \citep{2005ApJS..160..557S}, and has a soft spectrum.
+Another prototypical magnetic O-type star is the Of?p star HD\,191612 (ID\,4) which is quite luminous, but has a rather soft spectrum \citep{2010A&A...520A..59N}.  \citet{2011MNRAS.416.1456O} recently examined a small subset of magnetic B stars and noted that they too have diverse X-ray properties, including a few that are not X-ray overluminous at all. 
+
+
+We present here a first attempt to cast the X-ray characteristics of our large sample of magnetic OB stars as a function of their magnetospheric properties, focusing on just the X-ray luminosity.
+We perform a review of the literature to extract X-ray fluxes for the stars in our sample. Where possible, we use X-ray fluxes derived from pointed observations by modern X-ray observatories (\textit{Chandra} and \textit{XMM}) and reported in papers that carefully model the emission properties, correcting for interstellar absorption. A large majority of the O-type and very early B-type stars in our sample fall into this category. And for these stars, differences in the instrument bandpasses and uncertainties associated with the multi-temperature emission modelling and the ISM correction should lead to errors in the reported X-ray fluxes of less than a factor of two. We correct all of the literature X-ray luminosities for the distances adopted by the authors of each paper to derive an X-ray flux, and then recompute the X-ray luminosity using the distances we adopt for each star, which of course are consistent with the distances we use for the bolometric luminosity determinations. We then compute the X-ray efficiency ratio $\lxls$ (column 13 of Table \ref{tab:magneto}), so that even if better distance determinations are made for some of these objects in the future, their $\lxls$ values will not have to be adjusted. 
+
+
+For many of the later B-type stars, no X-ray measurements exist, and for others only survey data, primarily from \textit{ROSAT}, exists. The X-ray fluxes derived for these stars are more uncertain, primarily because of  the lack of detailed spectral modelling and in some cases the lack of detailed ISM absorption corrections. Additionally, the bandpass of \textit{ROSAT} is softer than that of either \textit{XMM} or \textit{Chandra}, further skewing comparisons between the derived X-ray luminosities. There are similar considerations for the small number of B-type stars for which only \textit{EINSTEIN} measurements exist \citep{1992ApJS...81..795G}. A more conservative estimate of the $\lxls$ uncertainties for these stars is required, with the overall error being probably up to 0.5 dex. Another factor potentially affecting our X-ray luminosity determinations is the contribution from unresolved binary companions \citep[e.g.][]{2012arXiv1205.3538P}. This phenomenon is more likely to be important for later B-type stars, observed with X-ray telescopes with poorer spatial resolution, and with lower intrinsic X-ray luminosities such that low-mass PMS companions could account for much of the observed X-ray emission for a given star.  However it is unlikely that all the X-ray bright magnetic B-type stars are affected by binarity. For example, \citet{2011ApJS..194....5G} have shown that the pre-main sequence population of the Carina Complex cannot explain all the X-ray emission of B-type stars and that some of them must be intrinsically X-ray bright. 
+
+\begin{figure*}
+	\begin{center}
+	\includegraphics[width=84mm]{fig_rark_xray.pdf}
+	\includegraphics[width=84mm]{fig_lum_xray.pdf}
+	\caption{\label{fig:xrays}
+	Location of magnetic massive stars in the magnetic confinement-rotation diagram (left) and in a log-log plot of $\ra/\rk$ vs. the luminosity (right). The stars are colour-coded according to their X-ray luminosity with respect to their bolometric luminosity ($\lxls$), in bins of 0.5\,dex. The dark pink shades represent stars with $\lxls$ greater than the canonical value of $-7$ for early OB stars and the light purple shades for stars below this value. The symbols are empty when no X-ray information is available.  }
+	\end{center}
+\end{figure*}
+
+
+In Figure \ref{fig:xrays} (left), we plot the stars in the $\ra$-$\rk$ plane with a colour coding representing the X-ray efficiency ratio in bins of 0.5\,dex ([$>$$-6.5$], [$-6.5$,$-7.0$], [$-7.0$,$-7.5$] and [$<$$-7.5$]).
+The dark pink shades are for stars with X-ray efficiency greater than the canonical value of $\lxls=-7.0$ for O-type stars. 
+All the O-type stars show some level of overluminosity ($\lxls>-6.7$). 
+Some of the B-type stars also show overluminosity. Most of them are located in the upper part of the CM region, although a few overluminous, very early B-type stars are located in the DM region. The right panel of Figure \ref{fig:xrays} presents a logarithmic plot of $\ra/\rk$ vs. the bolometric luminosity. One can see that enhanced X-ray emission generally occurs for the most luminous magnetic OB stars. 
+The B-type stars with intermediate luminosities seem to have X-ray emission typical for their spectral type, although it has been shown that the $\lx$-$\ls$ relation breaks down at spectral type B2 and that the typical $\lx$ is $10^{-8}\ls$ or lower for later spectral types (Cohen et al. 1997), implying that \textit{any} mid B-type star in one of the three highest $\lxls$ bins is overluminous for its spectral subtype. 
+Finally, some low luminosity stars with large $\ra/\rk$ (extended centrifugal magnetospheres) show enhanced X-ray emission.
+
+A potential explanation for the X-ray emission enhancement in CMs is the centrifugal acceleration for fast rotators, which contributes by propelling the confined material up the magnetic loop leading to stronger shocks than what could be achieved by radiative acceleration alone like in a DM. 
+However, Rigid-Field Hydrodynamical \citep[RFHD;][]{2007MNRAS.382..139T} simulations predict that the overall X-ray flux of stars in the CM region is also quite sensitive to the mass-loss rate. The distribution in temperature of the differential emission measure (DEM) is governed by both the pre-shock and post-shock characteristics of the magnetosphere. Both of these are affected by the wind properties, with the post-shock cooling length being longer for lower-density wind flows, leading to softer and weaker emission \citep{2011IAUS..272..194H}. 
+
+Therefore, a complete survey of the X-ray properties of the magnetic OB stars would be highly desirable as X-ray emission could provide a different perspective on the structure and dynamics of magnetospheres, and the shock physics occurring in both DMs and CMs.
+Future studies should include a consistent and uniform analysis of (1) X-ray plasma temperature distributions and (2) time-variability. 
+Although a re-analysis of all the available X-ray observations is beyond the scope of the current paper, the work presented here can be used as a starting point for identifying interesting stars for which X-ray data already exists, as well as identifying stars with interesting positions in the magnetic confinement-rotation diagram for which acquiring X-ray observations should be a priority.
+Another key development for understanding the trends identified above in the X-ray emission of magnetic massive stars would be more accurate and secure wind mass-loss rates for the B-type stars.
+
+
+\section{Conclusions}
+\label{sec:conclu}
+
+
+The Magnetism in Massive Stars (MiMeS) project aims to study the scope and impact of stellar magnetism in massive stars using high resolution and high signal-to-noise ratio spectropolarimetric observations from Large Program time allocations. 
+Within this context, the present study had two main goals: (1) To compile an exhaustive and well-documented list of confirmed magnetic, hot OB stars that are directly detected through the Zeeman effect, and; (2) To organise the stars in a way that accounts for both the strength of magnetic confinement of the stellar wind (through $\etas$ or $\ra$) and the dynamical role of stellar rotation (through $W$ or $\rk$).
+Key results are:
+
+\begin{itemize}
+
+
+\item We have provided a compilation of relevant stellar parameters for our magnetic sample. We used the luminosity, mass, and radius obtained from modern spectral modelling from the literature, when available; otherwise, these were derived from a classical bolometric correction approach, and from SED fitting with the code \textsc{Chorizos} when a complete set of photometry was available. We have also compiled rotational periods and dipolar field strengths, as well as binarity and pulsation status. 
+
+\item Using these parameters, we have placed the full sample of magnetic stars in a classification plane, the magnetic confinement-rotation diagram, characterising stellar rotation (as $\rk$ or $W$) vs. wind magnetic confinement (as $\ra$ or $\etas$).
+
+
+\item We identified key domains within the magnetic rotation-confinement diagram,  representing weakly magnetised winds with $\etas \la 1$, or  dynamical magnetospheres (DM, with $\rs < \ra < \rk$) vs. centrifugal magnetospheres (CM, with $\rs < \rk < \ra$).
+
+\item We have associated H$\alpha$ line emission characteristics with position in the confinement-rotation diagram. Slowly rotating O-type stars show DM magnetospheric emission, in contrast to B-type stars which generally only show CM magnetospheric emission.
+
+\item In a plane plotting the ratio $\rk/\ra$ vs. stellar luminosity, we found a clear separation between O-type star DM emission and B-type stars for which appearance of CM emission requires higher $\rk/\ra$ for lower luminosity stars. This suggests that the CM leakage mechanism may depend on the degree of magnetic confinement.
+
+
+\item We have also associated other magnetospheric proxies with position in the confinement-rotation diagram. UV resonance line variation occurs in all magnetosphere regimes and for stars of all temperatures; although detailed modelling will be needed in the future, UV spectroscopy seems an excellent proxy for identifying new magnetic OB stars. 
+The earliest magnetic OB stars generally show X-ray overluminosity, as do the low-luminosity B-type stars with large centrifugal magnetosphere volumes (high $\ra/\rk$).  
+
+\item We have calculated magnetic spindown timescales ($\tauj$) and inferred spindown ages ($t_{\rm s}$) for each star in our sample. O-type stars with strong winds have short spindown timescales and so mostly are slow rotators located in the DM region; B-type stars with weaker winds have longer spindown timescales, and thus extend well into the CM regime with rapid rotation.
+
+\item Finally, we have identified stars which will be prime candidates for follow-up studies (with either unknown periods or only dipole field strength lower limits) that would lead to a more accurate placement on the confinement-rotation diagram, hence providing more clues to the answers of some of the questions raised in this paper. 
+
+\end{itemize}
+ 
+ 
+ 
+\section*{Acknowledgments}
+  VP acknowledges support from Fonds qu\'eb\'ecois de la recherche sur la nature et les technologies.
+SOP and JOS acknowledge support from NASA grant ATP NNX11AC40G.
+GAW acknowledges support from the Natural Science and Engineering Research Council of Canada (NSERC) Discovery Grant program.
+MEO acknowledges financial support from GA\,\v{C}R under grant number 209/11/1198. The Astronomical Institute Ond\v{r}ejov 
+is supported by the project RVO:67985815.
+EA thanks the Programme National de Physique Stellaire (PNPS) for its support.
+RHDT  and Au-D acknowledge support from NASA grant NNX12AC72G.
+   This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France and the Canadian Astronomy Data Centre operated by the National Research Council of Canada.
+The authors would like to thank the MiMeS observing team for their efforts and the anonymous referee for his comments.
+
+\bibliographystyle{mn2e}
+\bibliography{ipod}
+ 
+
+\appendix
+
+
+\section{Notes on individual stars}
+\label{sec:notes}
+
+
+This section contains additional remarks about certain stars, marked by a dagger in Table \ref{tab:stars}, concerning our choice of parameters, providing alternative calculation in case of disagreements in the literature, or specific information about binarity and other relevant characteristics. 
+The sections are numbered according to the ID number of each stars, as given in column (1) of Table \ref{tab:stars}.
+
+%----------------------------
+\setcounter{subsection}{2}
+\subsection{HD\,37022 ($\theta^1$\,Ori\,C)}
+
+$\theta^1$\,Ori\,C is a single-lined spectroscopic and astrometric binary with an 11-yr period and $e\approx0.6$ \citep{2009A&A...497..195K}.
+
+%----------------------------
+\setcounter{subsection}{3}
+\subsection{HD\,191612}
+
+HD\,191612 is a double-lined spectroscopic binary with $P=1548$\,d and $e=0.5$, and a early B-type companion \citep{2007MNRAS.381..433H,2011MNRAS.416.3160W}. 
+
+%----------------------------
+\setcounter{subsection}{5}
+\subsection{HD\,47129 (Plaskett's star)}
+
+Plaskett's star is a high-mass ($M_\mathrm{tot}\sin i=93\msol$) O+O double-lined spectroscopic binary with a short period ($P=14$\,d) circular orbit \citep{2008A&A...489..713L}. The magnetic field is associated with the rapidly rotating ($\vsini=300$\,km\,\sm) secondary star \citep{Grunhut2012_plaskett}. 
+
+%----------------------------
+\setcounter{subsection}{7}
+\subsection{ALS\,15218 (Tr\,16-22)}
+
+We use the effective temperature and luminosity derived from the cluster photometry analysis of \citet{2011ApJS..194....5G}. We assume $\log(g)=4.0$. 
+
+%----------------------------
+\setcounter{subsection}{9}
+\subsection{HD\,37742 ($\zeta$\,Ori\,Aa)}
+
+HD\,37742 is an astrometric double-lined spectroscopic binary \citep{2000ApJ...540L..91H} with a O9\,Ib primary and an early B-type star companion. The preliminary dynamic mass derived by \cite{2011IAUS..272..539R} ($2.48\pm5.6$\,$\msol$) is smaller than the mass derived by \citet{2008MNRAS.389...75B} ($39\pm8$\,$\msol$).
+
+A comparison of the disentangled component spectra with the published Zeeman magnetic signature confirms that the signature cannot originate from component Ab, since its lines are too narrow (Th. Rivinius, priv. com).
+
+%----------------------------
+\setcounter{subsection}{11}
+\subsection{HD\,37061 (NU\,Ori)}
+
+NU\,Ori is a double-lined spectroscopic binary with $P=19$\,d and $e=0.14$ \citep{1991ApJ...367..155A}, with a magnetic early B-type primary and a late B-type companion \citep{2008MNRAS.387L..23P}.
+
+%----------------------------
+\setcounter{subsection}{17}
+\subsection{HD\,205021 ($\beta$\,Cep)}
+
+$\beta$\,Cep is a double-lined spectroscopic binary. The magnetic primary (component A) is the prototype of a class of pulsating hot stars. The secondary (component Aa) is an H$\alpha$-emitting classical Be star \citep{2008MNRAS.387..759C}.
+
+%----------------------------
+\setcounter{subsection}{18}
+\subsection{ALS\,15211 (Tr16-13)}
+
+We use the effective temperature and luminosity derived from the cluster photometry analysis of \citet{2011ApJS..194....5G}. We assume $\log(g)=4.0$. 	
+
+%----------------------------
+\setcounter{subsection}{19}
+\subsection{HD\,122451 ($\beta$\,Cen)}
+
+$\beta$\,Cen is a double-lined spectroscopic binary with $P=356$\,d and $e=0.8$ \citep{2006A&A...455..259A}, and components of nearly identical mass. The magnetic field detection is associated with the narrow-line primary star \citep{2011A&A...536L...6A}. 
+
+%----------------------------
+\setcounter{subsection}{23}
+\subsection{HD\,96446 (V\,430\,Car)}
+
+\citet{1991A&A...243..148M} observed photometric variations with a period of 0.85\,d, as well as other shorter periods interpreted as $\beta$\,Cep-type pulsations. However, other photometric periods are possible and compatible with the low-amplitude variations of the longitudinal field measurements \citep{Neiner2012_96446}. We use the long period of 5.73\,d. The shortest period of 0.85\,d would yield $W=0.46$ and $\rk=1.7\rs$.
+
+%----------------------------
+\setcounter{subsection}{29}
+\subsection{HD\,37017 (V\,1046\,Ori)}
+
+V\,1046\,Ori is a double-lined spectroscopic binary with a 18.6\,d period ($e=0.4$). The field detection is associated with the B2 He-strong primary \citep{1998A&A...337..183B}. The companion is a late B-type star. 
+
+%----------------------------
+\setcounter{subsection}{31}
+\subsection{HD\,149277}
+
+An inspection of archival HARPS and MiMeS ESPaDonS spectra revealed that HD\,149277 is a double-lined spectroscopic binary with the magnetic field detection associated with the lower $\vsini$ component (Petit et al. in prep). 
+
+%----------------------------
+\setcounter{subsection}{33}
+\subsection{HD\,37776 (V\,901\,Ori)}
+
+We choose the temperature and luminosity from \citet{2007A&A...470..685L}, in order to be consistent with the radius used by \citet{2011ApJ...726...24K} in their magnetic analysis. \citet{2011ApJ...726...24K} have shown that the field structure is much more complex than a dipole. Their surface magnetic field reconstruction displays a surface field varying from 5\,kG to 30\,kG across the stellar surface (see their Fig.~4). As their associated mean magnetic field modulus varies between 13 and 16\,kG, we use a dipolar strength of 15\,kG to estimate the wind confinement. It is important to keep in mind that the resulting magnetospheric structure will be complex, and cannot be described in detail by a global $\ra$, as testified by the complex H$\alpha$ variations (Shultz et al. in prep). 
+
+%----------------------------
+\setcounter{subsection}{34}
+\subsection{HD\,136504 ($\epsilon$\,Lup)}
+
+$\epsilon$\,Lup is an eccentric double-lined spectroscopic binary \citep[$P=4.6$\,d, $e=0.28$;][]{2005A&A...440..249U}, with similar components. The magnetic field measurements found in the literature \citep{2009AN....330..317H,2012ApJ...750....2S} do not specify which component is magnetic, but follow-up MiMeS observations show that the field is associated with the primary star and that the published longitudinal field measurements are underestimated by a factor of two. 
+
+\citet{2005A&A...440..249U} also found a possible period of 1.2\,d for the primary. This would lead to $W=0.38$ and $\rk=1.9\rs$.
+
+%----------------------------
+\setcounter{subsection}{39}	
+\subsection{HD\,186205}
+
+The SIMBAD database gives a spectral type of B5, although \cite{1975PASP...87..613W} classified it as B2Vp He-strong. The effective temperature determinations are varied: 17\,kK \citep{2000CoSka..30...12Z} and 23.5\,kK \citep{1977A&A....60..259L}. An analysis of a MiMeS observation suggests $\teff=20$\,kK and $\log g=4.0$.
+
+%----------------------------
+\setcounter{subsection}{41}
+\subsection{HD\,200775 (V\,3780\,Cep)}
+
+HD\,200775 is a double-lined spectroscopic binary with a period $\sim4$\,yr ($e=0.3$) with components of similar temperatures. The magnetic field is associated with the sharp-lined primary star \citep{2008MNRAS.385..391A}.
+	
+%----------------------------
+\setcounter{subsection}{47}
+\subsection{HD\,58260}
+
+According to the various parameter determinations reported by \citet{2007A&A...468..263C} and \citet{1989ApJ...346..459B}, we opt for $\teff=20$\,kK and $\log g=3.55$. 
+
+\citet{1979A&AS...35..313P} report a possible period of 1.657\,d, based on spectrophotometry of the He\textsc{i} $\lambda$4026\,\AA\ line, with a variation of the order of 0.01\,mag. \citet{2005A&A...430.1143B} phased the dozen available longitudinal field measurements with this period, however the amplitude of the variation is relatively small. We therefore use the $\vsini$ as the lower limit on the equatorial velocity. The 1.6-d period, if confirmed, would yield $W=0.55$ and $\rk=1.5\rs$, and an inclination angle of the rotation axis near zero.
+
+%----------------------------	
+\setcounter{subsection}{48}
+\subsection{HD\,36485 ($\delta$\,Ori\,C)}	
+	
+$\delta$\,Ori\,C is a double-lined spectroscopic binary with a 30-d period ($e=0.32$). \citet{2010MNRAS.401.2739L} determined $T_\mathrm{eff}=20$\,kK and $M=7$\,M$_\odot$ for the magnetic primary, and $T_\mathrm{eff}=10$\,kK and $M=2.8$\,M$_\odot$ for the secondary star (with a $\Delta V$ difference of 1.3\,mag). 
+
+\citet{2010MNRAS.401.2739L} determined a dipolar field strength between 7.3 and 12\,kG. We use a mean value of 10\,kG for our calculations. 
+
+%----------------------------
+\setcounter{subsection}{49}
+\subsection{HD\,208057 (16\,Peg)}
+
+The star was reported once to display H$\alpha$ emission \citep{1943ApJ....98..153M}, but there exists no confirmation of this emission \citep{2009IAUS..259..393H}. 
+
+%----------------------------	
+\setcounter{subsection}{51}
+\subsection{HD\,25558 (40\,Tau)}
+
+A magnetic field detection was reported by \citet{2009AN....330..317H}, but was refuted by \citet{2012A&A...538A.129B} based on a re-analysis of the same dataset. However, a weaker field was detected with MiMeS observations.
+
+%----------------------------	
+\setcounter{subsection}{52}
+\subsection{HD\,35298}
+
+Although \citet{2005A&A...430.1143B} reported a longitudinal field with extremum at 3\,kG, \citet{2011AN....332..974Y} found some larger values up to 5\,kG but also reported large variation in the field determined with lines from different elements. 
+The photometric period used by \citet{2005A&A...430.1143B} was confirmed by additional longitudinal field measurements at the Dominion Astrophysical Observatory, with an extremum around 5\,kG (D. Bohlender, priv com).
+We opt for a conservative lower limit on the dipolar strength of 9\,kG. 
+
+%----------------------------	
+\setcounter{subsection}{54}	
+\subsection{HD\,142990 (V\,913\,Sco)}
+
+There are many different effective temperature determinations in the literature, ranging from 16.5 to 18.5\,kK \citep[e.g.][]{2007A&A...468..263C}. We use 17.5\,kK as a mean value and assume $\log(g)=4.0$.
+
+%----------------------------
+\setcounter{subsection}{55}	
+\subsection{HD\,37058 (V\,359\,Ori)}
+
+\citet{2007AstBu..62..319G} determined $T_\mathrm{eff}=17$\,kK and $\log(g)=3.80$ from spectral fitting. 
+\citet{2007A&A...470..685L} found a higher temperature of 20\,kK. 
+We however prefer the lower temperature given that the star is He-weak. 
+
+A period of 14\,d was reported by \citet{1979A&AS...35..313P} based on spectrophotometry of He lines. On the other hand, \citet{2005A&A...430.1143B} phased the sparse longitudinal field measurements from the literature with a period of 1.022\,d. An additional measurement was taken by \citet{2006A&A...450..777B}, but the period is not precise enough to test the phasing. We therefore use the conservative 14\,d period. The shorter period would lead to $W=0.57$ and $\rk=1.5\rs$. 
+
+%----------------------------
+\setcounter{subsection}{56}	
+\subsection{HD\,35502}
+
+HD\,35502 is a hierarchical spectroscopic triple system with a broad-lined magnetic B-type primary (HD\,35502\,A) and a companion (HD\,35502\,Bab) composed of two sharp-lined A-type stars (Bohlender et al. in prep).
+\citet{1981ApJ...249L..39B} lists a possible period of 1.7\,d, however this period is not compatible with the new longitudinal field measurements ($P=0.85$\,d).
+
+%----------------------------
+\setcounter{subsection}{59}	
+\subsection{HD\,61556 (HR\,2949)}
+
+HD\,61555/6 is a visual pair, the light of which is combined in the Hipparcos identifier HIP\,37229 \citep{2003IBVS.5397....1R}. Both components were observed separately in the context of the MiMeS Project, and a magnetic field was detected only for HD\,61556. 
+
+%----------------------------
+\setcounter{subsection}{60}	
+\subsection{HD\,175362 (Wolff's star)}
+
+There is a large scatter of effective temperature determinations in the literature, from 14 to 17\,kK. We adopt the temperature ($\teff=15$\,kK) derived by \citet{1997A&A...320..257L} and $\log g=4.0$.
+
+%----------------------------
+\setcounter{subsection}{61}	
+\subsection{HD\,105382 (HR\,4618)}
+
+Although often classified at a Be star, \citet{2001A&A...366..121B} have shown that this is not the case and the Be classifications probably resulted from accidentally observing the very nearby, well known Be star $\delta$\,Cen. 
+	
+
+
+
+
+\end{document}
+
+
+
+

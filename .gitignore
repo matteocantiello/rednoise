@@ -57,3 +57,4 @@ paper_apj/*.log
 paper_apj/*.out
 paper_apj/*.pre_mesa
 paper_apj/*.pre_lit
+.venv_tess/

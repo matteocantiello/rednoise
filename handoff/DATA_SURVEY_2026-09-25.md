@@ -60,3 +60,7 @@ macroturbulence.
 - 2026-09-25: Pedersen & Bildsten 2025 ingested and calibrated (`../analysis_mesa/REPORT_pb25.md`): the paper's α₀ onset is not robust once the LMC ppm stars are removed.
 - 2026-09-25: Van Daele 2026 SLF parameters are **not published per star** (figures only; Zenodo has light curves). Using them requires refitting the light curves, which the project's published-tables-only rule excludes; left for the user to decide.
 - 2026-09-25: Markova 2025 microturbulence analysed (`../analysis_mesa/REPORT_vmic.md`).
+- 2026-09-25 (later): the user lifted the published-tables-only rule for Van Daele. Their light curves are refitted
+  (`../analysis_mesa/REPORT_vandaele.md`), the Galactic SPOC light curves too (`REPORT_mw_smc.md`), and a noise-floor model is
+  built (`REPORT_floor.md`). Bowman & Dorn-Wallenstein 2022 digitised from their figures (`REPORT_nuchar_Z.md`). Magnetic
+  test with Shen 2023 + Shultz 2022 + Petit 2013 (`REPORT_magnetic.md`). Bestenlehner+2025 A1 and Shen 2024 t1/t2 are in `vizier/`.

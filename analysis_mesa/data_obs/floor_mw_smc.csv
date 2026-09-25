@@ -1,0 +1,6 @@
+variant,n_mw,n_smc_domain,smc_median_residual,lo95,hi95,mwu_p,rms_mw
+"naive Whittle, SLF-class sectors (nu >= 0.15)",159,17,-0.242,-0.427,0.019,0.009,0.334
+"naive Whittle, all classes (nu >= 0.15)",159,27,-0.242,-0.458,-0.082,0.000,0.334
+"floor-aware, detected above floor (any class)",159,12,-0.130,-0.330,0.055,0.033,0.334
+"floor-aware, detected above floor, SLF class",159,6,-0.146,-0.991,0.092,0.045,0.334
+"floor-aware, detected and R >= 8.0",159,4,-0.746,-1.277,-0.112,0.008,0.334

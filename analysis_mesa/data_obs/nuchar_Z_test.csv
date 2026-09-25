@@ -1,0 +1,13 @@
+conversion,sample,n,median_residual_dex,lo_cal,hi_cal,lo_all,hi_all,mwu_p
+none,LMC+SMC,35,-0.120,-0.120,-0.120,-0.220,-0.061,0.005
+none,LMC,15,-0.146,-0.146,-0.146,-0.221,-0.030,0.057
+none,SMC,20,-0.100,-0.100,-0.100,-0.335,-0.054,0.025
+median offset,LMC+SMC,35,-0.098,-0.149,-0.084,-0.287,-0.028,0.013
+median offset,LMC,15,-0.124,-0.172,-0.115,-0.296,0.004,0.099
+median offset,SMC,20,-0.078,-0.144,-0.068,-0.326,0.031,0.045
+linear fit (inverse),LMC+SMC,35,-0.119,-0.171,-0.079,-0.283,-0.041,0.003
+linear fit (inverse),LMC,15,-0.119,-0.192,-0.083,-0.271,0.021,0.051
+linear fit (inverse),SMC,20,-0.122,-0.161,-0.087,-0.324,-0.023,0.016
+running median (10 nearest),LMC+SMC,35,-0.027,-0.069,0.001,-0.138,0.049,0.077
+running median (10 nearest),LMC,15,-0.017,-0.080,-0.004,-0.163,0.103,0.356
+running median (10 nearest),SMC,20,-0.035,-0.063,0.001,-0.206,0.079,0.104

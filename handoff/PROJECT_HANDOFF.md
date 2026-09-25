@@ -125,6 +125,8 @@ BSG/YSG share a ~0.3 d⁻¹ floor; RSGs are a distinct regime (read descriptivel
 ### 3.7 Metallicity — **method-confounded, unresolved**
 LMC vs SMC (both GP-fit): medians 1.04 vs 0.96 d⁻¹, indistinguishable. MW (Lorentzian) higher even at matched T_eff (1.85 vs 1.04 in 4.4 < log T_eff < 4.65, MWU p = 0.011) but Lorentzian vs GP ν_char differ systematically (Bowman & Dorn-Wallenstein 2022). No cross-galaxy frequency comparison is made. A homogeneous refit of all light curves would unlock this — out of scope under the "published tables only" decision.
 
+**Update 2026-09-25:** superseded. The GP↔Lorentzian offset is only −0.02 dex (BDW22), and a homogeneous refit (SPOC Galactic + Van Daele SMC PSF light curves) with a noise-floor model now exists. See `../STATUS.md` and `../analysis_mesa/REPORT_{nuchar_Z,mw_smc,floor}.md`.
+
 ### 3.8 Theory verdict
 FeCZ predicts: amplitude ∝ position toward Eddington limit (ℒ), ν_char set by turnover time (T_eff), an onset, growth with evolution, α₀–v_macro link. Core IGW predicts: amplitude grows slowly with mass, spectrum softens/shifts lower with age, no α₀–rotation link, amplitude 0.06–0.21 µmag for 15 M⊙ (Anders+2023) vs observed 10–90% of 64–3600 µmag (median 350) → 3–4 dex short. **Sub-surface convection is the dominant driver of both phenomena in evolved OB stars.** A metallicity-independent IGW floor below the onset remains possible and untested. Full prediction compilation: `theory_predictions.md`.
 

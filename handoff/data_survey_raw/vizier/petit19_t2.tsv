@@ -1,0 +1,153 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-25T17:40:51 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-25T17:40:51	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/489/5669/table2&-out.max=unlimited&-out.all=2	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_74895669
+#Name: J/MNRAS/489/5669
+#Title: MiMeS Magnetic properties of O-type stars (Petit+, 2019)
+#INFO	ivoid=ivo://cds.vizier/j/mnras/489/5669	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/mnras/489/5669	    IVOID of underlying data collection
+#INFO	creator=Petit V.	    First author or institution
+#INFO	cites=bibcode:2019MNRAS.489.5669P	    Article or Data origin sources
+#INFO	journal=MNRA	    Journal name
+#INFO	original_date=2019	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/489/5669	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.74895669	    Dataset identifier that can be used for citation
+#INFO	publication_date=2024-08-20	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_MNRAS_489_5669_table2:
+#Name: J/MNRAS/489/5669/table2
+#Title: Results from our Bayesian analysis
+#Column	ID	(I3)	[1/102] Internal object identifier	[ucd=meta.id]
+#Column	f_ID	(A3)	Flag on ID (G1)	[ucd=meta.code]
+#Column	Name	(a13)	Star name	[ucd=meta.id;meta.main]
+#Column	SpType	(a15)	Spectral type reproduced from Grunhut et al. (2017MNRAS.465.2432G, Cat. J/MNRAS/465/2432) (Paper I)	[ucd=src.spType]
+#Column	Nobs	(I2)	Number of nightly averaged observations	[ucd=meta.number]
+#Column	vsini	(I3)	Rotational broadening adopted in our models	[ucd=phys.veloc.rotat]
+#Column	OddsV	(F5.2)	Odds ratio obtained from the Stokes V profile (1)	[ucd=stat]
+#Column	OddsN	(F6.2)	Odds ratio obtained from the null profile (1)	[ucd=stat]
+#Column	68V	(I3)	Upper limit to the 68.3 per cent credible region obtained from Stokes V	[ucd=phys.magField]
+#Column	95V	(I4)	Upper limit to the 95.4 per cent credible region obtained from Stokes V	[ucd=phys.magField]
+#Column	68N	(I3)	Upper limit to the 68.3 per cent credible region obtained from the null profile	[ucd=phys.magField]
+#Column	95N	(I4)	Upper limit to the 95.4 per cent credible region obtained from the null profile	[ucd=phys.magField]
+#Column	ModeV	(I3)	Mode of the probability density function marginalized for B_pole_ obtained from Stokes V	[ucd=phys.magField]
+#Column	ModeN	(I3)	Mode of the probability density function marginalized for B_pole_ obtained from the null profile	[ucd=phys.magField]
+#Column	SimbadName	(a11)	Simbad column added by the CDS	[ucd=meta.id]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+ID	f_ID	Name	SpType	Nobs	vsini	OddsV	OddsN	68V	95V	68N	95N	ModeV	ModeN	SimbadName	_RA	_DE
+ 	 	 	 	 	km/s	 	 	10-4T	10-4T	10-4T	10-4T	10-4T	10-4T	 	deg	deg
+---	---	-------------	---------------	--	---	-----	------	---	----	---	----	---	---	-----------	---------	---------
+  1	SB2	HD 1337 A    	O9.5II(n)      	 1	118	 0.02	  0.41	212	 549	 63	 225	132	  0	HD 1337    	004.42943	+51.43309
+  2	   	HD 1337 B    	               	 1	 23	 0.28	  0.32	275	1187	232	 931	  0	  0	HD 1337    	004.42943	+51.43309
+  3	   	HD 13745     	O9.7II(n)      	 3	170	 0.20	  0.46	177	 491	105	 314	  0	  0	HD 13745   	033.94140	+55.99631
+  4	   	HD 14633     	ON8.5V         	 1	120	 0.50	  0.19	 58	 209	118	 372	  0	  0	HD 14633   	035.72622	+41.47992
+  5	SB3	HD 17505 Aa1 	O6.5IIIn((f))  	 1	  8	 0.27	  0.28	423	1976	358	1727	  0	  0	HD 17505   	042.78323	+60.41774
+  6	   	HD 17505 Ab  	               	 1	 14	 0.30	  0.22	435	1921	585	2922	  0	  0	HD 17505   	042.78323	+60.41774
+  7	   	HD 17505 Aa2 	               	 1	  1	 0.16	  0.26	614	2628	413	2075	  0	  0	HD 17505   	042.78323	+60.41774
+  8	   	HD 24431     	O9III          	 1	 60	 0.29	  0.18	 48	 162	 70	 218	  0	  0	HD 24431   	058.91009	+52.64132
+  9	   	HD 24534     	O9.5npe        	 1	200	-0.73	  0.42	632	1414	123	 443	387	  0	HD 24534   	058.84616	+31.04584
+ 10	   	HD 24912     	O7.5III(n)((f))	13	201	 0.64	 -1.27	 13	  37	 50	 125	  0	 27	HD 24912   	059.74126	+35.79103
+ 11	   	HD 30614     	O9Ia           	 5	 96	 0.64	  0.54	 16	  47	 19	  56	  0	  0	HD 30614   	073.51254	+66.34268
+ 12	   	HD 34078     	O9.5V          	 4	 16	 0.67	  0.90	 29	  69	 16	  49	  0	  0	HD 34078   	079.07562	+34.31232
+ 13	   	HD 34656     	O7.5II(f)      	 1	 70	 0.37	  0.39	 52	 185	 41	 148	  0	  0	HD 34656   	080.17950	+37.43867
+ 14	   	HD 35619     	O7.5V          	 1	 45	 0.18	  0.31	108	 341	 72	 248	  0	  0	HD 35619   	081.90061	+34.75528
+ 15	SB2	HD 35921     	O9.5II         	 1	205	 0.42	  0.42	103	 370	125	 448	  0	  0	HD 35921   	082.42771	+35.37502
+ 16	a  	HD 36486     	O9.5IINwk      	 2	121	-2.46	  0.64	 94	 242	 21	  70	 56	  0	HD 36486   	083.00167	-00.29909
+ 17	   	HD 36512     	O9.7V          	 1	 18	 0.48	  0.17	 33	 122	 86	 255	  0	  0	HD 36512   	082.98275	-07.30154
+ 18	   	HD 36861     	O8III((f))     	 8	 61	 0.61	  0.65	 14	  35	 12	  35	  0	  0	HD 36861   	083.78448	+09.93416
+ 19	   	HD 36879     	O7V(n)((f))    	 2	185	 0.52	 -0.98	 55	 180	259	 556	  0	154	HD 36879   	083.91886	+21.40326
+ 20	SB2	HD 37041     	O9.5Ivp        	 3	123	-0.03	  0.58	 84	 193	 31	  93	  0	  0	HD 37041   	083.84542	-05.41606
+ 21	SB2	HD 37043     	O9IIIvar       	 1	 78	 0.02	  0.35	 80	 220	 30	 104	  0	  0	HD 37043   	083.85826	-05.90990
+ 22	SB2	HD 37366     	O9.5IV         	 1	  2	 0.25	  0.32	 40	 207	 29	 167	  0	  0	HD 37366   	084.85334	+30.89077
+ 23	SB2	HD 37468     	O9.7III        	 1	118	-1.62	  0.22	182	 406	 56	 180	112	  0	HD 37468   	084.68652	-02.60008
+ 24	   	HD 38666     	O9.5V          	 1	114	 0.37	 -0.35	 38	 135	100	 273	  0	  0	HD 38666   	086.49956	-32.30643
+ 25	   	HD 42088     	O6V((f)z       	 1	 37	 0.32	  0.38	113	 382	 85	 303	  0	  0	HD 42088   	092.41489	+20.48763
+ 26	   	HD 46056     	O8Vn           	 1	344	 0.31	  0.37	371	1279	294	 997	  0	  0	HD 46056   	097.83692	+04.83440
+ 27	SB2	HD 46106     	O9.7II-III     	 1	 86	 0.44	  0.37	 88	 317	124	 429	  0	  0	HD 46106   	097.90999	+05.02678
+ 28	SB2	HD 46149     	O8.5V          	 3	 40	 0.38	  0.55	 70	 309	 38	 114	  0	  0	HD 46149   	097.96888	+05.03311
+ 29	   	HD 46150     	O5V((f))z      	 3	 86	-0.80	 -0.05	160	 298	108	 276	  0	  0	HD 46150   	097.98134	+04.94286
+ 30	   	HD 46202     	O9.5V          	 2	 20	 0.43	  0.48	 31	  94	 28	  92	  0	  0	HD 46202   	098.04363	+04.96660
+ 31	   	HD 46223     	O4V((f))       	 2	 67	 0.23	  0.41	126	 344	 77	 248	  0	  0	HD 46223   	098.03878	+04.82353
+ 32	   	HD 46485     	O7Vn           	 3	312	 0.51	  0.38	127	 379	192	 530	  0	  0	HD 46485   	098.46232	+04.52545
+ 33	   	HD 46966     	O8.5IV         	 1	 50	 0.43	  0.39	 39	 139	 39	 137	  0	  0	HD 46966   	099.10787	+06.08319
+ 34	   	HD 47432     	O9.7Ib         	 1	 90	 0.42	  0.28	 30	 108	 47	 161	  0	  0	HD 47432   	099.65911	+01.61352
+ 35	a  	HD 47839     	O7V((f))var    	 8	 50	 0.68	  0.49	 15	  43	 27	  68	  0	  0	HD 47839   	100.24441	+09.89576
+ 36	SB2	HD 48099 A   	O6.5V(n)((f))  	 2	 91	 0.27	  0.54	 82	 226	 41	 141	  0	  0	HD 48099   	100.49680	+06.34543
+ 37	   	HD 48099 B   	               	 2	 51	 0.63	  0.58	 52	 184	 58	 190	  0	  0	HD 48099   	100.49680	+06.34543
+ 38	SB2	HD 54662 A   	O7V((f))zvar?  	 1	 31	 0.34	  0.32	 53	 181	 57	 191	  0	  0	HD 54662   	107.33437	-10.34657
+ 39	   	HD 54662 B   	               	 1	148	 0.37	  0.24	 87	 304	137	 423	  0	  0	HD 54662   	107.33437	-10.34657
+ 40	   	HD 55879     	O9.7III        	 1	 36	 0.35	  0.36	 16	  60	 17	  60	  0	  0	HD 55879   	108.61772	-10.31625
+ 41	   	HD 66788     	O8V            	 2	 24	 0.30	  0.37	200	 556	147	 460	  0	  0	HD 66788   	121.03558	-27.48579
+ 42	   	HD 66811     	O4If           	 2	185	 0.46	 -0.61	 32	 101	140	 322	  0	  0	HD 66811   	120.89603	-40.00315
+ 43	   	HD 69106     	O9.7In         	 1	312	 0.41	  0.38	100	 362	115	 415	  0	  0	HD 69106   	123.51583	-36.95220
+ 44	   	HD 93028     	O9IV           	 1	 20	 0.28	  0.34	129	 447	122	 465	  0	  0	HD 93028   	160.81391	-60.20118
+ 45	a  	HD 93250     	O4IIIfc:       	 1	 50	 0.15	  0.15	496	1755	435	1442	  0	  0	HD 93250   	161.18761	-59.56519
+ 46	   	HD 149038    	O9.7Iab        	 1	 66	 0.30	  0.30	 28	  94	 28	  96	  0	  0	HD 149038  	248.52092	-44.04531
+ 47	   	HD 149757    	O9.5Ivnn       	45	352	 0.77	  0.60	 47	 129	 76	 180	  0	  0	HD 149757  	249.28975	-10.56709
+ 48	   	HD 151804    	O8Iaf          	 1	 78	 0.36	  0.18	 57	 201	 81	 255	  0	  0	HD 151804  	252.89051	-41.23053
+ 49	   	HD 152233    	O6III(f)       	 1	 75	 0.22	  0.36	120	 367	 74	 262	  0	  0	HD 152233  	253.51496	-41.79162
+ 50	   	HD 152247    	O9.5II-III     	 1	 80	 0.19	  0.06	245	 776	328	 939	  0	  0	HD 152247  	253.54799	-41.64194
+ 51	   	HD 152249    	OC9Iab         	 1	 80	 0.39	  0.26	 36	 131	 58	 187	  0	  0	HD 152249  	253.54850	-41.84925
+ 52	   	HD 152408    	O8Iafpe        	 1	 78	 0.29	  0.26	139	 469	159	 513	  0	  0	HD 152408  	253.74377	-41.15086
+ 53	SB2	HD 153426    	O9II-III       	 2	 94	 0.45	 -0.03	 62	 189	181	 403	  0	  0	HD 153426  	255.30420	-38.20330
+ 54	   	HD 153919    	O6Iaf          	 1	135	 0.07	  0.35	157	 449	 77	 265	  0	  0	HD 153919  	255.98655	-37.84414
+ 55	   	HD 154368    	O9.5Iab        	 1	 73	 0.40	  0.34	 28	 102	 34	 118	  0	  0	HD 154368  	256.61820	-35.45104
+ 56	   	HD 154643    	O9.5III        	 1	106	 0.39	  0.41	 41	 148	 38	 135	  0	  0	HD 154643  	257.05826	-35.00435
+ 57	   	HD 155806    	O7.5V          	 4	 70	 0.46	  0.40	 35	  92	 36	  99	  0	  0	HD 155806  	258.83020	-33.54842
+ 58	SB2	HD 155889    	O9.5IV         	 1	 12	 0.10	  0.36	198	 862	 98	 391	  0	  0	HD 155889  	258.96147	-33.73702
+ 59	   	HD 156154    	O7.5Ibf        	 1	 78	 0.41	  0.40	 62	 221	 63	 224	  0	  0	HD 156154  	259.36254	-35.53667
+ 60	   	HD 162978    	O8II(f)        	 2	 76	-1.90	  0.42	161	 289	 26	  81	 91	  0	HD 162978  	268.72518	-24.88710
+ 61	   	HD 164492    	O7.5Vz         	 1	 32	-0.62	  0.34	442	 880	 84	 306	274	  0	HD 164492  	270.59814	-23.03083
+ 62	SB2	HD 164794 A  	O3.5V((f*))    	 5	 87	 0.49	  0.10	150	 417	373	 860	  0	  0	HD 164794  	270.96852	-24.36073
+ 63	   	HD 164794 B  	O5-5.5V((f))   	 5	 57	 0.53	  0.28	 85	 247	157	 414	  0	  0	HD 164794  	270.96852	-24.36073
+ 64	SB2	HD 165052 A  	O5.5Vz         	 1	 73	 0.34	  0.36	110	 392	 98	 350	  0	  0	HD 165052  	271.29396	-24.39857
+ 65	   	HD 165052 B  	O8V            	 1	 80	 0.40	  0.24	 97	 346	185	 579	  0	  0	HD 165052  	271.29396	-24.39857
+ 66	   	HD 167263    	O9.5II-IIIn    	 1	 57	-0.19	  0.30	251	 589	 70	 253	153	  0	HD 167263  	273.80404	-20.38797
+ 67	   	HD 167264    	O9.7Iab        	 9	 51	 0.57	  0.67	 27	  80	 19	  55	  0	  0	HD 167264  	273.80378	-20.72827
+ 68	a  	HD 167771    	O7III(f)       	 1	 50	 0.21	  0.25	 64	 198	 56	 190	  0	  0	HD 167771  	274.36899	-18.46345
+ 69	   	HD 186980    	O7.5III((f))   	 1	 67	 0.37	  0.40	 37	 133	 37	 131	  0	  0	HD 186980  	296.56626	+32.11616
+ 70	   	HD 188001    	O7.5Iabf       	 1	 89	 0.18	  0.27	165	 504	132	 419	  0	  0	HD 188001  	298.09069	+18.67188
+ 71	   	HD 188209    	O9.5Iab        	 7	 69	 0.57	  0.57	 10	  30	 10	  30	  0	  0	HD 188209  	297.99612	+47.02734
+ 72	   	HD 189957    	O9.7III        	 1	 84	-0.01	  0.25	142	 429	 99	 337	  0	  0	HD 189957  	300.25002	+42.00856
+ 73	a  	HD 190918    	WN5o+O9I       	 2	107	 0.28	  0.39	118	 310	 97	 306	  0	  0	HD 190918  	301.48885	+35.78838
+ 74	SB2	HD 191201 A  	O9.5III        	 1	 25	 0.25	  0.24	176	 766	166	 738	  0	  0	HD 191201  	301.84869	+35.71830
+ 75	   	HD 191201 B  	B0IV           	 1	  2	 0.24	  0.23	162	 765	173	 816	  0	  0	HD 191201  	301.84869	+35.71830
+ 76	   	HD 192281    	O4.5Vn(f)      	 2	270	 0.06	  0.32	318	 788	184	 551	  0	  0	HD 192281  	303.13800	+40.26818
+ 77	   	HD 192639    	O7.5Iabf       	 1	 96	 0.43	  0.12	 66	 234	131	 396	  0	  0	HD 192639  	303.62678	+37.35384
+ 78	SB2	HD 193322 Aa 	O9IV(n)        	 1	345	 0.24	  0.15	411	1315	439	1425	  0	  0	HD 193322  	304.52912	+40.73208
+ 79	   	HD 193322 Ab1	               	 1	 39	 0.19	  0.31	 67	 225	 49	 174	  0	  0	HD 193322  	304.52912	+40.73208
+ 80	SB2	HD 193443 A  	O9III          	 1	 79	 0.35	  0.34	 72	 246	 74	 255	  0	  0	HD 193443  	304.71546	+38.27958
+ 81	   	HD 193443 B  	               	 1	 74	 0.34	  0.40	215	 706	168	 593	  0	  0	HD 193443  	304.71546	+38.27958
+ 82	a  	HD 199579    	O6.5V((f))z    	 1	 35	-1.21	  0.06	154	 416	 95	 344	  0	  0	HD 199579  	314.14491	+44.92472
+ 83	   	HD 201345    	ON9.5IV        	 1	 90	 0.37	  0.35	117	 406	130	 438	  0	  0	HD 201345  	316.98090	+33.39701
+ 84	   	HD 203064    	O7.5IIIn((f))  	 4	277	 0.55	  0.83	 81	 229	 49	 163	  0	  0	HD 203064  	319.61328	+43.94594
+ 85	SB2	HD 204827    	O9.7III        	 1	 71	-0.11	  0.37	233	 641	 88	 312	  0	  0	HD 204827  	322.24066	+58.73979
+ 86	   	HD 206183    	O9.5IV-V       	 1	  9	 0.38	  0.43	 53	 213	 38	 144	  0	  0	HD 206183  	324.60952	+56.97374
+ 87	a  	HD 206267    	O6.5V((f))     	 1	 40	 0.23	  0.22	132	 491	127	 460	  0	  0	HD 206267  	324.74008	+57.48904
+ 88	   	HD 207198    	O9II           	10	 69	 0.60	  0.47	 18	  48	 20	  54	  0	  0	HD 207198  	326.22200	+62.46057
+ 89	   	HD 207538    	O9.7IV         	 1	 35	 0.40	  0.29	 26	  93	 38	 122	  0	  0	HD 207538  	326.91579	+59.70037
+ 90	SB2	HD 209481 A  	O9IV(n)var     	11	135	-0.36	  0.75	102	 234	 33	  95	 58	  0	HD 209481  	330.51905	+58.00036
+ 91	   	HD 209481 B  	               	11	 85	 0.30	  0.71	217	 446	 77	 217	  0	  0	HD 209481  	330.51905	+58.00036
+ 92	   	HD 209975    	O9Ib           	 9	 70	-0.67	  0.49	 35	  77	 14	  38	 21	  0	HD 209975  	331.28662	+62.27981
+ 93	   	HD 210809    	O9Iab          	 1	100	 0.42	 -1.10	 34	 124	184	 419	  0	117	HD 210809  	332.91084	+52.42999
+ 94	   	HD 210839    	O6.5I(n)fp     	26	220	 0.15	 -3.44	 88	 141	144	 220	 62	116	HD 210839  	332.87740	+59.41449
+ 95	   	HD 214680    	O9V            	17	 26	-0.07	  0.53	 13	  22	  8	  16	  9	  0	HD 214680  	339.81533	+39.05027
+ 96	   	HD 218195    	O8.5III        	 1	 61	 0.41	  0.27	 46	 163	 76	 250	  0	  0	HD 218195  	346.30388	+58.24149
+ 97	   	HD 218915    	O9.5Iab        	 1	 63	 0.01	  0.42	 91	 267	 34	 122	  0	  0	HD 218915  	347.77895	+53.05824
+ 98	   	HD 227757    	O9.5V          	 2	 18	 0.39	  0.38	238	 701	323	1157	  0	  0	HD 227757  	301.80321	+36.35929
+ 99	   	HD 258691    	O9.5IV         	 1	 23	 0.04	  0.35	125	 362	 62	 216	  0	  0	HD 258691  	097.63878	+04.69098
+100	   	HD 328856    	O9.7II         	 1	 98	 0.39	  0.07	 87	 308	209	 595	  0	  0	HD 328856  	251.63898	-47.08082
+101	   	BD -13 4930  	O9.7V          	 1	 13	 0.42	  0.39	 61	 216	 76	 280	  0	  0	BD -13 4930	274.71948	-13.82851
+102	   	BD +60 499   	O9.5V          	 1	 23	 0.29	  0.04	207	 652	249	 724	  0	152	BD +60 499 	038.06980	+61.55417
+
