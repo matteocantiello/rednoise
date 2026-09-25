@@ -143,3 +143,13 @@ The 2021 versions of the column lists and inlist_pgstar were restored there from
 current work (models/, analysis_mesa/, paper_apj/, handoff/) did **not** move, so all live paths
 (running jobs, submit scripts, symlinks, analysis scripts) are unchanged. The git tag `cantiello2021`
 (= 2251874) preserves the old layout for external links. The layout is explained in `../README.md`.
+
+## 2026-09-24 — first v2 submission failed (no models ran)
+
+Jobs 7103427–7103430 (`rn2_MW_w0.{0,2,4,6}`), submitted 18:11, started 18:54, and all FAILED after 2 s
+(exit 0:53). They were submitted from `/home/mcantiello/rednoise_tests`, which is local workstation disk
+and does not exist on compute nodes, so Slurm could not use it as the working directory and no log was
+written. Nothing reached `grids_v2` or Ceph. Fix: the v2 submit scripts (and `setup_grids_v2.sh`) now set
+`#SBATCH --chdir=<sub-grid dir>`, so logs and tasks go to the sub-grid regardless of where `sbatch` runs.
+Resubmitted: jobs 7104231 (w0.0), 7104232 (w0.2), 7104235 (w0.4), 7104236 (w0.6), pending on Priority with the
+correct working directories (`grids_v2/MW/w0.*`).

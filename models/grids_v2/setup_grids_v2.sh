@@ -211,7 +211,9 @@ write_submit_script() {
     local w_label="$3"
     cat > "$subgrid_dir/submit_grid.sh" << SUBMIT_EOF
 #!/bin/bash
+# --chdir: logs and task file go to the sub-grid directory, whatever directory sbatch is run from
 #SBATCH --job-name=rn2_${z_label}_${w_label}
+#SBATCH --chdir=${subgrid_dir}
 #SBATCH --partition=cca
 #SBATCH --account=cca
 #SBATCH --qos=gen

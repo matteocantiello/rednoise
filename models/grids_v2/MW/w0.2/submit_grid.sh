@@ -1,5 +1,7 @@
 #!/bin/bash
+# --chdir: logs and task file go to the sub-grid directory, whatever directory sbatch is run from
 #SBATCH --job-name=rn2_MW_w0.2
+#SBATCH --chdir=/mnt/home/mcantiello/work/rednoise/models/grids_v2/MW/w0.2
 #SBATCH --partition=cca
 #SBATCH --account=cca
 #SBATCH --qos=gen
