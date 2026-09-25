@@ -1,0 +1,22 @@
+
+! Small Magellanic Cloud metallicity: Z = 0.002 (v2: Asplund+09 mixture and opacities set in ../inlist_base; same Z as v1)
+
+&star_job
+
+/ ! end of star_job namelist
+
+&eos
+
+/ ! end of eos namelist
+
+&kap
+      Zbase = 0.002
+/ ! end of kap namelist
+
+&controls
+      initial_z = 0.002
+/ ! end of controls namelist
+
+&pgstar
+
+/ ! end of pgstar namelist

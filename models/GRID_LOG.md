@@ -180,3 +180,19 @@ scratch; task list `grids_v2/MW/rerun_nzfix_tasks.txt`). It requires the live `t
 first; running jobs keep their already-loaded binary.
 **23:05:** live `template_v2/star` rebuilt with the fix (user approved); verified locally on v2 MW ω=0 M25 with
 the live binary (20 models, no runtime error). Ready to submit: `sbatch grids_v2/MW/submit_rerun_nzfix.sh`.
+
+## 2026-09-25 — v2 LMC and SMC set up (not submitted)
+
+For the metallicity test (the v_macro saturation should move to higher ℒ at lower Z, where κ_Fe is smaller;
+see ../analysis_mesa/REPORT_regime.md). `grids_v2/{LMC,SMC}/inlist_common` are copied from v1 with the same Z
+(LMC 0.006, SMC 0.002; with the Asplund09 mixture ≈ 0.45 and 0.15 Z_sun). `./setup_grids_v2.sh LMC` and `SMC`
+created 8 sub-grids × 34 models, with the same rotation controls and --chdir submit scripts as MW.
+- **Profile columns:** `grids_v2/profile_columns.list` is now its own file, no longer a symlink to the v1 list,
+  and adds `mlt_vc` (MLT velocity without rotational mixing) so the regime analysis works for rotating models.
+  The MW v2 jobs had already read their column list; M22/M25 (nzfix rerun, job 7105052) also started before
+  this change.
+- **Smoke test** (`/home/mcantiello/rednoise_tests/v2smoke/{LMC/w0.0,SMC/w0.2}/M20`, 40 models each): clean
+  termination; a09 tables at Z = 0.004 and 0.002 load (their caches are now written in
+  $MESA_DIR/data/kap_data/cache, so grid jobs will not race to create them); profiles contain mlt_vc.
+- **To submit** (each job asks for 6 exclusive nodes):
+  `sbatch grids_v2/{LMC,SMC}/w0.{0,2,4,6}/submit_grid.sh`

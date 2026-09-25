@@ -338,3 +338,9 @@ Lecoanet et al. 2021 and Anders et al. 2023 (core IGWs). All in `../literature/`
    A_corr = 0.4 and TESS-band magnitude eigenfunctions via MSG. The novel calculation would be FeCZ-excited
    global g modes (source at the FeCZ bottom, going downward) as a possible contributor, especially below the
    onset and in the weak-turbulence regime.
+
+### 2026-09-25 — step 1 (regime parameters) done
+See `REPORT_regime.md`. The v_macro saturation sits at Γ_Fe ≈ 0.8–0.9 (the Fe peak nearing the local Eddington
+limit, where the 3D envelopes become strongly turbulent); the onset coincides with several non-discriminating
+thresholds; τ_Fe/τ_crit ≈ 0.1 all along the MS; thermal-time frequencies do not track ν_char, and the
+turnover remains the best (still too steep) frequency predictor.
