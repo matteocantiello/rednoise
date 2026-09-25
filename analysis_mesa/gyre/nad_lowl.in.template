@@ -1,0 +1,89 @@
+! Non-adiabatic low-degree g modes of a MESA model (GYRE 9.1.1), WAVE_MODEL.md section 6, option 1.
+! Placeholders are filled in by run_gyre.py: @MODEL@ @OUTER_BOUND@ @BRANCH@ @FMIN@ @FMAX@ @NF1@ @NF2@ @NF3@
+
+&constants
+/
+
+&model
+  model_type = 'EVOL'
+  file = '@MODEL@'
+  file_format = 'MESA'
+/
+
+&mode
+  l = 1
+  tag = 'l1'
+/
+
+&mode
+  l = 2
+  tag = 'l2'
+/
+
+&mode
+  l = 3
+  tag = 'l3'
+/
+
+&rot
+/
+
+&osc
+  nonadiabatic = .TRUE.
+  outer_bound = '@OUTER_BOUND@'
+  outer_bound_branch = '@BRANCH@'
+/
+
+&num
+  diff_scheme = 'MAGNUS_GL2'
+  restrict_roots = .FALSE.
+  nad_search = 'AD'
+/
+
+! g modes are evenly spaced in period: INVERSE grids, ~3 points per mode
+&scan
+  grid_type = 'INVERSE'
+  freq_units = 'CYC_PER_DAY'
+  freq_min = @FMIN@
+  freq_max = @FMAX@
+  n_freq = @NF1@
+  tag_list = 'l1'
+/
+
+&scan
+  grid_type = 'INVERSE'
+  freq_units = 'CYC_PER_DAY'
+  freq_min = @FMIN@
+  freq_max = @FMAX@
+  n_freq = @NF2@
+  tag_list = 'l2'
+/
+
+&scan
+  grid_type = 'INVERSE'
+  freq_units = 'CYC_PER_DAY'
+  freq_min = @FMIN@
+  freq_max = @FMAX@
+  n_freq = @NF3@
+  tag_list = 'l3'
+/
+
+&grid
+  w_osc = 10.
+  w_exp = 2.
+  w_ctr = 10.
+/
+
+&ad_output
+  summary_file = 'summary_ad.h5'
+  summary_item_list = 'l,n_pg,n_p,n_g,freq,omega,E_norm'
+  freq_units = 'CYC_PER_DAY'
+/
+
+&nad_output
+  summary_file = 'summary_nad.h5'
+  summary_item_list = 'l,n_pg,n_p,n_g,freq,omega,eta,E,E_norm,H,W,f_T,psi_T,lag_L_ref,xi_r_ref,xi_h_ref,x_ref,M_star,R_star,L_star'
+  detail_template = 'detail.l%l.n%n.h5'
+  detail_item_list = 'l,n_pg,omega,freq,x,xi_r,xi_h,lag_L,lag_T,lag_S,dW_dx,dE_dx,prop_type,T,rho,P,M_r'
+  freq_units = 'CYC_PER_DAY'
+/

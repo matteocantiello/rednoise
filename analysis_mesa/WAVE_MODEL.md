@@ -190,3 +190,116 @@ launched at an inner boundary. Two options:
    rather than the stock executable).
 Start with option 1 on one profile (20 Msun, X_c ≈ 0.5), and check that the damping rates reproduce the
 quasi-adiabatic τ where q ≪ 1.
+
+### 2026-09-24 — GYRE: what it offers (docs read: bundled 8.1 + online stable 9.1.1)
+
+**Versions.** MESA r26 bundles GYRE **8.1** as libraries only (`$MESA_DIR/gyre/gyre-8.1.tar.gz`, docs sources
+in `$MESA_DIR/gyre/gyre/docs/source`). The online "stable" docs (gyre.readthedocs.io) are **9.1.1**
+(`gyre-9.1.1.tar.gz`; also needs the `fypp` preprocessor, and `h5py` for `make test`). Build either standalone:
+`export GYRE_DIR=$(realpath gyre-X); make -j -C $GYRE_DIR; make -C $GYRE_DIR test` with the MESA SDK
+loaded. 9.x adds `ad_matrix_solver`/`nad_matrix_solver` (ROWPP single-thread; CYCLIC for multithreaded
+non-adiabatic runs), `lambda_method` (TAR for rotation), `alpha_con`, and `outer_bound` GAMMA1/2.
+Preference: 9.1.1, whose docs match; the MESA "GYRE-format" files work with both.
+
+**Physics in GYRE's non-adiabatic equations:** linearized mass, momentum and Poisson equations plus the
+**linearized heat and radiative-diffusion equations** (δF_rad with κ_ρ, κ_T partials). Time dependence
+exp(−iσt); σ_i gives the growth (negative = damping) rate. **Frozen convection** (`conv_scheme` =
+FROZEN_PESNELL_1, the default, or _4). Optional turbulent damping in convection zones (`alpha_trb` ~ α_MLT).
+Switches: `alpha_hfl` (horizontal radiative flux perturbations), `alpha_rht` (time-dependent radiative
+heat term), `alpha_thm` (thermal-timescale scaling), `alpha_kar`/`alpha_kat` (opacity partials).
+
+**Boundary conditions:**
+- Inner: REGULAR (centre), ZERO_R or ZERO_H (inner point at x > 0, i.e. excising the core; with `grid` x_i).
+- Outer: VACUUM (default), DZIEM, UNNO, JCD, ISOTHERMAL, GAMMA. With UNNO/JCD/ISOTHERMAL,
+  `outer_bound_branch = 'F_NEG'` imposes an **outward energy flux** (running-wave / radiating surface
+  condition), as opposed to the default E_NEG (evanescent). Thermal BC: grey Eddington atmosphere,
+  4 δT/T = δF_rad/F_rad; the atmosphere's effect on it is neglected (hence `add_atmosphere_to_pulse_data`).
+
+**Finding modes:** roots of a discriminant on a frequency scan (`scan`: LINEAR/INVERSE, freq_units incl.
+CYC_PER_DAY). Non-adiabatic trial roots via `nad_search` = AD (from adiabatic roots; good for |σ_i/σ_r| ≪ 1),
+MINMOD, or CONTOUR (complex-plane grid: REAL + IMAG `scan` groups; good for strongly damped modes,
+|σ_i/σ_r| ~ 1, but the docs advise against it for g modes for now because of the INVERSE-grid resolution
+mismatch). `diff_scheme = 'MAGNUS_GL2'` recommended for non-adiabatic runs (COLLOC_GL4 in the SPB example);
+`restrict_roots = .FALSE.` keeps modes whose σ_r falls just outside the scan.
+
+**Spatial grid:** refined by bisection from the model grid. `w_osc` (points per wavelength), `w_exp`
+(evanescent e-folding), `w_ctr` (centre), `w_thm` (thermal criterion), `w_str` (structure gradients).
+Recommended starting values: w_osc = 10, w_exp = 2, w_ctr = 10. A grid of N points can hold only ~N modes.
+
+**Outputs relevant to us:** per mode — complex ω and `freq`, `eta` (normalized growth rate), `E` (inertia),
+`H` (mode energy), `W` (work), `f_T` and `psi_T` (Teff perturbation amplitude and phase, Dupret et al. 2003
+eq. 5, the photometric observable), `lag_L_ref` (radiative luminosity perturbation at x_ref), `xi_r_ref`;
+per point — `xi_r`, `xi_h`, `lag_L`, `lag_T`, `lag_S`, `dW_dx` (**differential work: where the damping
+occurs**), `dE_dx`, `prop_type`, and the structure coefficients (c_rad, c_thk, V_2, As, U, ...).
+
+**MESA side:** `write_pulse_data_with_profile = .true.`, `pulse_data_format = 'GYRE'`,
+`add_atmosphere_to_pulse_data = .true.`, `add_center_point_to_pulse_data = .true.` (default); the GYRE SPB
+example also uses `add_double_points_to_pulse_data = .true.` and `threshold_grad_mu_for_double_point = 10`.
+The MESA format supports non-adiabatic calculations ("N" capability).
+
+**Closest bundled examples:** `$GYRE_DIR/test/nad/mesa/spb` (5 Msun, non-adiabatic high-order g modes,
+ℓ = 1–3, INVERSE scans, COLLOC_GL4) and `.../bcep` (20 Msun, ℓ = 0–3 p modes, MAGNUS_GL2).
+
+**Tidal frontend (`gyre_tides`):** a forced response at real frequency with the full non-adiabatic equations,
+but the forcing is an external potential ∝ r^ℓ Y_ℓm, not a driver localized at the FeCZ. Option 2 of §6
+would need custom forcing on top of the GYRE libraries.
+
+### 2026-09-24 — consequence of the g-mode spectrum (20 Msun, X_c = 0.51, T1a)
+
+Π₀ = 2π² / ∫N dr/r = 31,700 s (0.37 d). ℓ = 1 period spacing 6.2 h. Radial orders at 0.1 / 0.3 / 1 / 3 d⁻¹:
+ℓ=1: 38 / 13 / 4 / 1; ℓ=2: 67 / 22 / 7 / 2; ℓ=3: 94 / 31 / 9 / 3. Mode spacing at 1 d⁻¹: 0.26 (ℓ=1),
+0.15 (ℓ=2), 0.11 (ℓ=3) d⁻¹.
+- The layer above the FeCZ top holds only **1.8%** of ∫N dr/r: for ℓ = 1 at 1 d⁻¹ it is ~0.07 radial
+  wavelengths thick, and under one wavelength even at 0.1 d⁻¹. **The WKB damping integral (run_star_extras,
+  `damping.py`) is therefore invalid for the visible low ℓ**, independently of the non-adiabatic problem.
+- Revised picture: low-ℓ waves excited by the FeCZ are **global g modes of the radiative envelope**
+  (from the FeCZ down to the convective core), low order at ν ≳ 1 d⁻¹. The FeCZ sits inside their outermost
+  wavelength, where they are also strongly damped non-adiabatically. Red noise then requires linewidths
+  (from σ_i) larger than the mode spacings; that is a direct GYRE test.
+- **First GYRE calculation:** the 20 Msun X_c ≈ 0.5 model with pulse data (+ atmosphere). Non-adiabatic ℓ = 1–3
+  modes over 0.05–5 d⁻¹ (INVERSE scan, nad_search = AD, then MINMOD; MAGNUS_GL2; w_osc 10, w_exp 2, w_ctr 10).
+  Compare σ_i with the mode spacing; `dW_dx` for where the damping occurs; `f_T` for the photometric response
+  per unit amplitude; and VACUUM vs UNNO/F_NEG outer boundaries.
+
+### 2026-09-24 — first GYRE results (20 Msun, X_c = 0.51, ω = 0)
+
+**Setup.** GYRE 9.1.1 built in `~/software/gyre-9.1.1` (`~/software/build_gyre.sh`, MESA SDK 26.6.1); the
+bundled non-adiabatic SPB test passes. Pulse data: `/home/mcantiello/rednoise_tests/T3_M20_pulse` (restart
+of T1a from model 1800 with `write_pulse_data_with_profile`, GYRE format, atmosphere, double points;
+`profile1.data.GYRE` = model 2000, 3280 points). Code in `gyre/`: `nad_lowl.in.template`, `run_gyre.py`
+(sets n_freq from Π₀ for ~3 points per mode), `summarize.py` (linewidth vs spacing), `where_damped.py`
+(regional shares of dW/dx). Summaries, inputs and logs are copied to `gyre/results/T3_M20_Xc0.51/`; the
+detail files stay on local disk (`/home/mcantiello/rednoise_tests/gyre_T3/`). A run takes ~20 s on 16 threads.
+Settings: ℓ = 1–3, 0.2–5 d⁻¹ INVERSE scans, nad_search = AD, MAGNUS_GL2, w_osc 10 / w_exp 2 / w_ctr 10.
+
+**Results.**
+1. **Two regimes.** Low-order g modes (ℓ=1 n ≲ 8, ν ≳ 0.45 d⁻¹; similar for ℓ = 2, 3 at slightly higher ν) are
+   weakly damped: Q = ν/Γ = 10³–10⁷, Γ ≪ spacing, i.e. resolved coherent peaks. Higher-order modes are
+   strongly damped: Q ≈ 15–70, Γ/spacing ≈ 0.3–1.8, overlapping into a continuum. The transition is at about
+   0.35 (ℓ=1), 0.6 (ℓ=2) and 0.85 (ℓ=3) d⁻¹. (Γ = FWHM of the power Lorentzian = 2|Im ν|.)
+2. **The surface boundary condition is irrelevant:** VACUUM and UNNO/F_NEG give identical Γ to 4 digits
+   for the matched modes. No energy leaks through the surface; the damping is internal.
+3. **Where the damping happens (dW/dx):** 70–84% of the work of the strongly damped modes comes from
+   **0.9 < r/R < 0.97, the radiative envelope BELOW the FeCZ**, 10–30% from 0.3–0.9 R, a few % from the FeCZ,
+   and ~0 from the outer non-adiabatic layer (log T < 5). The q ≫ 1 layer does not dissipate: consistent
+   with wave temperature fluctuations being radiated there rather than damped. The quasi-adiabatic integral
+   in `run_star_extras`/`damping.py` both looked in the wrong place (FeCZ top → surface) and omitted the
+   region that matters (below the FeCZ).
+4. **Photometric response** |δL/L|/|ξ_r| at the surface rises steeply with radial order: ~3 → 35 (ℓ=1),
+   up to ~100–400 (ℓ=3), over 1 → 0.2 d⁻¹. f_T (Dupret 2003) follows the same trend.
+5. **Unstable modes:** ℓ=1 and ℓ=2, n = −5 have η ≈ +1 (driven; Fe-bump κ mechanism, as in β Cep/SPB stars),
+   with tiny surface δL/L response. The FeCZ region contributes slight driving to low-order modes.
+6. **Search artifacts:** one negative-frequency ℓ=2 mode, and 39 of 47 ℓ=3 modes found (AD search); the
+   UNNO run had root-solver failures ("maximum iterations exceeded"). To clean up: MINMOD search, more scan
+   points, n_iter_max.
+
+**Implications and next steps.**
+- The red-noise continuum would come from overlapping, strongly damped high-order g modes, i.e. at
+  ν ≲ 0.35–0.85 d⁻¹ in this model, with resolved coherent modes above. Compare with the observed ν_char for
+  stars near 20 Msun at mid-MS before drawing conclusions.
+- Extend the scan to 0.05–0.2 d⁻¹; make the mode search complete.
+- Build the synthetic spectrum: Σ_modes (excitation rate × surface response² / damping rate) × Lorentzian. The
+  **excitation by the FeCZ** needs an overlap integral between the mode eigenfunction and the convective
+  forcing in the FeCZ (Goldreich–Kumar-type stochastic excitation); `xi_r`, `xi_h`, `dE_dx` in the detail
+  files give the eigenfunction there.
+- Repeat across masses/ages (the pulse-data restart recipe works; T3 took ~3 min).

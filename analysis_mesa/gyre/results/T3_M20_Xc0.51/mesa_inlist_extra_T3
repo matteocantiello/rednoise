@@ -1,0 +1,24 @@
+&star_job
+/
+&eos
+/
+&kap
+/
+&controls
+      ! T3 (2026-09-24): restart of T1a (20 Msun, w = 0) from model 1800 to write GYRE pulse data
+      ! at the triggered X_c ~ 0.51 profile, for the first non-adiabatic GYRE calculation.
+      xa_central_lower_limit_species(1) = 'h1'
+      xa_central_lower_limit(1) = 0.505d0
+      profile_interval = 1000000       ! only triggered profiles
+      x_ctrl(5) = 0.05d0               ! profile every Delta X_c = 0.05 on the MS
+      x_ctrl(6) = 0.05d0
+      photo_interval = 1000
+      write_pulse_data_with_profile = .true.
+      pulse_data_format = 'GYRE'
+      add_atmosphere_to_pulse_data = .true.
+      add_center_point_to_pulse_data = .true.
+      add_double_points_to_pulse_data = .true.
+      threshold_grad_mu_for_double_point = 10d0
+/
+&pgstar
+/
