@@ -1,0 +1,10 @@
+test,value,lo,hi,n,rms
+"method offset (Serebriakova MW - IACOB), log L 2.0-2.8",-0.152,-0.273,0.033,11 vs 133,
+"method offset (Serebriakova MW - IACOB), log L 2.2-2.8",0.079,0.051,0.214,3 vs 119,
+LMC shift Delta log L (LMC stars log L >= 3.4),0.400,0.380,1.027,122,0.158
+LMC scale log k (LMC stars log L >= 3.4),-0.083,-0.105,0.222,122,
+LMC shift Delta log L (LMC stars log L >= 3.6),0.400,0.380,1.018,121,0.155
+LMC scale log k (LMC stars log L >= 3.6),-0.086,-0.112,0.209,121,
+"LMC shift Delta log L, method offset fixed at 0 (log L >= 3.4)",0.569,0.530,0.616,122,0.161
+median log v_LMC - log v_MW at log L 3.6-4.0 (no shift),-0.264,,,35 vs 205,
+median log v_LMC - log v_MW at log L 4.0-4.4 (no shift),-0.264,,,77 vs 195,

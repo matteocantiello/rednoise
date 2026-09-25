@@ -1,0 +1,187 @@
+J/A+A/707/A204      BLOeM. Projected rotational velocities       (Lennon+, 2026)
+================================================================================
+Binarity at LOw Metallicity (BLOeM): Projected rotational velocities.
+    Lennon D.J., Berlanas S.R., Herrero A.D., Britavskiy N., Dufton P.L.,
+    Langer N., Jin H., Schootemeijer A., Menon A., Bestenlehner J.M.,
+    Crowther P.A., Vink J., Bodensteiner J., Shenar T., Deshmukh K.,
+    Villasenor J.I., Patrick L., Najarro F., de Koter, A., Mahy L.,
+    Bowmnan D.M., Bobrick A., Evans C.J., Gull M., Holgado G., Katabi Z.,
+    Kubat J., Marchant P., Pauli D., Pawlak M., Renzo M., Rocha D.F.,
+    Sander A.A.C., Sayada T., Simon-Diaz S., Stoop M., Valli R., Wang C.,
+    Xu X.-T.
+    <Astron. Astrophys. 707, A204 (2026)>
+    =2026A&A...707A.204L        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Magellanic Clouds ; Stars, OB ; Rotational velocities ;
+              Optical
+Keywords: binaries: spectroscopic - stars: early-type - stars: evolution -
+          stars: massive - stars: rotation - Magellanic Clouds
+
+Abstract:
+    The Binarity at LOw Metallicity (BLOeM) survey is an ESO large
+    programme designed to obtain multi-epoch spectroscopy for 929 massive
+    stars in the Small Magellanic Cloud (SMC). It will provide binary
+    fractions and orbital configurations of binary systems, and search for
+    dormant black-hole binary candidates (OB+BH). Here we present
+    projected rotational velocities (vsini) of all sources and, using the
+    multiplicity properties presented in previous papers, we derive the
+    vsini distributions of apparent single stars, single lined
+    spectroscopic (SB1) binaries, and SB2 systems. We identify a locus in
+    the Hertzsprung-Russell diagram where rotational velocities decrease
+    significantly; we interpret this feature as broadly corresponding to
+    the terminal-age main sequence. The main sequence cohort is
+    distinguished by a broad range of vsini values, but with a strong peak
+    in the distribution in the range 30-60km/s, close to the resolution
+    limit of ~30km/s. Sources in this low vsini peak are distributed
+    throughout the main sequence, and are also present in the SB1 sample,
+    though less prominent than in the single star distribution. A
+    preliminary analysis of the lowest vsini cohort, that includes SB1
+    systems, implies that roughly one third may be nitrogen rich and we
+    speculate that this cohort is a mix of pristine single stars, long
+    period binaries, and merger products. The SB2 systems appear to be
+    mostly short period binaries in synchronous rotation and have vsini
+    estimates distributed around a mean value of ~140km/s. Higher vsini
+    sources are also present in the single and SB1 systems, all of which
+    have tail to higher vsini values, consistent with tidal and
+    mass-transfer effects. The supergiants, with a few exceptions, have
+    low vsini, the bulk of these systems being essentially unresolved at
+    current spectral resolution (~30km/s).
+
+Description:
+    We present projected rotational velocities for 929 sources from the
+    multi-epoch Binarity at LOw Metallicity (BLOeM) spectroscopic survey
+    of the Small Magellanic Cloud using VLT/Flames.
+
+    Table 1: Projected rotational velocities of all BLOeM stars from
+    Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289) obtained
+    using the Fourier transform (FT) and full-width half-maximum (FWHM)
+    methods. Projected rotational velocities for the 70 SB2 systems listed
+    in Table 2 should be preferred to the values in this table.
+
+    Table 2: Projected rotational velocities for both components,
+    labeled A and B, of 70 SB2 systems obtained using the HeI 4387{AA}
+    line. These were determined using the FWHM approach (Gaussian
+    fitting). To facilitate identification of A and B, the central
+    wavelengths of each HeI 4387 A component, waveA and waveB, are
+    also listed for a specific observation with epoch number nepoch.
+
+    Table C.1: Master table listing additional auxiliary information
+    for convenience. Stellar parameters and binary status are from
+    Bestenlehner et al (2025MNRAS.540.3523B, Cat. J/MNRAS/540/3523),
+    Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289),
+    Sana et al. (2025NatAs...9.1337S, Cat.J/other/NatAs/9.1337),
+    Bodensteiner et al. (2025A&A...698A..38B, Cat. J/A+A/698/A38),
+    Villasenor et al. (2025A&A...698A..41V, Cat. J/A+A/698/A41),
+    Britavskiy et al. (2025A&A...698A..40B, Cat. J/A+A/698/A40)
+    and Patrick et al. (2025A&A...698A..39P, Cat. J/A+A/698/A39).
+    In additional a number of data flags denoted demographic groups
+    as follows:
+    field: Field number for that source
+    pflag: source of stellar parameters
+           = -1 no parameters available
+           =  0 parameters from Shenar et al. (2024A&A...690A.289S)
+           =  1 parameters from Bestenlehner at al. (2025MNRAS.540.3523B)
+           =  2 parameters from Patrick et al. (2025A&A...698A..39P)
+    mflag: multiplicity flag
+           = -1 not set
+           =  0 assumed single
+           =  1 not used
+           =  2 SB1
+           =  3 SB2
+    gflag: group flag
+           =  0 O-stars
+           =  1 B-type dwarfs and giants
+           =  2 B-type supergiants and bright giants
+           =  3 OBe star
+           =  4 BAF supergiants
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat        31      929   Projected rotational velocities of BLOeM stars
+table2.dat        43       72   Projected rotational velocities of selected
+                                 SB2 primary and secondary components
+tablec1.dat       81      929   Master table listing preferred vsini values
+                                 and auxiliary information
+--------------------------------------------------------------------------------
+
+See also:
+ J/A+A/690/A289   : Binarity at LOw Metallicity (BLOeM). I. (Shenar+, 2024)
+ J/A+A/698/A38    : BLOeM. Oe and Be stars (Bodensteiner+, 2025)
+ J/A+A/698/A39    : BLOeM. BAF-type supergiants (Patrick+, 2025)
+ J/A+A/698/A40    : BLOeM. SMC early B supergiants multiplicity
+                                                          (Britavskiy+, 2025)
+ J/A+A/698/A41    : BLOeM. Early B dwarfs and giants at Z=0.2
+                                                          (Villasenor+, 2025)
+ J/MNRAS/540/3523 : BLOeM. Physical properties of OB stars
+                                                          (Bestenlehner+, 2025)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label      Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     BLOeM      BLOeM identifier (N-NNN) (1)
+   7-  9  I3    km/s    vsiniFT    Projected rotational velocity using FT
+  11- 13  I3    km/s  E_vsiniFT    Error on FT vsini (upper)
+  16- 17  I2    km/s  e_vsiniFT    Error on FT vsini (lower)
+  19- 20  I2    ---     nFT        Number of FT measurements
+  22- 24  I3    km/s    vsiniFWHM  Projected rotational velocity using FWHM
+  26- 28  I3    km/s  e_vsiniFWHM  Error on FWHM vsini
+  30- 31  I2    ---     nFWHM      Number of FWHM measurements
+--------------------------------------------------------------------------------
+Note (1): From Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     BLOeM     BLOeM identifier (N-NNN) (1)
+   7-  9  I3    km/s    vsiniA    Projected rotational velocity of A component
+  12- 13  I2    km/s  e_vsiniA    Error on vsiniA
+  15- 17  I3    km/s    vsiniB    Projected rotational velocity of B component
+  20- 21  I2    km/s  e_vsiniB    Error on vsiniB
+  23- 24  I2    ---     Nvsini    Number of measurements
+  26- 32  F7.2  0.1nm   waveA     Wavelength of component A
+  34- 40  F7.2  0.1nm   waveB     Wavelength of component B
+  42- 43  I2    ---     NEpoch    Epoch number for WaveA and WaveB
+--------------------------------------------------------------------------------
+Note (1): From Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablec1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     BLOeM     BLOeM identifier (N-NNN) (1)
+   7- 21  A15   ---     Sptype    Spectral type (1)
+  24- 30  A7    ---     Bstatus   Binary status (2)
+  32- 34  I3    km/s    vsini     Selected projected rotational velocity
+  36- 38  I3    km/s  E_vsini     Error on vsini (upper)
+  40- 42  I3    km/s  e_vsini     Error on vsini (lower)
+  44- 48  I5    K       Teff      Adopted effective temperature
+  50- 53  F4.2  [Lsun]  logL      Logarithm of luminosity
+  56- 59  F4.1  Msun    Mevol     Evolutionary mass
+  61- 65  F5.1  Rsun    Rstar     Stellar radius
+  67- 69  I3    km/s    vcrit     Critical velocity
+      72  I1    ---     Field     Field number
+  74- 75  I2    ---     pflag     Stellar parameters source flag
+  77- 78  I2    ---     mflag     Multiplicity flag
+      81  I1    ---     gflag     Group flag
+--------------------------------------------------------------------------------
+Note (1): Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289).
+Note (2): References for binary status are:
+ Bodensteiner et al. (2025A&A...698A..38B, Cat. J/A+A/698/A38)
+ Villasenor et al. (2025A&A...698A..41V, Cat. J/A+A/698/A41)
+ Britavskiy et al. (2025A&A...698A..40B, cat. J/A+A/698/A40)
+ Patrick et al. (2025A&A...698A..39P, cat. J/A+A/698/A39)
+ Sana et al. (2025NatAs...9.1337S, Cat.J/other/NatAs/9.1337)
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Daniel Lennon, dlennon(at)iac.es
+
+================================================================================
+(End)       Daniel Lennon [IAC], Patricia Vannier [CDS]              28-Jan-2026

@@ -1,0 +1,371 @@
+483 tables in 370 catalogs
+I/221/lmc                    (1) [Magellanic Cloud] The Large Magellanic Cloud ( Tucholke H.-J., de Boer K.S., Seitter W.C.)
+I/221/smc                    (1) [Magellanic Cloud] The Small Magellanic Cloud ( Tucholke H.-J., de Boer K.S., Seitter W.C.)
+II/228A/denisLMC             (1) [Magellanic Cloud] DENIS observations toward the Large Magellanic Cloud ( Cioni M.-R., Loup C., Habing H.J., et al.)
+II/228A/denisSMC             (1) [Magellanic Cloud] DENIS observations toward the Small Magellanic Cloud ( Cioni M.-R., Loup C., Habing H.J., et al.)
+II/247/machovar              (1) [Magellanic Cloud] Variable Stars in the Magellanic Clouds ( Alcock C., Allsman R., Alves D., Axelrod T., Bennett D., Cook K., Fr
+II/82/catalog                (1) [O-type stars] Catalog of Galactic O-type stars ( Garmany C.D., Conti. P.S., Chiosi C.)
+III/195/objects              (1) [OB stars] List of OB stars included in the Atlas ( Walborn N.R., Fitzpatrick E.L.)
+III/206/smc                  (1) [Magellanic Cloud] Data for Small Magellanic Cloud ( Buscombe W.)
+III/6/catalog                (1) [OB stars] Lynga OB stars Centaurus to Norma (version: 25 Jul 2008, complete revision) ( Lynga G.)
+III/7A/catalog               (1) [OB stars] The finding list of OB stars, with accurate positions and remarks by B. Skiff ( Graham J.A., Lynga G.)
+IV/33/mc2                    (1) [Magellanic Cloud] MC2 catalog towards the Magellanic Clouds ( Delmotte N., Loup C., Egret D., Cioni M.-R., Pierfederici F.)
+IV/38/tic                    (1) [TESS] Transiting Exoplanet Survey Satellite (TESS) Input Catalog - v8.0 (TIC-8), outpout (on a total of 1,727,987,58
+IV/39/tic82                  (1) [TESS] Transiting Exoplanet Survey Satellite (TESS) Input Catalog - v8.2 (TIC-8.2), outpout (on a total of 1,727,987,
+J/A+A/333/L35                (1) [Magellanic Cloud] List of 24 Cepheids in the Magellanic Clouds, with period in the range 30-134 d, whose radial velocity and lig
+J/A+A/359/227                (1) [early-type stars] HRI soft-band rate and UV-rate for detected early-type stars ( Huelamo N., Neuhaeuser R., Stelzer B., Supper R
+J/A+A/379/162                (2) [early-type stars] Teff and log g for early-type stars and errors ( Gerbaldi M., Faraggiana R., Balin N.)
+J/A+A/404/913                (1) [early-type stars] Other early-type stars of the Sco-Cen OB association presented by de Geus (1989A&A...216...44D) ( Sartori M.J.
+J/A+A/423/919                (1) [OB stars] Detected (non-saturated) OB stars in our region ( Bratsolis E., Kontizas M., Bellas-Velidis I.)
+J/A+A/434/89                 (1) [Magellanic Cloud] List of 98 selected DEBs in the Large Magellanic Cloud ( Michalska G., Pigulski A.)
+J/A+A/438/521                (1) [Magellanic Cloud] Pulsations of C stars in the Small Magellanic Cloud ( Raimondo G., Cioni M.-R.L., Rejkuba M., Silva D.R.)
+J/A+A/440/121                (1) [OB stars] Identification of the OB stars and observing log ( Bik A., Kaper L., Hanson M.M., Smits M.)
+J/A+A/442/1135               (1) [Magellanic Cloud] Catalog of High Mass X-ray binaries in  the Magellanic Clouds ( Liu Q.Z., van Paradijs J., van den Heuvel E.P.
+J/A+A/448/1001               (1) [OB stars] Radial velocities of observed Sco-Cen OB stars ( Jilinski E., Daflon S., Cunba K., de la Raze R.)
+J/A+A/462/683                (1) [Magellanic Cloud] Apparent fundamental parameters for stars  in the Small Magellanic Cloud ( Martayan C., Fremat Y., Hubert A.-M
+J/A+A/471/625                (2) [massive stars,microturbulen] Mean absolute abundances using initial atmospheric parameters and from adjusting microturbulence ( Trundle C.,
+J/A+A/486/453                (1) [early-type stars] JKHs photometry of early-type stars (tables 1-9) ( Comeron F., Pasquali A., Figueras F., Torra J.)
+J/A+A/528/A148               (1) [early-type stars] uvbybeta photometry of standard stars (table 3), open cluster target stars (table 4), known {beta} Cep and oth
+J/A+A/530/A108               (1) [Tarantula] The VLT-FLAMES Tarantula Survey (tables 5 and 6 of paper) ( Evans C.J., Taylor W.D., Henault-Brunet V., et al.
+J/A+A/531/A157               (1) [Magellanic Cloud] VISTA Magellanic Cloud survey II: properties,  classifications, and photometry in optical and mid-IR ( Miszals
+J/A+A/549/A29                (1) [Magellanic Cloud] VMC (VISTA Magellanic Clouds survey) parameters for known quasars behind the Magellanic system ( Cioni M.-R.L.
+J/A+A/562/A135               (1) [IACOB] Results from the IACOB-broad analysis (tables A1-A5) ( Simon-Diaz S., Herrero A.)
+J/A+A/564/A40                (2) [VFTS] AAA-rated spectral classifications and supporting data for 213 VFTS O stars ( Walborn N.R., Sana H., Simon-Dia
+J/A+A/564/L7                 (1) [VFTS] Cross-identified photometry of VFTS 822 based on its position from the VLT-FLAMES survey ( Kalari V.M., Vink J
+J/A+A/574/A13                (1) [VFTS] Spectral classifications and radial velocities for B-type stars in the VFTS ( Evans C.J., Kennedy M.B., Dufton
+J/A+A/575/A70                (1) [VFTS] VFTS B-type supergiant sample: binaritu status, spectral class, adopted rotational velocities, atmospheric par
+J/A+A/585/A141               (1) [early-type stars] Catalog of early-type stars toward the Galactic center ( Grosboel P.)
+J/A+A/586/A81                (1) [Magellanic Cloud] Catalogue of 148 High-Mass-X-ray Binaries and candidates in the Small Magellanic Cloud ( Haberl F., Sturm R.)
+J/A+A/589/A16                (1) [massive stars] Spectroscopically observed massive stars in W49 and informations of fits spectrum files ( Wu S.-W., Bik A., Be
+J/A+A/600/A30                (6) [TESS] u linear LDCs, ATLAS models, all metallicities, v.tu=0,1,2,4,8 km/s for TESS (LSM, PCM) ( Claret A.)
+J/A+A/600/A82                (1) [O-type stars] Table of results for the O-type stars without assigned luminosity class ( Grin N.J., Ramirez-Agudelo O.H., de 
+J/A+A/602/A89                (1) [Magellanic Cloud] Fundamental parameters for 239 Magellanic Clouds star clusters ( Perren G.I., Piatti A.E., Vazquez R.A.)
+J/A+A/603/A81                (1) [early-type stars] Carina early-type stars ( Damiani F., Klutsch A., Jeffries R.D., et al.)
+J/A+A/606/A92                (1) [Magellanic Cloud] Attributes of the two-Gaussian models fitted to the folded light curves of OGLE-III eclipsing binaries of the 
+J/A+A/612/A50                (2) [OB stars] Temperatures, luminosities, and individual visual extinctions derived for the new classified massive OB stars 
+J/A+A/615/A40                (1) [OB stars] Coordinates and spectral types, Stellar parameters, and Ages and evolutionary masses determined from isochrone
+J/A+A/616/L15                (1) [OB stars] Parallaxes and proper motions of OB stars ( Xu Y., Bian S.B., Reid M.J., Li J.J., Zhang B., Yan Q.Z., Dame T.M
+J/A+A/618/A20                (2) [TESS] a_1_,a_2_,a_3_,a_4_ LDCs, PHOENIX models for TESS ( Claret A.)
+J/A+A/624/A129               (1) [VFTS] *Radial velocity (RV) estimates at each epoch for candidate RSGs observed in the VFTS ( Patrick L.R, Lennon D.
+J/A+A/624/A63                (1) [OB stars] Spectroscopically classified OB stars in W51 (table 3) with spectra ( Bik A., Henning T., Wu S.-W., Zhang M., 
+J/A+A/625/A104               (1) [OB stars] Coordinates, spectral types (table B1), stellar parameters (table B2) and ages and evolutionary masses (table 
+J/A+A/633/A30                (1) [TESS] Photom. of WASP-174 from TESS ( Mancini L., Sarkis P., Henning T., Bakos G.A., Bayliss D., Bento J., Bhatti W.
+J/A+A/634/A93                (7) [TESS] *a1,a2,a3,a4 limb darkening coefficients, Sloan (u'g'r'i'z'y'), UBVRI, HiPERCAM (ugriz) and Kepler (Ke), TESS 
+J/A+A/638/A157               (1) [O-type stars] O-type stars considered in this work with spectroscopic parameters ( Holgado G., Simon-Diaz S., Haemmerle L., 
+J/A+A/639/A81                (1) [IACOB,OB-type,TESS] Overview of OB-type stars with available TESS photometry and IACOB/OWN spectroscopy with spectral type O4 to B
+J/A+A/640/A36                (2) [OB stars,low-frequency variab] Optimised parameters for the morphology of low-frequency variability (cf. Eq. (2)) using a Bayesian MCMC fitti
+J/A+A/641/A142               (1) [Magellanic Cloud] Designations and positions for the standard star and post-AGB candidates in the Magellanic Clouds ( Szczerba R
+J/A+A/641/A157               (7) [TESS] a1,a2,a3,a4 limb darkening coefficients, Sloan (u'g'r'i'z'y'), UBVRI, HiPERCAM (ugriz) and Kepler (Ke), TESS (
+J/A+A/642/A180               (1) [TESS] 61 variables in our whose variability was attributed to rotation of the main sequence companion, identified by
+J/A+A/642/A21                (1) [OB stars] Astrometric parameters for 135 OB stars ( Russeil D., Zavagno A., Nguyen A., Figueira M., Adami C., Bouret J.C
+J/A+A/644/A135               (1) [TESS] Reprocessed TESS data (Fig.2c) ( Siwak M., Ogloza W., Krzesinski J.)
+J/A+A/645/L8                 (1) [OB stars] Parallaxes and proper motions of OB stars from Gaia EDR3 ( Xu Y., Hou L.H., Bian S.B., Hao C.J., Liu D.J., Li 
+J/A+A/647/A180               (1) [TESS] Reduced TESS photometry of NGTS-13 ( Grieves N., Nielsen L.D., Vines J.I., et al.)
+J/A+A/647/A49                (1) [early-type stars] Chemical abundances of early-type stars ( Saffe C., Miquelarena P., Alacoria J., Flores M., Jaque Arancibia M.
+J/A+A/648/A71                (1) [TESS] TESS photometry over orbital phase of KELT-1b ( von Essen C., Mallonn M., Piette A., Cowan N. B., Madhusudhan 
+J/A+A/649/A26                (1) [TESS] TESS sector 2 detrended fluxes ( Leleu A., Alibert Y., Hara N.C., et al.)
+J/A+A/649/A64                (1) [TESS] TESS times of eclipse ( Baroch D., Gimenez A., Ribas I., Morales J.C., Anglada-Escude G., Claret A.)
+J/A+A/650/A205               (3) [TESS] List of hot subdwarfs observed in the TESS primary mission (Sect. 1-26) ( Van Grootel V., Pozuelos F.J., Thuil
+J/A+A/654/A17                (1) [TESS] T2-T1 from TESS ( Claret A., Gimenez A., Baroch D., Ribas I., Morales J.C., Anglada-Escude G.)
+J/A+A/657/A62                (1) [IACOB] Spectral type classification of stars in the IACOB survey ( Kyritsis E., Maravelias G., Zezas A., Bonfini P., 
+J/A+A/660/A11                (1) [OB stars] List of OB stars in the CNC ( Goeppl C., Preibisch T.)
+J/A+A/660/A70                (1) [TESS] *List of long-period Ap stars found by our technique in the TESS Sectors 14-26 data ( Mathys G., Kurtz D.W., H
+J/A+A/661/A101               (2) [TESS] Results for dry rocky planets observed by TESS after 30,000 runs (Monte Carlo method) ( Rodriguez-Mozos J.M., 
+J/A+A/662/A58                (1) [TESS] List of reduced and detrended short-cadence TESS photometry of HD112429 ( Van Reeth T., De Cat P., Van Beeck J
+J/A+A/663/A45                (2) [TESS] Stars in Holdsworth et al. (2017MNRAS.466.5020H) classified as pure p-mode pulsators but which have clear g-mo
+J/A+A/664/A128               (1) [TESS] g,h Power-2 ATLAS models Gaia, Kepler, TESS ( Claret A., Southworth J.)
+J/A+A/664/A163               (2) [TESS] TESS light curve of TOI-1807 (BD+39 2643) for Sector 22 ( Nardiello D., Malavolta L., Desidera S., et al.)
+J/A+A/665/A148               (2) [VFTS] VFTS identifiers, previous spectral types, new spectral types from our study, and orbital periods ( Shenar T.,
+J/A+A/665/A150               (1) [O-type stars] O-type stars considered in this work with rotational parameters ( Holgado G., Simon-Diaz S., Herrero A., Barba
+J/A+A/666/A118               (1) [TESS] TESS previously published phase curves ( Jones K., Morris B.M., Demory B.-O., et al.)
+J/A+A/666/A142               (1) [TESS] Classification of A-F spectral type stars in the northern TESS viewing zone ( Skarka M., Zak J., Fedurco M., P
+J/A+A/667/A44                (1) [early-type stars] List of basic information for 886 early-type stars from LAMOST DR8 ( Guo Y., Liu C., Wang L., Wang J., Zhang B
+J/A+A/667/A59                (1) [TESS] TESS PDCSAP photometry ( Delrez L., Murray C.A., Pozuelos F.J., et al.)
+J/A+A/669/A109               (1) [TESS] TESS light curve time series (table A1) ( Lillo-Box J., Gandolfi G., Armstrong D.J., et al.)
+J/A+A/669/A15                (1) [TESS] Stellar parameters of all targets observed by TESS in its 1-30 sectors ( Yang Z., Zhang L., Meng G., Han X.L.,
+J/A+A/669/L3                 (1) [TESS] TESS Photometry of Eris ( Szakats R., Kiss Cs., Ortiz J.L., Morales N., Pal A., Muller T.G., Greiner J., Santo
+J/A+A/671/A139               (1) [TESS] Differential photometry of the target eclipsing binaries from TESS ( Pavlovski K., Southworth J., Tkachenko A.
+J/A+A/672/A24                (1) [TESS] Detrended TESS light curve ( Krenn A.F., Lendl M., Patel J.A., et al.)
+J/A+A/674/A37                (1) [OB stars] Velocity profiles of the OB stars from Fig. 17 of the paper ( Gaia Collaboration, Drimmel R., Romero-Gomez M.,
+J/A+A/674/A44                (1) [TESS] TESS photometry of HD 22946 ( Garai Z., Osborn H.P., Gandolfi D., et al.)
+J/A+A/674/A63                (4) [TESS] Eq.2 PHOENIX, Gaia, Kepler,TESS,CHEOPS/M1 ( Claret A., Southworth J.)
+J/A+A/675/A154               (2) [ULLYSES,XShootU] Photometric, spectroscopic and multiplicity of ULLYSES/XShootU targets, ordered by RA ( Vink J.S., Mehner A., 
+J/A+A/675/A183               (1) [TESS] TOI 1054 TESS and CHEOPS photometry ( Cabrera J., Gandolfi D., Serrano L.M., et al.)
+J/A+A/675/A52                (1) [TESS] TESS photometry of GJ 1018 ( Castro-Gonzalez A., Demangeon O.D.S., Lillo-Box J., et al.)
+J/A+A/676/A28                (1) [TESS] TESS light curves ( Tarczay-Nehez D., Molnar L., Bodi A., Szabo R.)
+J/A+A/676/A55                (1) [TESS] Catalog information and rotational periods and amplitudes from TESS photometry for 782 mCP stars ( Labadie-Bar
+J/A+A/677/A21                (1) [TESS] Catalog of asteroseismic, spectroscopic, and astrometric properties for TESS + APOGEE red giants ( Khan S., Mi
+J/A+A/678/A200               (2) [TESS] TESS detrended photometry ( Delrez L., Leleu A., Brandeker A., et al.)
+J/A+A/682/A49                (1) [massive stars] EWOCS X-ray counterparts of the massive stars in Westerlund 1 listed in Clark et al. (2020A&A...635A.187C, Cat
+J/A+A/682/A66                (1) [TESS] List of TESS and CHEOPS detrended light curve files ( Bonfanti A., Brady M., Wilson T.G., et al.)
+J/A+A/684/A201               (1) [TESS] Renormalised photometric data of NGTS-26 and NGTS-27 from EulerCam, SAAO, and TESS ( Bouchy F., Gillen E., Tur
+J/A+A/685/A5                 (1) [TESS] TESS photometry ( Psaridi A., Osborn H., Bouchy F., et al.)
+J/A+A/685/A56                (1) [TESS] TOI-238 TESS SAP flux data ( Suarez Mascareno, A., Passegger V.M., et al.)
+J/A+A/686/A164               (1) [TESS] Parameters of TESS radio stars ( Wang Y., Zhang L., Su T., Han X.L., Misra P.)
+J/A+A/686/A301               (1) [TESS] Detrended TESS light curve ( Krenn A.F., Kubyshkina D., Fossati L., et al.)
+J/A+A/687/A226               (1) [TESS] Photometric data obtained from the analysis of TESS satellite images ( Montalto M., Greco N., Biazzo K., et al
+J/A+A/688/A104               (1) [XShootU] List of XShootU target ( Sana H., Tramper F., Abdul-Masih M., et al.)
+J/A+A/688/A14                (1) [TESS] TESS light curve ( Sulis S., Crossfield I.J.M., Santerne A., et al.)
+J/A+A/688/A211               (1) [TESS] Detrended TESS data ( Leleu A., Delisle J.-B., Delrez L., et al.)
+J/A+A/688/A223               (1) [TESS] TESS photometry and model fits for HIP 29442 ( Egger J.A., Osborn H.P., Kubyshkina D., et al.)
+J/A+A/688/A25                (1) [TESS] Classification of A-F spectral type stars in the southern TESS viewing zone ( Skarka M., Henzl Z.)
+J/A+A/688/A49                (1) [TESS] Stellar parameters from Gaia, 2MASS, and TESS ( Joseph W.M., Stelzer B., Magaudda E., Vicanek Martinez T.)
+J/A+A/689/A103               (1) [TESS] Flare parameters of TESS 20 second cadence data for 5471 stars ( Zhang L., Yang Z., Su T., Han X.L., Misra P.)
+J/A+A/689/A52                (1) [TESS] TOI-1130 TESS photometry - selected transits ( Borsato L., Degen D., Leleu A., et al.)
+J/A+A/690/A289               (1) [BLOeM] Aliases, K-band magnitudes, spectral types, and additional information for the 929 BLOeM targets ( Shenar T., 
+J/A+A/691/A233               (2) [TESS] TESS Simple Aperture Photometry (SAP) of TOI-5005 (Sectors 12, 39, and 65) ( Castro-Gonzalez A., Lillo-Box J.,
+J/A+A/691/A242               (2) [TESS] TESS_OBAF_EB_catalogue (partial) ( IJspeert L.W., Tkachenko A., Johnston C., Aerts C.s)
+J/A+A/693/A144               (1) [TESS] WASP-132 TESS photometry data ( Grieves N., Bouchy F., Armstrong J.D., et al.)
+J/A+A/693/A268               (2) [TESS] Variability of 63 confirmed hot subdwarfs identified from Gaia and TESS ( Ranaivomanana P., Uzundag M., Johnst
+J/A+A/693/A66                (1) [TESS] Asteroid rotation periods from TESS ( Vavilov D., Carry B.)
+J/A+A/693/A90                (1) [TESS] Polynomial detrending applied to TESS LCs ( Bonfanti A., Amateis I., Gandolfi D., et al.)
+J/A+A/695/A198               (5) [XShootU] References ( Bestenlehner J.M., Crowther Paul A., Hawcroft C., Sana H., Tramper F., Vink J.S., Brands S.A., Sa
+J/A+A/696/A28                (2) [TESS] TESS photometry and model fits for TOI-238 ( Egger J.A., Kubyshkina D., Alibert Y., et al.)
+J/A+A/697/A114               (2) [OB stars] Stellar and wind parameters of OB stars with surface gravities below log(g/(cm/s^2^))<3.8 ( Pauli D., Oskinova
+J/A+A/698/A105               (1) [TESS] TESS light curves ( Yuk H., Dai X.)
+J/A+A/698/A180               (1) [TESS] Table of TESS sector activity ( Galletta G., Colombo S., Prisinzano L., Micela G.)
+J/A+A/698/A253               (1) [TESS] Observational properties of beta Cephei stars observed with Gaia and TESS ( Fritzewski D.J., Vanrespaille M., 
+J/A+A/699/A150               (2) [TESS] TESS light curves ( Deline A., Cubillos P.E., Carone L., et al.)
+J/A+A/699/A322               (2) [TESS] Parameters of flare events from TESS ( Xu L., Zhang L., Wang Y., Su T., Han X.L., Misra P., Shu A., Pi Q.)
+J/A+A/699/A344               (1) [TESS] TESS PDCSAP photometry of K2-157 (Sector 46) ( Castro-Gonzalez A., Bouchy F., Correia A.C.M., et al.)
+J/A+A/700/A5                 (1) [TESS] TESS photometry of KELT-7 ( Garai Z., Krenn A., Cubillos P.E., et al.)
+J/A+A/701/A297               (2) [micro-turbulen,spectroscopic luminosity] Effective temperature, surface equatorial gravity, micro-turbulent velocity and spectroscopic luminosity of no
+J/A+A/702/A85                (1) [TESS] TESS light curve ( Zuniga-Fernandez S., Pozuelos F.J., Devora-Pajares M., et al.)
+J/A+A/703/A166               (1) [TESS] properties and period search results for 95 polars with TESS 2-minute cadence light ( Hernandez-Diaz S., Stelz
+J/A+A/703/A175               (1) [O-type stars] Galactic O-type stars calibrator with spectroscopic and fundamental parameters available ( Holgado G., Simon-D
+J/A+A/704/A154               (2) [TESS] Summary of TESS observations of flaring targets ( Rajpurohit A.S., Kumar V., Srivastava M.K., Labadie L., Rajp
+J/A+A/704/A44                (1) [Magellanic Cloud] Observational data for Magellanic Cloud stars ( Montelius M., Starkenburg E., Woudenberg H., Angrilli Muglia A
+J/A+A/704/L13                (1) [TESS] The photometric signals detected in the TESS light curve ( Vandersnickt J., Vanlaer V., Vanrespaille M., Aerts
+J/A+A/705/A5                 (1) [TESS] TTV analysis results for TESS TOIs ( Naponiello L.)
+J/A+A/706/A200               (1) [TESS] TESS data (table A2) ( Checha V.A., Aret A., Kolka I., Liimets T., Araya I., Christen A., Avila Marin G.F., Le
+J/A+A/707/A204               (1) [BLOeM] Projected rotational velocities of BLOeM stars ( Lennon D.J., Berlanas S.R., Herrero A.D., et al.)
+J/A+A/707/A238               (1) [TESS] Transit data from TESS ( Tas K.H., Stefansson G., Fariz S.N.M., et al.)
+J/A+A/707/A73                (2) [TESS] TESS photometry of TOI-3288 A extracted with optimized apertures to reduce contamination (Sectors 13, 27, and 
+J/A+A/708/A343               (1) [B supergiant,Magellanic Cloud] B supergiants in the Large Magellanic Cloud ( Kalari V.M., Vink J.S., Furey C., Salinas R., Udalski A., Pawlak
+J/A+A/710/A164               (1) [TESS] Rotation periods from TESS photometry ( Frasca A., Qin M., Alonso-Santiago J., Catanzaro G., Fu J.N., Zhang J.
+J/A+A/710/A352               (1) [TESS] Complete validation sample. T10 systems meeting criteria, 16 TESS-detectable planets, 100% recovery. LHS 1140 
+J/A+A/712/A142               (8) [TESS] TESS LC, transit window near BTJD 1336 ( Reller P., Brahm R., Merin B., et al.)
+J/A+AS/105/305               (1) [OB stars] Catalog of spectra included in the High-dispersion microfiche atlas of OB stars ( Bohlin R.C., Henrichs H.F., 
+J/A+AS/116/447               (1) [Magellanic Cloud] Comparison of the ellipticities of globulars in M31, Milky Way Galaxy, and Magellanic Clouds ( Staneva A., Spa
+J/A+AS/122/463               (2) [Magellanic Cloud] Magellanic Cloud periphery carbon stars ( Kunkel W.E., Irwin M.J., Demers S.)
+J/A+AS/24/35                 (1) [Magellanic Cloud] Catalogue of A-F supergiants in the Large Magellanic Cloud, with astrometric counterparts ( Stock J., Osborn W
+J/A+AS/91/171                (1) [Magellanic Cloud] Blue stars between Magellanic Clouds. ( DEMERS S., IRWIN M.J.)
+J/AJ/106/591                 (1) [early-type stars] Catalog of early-type stars ( Rodgers A.W., Roberts W.H., Walker I.)
+J/AJ/119/2214                (1) [Magellanic Cloud] Catalog of Photometry and spectroscopy of 19 Magellanic Cloud OB associations ( Massey P., Waterhouse E., DeGi
+J/AJ/123/855                 (1) [Magellanic Cloud] MCPS Catalog (Small Magellanic Cloud) ( Zaritsky D., Harris J., Thompson I.B., Grebel E.K., Massey P.)
+J/AJ/128/1606                (1) [Magellanic Cloud] The MCPS Catalog for the Large Magellanic Cloud ( Zaritsky D., Harris J., Thompson I.B., Grebel E.K.)
+J/AJ/132/1100                (1) [OB stars] Candidate OB stars in RCW 38 ( Wolk S.J., Spitzbart B.D., Bourke T.L., Alves J.)
+J/AJ/134/1963                (1) [Magellanic Cloud] Basic data for the elcipsing binaries in the  Magellanic Clouds ( Faccioli L., Alcock C., Cook K., Prochter G.
+J/AJ/138/1003                (2) [massive stars] Catalog of spectral types for 1750 LMC massive stars ( Bonanos A.Z., Massa D.L., Sewilo M., Lennon D.J., Panag
+J/AJ/140/416                 (2) [massive stars] Catalog of spectral types for 5324 SMC massive stars ( Bonanos A.Z., Lennon D.J., Kohlinger F., et al.)
+J/AJ/149/154                 (1) [Magellanic Cloud] Small Magellanic Cloud (SMC) clusters sample ( Parisi M.C., Geisler D., Claria J.J., Villanova S., Marcionni N
+J/AJ/152/58                  (1) [Magellanic Cloud] Small Magellanic Cloud (SMC) field results ( Parisi M.C., Geisler D., Carraro G., Claria J.J., Villanova S., G
+J/AJ/153/16                  (1) [OB stars] Reddening derived using sedFit for 21 OB stars in the Cep OB3 cloud ( Swihart S.J., Garcia E.V., Stassun K.G.,
+J/AJ/154/102                 (3) [B supergiant,VFTS] LMC VFTS OB supergiants results (tables 4 and 9) ( Urbaneja M.A., Kudritzki R.-P., Gieren W., Pietrzynski G., 
+J/AJ/154/87                  (1) [OB stars] Chandra X-ray properties of OB stars ( Kuhn M.A., Medina N., Getman K.V., Feigelson E.D., Gromadzki M., Boriss
+J/AJ/155/190                 (1) [O-type stars] Radial velocity measurements of B-type (table 3) and O-type stars (table 4) ( Hanes R.J., McSwain M.V., Povich
+J/AJ/155/39                  (1) [TESS] Variability Upper Limits for Non-Variable Sources in the TESS Input Catalog ( Oelkers R.J., Rodriguez J.E., St
+J/AJ/157/113                 (1) [TESS] Mock full systems in which TESS detected at least one transiting planet ( Ballard S.)
+J/AJ/157/176                 (1) [OB stars] *X-ray detected OB stars ( Binder B.A., Behr P., Povich M.S.)
+J/AJ/157/191                 (1) [TESS] TESS 30-minute cadence light curve of TOI-172 ( Rodriguez J.E., Quinn S.N., Huang C.X., et al.)
+J/AJ/157/235                 (1) [TESS] KOI-142's planetary parameters using all of the Kepler data available to the public as well as a theoretical T
+J/AJ/157/242                 (1) [TESS] Planets in the NASA Exoplanet Archive that have been detected by TESS, all of which are found to be suitable f
+J/AJ/158/45                  (1) [TESS] 30 minutes cadence TESS light curve data for HD 1397 obtained from the tesseract extraction of the full-frame 
+J/AJ/159/19                  (3) [TESS] Nearby stars detected by SOAR to TESS planet candidate hosts ( Ziegler C., Tokovinin A., Briceno C., Mang J., 
+J/AJ/159/243                 (1) [TESS] The flattened TESS PDCSAP 2-minute cadence light curve ( Pepper J., Kane S.R., Rodriguez J.E., et al.)
+J/AJ/159/60                  (2) [TESS] Catalog of all individual flares found in the Transiting Exoplanet Survey Satellite (TESS) sectors 1 and 2 ( G
+J/AJ/160/209                 (1) [TESS] TESS and K2 transits for K2-114, K2-167, K2-237, & K2-261 ( Ikwut-Ukwa M., Rodriguez J.E., Bieryla A., et al.)
+J/AJ/160/235                 (1) [TESS] Long cadence TESS light curve data for TOI-481 and TOI-892 ( Brahm R., Nielsen L.D., Wittenmyer R.A., et al.)
+J/AJ/161/164                 (2) [TESS] TESS stars observed by NESSI at WIYN ( Howell S.B., Matson R.A., Ciardi D.R., Everett M.E., Livingston J.H., S
+J/AJ/161/194                 (1) [TESS] TESS Follow-up Observing Program (TFOP) SG1 follow-up transits of TOI-628b, TOI-640b, TOI-1333b, TOI-1478b, an
+J/AJ/161/23                  (1) [TESS] TESS photometry of TOI 540 from Sectors 4-6 ( Ment K., Irwin J., Charbonneau D., et al.)
+J/AJ/161/233                 (3) [TESS] *The Revised TESS HZ Catalog: 4239 stars TESS observed long enough to see planets with Earth-analog irradiatio
+J/AJ/161/65                  (1) [TESS] TESS light curve of TOI 451 B ( Newton E.R., Mann A.W., Kraus A.L., et al.)
+J/AJ/162/147                 (1) [TESS] Rotation periods of 1-3R{Earth} TOIs observed by Evryscope and TESS ( Howard W.S., Teske J., Corbett H., Law N
+J/AJ/162/192                 (2) [TESS] Nearby stars detected by SOAR to TESS planet candidate hosts ( Ziegler C., Tokovinin A., Latiolais M., Briceno
+J/AJ/162/292                 (1) [TESS] TESS Sector 15 and 16 single-scale MAP corrected PDC photometry of TOI-1431b ( Addison B.C., Knudstrup E., Won
+J/AJ/164/135                 (2) [TESS] Asteroseismic quantities for 1709 stars in the HD-TESS catalog ( Hon M., Kuszlewicz J.S., Huber D., Stello D.,
+J/AJ/164/137                 (1) [TESS] Measured TESS periods ( Kounkel M., Stassun K.G., Bouma L.G., Covey K., Hillenbrand L.A., Lee Curtis J.)
+J/AJ/164/15                  (1) [TESS] *TESS planet candidates which are considered here to be potential targets for Ariel ( Edwards B., Tinetti G.)
+J/AJ/164/254                 (1) [TESS] Section 32 PLD-detrended TESS light curve ( Gupta A.F., Luhn J., Wright J.T., Mahadevan S., Ford E.B., Stefans
+J/AJ/164/70                  (2) [TESS] Summary of TESS observations ( Yee S.W., Winn J.N., Hartman J.D., et al.)
+J/AJ/165/207                 (1) [TESS] Full TESS PDCSAP median corrected light curves for TOI-778 from Sector 10 and Sector 37 ( Clark J.T., Addison 
+J/AJ/166/152                 (1) [TESS] TESS results, gt200pts (table 1) ( McNeill A., Gowanlock M., Mommert M., Trilling D.E., Llama J., Paddock N.)
+J/AJ/166/153                 (1) [TESS] Summary of 2 minute cadence TESS observations ( Murphy J.M., Batalha N.M., Scarsdale N., et al.)
+J/AJ/166/193                 (2) [TESS] TESS candidates used as bore sight pointings for survey ( Johnson O.A., Gajjar V., Keane E.F., et al.)
+J/AJ/166/23                  (1) [OB stars] The S1.4GHz brightest OB stars ( Huang Q., Jiang B., Deng D., Yu B., Zijlstra A.)
+J/AJ/166/83                  (1) [TESS] V838 Cyg TESS light curve ( Li L.-J., Qian S.-B., Shi X.-D., Zhu L.-Y.)
+J/AJ/167/175                 (1) [TESS] *Detrended TESS photometric data for TOI-677 ( Hu Q., Rice M., Wang X.-Y., Wang S., Shporer A., Teske J.K., Ye
+J/AJ/167/203                 (1) [TESS] DIAmante TESS AutoRegressive Planet Search for the southern ecliptic hemisphere (DTARPS-S) candidates catalog 
+J/AJ/167/76                  (1) [Magellanic Cloud] Catalog of 519 HiVels considering the impact of the Large Magellanic Cloud ( Liao J., Du C., Deng M., Ye D., L
+J/AJ/168/161                 (1) [TESS] TESS T band light curve of K2-2 b (Data behind Figure 1) ( Thygesen E., Rodriguez J.E., de Beurs Z.L., Vanderb
+J/AJ/168/176                 (1) [TESS] The best-fit values of parameters for 64 TESS transit light curves of TrES-2b using TAP ( Biswas S., Bisht D.,
+J/AJ/168/181                 (1) [TESS] *SS1+TESSC1 rotation periods and amplitudes for the 1623 objects with high confidence (~85%) ( Gowanlock M., T
+J/AJ/168/25                  (1) [OB stars] Parallaxes and Teff of OB stars in Gaia DR3 ( Ge Q.A., Li J.J., Hao C.J., Lin Z.H., Hou L.G., Liu D.J., Li Y.J
+J/AJ/169/225                 (1) [TESS] TESS light curves of WASP-193 ( Yee S.W., Stefansson G., Thorngren D., Monson A., Hartman J.D., Charbonneau D.
+J/AJ/169/27                  (1) [TESS] Times, time lag, and energy budgets of flares observed with Swift and TESS (Tables 2 & 3) ( Howard W.S., MacGr
+J/AJ/170/15                  (1) [TESS] ZTF and TESS periods for the 272 sources in this work ( Hattori S., Angus R., Foreman-Mackey D., Lu Y.(., Colm
+J/AJ/170/154                 (1) [TESS] Transit timing of L 98-59 c and d from TESS ( Cadieux C., L'Heureux A., Piaulet-Ghorayeb C., Doyon R., Artigau
+J/AJ/170/168                 (1) [TESS] The 133 candidate single periodic uncontaminated TESS late-M dwarfs found in this work ( Lambier S., Metchev S
+J/AJ/170/216                 (1) [TESS] Physical and orbital parameters of known and TESS/Kepler planet candidates, and their host stars (Data behind 
+J/AJ/170/287                 (2) [TESS] Scores and dispositions of TESS+Kepler-Aggregation model for Unknown (UNK) TCEs ( Valizadegan H., Martinho M.J
+J/AJ/170/32                  (1) [TESS] Custom-extracted TESS light curve of TOI 2076 ( Barber M.G., Mann A.W., Vanderburg A., Boyle A.W., Lopez Muril
+J/AJ/170/331                 (1) [TESS] AH Cep TESS eclipse measurements ( Baum A.C., Pepper J., Davenport J.R.A., Howell S.B.)
+J/AJ/170/34                  (1) [TESS] TESS light curves of TOI-2364 ( Tamburo P., Yee S.W., Garcia-mejia J., Stefansson G., Charbonneau D., Bieryla 
+J/AJ/170/356                 (1) [TESS] TESS catalog of eccentric eclipsing binaries (PDF & MRT versions of Table 1) ( Tang Y., Chen X., Gai N., Wang 
+J/AN/333/60                  (1) [OB stars] Colour indices of OB stars ( Krelowski J., Strobel A.)
+J/AcA/51/317                 (1) [Magellanic Cloud] OGLE-II variables in the Magellanic Clouds ( Zebrun K., Soszinski I., Wozniak P.R., Udalski A., Kubiak M., Szy
+J/AcA/58/163                 (2) [Magellanic Cloud] Catalog of fundamental-mode, first-overtone, second-overtone, double-mode and triple-mode Cepheids in the Larg
+J/AcA/58/293                 (1) [Magellanic Cloud] Catalog of type II and anomalous Cepheids in the Large Magellanic Cloud ( Soszynski I., Udalski A., Szymanski 
+J/AcA/59/1                   (1) [Magellanic Cloud] Catalog of RR Lyrae stars in the Large Magellanic Cloud ( Soszynski I., Udalski A., Szymanski M.K., Kubiak M.,
+J/AcA/59/239                 (1) [Magellanic Cloud] Catalog of long-period variables in the Large Magellanic Cloud ( Soszynski I., Udalski A., Szymanski M.K., Kub
+J/AcA/59/335                 (1) [Magellanic Cloud] Catalog of R Coronae Borealis stars in the Large Magellanic Cloud ( Soszynski I., Udalski A., Szymanski M.K., 
+J/AcA/60/17                  (1) [Magellanic Cloud] Catalog of fundamental-mode, first-overtone, second-overtone, double-mode and triple-mode Cepheids in the Smal
+J/AcA/61/217                 (1) [Magellanic Cloud] Long-period variables found by OGLE in the Small Magellanic Cloud ( Soszynski I., Udalski A., Szymanski M.K., 
+J/AcA/65/297                 (1) [Magellanic Cloud] Reclassified stars from the OGLE-III catalogs of classical Cepheids in the Magellanic Clouds ( Soszynski I., U
+J/ApJ/566/880                (1) [Magellanic Cloud] Magellanic Clouds and M33 H II Regions Data ( Giveon U., Sternberg A., Lutz D., Feuchtgruber H., Pauldrach A.W
+J/ApJ/671/1669               (1) [Magellanic Cloud] Characteristics of the IRS spectra,  and morphology of the Planetary Nebulae of the Magellanic Clouds ( Stangh
+J/ApJ/696/1278               (1) [OB stars] Selected OB stars associated with M17 ( Povich M.S., Churchwell E., Bieging J.H., Kang M., Whitney B.A., Broga
+J/ApJ/755/40                 (2) [Magellanic Cloud] Magellanic Clouds Emission Line Survey (MCELS) LMC HII region catalog (from erratum: 2013, ApJ, 766, 138) ( Pe
+J/ApJ/771/110                (2) [early-type stars] List of candidate early-type stars with various selection methods ( Mooley K., Hillenbrand L., Rebull L., Padg
+J/ApJ/804/114                (1) [red noise] Simulated binary neutron-star (BNS) signals of detected events for 2015 scenario using recolored noise (table 
+J/ApJ/809/77                 (1) [TESS] Catalog of simulated TESS detections ( Sullivan P.W., Winn J.N., Berta-Thompson Z.K., Charbonneau D., Deming D
+J/ApJ/824/74                 (1) [Magellanic Cloud] Bi-dimensional classification of OGLE-II Magellanic Clouds Cepheids ( Garcia-Varela A., Munoz J.R., Sabogal B.
+J/ApJ/832/176                (1) [Magellanic Cloud] Catalog of optical-NIR-MIR measurements for Large Magellanic Cloud (LMC) Cepheids ( Inno L., Bono G., Matsunag
+J/ApJ/833/85                 (1) [OB stars] Details of the photometrically identified OB stars toward the N37 region ( Baug T., Dewangan L.K., Ojha D.K., 
+J/ApJ/838/61                 (3) [OB stars] Previously cataloged OB stars among MYStIX Probable Complex Member (MPCMs) ( Povich M.S., Busk H.A., Feigelson
+J/ApJ/855/68                 (1) [OB stars] OB stars in the APOGEE survey (tables 1 and 2) ( Roman-Lopes A., Roman-Zuniga C., Tapia M., Chojnowski D., Gom
+J/ApJ/867/L8                 (1) [OB stars] *Kinematic data for RIOTS4 field OB stars ( Oey M.S., Jones J.D., Castro N., Zivick P., Besla G., Januszewski 
+J/ApJ/873/66                 (1) [OB stars] SDSS-IV/APOGEE-2 survey OB stars in W3-W4-W5 (W345) (Table 2) and their line parameters (Table 3) ( Roman-Lope
+J/ApJ/874/L8                 (2) [TESS] Stars where TESS can detect planets out to the 1AU equivalent distance ( Kaltenegger L., Pepper J., Stassun K.
+J/ApJ/881/9                  (2) [TESS] Individual flares observed by evryscope from cool stars in TESS sectors 1-6 ( Howard+, Howard W.S., Corbett H.
+J/ApJ/884/20                 (1) [Magellanic Cloud] Mira properties in the Magellanic Clouds using OGLE-III data ( Bhardwaj A., Kanbur S., He S., Rejkuba M., Mats
+J/ApJ/893/11                 (1) [massive stars] Variability characteristics of massive stars in M31 ( Soraisam M.D., Bildsten L., Drout M.R., Prince T.A., Kup
+J/ApJ/895/140                (1) [TESS] Rotation periods and starspots on cool flare stars observed by Evryscope in TESS Sectors 1-6 ( Howard W.S., Co
+J/ApJ/898/L11                (1) [TESS] TESS light curve (data behind Figure 1) ( Gill S., Wheatley P.J., Cooke B.F., et al.)
+J/ApJ/899/136                (1) [TESS] Extracted TESS NGC 4395 light curves ( Burke C.J., Shen Y., Chen Y.-C., Scaringi S., Faucher-Giguere C.-A., Li
+J/ApJ/902/115                (1) [TESS] Temperatures of simultaneous flares observed during TESS Cycle 1 ( Howard W.S., Corbett H., Law N.M., Ratzloff
+J/ApJ/902/24                 (1) [TESS] TESS parameters and positions in the HR diagram of the cool supergiants (Table 1) and fit parameters from Equa
+J/ApJ/903/43                 (1) [OB stars] Kinematic data and fundamental parameters for RIOTS4 field OB stars ( Dorigo Jones J., Oey M.S., Paggeot K., C
+J/ApJ/903/96                 (1) [TESS] TESS and K2 potation periods ( Gagne J., David T.J., Mamajek E.E., Mann A.W., Faherty J.K., Bedard A.)
+J/ApJ/908/51                 (2) [TESS] TESS supernova light curves ( Fausnaugh M.M., Vallely P.J., Kochanek C.S., et al.)
+J/ApJ/912/123                (2) [TESS] Orbital parameters of TESS eclipsing binaries ( Justesen A.B., Albrecht S.)
+J/ApJ/913/32                 (1) [massive stars] Common names, coordinates, host galaxies, and Gaia measurements of 6484 putative massive stars (Table 1) and f
+J/ApJ/913/38                 (2) [Magellanic Cloud] Large Magellanic Cloud Cepheids and their main parameters ( Breuval L., Kervella P., Wielgorski P., Gieren W.,
+J/ApJ/914/50                 (1) [TESS] New ASAS-SN and TESS photometry of SN 2019yvq ( Tucker M.A., Ashall C., Shappee B.J., Vallely P.J., Kochanek C
+J/ApJ/921/5                  (1) [TESS] Classical Be stars observed by TESS ( Balona L.A., Ozuyar D.)
+J/ApJ/922/177                (1) [Magellanic Cloud] Red supergiant (RSG) source list for the Small Magellanic Cloud (SMC) ( Massey P., Neugent K.F., Dorn-Wallenst
+J/ApJ/923/232                (1) [Magellanic Cloud] Catalog of red supergiants in the Magellanic Clouds ( Ren Y., Jiang B., Yang M., Wang T., Ren T.)
+J/ApJ/924/117                (2) [TESS] List of 160 TESS B-type stars ( Barraza L.F., Gomes R.L., Messias Y.S., Leao I.C., Almeida L.A., Janot-Pacheco
+J/ApJ/926/204                (2) [TESS] Catalog of all 3792 flares observed across 226 M-dwarfs at 20 second cadence during TESS Cycle 3 ( Howard W.S.
+J/ApJ/928/20                 (1) [TESS] Summary of results from our TESS Cycle 2 survey of candidate variable hot subdwarf stars ( Barlow B.N., Corcor
+J/ApJ/929/143                (1) [TESS] TESS Continuous Viewing Zone (CVZ) stellar ages ( Ware A., Young P., Truitt A., Spacek A.)
+J/ApJ/930/7                  (2) [TESS] Properties of stars with recovered rotation periods, potential binaries, pulsating stars, and stars with no de
+J/ApJ/943/L15                (2) [TESS] Unbinned TESS light curve of SN 2021zby (data behind Figure 1) ( Wang Q., Armstrong P., Zenati Y., et al.)
+J/ApJ/944/39                 (1) [TESS] TESS-based rotation periods of stars in targeted clusters ( Healy B.F., McCullough P.R., Schlaufman K.C., Kova
+J/ApJ/946/43                 (1) [Magellanic Cloud] Spectroscopic red supergiant (RSG) stars in the Magellanic Clouds ( Wang S., Chen X.)
+J/ApJ/952/64                 (3) [Magellanic Cloud,OB stars] Massive OB stars in the Large Magellanic Cloud in this study ( Lin Z., Xu Ye, Hao C., Li Y., Liu D., Bian S.)
+J/ApJ/955/123                (1) [SLF] The Stochastic low-frequency (SLF) fitting parameters of the magnetic hot stars ( Shen D.-X., Li G., Abdusamat
+J/ApJ/960/20                 (1) [TESS] Flare parameters of PSR J1023+0038 based on the Kepler and TESS surveys ( Zhang L.-Y., Yang Z., Li B., Su T., 
+J/ApJ/962/17                 (1) [TESS] The raw TESS light curve of SN 2023bee ( Wang Q., Rest A., Dimitriadis G., et al.)
+J/ApJ/962/47                 (2) [TESS] Properties of 7,245 rotationally detected TESS Southern Continuous Viewing Zone (SCVZ) stars, MCMC input & fit
+J/ApJ/973/L30                (1) [TESS] TESS light curve data of HIP 67522 ( Barber M.G., Thao Pa C., Mann A.W., Vanderburg A., Mori M., Livingston J.
+J/ApJS/117/135               (1) [Magellanic Cloud] Photometry of Magellanic Cloud Cepheids ( Moffett T.J., Gieren W.P., Barnes T.G. III, Gomez M.)
+J/ApJS/155/401               (2) [Magellanic Cloud] Magellanic Cloud clusters observed with ISOCAM and aperture corrections applied with the PSF photometry ( Tana
+J/ApJS/194/12                (1) [OB stars] OB stars in the Trumpler 16 region   and their IR properties ( Wolk S.J., Broos P.S., Getman K.V., Feigelson E
+J/ApJS/194/6                 (2) [OB stars] Validation sample of cataloged Carina OB stars: SED-fitting results and IR photometry ( Povich M.S., Townsley 
+J/ApJS/194/7                 (1) [OB stars] Properties of the undetected OB stars ( Naze Y., Broos P.S., Oskinova L., Townsley L.K., Cohen D., Corcoran M.
+J/ApJS/197/31                (1) [Magellanic Cloud] Observable characteristics of Galactic/Magellanic Cloud novae with X-ray observations ( Schwarz G.J., Ness J.-
+J/ApJS/225/24                (3) [massive stars] The presupernova overproduction  factors of stable isotopes are given for massive stars of  Set1.2  and Set 1.
+J/ApJS/238/29                (1) [early-type stars] Equivalent width of HeI 1.701mm of early-type stars ( Park S., Lee J.-E., Kang W., Lee S.-G., Chun M.-Y., Kim 
+J/ApJS/241/32                (1) [OB stars] OB stars identified in LAMOST DR5 ( Liu Z., Cui W., Liu C., Huang Y., Zhao G., Zhang Bo)
+J/ApJS/245/29                (1) [TESS] Summary table of rotational information derived from pilot-study TESS observations ( McNeill A., Mommert M., T
+J/ApJS/247/17                (1) [massive stars] SDSS-IV/APOGEE2 survey of massive stars in the Sagittarius Arm, line parameters and spectral types estimates (
+J/ApJS/253/22                (1) [OB stars] Distance catalog for 16002 OB stars in LAMOST DR5 ( Xiang M., Rix H.-W., Ting Y.-S., Zari E., El-badry K., Yua
+J/ApJS/253/54                (1) [O-type stars] *Spectral information for LAMOST O-type stars ( Li G.-W.)
+J/ApJS/255/1                 (1) [Magellanic Cloud] OGLE eclipsing binaries in the field of Galactic bulge, Large-, and Small Magellanic Clouds ( Bodi A., Hajdu T
+J/ApJS/255/6                 (1) [TESS] Warm Jupiter candidates discovered in Year 1 TESS Full-Frame Images ( Dong J., Huang C.X., Dawson R.I., et al.
+J/ApJS/257/54                (2) [early-type stars] The predicted stellar labels of 16032 LAMOST-LRS (Liu+ 2019, J/ApJS/241/32) early-type stars ( Guo Y., Zhang B
+J/ApJS/258/16                (1) [TESS] The Eclipsing Binary stars (TESS-EBs) catalog ( Prsa A., Kochoska A., Conroy K.E., et al.)
+J/ApJS/259/50                (1) [TESS] *The catalog of EA-type eclipsing binaries observed by TESS ( Shi X.-D., Qian S.-B., Li L.-J.)
+J/ApJS/259/62                (1) [TESS] TESS data processed for each target ( Ivshina E.S., Winn J.N.)
+J/ApJS/261/26                (1) [TESS] Flare parameters of exoplant system of TESS ( Su T., Zhang L.-Y., Long L., Han X.L., Misra P., Meng G., Pi Q.,
+J/ApJS/264/17                (4) [TESS] Stellar parameters and H{alpha} information of TESS objects in the field of LAMOST low-resolution spectral sur
+J/ApJS/265/1                 (1) [TESS] TESS light-curves ( Yee S.W., Winn J.N., Hartman J.D., et al.)
+J/ApJS/265/33                (2) [OB-type,TESS] The catalog of OB-type massive pulsating stars observed by TESS, LAMOST, and Gaia ( Shi X.-D., Qian S.-B., Zhu
+J/ApJS/268/16                (2) [TESS] The catalog of new slowly pulsating B-type (SPB) stars observed by TESS, LAMOST, and GAIA ( Shi X.-D., Qian S.
+J/ApJS/271/15                (1) [OB-type] The basic information and parameters of 2946 OB-type stars in LAMOST ( Huo Z., Liu Z., Cui W., Liu C., Liu J.,
+J/ApJS/271/16                (1) [TESS] List of the 10 Kepler and 1 TESS planet host stars; table added by CDS ( Dalba P.A., Kane S.R., Isaacson H., e
+J/ApJS/271/28                (1) [TESS] Catalog of {beta} Cephei pulsating variable (BCEP) stars observed by TESS and Gaia ( Shi X.-D., Qian S.-B., Zh
+J/ApJS/271/57                (1) [TESS] Catalog of all 1016 flares observed across 38102 light curves of 11618 compact stars at 120 second cadence dur
+J/ApJS/273/5                 (2) [Tarantula,massive stars] 'The Tarantula-Revealed by X-rays' (T-ReX) X-ray source properties ( Townsley L.K., Broos P.S., Povich M.S.)
+J/ApJS/275/2                 (1) [SLF,stochastic low] Results of stochastic low-frequency (SLF) variability for stars of our sample ( Shen D.-X., Zhu C.-H., Lu G.-L
+J/ApJS/275/24                (1) [OB stars] Information for 37,778 spectra of 27,643 OB stars identified in this work ( Liu Z., Cui W., Gu J., Shi J., Hu 
+J/ApJS/276/44                (1) [TESS] Parameters of 31,539 flare events from TESS survey for 4354 TIC stars ( Su T., Zhang L.-Y., Misra P., Han X.L.
+J/ApJS/276/57                (1) [TESS] TESS periodic variable star catalog ( Gao X., Chen X., Wang S., Liu J.)
+J/ApJS/279/50                (1) [TESS] Comparison between the correct period measured from TESS and literature periods for 2065 known EBs ( Kostov V.
+J/ApJS/280/26                (1) [TESS] Flare parameters for 286 eclipsing binaries in TESS survey ( Shi A., Zhang L.-Y., Su T., Wang Y., An Qi, Han X
+J/ApJS/280/49                (1) [Magellanic Cloud] OGLE-IV fields toward the Small Magellanic Cloud ( Mroz P., Udalski A., Szymanski M.K., Soszynski I., Pietruko
+J/ApJS/281/52                (2) [TESS] Star parameters of TESS objects ( Wang Y., Zhang L.-Y., Su T., Misra P., Han X.L.)
+J/ApJS/282/29                (2) [TESS] Flare parameters of exoplanet system of TESS ( Ren L., Zhang L.-Y., Han X.L., Su T., Li W., Wang Y., Misra P.)
+J/MNRAS/315/839              (1) [low-frequency variab] Catalogue of potential low-frequency variability (PLFV) sources ( Minns A.R., Riley J.M.)
+J/MNRAS/341/534              (1) [Magellanic Cloud] J stars in the Large Magellanic Cloud ( Morgan D.H., Cannon R.D., Hatzidimitriou D., Croke B.F.W.)
+J/MNRAS/369/697              (1) [Magellanic Cloud] VRI photometry of globular clusters in the Magellanic Clouds ( Goudfrooij P., Gilmore D., Kissler-Patig M., Ma
+J/MNRAS/372/661              (1) [OB stars] Census of OB stars in the XMM-Newton FOV ( Sana H., Rauw G., Naze N., Gosset E., Vreux J.-M.)
+J/MNRAS/384/1675             (1) [OB stars] List of OB stars in IC417 region ( Jose J., Pandey A.K., Ojha D.K., Ogura K., Chen W.P., Bhatt B.C., Ghosh S.K
+J/MNRAS/405/839              (1) [Magellanic Cloud] Evolutionary parameters of globulars in the Large Magellanic Cloud calculated by us using the Lick indices pub
+J/MNRAS/446/3797             (1) [early-type stars] *V-NIR colours and the reddening-corrected magnitude and colours of the early-type stars ( Hur H., Park B.-G.,
+J/MNRAS/451/4346             (1) [Magellanic Cloud] *FEROS and UVES-observed stars towards the Magellanic Clouds ( Smoker J.V., Fox A.J., Keenan F.P.)
+J/MNRAS/466/1290             (1) [macroturbulen] Spectral types, luminosity classes, mean projected rotational velocities, and mean radial-tangential macroturb
+J/MNRAS/473/2004             (1) [TESS] TESS-HERMES catalogue ( Sharma S., Stello D., Buder S., et al.)
+J/MNRAS/485/3457             (1) [TESS] List of B stars observed by TESS ( Balona L.A., Handler G., Chowdhury S., Ozuyar D., Engelbrecht C.A., Mirouh 
+J/MNRAS/486/251              (1) [TESS] Matched Gaia detections for TESS CTL objects ( Deacon N.R., Henning T., Kossakowski D.E.)
+J/MNRAS/487/2771             (2) [OB stars,OB-type] Known OB stars associated with the W3 Complex ( Navarete F., Galli P.A.B., Damineli A.)
+J/MNRAS/488/1282             (1) [Magellanic Cloud] Large Magellanic Cloud program stars ( Williams P.M.)
+J/MNRAS/489/437              (2) [TESS] Master file of all TESS flare stars from Sectors 1,2 and 3 ( Doyle L., Ramsay G., Doyle J.G., Wu K.)
+J/MNRAS/490/4040             (2) [TESS] Stellar parameters for the TESS {delta} Sct and {gamma} Dor pulsators observed at 2-min cadence during the fir
+J/MNRAS/491/874              (1) [microturbulen] Comparison of abundances log{epsilon}_i_ for microturbulent velocities v_t_= 0.0 and 5.0km/s ( Naslim N., Jeff
+J/MNRAS/493/5871             (1) [TESS] List of {beta} Cep, SPB, and Maia stars in TESS sectors 1-18 ( Balona L.A., Ozuyar D.)
+J/MNRAS/494/228              (1) [red noise] List of the preferred timing noise model, Bayes factor and associated red noise parameters for each pulsar in 
+J/MNRAS/495/2713             (1) [TESS] TESS photometry of TIC-231005575 ( Gill S., Cooke B.F., Bayliss D., et al.)
+J/MNRAS/500/3213             (1) [massive stars] List of confirmed massive stars, candidate massive stars and non-massive objects analyzed in our work ( Libral
+J/MNRAS/500/817              (1) [Magellanic Cloud] Final mid-IR catalogue for 2352 LMC and 2672 SMC fundamental mode Classical Cepheids in the Magellanic Clouds 
+J/MNRAS/502/1947             (1) [TESS] The data model of the catalogue of TESS-SCVZ targets which we release in this work ( Mackereth J.T., Miglio A.
+J/MNRAS/508/2370             (1) [OB stars] Positional, astrometric and SED-fitted parameters for the 4680 probable OB stars (corrected version, 24-Jan-20
+J/MNRAS/510/5743             (2) [TESS] *List of known roAp or roA stars even those not observed by TESS ( Balona L.A.)
+J/MNRAS/511/1043             (4) [TESS] TESS sector 13 detrended data ( Wilson T.G., Goffo E., Alibert Y., et al.)
+J/MNRAS/511/4285             (1) [TESS] Candidate eclipsing binary signals found in Year 1 of the CDIPS TESS light-curves ( Battley M.P., Armstrong D.
+J/MNRAS/512/L60              (1) [TESS] Flares catalog of all 2250 TOIs with 2-min cadence TESS data and a non false positive disposition ( Howard W.S
+J/MNRAS/513/102              (1) [TESS] TESS Triple-9 TT9 catalog the final result of our work ( Cacciapuoti L., Kostov V.B., Kuchner M., et al.)
+J/MNRAS/513/5727             (1) [TESS] TESS and literature rotation periods and the final adopted rotation period to be used for analysis ( Binks A.S
+J/MNRAS/516/2540             (1) [TESS] Short period (P<0.2 d) and red (GB-GR>1.84mag) periodic variables from the TESS EB catalogue ( Koen C.)
+J/MNRAS/519/2486             (1) [TESS] Pulsators confirmed with the TESS 10 min Full Frame Image data ( Sahoo S.K., Baran A.S., Worters H.L., Nemeth 
+J/MNRAS/521/443              (2) [TESS] Basic parameters of the RRc stars used TESS selected sample ( Benko J.M., Plachy E., Netzel H., Bodi A., Molna
+J/MNRAS/522/29               (1) [TESS] Results for all TESS input targets ( Green M.J., Maoz D., Mazeh T., Faigler S., Shahaf S., Gomel R., El-Badry 
+J/MNRAS/522/3124             (1) [OB stars] Daya for the 5617 identified OB stars ( Quintana A.L., Wright N.J., Jeffries R.D.)
+J/MNRAS/529/1802             (1) [TESS] Main Sequence TESS-SPOC FFI targets ( Doyle L., Armstrong D.J., Bayliss D., Rodel T., Kunovac V.)
+J/MNRAS/533/1                (1) [TESS] TESS, CHEOPS and LCOGT photometric observations of TOI-757 ( Alqasim A., Grieves N., Rosario N.M., et al.)
+J/MNRAS/534/1775             (3) [TESS] Star counts for TESS-spectroscopic overlap sample ( Malla S.P., Stello D., Montet B.T., Huber D., Hon M., Bedd
+J/MNRAS/538/1367             (1) [OB stars] Catalogue of OB stars within 1 kpc ( Quintana A.L., Wright N.J., Martinez Garcia J.)
+J/MNRAS/540/3523             (1) [BLOeM,OB stars] Physical parameters of BLOeM OB stars ( Bestenlehner J.M., Crowther P.A., Bronner V.A., Simon-Diaz S., Lennon 
+J/MNRAS/541/714              (1) [TESS] Mid-transit times we derived from TESS observations ( Basturk O., Kutluay A.C., Barker A., et al.)
+J/MNRAS/544/3980             (1) [Magellanic Cloud] CaII triplet equivalent-width measurements and derived metallicities for red giant stars in the Small Magellan
+J/MNRAS/548/G671             (1) [TESS] Catalogue of asteroseismic parameters for 19151 oscillating red giants in the TESS CVZs ( Sreenivas K.R., Bedd
+J/PASP/111/812               (1) [Magellanic Cloud] Photometry of Magellanic Cloud Cepheids ( Barnes T. G. III, Ivans I. I., Martin J. R., Froning C. S., Moffett 
+J/PASP/121/634               (1) [Magellanic Cloud] FUSE LMC objects and information in the  Magellanic Clouds ( Blair W.P., Oliveira C., Lamassa S., Gutman S., D
+J/PASP/131/C4401             (1) [TESS] Transit probabilities and predicted TESS observation details for the known RV exoplanets in our sample ( Dalba
+J/PAZh/35/574                (1) [Magellanic Cloud] He, C, N, and O abundances of all planetary  nebulae (Galactic and in Magellanic Clouds) ( Milanova Yu.V., Kho
+J/PAZh/38/776                (1) [OB stars] OB stars from Tycho-2 catalogue ( Gontcharov G.A.)
+J/PAZh/42/200                (1) [Magellanic Cloud] List of LargeMagellanic Cloud and Small Magellanic Cloud pulsars ( Zhezher Ya.V., Nugaev E.Ya., Rubtsov G.I.)
+J/other/JApA/34.393          (1) [massive stars] X-ray temperatures and luminosities of massive stars in the eight clusters ( Bhatt H., Pandey J.C., Singh K.P.
+J/other/NatAs/3.760          (2) [OB stars,TESS] Parameters (table D1) and fit parameters (table D3) of 114 OB stars observed by the K2 space mission ( Bowman 
+J/other/NatAs/6.1085         (1) [VFTS] OGLE III and IV light curve for VFTS 243 ( Shenar T., Sana H., Mahy L., et al.)
+J/other/RAA/23.E5001         (1) [TESS] Stellar and flare parameters of LAMOST M stars based on Kepler and TESS light curves. ( Meng G., Zhang L.-Y., 
+J/other/Sci/392.L2348        (2) [TESS] TESS TPFED-FFIED data ( Wilson T.G., Simpson A.M., Collier Cameron A., et al.)
+V/107/lmc                    (1) [Magellanic Cloud] Large Magellanic Cloud ( Egan M.P., Price S.D., Moshir M.M., Cohen M., Tedesco E., Murdock T.L., Zweil A., Bur
+VI/96/table3                 (1) [massive stars] Evolutionary sequences of intermediate mass stars up to the TP-AGB and of massive stars (those with no mass-lo
+VI/96/table4                 (1) [massive stars] Evolutionary sequences for massive stars with mass loss ( Bressan A., Fagotto F., Bertelli G., Chiosi C., Gira
+VI/96/table5a                (1) [massive stars] Evolutionary sequences for intermediate and massive stars up to the starting of TPAGB or carbon-ignition with 
+VI/96/table5b                (1) [massive stars] Evolutionary sequences for intermediate and massive stars up to the starting of TPAGB or carbon-ignition with 
+VII/232/lmc                  (1) [Magellanic Cloud] HII regions in the Large Magellanic Cloud ( Davies R.D., Elliot K.H., Meaburn J.)
+VII/232/smc                  (1) [Magellanic Cloud] HII regions in the Small Magellanic Cloud ( Davies R.D., Elliot K.H., Meaburn J.)

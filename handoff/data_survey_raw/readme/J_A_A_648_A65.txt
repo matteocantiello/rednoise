@@ -1,0 +1,119 @@
+J/A+A/648/A65       The sHRD of OB stars in NGC 2070             (Castro+, 2021)
+================================================================================
+Mapping the core of the Tarantula Nebula with VLT-MUSE.
+II. The spectroscopic Hertzsprung-Russell diagram of OB stars in NGC 2070.
+    Castro N., Crowther P.A., Evans C.J., Vink J.S., Puls J., Herrero A.,
+    Garcia M., Selman F.J., Roth M.M., Simon-Diaz S.
+    <Astron. Astrophys. 648, A65 (2021)>
+    =2021A&A...648A..65C        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Magellanic Clouds ; Clusters, open ; Stars, early-type ;
+              Stars, OB ; Stars, masses ; Effective temperatures
+Keywords: stars: early-types - stars: fundamental parameters -
+          galaxies: star clusters: individual: NGC 2070 - Magellanic Clouds
+
+Abstract:
+    We present the spectroscopic analysis of 333 OB-type stars
+    extracted from VLT-MUSE observations of the central 30x30pc of
+    NGC 2070 in the Tarantula Nebula on the Large Magellanic Cloud, the
+    majority of which are analysed for the first time. The distribution of
+    stars in the spectroscopic Hertzsprung-Russell diagram (sHRD) shows
+    281 stars in the main sequence. We find two groups in the main
+    sequence, with estimated ages of 2.1+/-0.8 and 6.2+/-2Myr. A subgroup
+    of 52 stars is apparently beyond the main sequence phase, which we
+    consider to be due to emission-type objects and/or significant nebular
+    contamination affecting the analysis. As in previous studies, stellar
+    masses derived from the sHRD are systematically larger than those
+    obtained from the conventional HRD, with the differences being largest
+    for the most massive stars. Additionally, we do not find any trend
+    between the estimated projected rotational velocity and evolution in
+    the sHRD. The projected rotational velocity distribution presents a
+    tail of fast rotators that resembles findings in the wider population
+    of 30 Doradus. We use published spectral types to calibrate the
+    HeI{lambda}4921/HeII{lambda}5411 equivalent-width ratio as a
+    classification diagnostic for early-type main sequence stars when the
+    classical blue-visible region is not observed. Our model-atmosphere
+    analyses demonstrate that the resulting calibration is well correlated
+    with effective temperature.
+
+Description:
+    Estimated physical parameters of the 281 early-type stars with
+    logTeff[K]>4.3 in NGC 2070 from the MUSE observations sorted by
+    effective temperature. See section 3 in the publication for a
+    description of the analysis and limitations in the listed parameters.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table2.dat        91      281   OB sample in NGC2070 analysed in this work
+--------------------------------------------------------------------------------
+
+See also:
+   J/A+A/614/A147 : NGC 2070 point sources radial velocities (Castro+, 2018)
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label     Explanations
+--------------------------------------------------------------------------------
+   1-  4  I4    ---       MUSE      Identification and coordinates from
+                                     Castro et al. (2018A&A...614A.147C, Cat.
+                                     J/A+A/614/A147), [CCE2018] NNNN in Simbad
+       6  I1    h         RAh       Right ascension (J2000)
+   8-  9  I2    min       RAm       Right ascension (J2000)
+  11- 16  F6.3  s         RAs       Right ascension (J2000)
+      18  A1    ---       DE-       Declination sign (J2000)
+  19- 20  I2    deg       DEd       Declination (J2000)
+  22- 23  I2    arcmin    DEm       Declination (J2000)
+  25- 30  F6.3  arcsec    DEs       Declination (J2000)
+  32- 35  F4.2  [K]       logTeff   log effective temperature
+  37- 40  F4.2  [K]     e_logTeff   rms uncertainty in logTeff
+  42- 45  F4.2  [Lsun]    logLs     log spectroscopic luminosity (1)
+  47- 50  F4.2  [Lsun]  e_logLs     rms uncertainty in logLs
+  52- 55  F4.2  [Lsun]    logL      log luminosity
+  57- 60  F4.2  [Lsun]  e_logL      rms uncertainty in logL
+  62- 64  F3.1  mag       Av        Extinction
+  66- 70  F5.2  mag       Vmag      Visual magnitude
+                                     (Castro et al., 2018A&A...614A.147C)
+      71  A1    ---       Note      [*] Note (2)
+  73- 75  I3    [Msun]    logMassLs ?=- log estimated mass in the
+                                      spectroscopic Hertzsprung-Russell
+                                      diagram (sHRD)(1) (3)
+  77- 78  I2    [Msun]    logMassL  ?=- log estimated mass in the
+                                     Hertzsprung-Russell diagram (HRD) (3)
+  80- 84  F5.2  Myr       AgeLs     ?=- Age estimated from positions in the
+                                     sHRD (1) (3)
+  86- 88  I3    km/s      vsini     Projected rotational velocity
+  90- 91  A2    ---       SpType    Spectral types derived according to the
+                                     HeI 4921 to HeII 5411 ratio
+--------------------------------------------------------------------------------
+Note (1): The spectroscopic luminosity and the spectroscopic Hertzsprung-Russell
+  diagram (sHRD) are defined in Langer & Kudritzki (2014A&A...564...52L)
+  See also Castro et al. (2014A&A...570...13C)
+Note (2): * for the thirteen stars included in this work not listed in
+  Castro et al., 2018A&A...614A.147C).
+Note (3): Masses and ages are estimated from comparisons with evolutionary
+  models from Koehler et al. (2015A&A...573A..71K, Cat. J/A+A/573/A71).
+  Stars outside of the evolutionary track boundaries are not considered in
+   the analysis ('---').
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    NC gratefully acknowledge funding from the
+    Deutsche Forschungsgemeinschaft (DFG) - CA 2551/1-1. SS-D and AHD
+    acknowledge support from the Spanish Government Ministerio de Ciencia
+    e Innovacion through grants PGC-2018-091\,3741-B-C22 and
+    CEX2019-000920-S, and from the Canarian Agency for Research,
+    Innovation and Information Society (ACIISI), of the Canary Islands
+    Government, and the European Regional Development Fund (ERDF), under
+    grant with reference ProID2020010016.
+
+    From Norberto Castro Rodriguez, ncastro(at)aip.de,
+          [Leibniz-Institut fuer Astrophysik Potsdam (AIP)
+
+References:
+   Castro et al.,  Paper I   2018A&A...614A.147C, Cat. J/A+A/614/A147
+
+================================================================================
+(End)   Norberto Castro [AIP], Patricia Vannier [CDS]                18-Feb-2021

@@ -1,0 +1,196 @@
+J/MNRAS/540/3523    BLOeM. Physical properties of OB stars (Bestenlehner+, 2025)
+================================================================================
+Binarity at LOw Metallicity (BLOeM):
+Pipeline-determined physical properties of OB stars.
+    Bestenlehner J.M., Crowther P.A., Bronner V.A., Simon-Diaz S., Lennon D.J.,
+    Bodensteiner J., Langer N., Marchant P., Sana H., Schneider F.R.N.,
+    Shenar T.
+   <Mon. Not. R. Astron. Soc. 540, 3523 (2025)>
+   =2025MNRAS.540.3523B    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Magellanic Clouds ; Stars, OB ; Rotational velocities ;
+              Radial velocities ; Optical
+Keywords: stars: atmospheres - stars: early-type -
+          stars: fundamental parameters - stars: massive - stars: rotation
+
+Abstract:
+    We aim to determine the physical properties of OB stars from the
+    multi-epoch Binarity at LOw Metallicity (BLOeM) spectroscopic survey
+    of the Small Magellanic Cloud using the Very Large Telescope/Fibre
+    Large Array Multi-Element Spectrograph. We apply a pipeline designed
+    to analyse large spectroscopic samples of OB stars to the co-added,
+    initial nine epochs of the BLOeM survey, utilizing grids of synthetic
+    model spectra computed with the stellar atmosphere code fastwind. 69
+    OB stars are excluded from the analysis owing to disc emission or
+    significant contamination by secondaries in SB2 binaries. We determine
+    physical properties of 778 OB stars, including Teff, logg,
+    logL_{sun}_, and v_e_*sini. There appears to be a bimodality in
+    v_e_*sini of single O stars, while v_e_*sini distributions of OB stars
+    are strikingly different for single (median 78km/s) and binary (median
+    200km/s) systems. Inferred temperatures are broadly in agreement with
+    literature results for stars in common, plus results from a grid-based
+    automization tool for a subset of O and early B stars, although
+    uncertainties are larger for surface gravities. Rotational velocities
+    are broadly in line with an independent tool applied to the same
+    subset. We recover the anticipated lower mass cut-off at 8M}_{sun}_
+    from the survey design using a Bayesian inference method coupled with
+    SMC metallicity evolutionary models, with median masses of
+    12.6M_{sun}_ (19.8M_{sun}_) for B-type (O-type) stars. Spectroscopic
+    masses exceed evolutionary masses, albeit with large uncertainties in
+    surface gravities. We also provide an updated catalogue of O stars in
+    the SMC since half of the 159 BLOeM O stars are newly classified as
+    O-type stars.
+
+Description:
+    Table A1: Physical parameters of BLOeM OB stars from Shenar et al.
+    (2024A&A...690A.289S, Cat. J/A+A/690/A289), excluding systems which
+    are problematic for spectroscopic analysis. Binarity has been
+    investigated by Sana et al. (2025NatAs...9.1337S, Cat.
+    J/other/NatAs/9.1337) for O stars, Bodensteiner et al.
+    (2025A&A...698A..38B, Cat. J/A+A/698/A38) for OBe stars, Villasenor et
+    al. (2025A&A...698A..41V, Cat. J/A+A/698/A41) for early non-supergiant
+    B stars, Britavskiy et al. (2025A&A...698A..40B, cat. J/A+A/698/A40)
+    for early supergiant B stars, and Patrick et al. (2025A&A...698A..39P,
+    cat. J/A+A/698/A39) for cooler supergiants. Evolutionary masses and
+    ages are from Brott et al. (2011A&A...530A.115B, cat. J/A+A/530/A115)
+    with the exception of two luminous supergiants involving Hastings et
+    al. (2021A&A...653A.144H).
+
+    Table H1: An updated catalogue of spectroscopically confirmed O stars,
+    listed in RA order, combining the unpublished compilation from I.D.
+    Howarth (priv. comm.) with BLOeM (Shenar et al., 2024A&A...690A.289S,
+    Cat. J/A+A/690/A289). Coordinates and (G-band) photometry are from
+    Gaia with the exception of the compact HII regions N81 and N88A. For
+    N81 we adopt positions and Hubble Space Telescope WFPC2/F547M
+    photometry from Heydari-Malayeri et al. (1999A&A...344..848H), while
+    for the central ionizing source in N88A (Heydari-Malayeri et al.,
+    1999A&A...347..841H, cat. J/A+A/347/841) we adopt positions and HST
+    WFPC2/F547M photometry from Testor et al. (2010A&A...510A..95T).
+    Classifications exclusively from UV spectroscopy are excluded. The
+    BLOeM sample includes 159/449 O star systems in the SMC, of which 75 -
+    1/6 of the current total - have been newly spectroscopically
+    classified as O stars via BLOeM.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablea1.dat      253      847   Physical parameters of BLOeM OB stars
+tableh1.dat      130      449   Updated catalogue of spectroscopically
+                                 confirmed O stars
+refs.dat          72       50   References
+--------------------------------------------------------------------------------
+
+See also:
+ J/A+A/690/A289 : Binarity at LOw Metallicity (BLOeM). I. (Shenar+, 2024)
+ J/A+A/698/A38  : BLOeM. Oe and Be stars (Bodensteiner+, 2025)
+ J/A+A/698/A39  : BLOeM. BAF-type supergiants (Patrick+, 2025)
+ J/A+A/698/A40  : BLOeM. SMC early B supergiants multiplicity
+                                                            (Britavskiy+, 2025)
+ J/A+A/698/A41  : BLOeM. Early B dwarfs and giants at Z=0.2 (Villasenor+, 2025)
+
+Byte-by-byte Description of file: tablea1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---      BLOeM     BLOeM identifier (N-NNN) (1)
+   7- 23  A17   ---      SpType    Spectral type (1)
+  25- 28  I4    km/s     RV        Radial velocity
+  30- 34  F5.1  km/s   s_RV         ? Radial velocity dispersion
+  36- 39  F4.1  kK       Teff      ? Effective temperature
+  41- 44  F4.1  kK     E_Teff      ? Error on Teff (upper)
+  47- 50  F4.1  kK     e_Teff      ? Error on Teff (lower)
+  53- 56  F4.2  cm/s2    logg      ? log surface gravity
+  59- 62  F4.2  cm/s2  E_logg      ? Error on logg (upper)
+  65- 68  F4.2  cm/s2  e_logg      ? Error on logg (lower)
+  71- 74  F4.2  cm/s2    loggc     ? log surface gravity centrifugal corrected
+  77- 80  F4.2  cm/s2  E_loggc     ? Error on logg_c (upper)
+  83- 86  F4.2  cm/s2  e_loggc     ? Error on logg_c (lower)
+  88- 92  F5.1  Rsun     Rstar     ? Stellar radius
+  95- 98  F4.1  Rsun   E_Rstar     ? Error on stellar radius (upper)
+ 101-104  F4.1  Rsun   e_Rstar     ? Error on stellar radius (lower)
+ 107-110  F4.2  [Lsun]   logL      ? Log stellar luminosity
+ 113-116  F4.2  [Lsun] E_logL      ? Error on logL (upper)
+ 119-122  F4.2  [Lsun] e_logL      ? Error on logL (lower)
+ 125-128  F4.2  ---      Y         ? He abundance mass fraction
+ 131-134  F4.2  ---    E_Y         ? Error on Y (upper)
+ 137-140  F4.2  ---    e_Y         ? Error on Y (lower)
+ 142-144  I3    km/s     vsini     ? Projected radial velocity
+ 147-149  I3    km/s   E_vsini     ? Error on vsini (upper)
+ 153-154  I2    km/s   e_vsini     ? Error on vsini (lower)
+ 156-160  F5.1  Msun     Mspec     ? Spectroscopic mass
+ 162-167  F6.1  Msun   E_Mspec     ? Error on Mspec (upper)
+ 170-174  F5.1  Msun   e_Mspec     ? Error on Mspec (lower)
+ 176-180  F5.1  Msun     Mevol     ? Evolutionary mass (2)
+ 183-186  F4.1  Msun   E_Mevol     ? Error on Mevol (upper)
+ 189-192  F4.1  Msun   e_Mevol     ? Error on Mevol (lower)
+ 195-198  F4.1  Myr      Age       ? Stellar age
+ 201-204  F4.1  Myr    E_Age       ? Error on age (upper)
+ 207-210  F4.1  Myr    e_Age       ? Error on age (lower)
+ 212-217  F6.3  mag      Kmag      ? K-band magnitude (3)
+ 219-222  F4.2  mag      AV        ? Visual extinction
+ 224-253  A30   ---      Notes     Notes (4)
+--------------------------------------------------------------------------------
+Note (1): From Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289).
+Note (2): From Brott et al. (2011A&A...530A.115B, Cat. J/A+A/530/A115) except
+  where flagged in Notes.
+Note (3): From VMC (Cioni et al., 2011A&A...527A.116C, Cat. II/351) except
+  where flagged in Notes.
+Note (4): Spectroscopic binaries; fitting problems; 2MASS photometry if flagged;
+  Flagged as likely Post-MS; H2021 evolutionary models Hastings et al.
+  (2021A&A...653A.144H).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tableh1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h       RAh       Right Ascension (J2000)
+   4-  5  I2    min     RAm       Right Ascension (J2000)
+   7- 11  F5.2  s       RAs       Right Ascension (J2000)
+      14  A1    ---     DE-       Declination sign (J2000)
+  15- 16  I2    deg     DEd       Declination (J2000)
+  18- 19  I2    arcmin  DEm       Declination (J2000)
+  21- 24  F4.1  arcsec  DEs       Declination (J2000)
+  27- 31  F5.2  mag     Gmag      Gaia G-band magnitude (1)
+  33- 54  A22   ---     SpType    Literature spectral type
+  56- 60  A5    ---     Ref       Literature reference (2)
+  62- 92  A31   ---     Name      Name and Common alias (3)
+  94- 98  A5    ---     BLOeM     BLOeM identifier (4)
+ 100-104  A5    ---     M2002     Massey (2002ApJS..141...81M, Cat. II/236)
+                                   SMC identifier
+ 106-130  A25   ---     Comment   Alternative Spectral type/photometry
+--------------------------------------------------------------------------------
+Note (1): Except where noted in Comment.
+Note (2): References to literature spectral type in refs.dat.
+Note (3): Primary catalogues as follows:
+  AzV             = Azzopardi et al. (1975A&AS...22..285A, Cat. V/13)
+  [BLK2010]       = Bonanos et al. (2010AJ....140..416B, cat. J/AJ/140/416)
+  Cl* NGC 330 ELS = Evans et al. (2006A&A...456..623E, cat. J/A+A/456/623)
+  Cl* NGC 346 MPG = Massey et al. (1989AJ.....98.1305M, cat. J/AJ/98/1305)
+  Cl* NGC 346 ELS = Evans et al. (2006A&A...456..623E, Cat. J/A+A/546/623)
+  Lin             = Lindsay (1961AJ.....66..169L)
+  [MA93]          = Meyssonnier & Azzopardi (1993A&AS..102..451M,
+                     Cat. J/A+A/102/451)
+  Sk              = Sanduleak (1968AJ.....73..246S, 1969AJ.....74..877S)
+  [SBV2013]       = Sheets et al. (2013ApJ...771..111S, Cat. J/ApJ/771/111)
+  2dFS            = Evans et al. (2004MNRAS.353..601E, Cat. J/MNRAS/353/601)
+Note (4): From Shenar et al. (2024A&A...690A.289S, Cat. J/A+A/690/A289)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     Ref       Reference code
+   7- 25  A19   ---     BibCode   BibCode
+  27- 52  A26   ---     Aut       Author's name
+  56- 72  A17   ---     Com       Comments
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+     Paul Crowther, Paul.crowther(at)sheffield.ac.uk
+
+================================================================================
+(End)     Paul Crowther [Sheffield univ.], Patricia Vannier [CDS]    03-Dec-2025

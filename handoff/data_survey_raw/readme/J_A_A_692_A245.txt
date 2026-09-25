@@ -1,0 +1,116 @@
+J/A+A/692/A245      Hot massive stars parameters           (Serebriakova+, 2024)
+================================================================================
+The ESO UVES/FEROS Large Programs of TESS OB pulsators.
+II. The physical origin of macroturbulence.
+    Serebriakova N., Tkachenko A., Aerts C.
+    <Astron. Astrophys. 692, A245 (2024)>
+    =2024A&A...692A.245S        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Milky Way ; Magellanic Clouds ; Stars, early-type ;
+              Effective temperatures ; Rotational velocities
+
+Keywords: stars: fundamental parameters - stars: massive - stars: early-type -
+          stars: oscillations - techniques: spectroscopic
+
+Abstract:
+    Spectral lines of hot massive stars are known to exhibit large excess
+    broadening in addition to rotational broadening. This excess
+    broadening is often attributed to macroturbulence, whose physical
+    origin is a matter of active debate in the stellar astrophysics
+    community.
+
+    We aim to shed light on the physical origin of macroturbulent line
+    broadening by looking into the statistical properties of a large
+    sample of O- and B-type stars both in the Galaxy and the Large
+    Magellanic Cloud (LMC).
+
+    We deliver newly measured macroturbulent velocities for 86 stars from
+    the Galaxy in a consistent manner with 126 stars from the LMC. We
+    composed a total sample of 594 stars with measured macroturbulent
+    velocities by complementing our sample with archival data for the
+    Galactic O- and B-type stars in order to gain better coverage of the
+    parameter space. Furthermore, we computed an extensive grid of MESA
+    models to compare, in a statistical manner, the predicted interior
+    properties of stars (such as convection and wave propagation) with the
+    inference of macroturbulent velocities from high-resolution
+    spectroscopic observations.
+
+    We find evidence for subsurface convective zones that formed in the
+    iron opacity bump (FeCZ) being connected to observed macroturbulent
+    velocities in hot massive stars. Additionally, we find the presence of
+    two principally different regimes where, depending on the initial
+    stellar mass, different mechanisms may be responsible for the observed
+    excess line broadening.
+
+    Stars with initial masses above 30M_{sun}_ exhibit macroturbulent
+    velocities that are in line with FeCZ properties, as indicated by the
+    trends in both observations and models. For stars below 12M_{sun}_,
+    alternative mechanisms are needed to explain macroturbulent
+    broadening, such as internal gravity waves (IGWs). Finally, in the
+    intermediate range between 12 and 30M_{sun}_, IGWs tunnelling through
+    subsurface convective layers combined with the presence of FeCZ-driven
+    convection suggests that both processes could contribute to the
+    observed macroturbulent velocities. This intermediate regime presents
+    a region where the interplay between these two (or more) mechanisms
+    remains to be fully understood.
+
+Description:
+    This catalog contains data (atmospheric parameters and line
+    broadening) from a study of macroturbulent velocities in hot massive
+    stars. The sample includes 210 stars, consisting of 124 stars from the
+    LMC and 86 stars from the Galaxy.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table.dat         92      210  *Relevant parameters of the sample
+--------------------------------------------------------------------------------
+Note on table.dat: Data for the LMC stars are adopted from Serebriakova et al.,
+  2023A&A...676A..85S (tables published in the paper, not deposited in CDS).
+--------------------------------------------------------------------------------
+
+See also:
+   J/A+A/665/A36 : FEROS spectroscopy of B-type stars (Gebruers+, 2022)
+
+Byte-by-byte Description of file: table.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label         Explanations
+--------------------------------------------------------------------------------
+   1- 23  A23   ---       Name          Object name
+  25- 29  I5    K         Teff          Effective temperature (rounded) (1)
+  31- 34  I4    K       e_Teff          Error in effective temperature (1)
+  36- 39  F4.2  [cm/s2]   logg          Log10 Surface gravity (1)
+  41- 44  F4.2  [cm/s2] e_logg          Error in logg (1)
+  46- 50  F5.1  km/s      Vsini-sp      Projected rotational velocity (1) (2)
+  52- 55  F4.1  km/s    e_Vsini-sp      Error in Vsini-sp (1)
+  57- 61  F5.1  km/s      Vsini-fourier ?=- Projected rotational velocity
+                                         (Fourier) (3)
+  63- 66  F4.1  km/s    e_Vsini-fourier ?=- Error in Vsini-fourier
+  68- 72  F5.1  km/s      Vmacro        ?=- Macroturbulent velocity
+  74- 78  F5.1  km/s    e_Vmacro        ?=- Error in Vmacro
+  80- 83  F4.2  [K4/g]    Ls            Log10 Spectroscopic luminosity Teff^4/g
+  85- 88  F4.2  [K4/g]  e_Ls            Error in Ls
+  90- 92  A3    ---       Samp          Sample (4)
+--------------------------------------------------------------------------------
+Note (1): Teff, logg and Vsini_sp for the 86 Galactic stars are adopted
+ from Gebruers et al., 2022A&A...665A..36G, Cat. J/A+A/665/A36.
+Note (2): Vsini-sp is the projected rotational velocity derived while fitting
+ spectra to determine atmospheric parameters.
+Note (3): Vsini-fourier is the projected rotational velocity derived from the
+ position of the first zero in the Fourier transform of line profiles.
+Note (4): Sample as follows:
+ S23 = subsample from Serebriakova et al., 2023A&A...676A..85S
+ G22 = subsample of Gebruers et al., 2022A&A...665A..36G, Cat. J/A+A/665/A36,
+ with newly measured Vmacro and Vsini_fourier values. See our paper for details.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+   Nadya Serebriakova, nadya.serebriakova(at)kuleuven.be
+
+References:
+   Serebriakova et al., Paper I    2023A&A...676A..85S
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  27-Oct-2024

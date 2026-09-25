@@ -1,0 +1,168 @@
+J/A+A/698/A253      beta Cep star mode identification        (Fritzewski+, 2025)
+================================================================================
+Mode identification and ensemble asteroseismology of 119 beta Cep stars detected
+by Gaia light curves and monitored by TESS.
+    Fritzewski D.J., Vanrespaille M., Aerts C., Gus Z., Hey D., De Ridder J.
+    <Astron. Astrophys. 698, A253 (2025)>
+    =2025A&A...698A.253F        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, OB ; Stars, variable ; Stars, fundamental ; Photometry ;
+              Optical ; Asteroseismology
+Keywords: asteroseismology - stars: evolution - stars: interiors -
+          stars: massive - stars: oscillations - stars: rotation
+
+Abstract:
+    The Gaia mission detected many new candidate beta Cephei (beta Cep)
+    pulsators, whose variability classification has since been confirmed
+    from Transiting Exoplanet Survey Satellite (TESS) space photometry of
+    the nominal mission. We aim to analyse all currently available TESS
+    data for these beta Cep pulsators, of which 145 are new discoveries,
+    in order to exploit their asteroseismic potential. Although they are
+    of critical importance to improve evolution models of massive stars,
+    beta Cep stars are under-represented in the current space photometry
+    revolution.
+
+    We extracted light curves for 216 stars from the TESS full-frame
+    images and performed a frequency analysis by means of pre-whitening.
+    Based on Gaia Data Release 3, we deduced the stellar properties and
+    compared them to those of known beta Cep stars from the literature. We
+    developed a methodology for identifying the dominant pulsation modes
+    of the beta Cep stars from the detection of rotationally split
+    multiplets and Gaia and TESS amplitude ratios. We used grid modelling
+    to gain insights into the population of beta Cep stars.
+
+    Combining TESS and Gaia, we successfully identified the mode degrees
+    for 148 stars in our sample. We find the majority to have a dominant
+    dipole non-radial mode. Many non-radial modes show splittings in their
+    TESS frequency spectra, which we used to calculate their envelope
+    rotation, spin parameter, and the level of differential
+    envelope-to-surface rotation. For the last, we find an upper limit of
+    about 3. We also provide relative frequency asymmetries within the
+    multiplets, ranging from -0.15 to 0.15 with most being positive. Based
+    on grid modelling, we provide mass, convective core mass, and age
+    distributions for 119 stars.
+
+    Our sample enables asteroseismology of beta Cep pulsators as a
+    population. Our study prepares for future detailed mod- elling based
+    on individual frequencies of identified modes leading towards a better
+    understanding of these massive pulsators.
+
+Description:
+    Table 1: Observational properties of beta Cephei stars observed with
+    Gaia and TESS. It includes the main frequencies, classification of the
+    light curves, amplitude ratios, and the derived mode degrees.
+
+    Table 2: Asteroseismic model results for the subset of stars with
+    identified modes. We provide the masses, normalised core hydrogen
+    fraction, age, and relative core masses.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat       205      219   Observational properties of beta Cephei stars
+                                 observed with Gaia and TESS
+table2.dat       124      119   Asteroseismic model results for the subset of
+                                 stars with identified modes
+--------------------------------------------------------------------------------
+
+See also:
+   IV/39 : TESS Input Catalog version 8.2 (TIC v8.2) (Paegert+, 2021)
+   I/355 : Gaia DR3 Part 1. Main source (Gaia Collaboration, 2022)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label      Explanations
+--------------------------------------------------------------------------------
+   1- 10  I10   ---     TIC        TESS input catalog ID (Cat. IV/39)
+  12- 30  I19   ---     GaiaDR3    Gaia DR3 source_id (Cat. I/355)
+  32- 40  A9    ---     Name       Simbad Main identifier
+  42- 50  F9.5  deg     RAdeg      Right ascension from Gaia DR3 (ICRS)
+                                    at Ep=2016.0 (Cat. I/355)
+  52- 60  F9.5  deg     DEdeg      Declination from Gaia DR3 (ICRS)
+                                    at Ep=2016.0 (Cat. I/355)
+  62- 66  F5.2  mag     Gmag       G magnitude from Gaia DR3 (Cat. I/355)
+  68- 72  F5.2  [K]     logTeff    ? log of Gaia ESP-HS effective temperature
+                                    from Gaia DR3 astrophysical_parameters
+  74- 78  F5.2  [Lsun]  logL       ? log luminosity
+  80- 82  A3    ---   r_logL       Reference (1)
+  84- 88  F5.2  d-1     frotsini   ? rotation frequency times sin i
+  90- 94  F5.2  d-1   e_frotsini   ? Uncertainty of frot_sini
+  96-103  F8.5  d-1     f1         ? Main frequency in TESS
+ 105-112  F8.5  d-1     fGaia      Main frequency in Gaia
+ 114-121  F8.5  d-1     fTESS      ? Frequncy of zonal mode
+ 123-128  A6    ---     LCtype     Classification of the light curve (2)
+ 130-135  F6.2  d       Pbeat      ? Beating period between two main frequencies
+                                    in TESS data
+ 137-141  F5.2  ---     Avar       ? Amplitude variability (Eq 2)
+ 143-146  F4.2  ---     aG/aBP     Amplitude ratio of main frequency in Gaia G
+                                    band light curve relative to Gaia BP band
+                                    light curve
+ 148-151  F4.2  ---   e_aG/aBP     Uncertainty of G band to BP band amplitude
+                                    ratio
+ 153-156  F4.2  ---     aR/aBP     Amplitude ratio of main frequency in Gaia RP
+                                    band light curve relative to Gaia BP band
+                                    light curve
+ 158-161  F4.2  ---   e_aR/aBP     Uncertainty of RP band to BP band amplitude
+                                    ratio
+ 163-167  F5.2  ---     aT/B       ? Amplitude ratio of main frequency in TESS
+                                    light curve relative to Gaia BP band
+                                    light curve
+ 169-173  F5.2  ---   e_aT/B       ? Uncertainty of TESS band to BP band
+                                    amplitude ratio
+     175  I1    ---     l          ? Degree of Gaia detected pulsation mode
+ 177-181  F5.2  ---     p0         ? Probability of l=0
+ 183-187  F5.2  ---     p1         ? Probability of l=1
+ 189-193  F5.2  ---     p2         ? Probability of l=2
+ 195-199  F5.2  d-1     splitting  ? Strength of rotational splitting
+ 201-205  F5.2  ---     asymmetry  ? Relative asymmetry in split multiplet
+--------------------------------------------------------------------------------
+Note (1): Reference as follows:
+   1 = Stankov & Handler (2005ApJS..158..193S, Cat. J/ApJS/158/193)
+   2 = Pigulski & Pojmanski (2008A&A...477..907P, Cat. J/A+A/477/907)
+   3 = Labadie-Bartz et al. (2020AJ....160...32L, Cat. J/AJ/160/32)
+   4 = Shi et al. (2024ApJS..271...28S, Cat. J/ApJS/271/28)
+   5 = Eze & Handler (2024ApJS..272...25E)
+Note (2): The following classes are distinguished:
+   mono   = (Nearly) mono-periodic stars
+   multi  = Clear multi-periodic stars with beating patterns in their
+             light curves
+   hybrid = Hybrid pulsators between beta Cep and SPB stars
+   diff   = Light curves that cannot be associated with the other classes
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  I10   ---     TIC       TESS input catalog ID (Cat. IV/39)
+  12- 30  I19   ---     GaiaDR3   Gaia DR3 source_id (Cat. I/355)
+  32- 40  A9    ---     Name      Simbad Main identifier
+  42- 50  F9.5  deg     RAdeg     Right ascension from Gaia DR3 (ICRS)
+                                   at Ep=2016.0 (Cat. I/355)
+  52- 60  F9.5  deg     DEdeg     Declination from Gaia DR3 (ICRS)
+                                   at Ep=2016.0 (Cat. I/355)
+  62- 65  F4.2  ---     Xpc       Normalised core hydrogen mass fraction
+  67- 70  F4.2  ---   e_Xpc       Lower uncertainty of Xc'
+  72- 75  F4.2  ---   E_Xpc       Upper uncertainty of Xc'
+  77- 81  F5.2  Msun    Mini      Initial mass
+  83- 86  F4.2  Msun  e_Mini      Lower uncertainty of Mini
+  88- 91  F4.2  Msun  E_Mini      Upper uncertainty of Mini
+  93- 96  F4.2  [yr]    logAge    Log age
+  98-101  F4.2  [yr]  e_logAge    Lower uncertainty of logAge
+ 103-106  F4.2  [yr]  E_logAge    Upper uncertainty of logAge
+ 108-112  F5.3  ---     Mcore/M   Convetive core mass relative to initial mass
+ 114-118  F5.3  ---   e_Mcore/M   Lower uncertainty of Mcore/M
+ 120-124  F5.3  ---   E_Mcore/M   Upper uncertainty of Mcore/M
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Dario Fritzewski, dario.fritzewski(at)kuleuven.be
+
+References:
+     Gaia Collaboration, 2023A&A...674A..36G,
+       Gaia Data Release 3 Pulsations in main sequence OBAF-type stars.
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  16-Apr-2025

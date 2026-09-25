@@ -1,0 +1,428 @@
+J/A+A/695/A198 X-Shooting ULLYSES XI. OB stars in LMC, SMC (Bestenlehner+, 2025)
+================================================================================
+X-Shooting ULLYSES: Massive stars at low metallicity.
+XI. Pipeline-determined physical properties of Magellanic Cloud OB stars.
+    Bestenlehner J.M., Crowther Paul A., Hawcroft C., Sana H., Tramper F.,
+    Vink J.S., Brands S.A., Sander A.A.C., the XShootU collaboration
+    <Astron. Astrophys. 695, A198 (2025)>
+    =2025A&A...695A.198B        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Magellanic Clouds ; Stars, OB ; MK spectral classification ;
+              Effective temperatures ; Radial velocities ; Stars, masses
+Keywords: stars: atmospheres - stars: early-type - stars: massive -
+          stars: mass-loss - stars: winds, outflows
+
+Abstract:
+    The proximity and low dust extinction of the Magellanic Clouds
+    provides an ideal environment for metal-poor massive stars to be
+    studied in detail. The Hubble Space Telescope ULLYSES initiative has
+    provided exquisite ultraviolet spectroscopy of a large sample of OB
+    stars in the Magellanic Clouds, and its legacy value has been enhanced
+    through the acquisition of optical VLT/XShooter spectroscopy
+    (XShootU).
+
+    We aim to determine the spectral types and physical properties of 122
+    LMC and 103 SMC OB stars observed via XShootU. Physical parameters are
+    required for these to serve as templates in spectral libraries of
+    metal-poor massive stars. We also aim to identify double-lined
+    binaries and OeBe stars for which analysis requires non- standard
+    treatment.
+
+    We have applied a pipeline designed to analyse large spectroscopic
+    samples of hot luminous stars to XShootU spectroscopic datasets,
+    together with grids of synthetic model spectra computed with the
+    non-Local Thermodynamic Equilibrium atmospheric code FASTWIND at LMC
+    and SMC metallicities.
+
+    We have determined physical and wind properties of 97 LMC and 77 SMC
+    massive stars, ranging from O2 to B9 subtypes, representing the
+    majority of the XShootU OB sample (OeBe and candidate SB2 systems are
+    excluded). Results are broadly in agreement with previous optical
+    spectroscopic studies, with evolutionary masses spanning 12-117M_{sun}_
+    in the LMC and 11-74M_{sun}_ in the SMC. We have determined a revised
+    Teff - spectral type calibration for Magellanic Cloud stars,
+    identified stars with peculiar radial velocities, and compared wind
+    properties of high luminosity O stars with dense winds, revealing
+    ~0.27dex higher wind momenta of LMC stars with respect to SMC
+    counterparts. Incorporating the recent empirical metallicity
+    dependence of Z^0.22^ for wind velocities, this suggests a mass-loss
+    dependence of Z^0.5^ for luminous O stars. Studies incorporating
+    ultraviolet mass-loss diagnostics are required for OB stars with weak
+    winds and/or low luminosities.
+
+Description:
+    Tables A1 and A2.
+    Physical parameters of XshootU single+SB1 targets in the SMC and LMC,
+    ordered in spectral type. Results include ionizing photons predicted
+    below 912 Angstrom (Q_H_) and 504 Angstrom (Q_HeI_) edges, but
+    negligible emission is predicted below the ionized helium limit at 228
+    Angstrom. Physical quantities shown in parentheses are not considered
+    reliable. Solely spectral type information is provided for ULLYSES
+    archival VLT/Xshooter targets.
+
+    Tables A3 and A4.
+    XShootU stars excluded from analysis (binarity, OeBe star, or a
+    Wolf-Rayet star), sorted by (new) spectral type.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablea1.dat      477       79   Physical parameters of single+SB1 targets
+                                 in the SMC
+tablea2.dat      494      102   Physical parameters of single+SB1 targets
+                                 in the LMC
+tablea3.dat      160       27   Excluded SMC targets
+tablea4.dat      160       30   Excluded LMC targets
+refs.dat          69       72   References
+--------------------------------------------------------------------------------
+
+See also:
+   J/A+A/675/A154 : X-Shooting ULLYSES. I. Project Description (Vink+, 2023)
+   J/A+A/688/A104 : X-Shooting ULLYSES. II. Data Release 1 (Sana+, 2024)
+
+Byte-by-byte Description of file: tablea1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label      Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h        RAh        Right ascension (J2000)
+   4-  5  I2    min      RAm        Right ascension (J2000)
+   7- 13  F7.4  s        RAs        Right ascension (J2000)
+      16  A1    ---      DE-        Declination sign (J2000)
+  17- 18  I2    deg      DEd        Declination (J2000)
+  20- 21  I2    arcmin   DEm        Declination (J2000)
+  23- 29  F7.4  arcsec   DEs        Declination (J2000)
+  32- 67  A36   ---      Alias      Target name and alias
+  69- 83  A15   ---      SpTypelit  Spectral type from literature
+  85- 89  A5    ---    r_SpTypelit  Reference to literature spectral type,
+                                     in refs.dat file
+  91-110  A20   ---      SpTypenew  New/updated spectral type
+ 112-114  I3    km/s     RV         ? Radial velocity
+ 116-120  F5.1  kK       Teff       ? Effective temperature
+ 122-126  F5.1  kK     E_Teff       ? Error of Teff (upper value)
+ 128-132  F5.1  kK     e_Teff       []? Error of Teff (lower value)
+ 134-137  F4.2 [cm/s2]   logg       ? Surface gravity 
+     138  A1    ---    f_logg       [)] Note on logg (G2)
+ 141-145  F5.2 [cm/s2] E_logg       ? Error on logg (upper value)
+     146  A1    ---  f_E_logg       [)] Note on E_logg (G2)
+ 149-153  F5.2 [cm/s2] e_logg       []? Error on logg (lower value)
+     154  A1    ---  f_e_logg       [)] Note on e_logg (G2)
+ 157-160  F4.1  Rsun     Rstar      ? Stellar radius 
+     161  A1    ---    f_Rstar      [)] Note on Rstar (G2)
+ 164-168  F5.1  Rsun   E_Rstar      ? Error on Rstar (upper value)
+     169  A1    ---  f_E_Rstar      [)] Note on E_Rstar (G2)
+ 172-175  F4.1  Rsun   e_Rstar      []? Error on Rstar (lower value)
+     176  A1    ---  f_e_Rstar      [)] Note on e_Rstar (G2)
+ 179-182  F4.2 [Lsun]    logL       ? Luminosity 
+     183  A1    ---    f_logL       [)] Note on logL (G2)
+ 186-190  F5.2 [Lsun]  E_logL       ? Error on logL (upper value)
+     191  A1    ---  f_E_logL       [)] Note on E_logL (G2)
+ 194-198  F5.2 [Lsun]  e_logL       []? Error on logL (lower value)
+     199  A1    ---  f_e_logL       [)] Note on e_logL (G2)
+ 202-206  F5.2  ---      Y          ? He abundances in mass fraction
+ 208-212  F5.2  ---    E_Y          ? Error on Y (upper value)
+ 214-218  F5.2  ---    e_Y          []? Error on Y (lower value)
+ 220-223  F4.1  ---      N          ? N abundances: log(N/H)+12
+ 225-228  A4    ---    E_N          ? Error on N (upper value)
+ 230-233  F4.1  ---    e_N          []? Error on N (lower value)
+ 235-237  I3    km/s     vsini      ? Projected rotational velocities
+ 239-241  I3    km/s   E_vsini      ? Error on ve_sin_i (upper value)
+ 243-245  I3    km/s   e_vsini      []? Error on ve_sin_i (lower value)
+ 247-250  F4.1  [s-1]    logQH       ? Predicted ionizing photons below 912{AA}
+     251  A1    ---    f_logQH      [)] Note on logQH (G2)
+ 254-257  F4.1  [s-1]    logQHeI    ? Predicted ionizing photons below 504{AA}
+     258  A1    ---    f_logQHeI    [)] Note on logQHeI (G2)
+ 261-283  A23   ---      Note1      Notes (G3)
+ 285-288  F4.2 [cm/s2]   loggc      ? Corrected gravity from centrifugal force
+     289  A1    ---    f_loggc      [)] Note on loggc (G2)
+ 292-295  F4.2 [cm/s2] E_loggc      ? Error on logg_c (upper value)
+     296  A1    ---  f_E_loggc      [)] Note on E_loggc (G2)
+ 299-303  F5.2 [cm/s2] e_loggc      []? Error on logg_c (lower value)
+     304  A1    ---  f_e_loggc      [)] Note on e_loggc (G2)
+ 306-310  F5.1  Msun     Mspec      ? Spectroscopic stellar mass (G4)
+     311  A1    ---    f_Mspec      [)] Note on Mspec (G2)
+ 313-319  F7.1  Msun   E_Mspec      ? Error on Mspec (upper value) (G4)
+     320  A1    ---  f_E_Mspec      [)] Note on E_Mspec (G2)
+ 323-328  F6.1  Msun   e_Mspec      []? Error on Mspec (lower value) (G4)
+     329  A1    ---  f_e_Mspec      [)] Note on e_Mspec (G2)
+ 334-337  F4.1  Msun     Mevol      ? Evolutionary stellar mass (G5)
+     338  A1    ---    f_Mevol      Note on Mevol (G5)
+ 339-342  F4.1  Msun   E_Mevol      ? Error on Mevol (upper value) (G5)
+     343  A1    ---  f_E_Mevol      Note on E_Mevol (G5)
+ 345-349  F5.1  Msun   e_Mevol      []? Error on Mevol (lower value) (G5)
+     350  A1    ---  f_e_Mevol      Not on e_Mevol (G5)
+ 352-355  F4.1  Msun     Minit      ? Initial stellar mass (G5)
+     356  A1    ---    f_Minit      Note on Minit (G5)
+ 357-360  F4.1  Msun   E_Minit      ? Error on Minit (upper value) (G5)
+     361  A1    ---  f_E_Minit      Note on E_Minit (G5)
+ 363-367  F5.1  Msun   e_Minit      []? Error on Minit (lower value) (G5)
+     368  A1    ---  f_e_Minit      Note on e_Minit (G5)
+ 369-372  F4.1  Myr        Age      ? Stellar age (G5)
+     373  A1    ---      f_Age      Note on Age
+ 374-377  F4.1  Myr      E_Age      ? Error on Age (upper value) (G5)
+     378  A1    ---    f_E_Age      Note on E_Age
+ 381-384  F4.1  Myr      e_Age      []? Error on Age (lower value) (G5)
+     385  A1    ---    f_e_Age      Note on e_Age
+ 386-390  F5.1  ---        logQ     ? Wind strength parameter Q, in
+                                     Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units (G6)
+     391  A1    ---      f_logQ     [)] Note on logQ (G6)
+ 394-397  F4.1  ---      E_logQ     ? Error on logQ (upper value), in
+                                     Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units (G6)
+     398  A1    ---    f_E_logQ     [)] Note on E_logQ (G6)
+ 401-404  F4.1  ---      e_logQ     []? Error on logQ (lower value), in
+                                     Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units (G6)
+     405  A1    ---    f_e_logQ     [)] Note on e_logQ (G6)
+ 408-411  I4    km/s       vinfty   ? Terminal velocity
+ 413-415  I3    km/s     e_vinfty   []?  Error on vinfty
+ 417-421  A5    ---        Line     Line used to determine vinfty (G7)
+     423  A1    ---       rLine     Reference for vinfty (G8)
+ 425-430  F6.2 [Msun/yr]   logMdot  ? Mass-loss rate (G6)
+     431  A1    ---      f_logMdot  [)] Note on logMdot (G6)
+ 433-436  F4.2 [Msun/yr] E_logMdot  ? Error on logMdot (upper value) (G6)
+     437  A1    ---    f_E_logMdot  [)] Note on E_logMdot (G6)
+ 440-444  F5.2 [Msun/yr] e_logMdot  []? Error on logMdot (lower value) (G6)
+     445  A1    ---    f_e_logMdot  [)] Note on e_logMdot (G6)
+ 448-452  F5.2 [g.cm/s2]   logDmom  ? Reduced wind momentum (G6)
+     453  A1    ---      f_logDmom  [)] Note on logDmom (G6)
+ 456-459  F4.2 [g.cm/s2] E_logDmom  ? Error on logDmom (upper value) (G6)
+     460  A1    ---    f_E_logDmom  [)] Note on E_logDmom  (G6)
+ 463-467  F5.2 [g.cm/s2] e_logDmom  []? Error on logDmom (lower value) (G6)
+     468  A1    ---    f_e_logDmom  [)] Note on e_logDmom (G6)
+ 471-475  F5.2  mag        AV       ? Total extinction
+     477  I1    ---        Note2    ? Notes (G9)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units      Label      Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h          RAh        Right ascension (J2000)
+   4-  5  I2    min        RAm        Right ascension (J2000)
+   7- 13  F7.4  s          RAs        Right ascension (J2000)
+      16  A1    ---        DE-        Declination sign (J2000)
+  17- 18  I2    deg        DEd        Declination (J2000)
+  20- 21  I2    arcmin     DEm        Declination (J2000)
+  23- 29  F7.4  arcsec     DEs        Declination (J2000)
+  32- 75  A44   ---        Alias      Target name and alias
+  77- 98  A22   ---        SpTypelit  Spectral type from literature
+ 100-104  A5    ---      r_SpTypelit  Reference to literature spectral type,
+                                       in refs.dat files
+ 106-126  A21   ---        SpTypenew  New/updated spectral type
+ 128-130  I3    km/s       RV         ? Radial velocity
+ 132-135  F4.1  kK         Teff       ? Effective temperature
+     136  A1    ---      f_Teff       [)] Note on Teff (G2)
+ 139-142  F4.1  kK       E_Teff       ? Error of Teff (upper value)
+     143  A1    ---    f_E_Teff       [)] Note on E_Teff (G2)
+ 145-149  F5.1  kK       e_Teff       []? Error of Teff (lower value)
+     150  A1    ---    f_e_Teff       [)] Note on e_Teff (G2)
+ 152-155  F4.2 [cm/s2]     logg       ? Surface gravity (G2)
+     156  A1    ---      f_logg       [)] Note on logg (G2)
+ 158-162  F5.2 [cm/s2]   E_logg       ? Error on logg (upper value)
+     163  A1    ---    f_E_logg       [)] Note on E_logg (G2)
+ 166-170  F5.2 [cm/s2]   e_logg       []? Error on logg (lower value)
+     171  A1    ---    f_e_logg       [)] Note on e_logg (G2)
+ 174-178  F5.1  Rsun       Rstar      ? Stellar radius (G2)
+     179  A1    ---      f_Rstar      [)] Note on Rstar (G2)
+ 181-185  F5.1  Rsun     E_Rstar      ? Error on Rstar (upper value) (G2)
+     186  A1    ---    f_E_Rstar      [)] Note on E_Rstar (G2)
+ 188-192  F5.1  Rsun     e_Rstar      []?  Error on Rstar (lower value) (G2)
+     193  A1    ---    f_e_Rstar      [)] Note on e_Rstar (G2)
+ 195-198  F4.2 [Lsun]      logL       ? Luminosity (G2)
+     199  A1    ---      f_logL       [)] Note on logL (G2)
+ 201-205  F5.2 [Lsun]    E_logL       ? Error on logL (upper value) (G2)
+     206  A1    ---    f_E_logL       [)] Note on E_logL (G2)
+ 209-213  F5.2 [Lsun]    e_logL       []?  Error on logL (lower value) (G2)
+     214  A1    ---    f_e_logL       [)] Note on e_logL (G2)
+ 217-220  F4.2  ---        Y          ? He abundances in mass fraction
+     221  A1    ---      f_Y          [)] Note on Y (G2)
+ 223-227  F5.2  ---      E_Y          ? Error on Y (upper value)
+     228  A1    ---    f_E_Y          [)] Note on E_Y (G2)
+ 231-235  F5.2  ---      e_Y          []?  Error on Y (lower value)
+     236  A1    ---    f_e_Y          [)] Note on e_Y (G2)
+ 239-242  F4.1  ---        N          ? N abundances: log(N/H)+12
+ 244-247  F4.1  ---      E_N          ? Error on N (upper value)
+ 249-252  F4.1  ---      e_N          []? Error on N (lower value)
+ 254-256  I3    km/s       vsini      ? Projected rotational velocities
+ 258-260  I3    km/s     E_vsini      ? Error on ve_sin_i (upper value)
+ 262-264  I3    km/s     e_vsini      []?  Error on ve_sin_i (lower value)
+ 266-269  F4.1  [s-1]      logQH      ? Predicted ionizing photons below 912{AA}
+                                       (G2)
+     270  A1    ---      f_logQH      [)] Note on logQH (G2)
+ 273-276  F4.1  [s-1]      logQHeI    ? Predicted ionizing photons below 504{AA}
+                                       (G2)
+     277  A1    ---      f_logQHeI    [)] Note on logQHeI (G2)
+     279  A1    ---      n_logQHeI    [u]
+ 280-301  A22   ---        Note1      Notes (G3)
+ 303-306  F4.2 [cm/s2]     loggc      ? Corrected gravity from centrifugal force
+                                       (G2)
+     307  A1    ---      f_loggc      [)] Note on loggc (G2)
+ 310-313  F4.2 [cm/s2]   E_loggc      ? Error on logg_c (upper value) (G2)
+     314  A1    ---    f_E_loggc      [)] Note on E_loggc (G2)
+ 317-321  F5.2 [cm/s2]   e_loggc      []? Error on logg_c (lower value) (G2)
+     322  A1    ---    f_e_loggc      [)] Note on e_loggc (G2)
+ 325-329  F5.1  Msun       Mspec      ? Spectroscopic stellar mass (G4)
+     330  A1    ---      f_Mspec      [)] Note on Mspec (G2)
+ 333-338  F6.1  Msun     E_Mspec      ? Error on Mspec (upper value) (G4)
+     339  A1    ---    f_E_Mspec      [)] Note on E_Mspec (G2)
+ 342-347  F6.1  Msun     e_Mspec      []? Error on Mspec (lower value) (G4)
+     348  A1    ---    f_e_Mspec      [)] Note on e_Mspec (G2)
+ 350-354  F5.1  Msun       Mevol      ? Evolutionary stellar mass (G5)
+     355  A1    ---      f_Mevol      Note on Mevol (G5)
+ 356-359  F4.1  Msun     E_Mevol      ? Error on Mevol (upper value) (G5)
+     360  A1    ---    f_E_Mevol      Note on E_Mevol (G5)
+ 362-366  F5.1  Msun     e_Mevol      []? Error on Mevol (lower value) (G5)
+     367  A1    ---    f_e_Mevol      Note on e_Mevol (G5)
+ 368-372  F5.1  Msun       Minit      ? Initial stellar mass (G5)
+     373  A1    ---      f_Minit      Note on Minit (G5)
+ 374-377  F4.1  Msun     E_Minit      ? Error on Minit (upper value) (G5)
+     378  A1    ---    f_E_Minit      Note on E_Minit (G5)
+ 379-383  F5.1  Msun     e_Minit      []? Error on Minit (lower value) (G5)
+     384  A1    ---    f_e_Minit      Note on e_Minit (G5)
+ 385-388  F4.1  Myr        Age        ? Stellar age (G5)
+     389  A1    ---      f_Age        Note on Age (G5)
+ 391-393  F3.1  Myr      E_Age        ? Error on Age (upper value) (G5)
+     394  A1    ---    f_E_Age        Note on E_Age (G5)
+ 397-400  F4.1  Myr      e_Age        []? Error on Age (lower value) (G5)
+     401  A1    ---    f_e_Age        Note on e_Age (G5)
+ 402-406  F5.1  ---        logQ       ? Wind strength parameter Q, in
+                                       Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units
+                                       (G6)
+     407  A1    ---      f_logQ       [)] Note on logQ (G6)
+ 410-413  F4.1  ---      E_logQ       ? Error on logQ (upper value), in
+                                       Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units
+                                       (G6)
+     414  A1    ---    f_E_logQ       [)] Note on E_logQ (G6)
+ 417-420  F4.1  ---      e_logQ       []? Error on logQ (lower value), in
+                                       Msun/yr/Rsun^3/2^.km^-3/2^.s^3/2 units
+                                       (G6)
+     421  A1    ---    f_e_logQ       [)] Note on e_logQ (G6)
+ 424-427  I4    km/s       vinfty     ? Terminal velocity
+ 429-431  I3    km/s     e_vinfty     ? Error on vinfty
+ 433-437  A5    ---        Line       Line used to determine v_infty (G7)
+     439  A1    ---       rLine       Reference for vinfty (G8)
+ 441-446  F6.2 [Msun/yr]   logMdot    ? Mass-loss rate (G6)
+     447  A1    ---      f_logMdot    [)] Note on logMdot (G6)
+ 450-453  F4.2 [Msun/yr] E_logMdot    ? Error on logMdot (upper value) (G6)
+     454  A1    ---    f_E_logMdot    [)] Note on E_logMdot (G6)
+ 456-460  F5.2 [Msun/yr] e_logMdot    []? Error on logMdot (lower value) (G6)
+     461  A1    ---    f_e_logMdot    [)] Note on e_logMdot (G6)
+ 464-468  F5.2 [g.cm/2]    logDmom    ? Reduced wind momentum (G6)
+     469  A1    ---      f_logDmom    [)] Note on logDmom (G6)
+ 472-475  F4.2 [g.cm/2]  E_logDmom    ? Error on logDmom (upper value) (G6)
+     476  A1    ---    f_E_logDmom    [)] Note on E_logDmom (G6)
+ 479-483  F5.2 [g.cm/2]  e_logDmom    []? Error on logDmom (lower value) (G6)
+     484  A1    ---    f_e_logDmom    [)] Note on e_logDmom (G6)
+ 488-492  F5.2  mag        AV         ? Total extinction
+     494  I1    ---        Note2      ? Notes (G9)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea3.dat tablea4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h       RAh       Right ascension (J2000)
+   4-  5  I2    min     RAm       Right ascension (J2000)
+   7- 13  F7.4  s       RAs       Right ascension (J2000)
+      16  A1    ---     DE-       Declination sign (J2000)
+  17- 18  I2    deg     DEd       Declination (J2000)
+  20- 21  I2    arcmin  DEm       Declination (J2000)
+  23- 29  F7.4  arcsec  DEs       Declination (J2000)
+  32- 80  A49   ---     Alias     Target name and alias
+  81-101  A21   ---     SpTypelit Spectral type from literature (G10)
+ 103-108  A6    ---   r_SpTypelit Reference to literature spectral type,
+                                   in refs.dat file
+ 110-134  A25   ---     SpTypenew ? New/updated spectral type
+ 136-143  A8    ---     Note      ? Notes (G10)
+ 145-160  A16   ---   r_Note      ? Reference for Note, in refs.dat file
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G2): Note as follows:
+    ) = Physical quantities not considered reliable.
+Note (G3): Notes as follows:
+    a = Temperature too hot. NV reproduced, NIV too weak and NIII not matched
+    b = Strong HeI suggesting SB2?
+    c = Poor fit - clumped model required
+    d = Strong nebular lines, resulting in poor fit
+    e = logQ overestimated due to strong nebular H{alpha}
+    f = Wings of H{alpha} in emission but not fitted. v_e_sini underestimated
+    g = SiIII too strong
+    h = SiIII too strong, emission in wings of H{alpha}, H{beta}, H{delta}
+    i = Poor normalisation: lower T_eff_
+    j = NV too strong, T_eff_ too high
+    k = T_eff_ too low due to presence of HeI (crowded region, contamination?)
+    l = Data reduction issue with CIV. Broad NIV} {lambda}7116 complex
+    m = T_eff_ too low since NV too weak, strong nebular contamination:
+         He abundances too low, Clumped model needed. SB2
+         (Pollock et al. submitted)
+    n = T_eff_ too high, NV too strong, NIII too weak
+    o = T_eff_ too high, HeI not reproduced
+    p = CIV too strong, NIII not reproduced
+    q = T_eff_ too low, NV not reproduced, but HeI-II ok
+    r = T_eff_ too low and logQ to high due to nebular contamination
+    s = Poor normalisation, T_eff_ too high
+    t = T_eff_ too high, NIV too strong and NIII too weak
+    u = T_eff_ too low, very poor normalisation, HeII not reproduced
+    v = H{alpha} not well matched: logQ underestimated
+    w = Spectral energy distribution infers unphysical reddening E(B-V)<=0
+    x = H{alpha} emission wings not reproduced, oddly shaped H{beta}.
+         T_eff_ too low
+Note (G4): Spectroscopic masses are determined from surface gravities adjusted
+    for centrifugal forces, loggc.
+Note (G5): evolutionary masses, initial masses and ages are from BONNSAI (logL,
+    Teff, v_e_sini), applied to Brott et al. (2011A&A...530A.115B) and
+    Kohler et al. (2015A&A...573A..71K) evolutionary models (values with colons
+    exclude ve_sin-i constraint).
+    ] = Masses and ages for late B stars estimated from SMC evolutionary models
+         of Schootemeijer et al. (2019A&A...625A.132S).
+Note (G6): Wind properties are obtained from the wind density parameter Q plus
+    measured wind velocities (terminal velocities). Mass-loss rates adopt a
+    wind clumping factor of 10 (f_v_=0.1), although are insensitive to H{alpha}
+    for low wind densities logQ<-13.2.
+    ) = Quantities shown in parentheses are not considered reliable.
+Note (G7): Measured wind velocities from CIV {lambda}1548{AA},
+    NV {lambda}1238{AA} or SiIV {lambda}1393 {AA}.
+Note (G8): Notes as follows:
+    a = SEI fits (Hawcroft et al. 2024, 2024A&A...688A.105H)
+    b = This study v_infty_ = v_black_ (Prinja et al., 1990ApJ...361..607P)
+    c = This study v_infty_~0.85v_edge_ (Prinja & Crowther, 1998MNRAS.300..828P;
+         Crowther et al., 2016MNRAS.458..624C)
+    d = Using equation 6 from Hawcroft et al. (2024A&A...688A.105H)
+Note (G9): Note as follows:
+    1 = LMC grid adopted.
+    2 = No HST UV spectroscopy.
+Note (G10):
+ a = Initially selected for ULLYSES, but ultimately omitted from the UV
+      spectroscopic programme
+ b = Archival VLT/Xshooter (PI Kalari)
+ c = Excluded from analysis owing to spectral variability between XShootU epochs
+ d = Archival VLT/Xshooter (PI Mehner)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     Ref       Reference code
+   8- 26  A19   ---     BibCode   BibCode
+  28- 52  A25   ---     Aut       Author's name
+  54- 69  A16   ----    Com       Comments
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Joachim Bestenlehner, j.m.bestenlehner@sheffield.ac.uk
+
+References:
+    Vink et al.,          Paper I     2023A&A...675A.154V, Cat. J/A+A/675/A154
+    Sana et al.,          Paper II    2024A&A...688A.104S, Cat. J/A+A/688/A104
+    Hawcroft et al.,      Paper III   2024A&A...688A.105H,
+    Sander et al.,        Paper IV    2024A&A...689A..30S
+    Martins et al.,       Paper V     2024A&A...689A..31M
+    Backs et al.,         Paper VI    2024A&A...692A..88B
+    Bernini-Peron et al., Paper VII   2024A&A...692A..89B
+    Ramachandran  et al., Paper VIII  2024A&A...692A..90R
+    Verhamme et al.,      Paper IX    2024A&A...692A..91V
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  06-Mar-2025

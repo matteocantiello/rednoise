@@ -1,0 +1,127 @@
+J/MNRAS/475/5144    Magnetic early B-type stars. I.          (Shultz+, 2018)
+================================================================================
+The magnetic early B-type stars. I: magnetometry and rotation.
+     Shultz M., Wade G.A., Rivinius Th., Neiner C., Alecian E., Bohlender D.,
+     Monin D., Sikora J., MiMeS collaboration, BinaMIcS collaboration
+    <Mon. Not. R. Astron. Soc. 475, 5144 (2018)>
+    =2018MNRAS.475.5144S        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Magnetic fields ; Stars, early-type ; Stars, Bp ; Stars, B-type ;
+              Rotational velocities
+Keywords: magnetic fields - stars: chemically peculiar - stars: early-type -
+          stars: magnetic field - stars: massive - stars: rotation
+
+Abstract:
+    The rotational and magnetic properties of many magnetic hot stars are
+    poorly characterized, therefore the MiMeS and BinaMIcS collaborations
+    have collected extensive high-dispersion spectropolarimetric datasets
+    of these targets. We present longitudinal magnetic field measurements
+    <B_Z_> for 52 early B-type stars (B5 to B0), with which we attempt to
+    determine their rotational periods Prot. Supplemented with
+    high-resolution spectroscopy, low-resolution DAO circular
+    spectropolarimetry, and archival Hipparcos photometry, we determined
+    Prot for 10 stars, leaving only 5 stars for which Prot could not be
+    determined. Rotational ephemerides for 14 stars were refined via
+    comparison of new to historical magnetic measurements. The
+    distribution of Prot is very similar to that observed for the cooler
+    Ap/Bp stars. We also measured vsini and v_mac_ for all stars.
+    Comparison to non-magnetic stars shows that vsini is much lower for
+    magnetic stars, an expected consequence of magnetic braking. We also
+    find evidence that v_mac_ is lower for magnetic stars. LSD profiles
+    extracted using single-element masks revealed widespread, systematic
+    discrepancies in <B_Z_> between different elements: this effect is
+    apparent only for chemically peculiar stars, suggesting it is a
+    consequence of chemical spots. Sinusoidal fits to H line <B_Z_>
+    measurements (which should be minimally affected by chemical spots),
+    yielded evidence of surface magnetic fields more complex than simple
+    dipoles in 6 stars for which this has not previously been reported;
+    however, in all 6 cases the second- and third-order amplitudes are
+    small relative to the first-order (dipolar) amplitudes.
+
+Description:
+    Longitudinal magnetic field measurements of early B-type stars derived
+    from 1) least-squares deconvolution profiles extracted from
+    high-resolution spectropolarimetric data (ESPaDOnS, Narval, HARPSpol),
+    using masks consisting of metallic lines, metallic + He lines,
+    individual chemical elements, as well as single-line H measurements;
+    and 2) from single-line low-resolution spectropolarimetric
+    observations with dimaPol.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName     Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe           80        .   This file
+table1.dat       94       52   Summary of the sample stars and available
+                                spectropolarimetric, spectroscopic, and
+                                photometric observations
+bz_hr.dat        77     9540   High-resolution longitudinal magnetic field
+                                measurements from ESPaDOnS, Narval, and HARPSpol
+                                for 49 stars
+dao_bz.dat       43      108   Low-resolution longitudinal magnetic field
+                                measurements from dimaPol for 10 stars
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label   Explanations
+--------------------------------------------------------------------------------
+   1-  9  A9    ---    Star    HD name (HDNNNNNNA) or ALS3694
+  12- 24  A13   ---    OName   Other name
+  26- 39  A14   ---    SpType  Spectral type
+  41- 58  A18   ---    Rem     Remarks (1)
+  60- 61  I2    ---    E       ?=- Number of high-dispersion spectropolarimetric
+                                observations obtained with ESPaDOnS
+  63- 64  I2    ---    N       ?=- Number of high-dispersion spectropolarimetric
+                                observations obtained with Narval
+  66- 68  I3    ---    H       ?=- Number of high-dispersion spectropolarimetric
+                                observations obtained with HARPSpol
+  70- 72  I3    ---    T       ?=- Total number of magnetic measurements
+  74- 77  I4    ---    <S/N>   ?=- Mean signal-to-noise ratio (2)
+  79- 80  I2    ---    D       ?=- Number of DAO observations obtained with the
+                                low-dispersion dimaPol spectropolarimeter
+  82- 83  I2    ---    F       ?=- Nnumber of spectroscopic observations
+                                obtained with FEROS
+  85- 87  I3    ---    Hip     ?=- Number of archival Hipparcos photometric
+                                measurements
+  89- 90  A2    ---    BZ      [BZ ] Indicates stars with data in bz_hr.dat file
+  92- 94  A3    ---    DAO     [DAO ] Indicates stars with data in dao_bz.dat
+                                file
+--------------------------------------------------------------------------------
+Note (1): Remarks indicate the type of chemical peculiarity (He-strong or
+  He-weak), the star's binary status (SB1/2/3), and/or pulsational variability
+  (beta Cep or SPB).
+Note (2): low-S/N observations have been removed and spectral binning has been
+  performed.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: bz_hr.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 9   A9    --      Star      HD name (HDNNNNNNA), except for ALS3694
+  12- 22  A11   --      Inst      Instrument
+  24- 30  A7    --      Mask      Line mask
+  33- 46  F14.6 d       HJD       Heliocentric Julian Date
+  48- 53  I6    gauss   Bz        Longitudinal magnetic field
+  56- 61  I6    gauss e_Bz        Longitudinal magnetic field uncertainty
+  64- 69  I6    gauss   Nz        Null magnetic field
+  72- 77  I6    gauss e_Nz        Null magnetic field uncertainty
+------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: dao_bz.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    --      Star      HD name (HDNNNNNN)
+  10- 17  A8    --      Line      Line from which the instrument was derived
+  19- 29  F11.5 d       HJD       Heliocentric Julian Date (HJD-2400000)
+  32- 36  I5    gauss   Bz        Longitudinal magnetic field
+  39- 43  I5    gauss e_Bz        Longitudinal magnetic field uncertainty
+------------------------------------------------------------------------------
+
+Acknowledgements:
+   Matthew Shultz, matthew.shultz(at)physics.uu.se
+
+================================================================================
+(End)  Matthew Shultz [Uppsala Univ.], Patricia Vannier [CDS]        14-Mar-2018

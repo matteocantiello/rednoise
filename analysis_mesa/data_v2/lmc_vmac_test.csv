@@ -1,0 +1,7 @@
+sample,kind,h,dBIC,slope_below,slope_above,h_lo,h_hi,n,n_below,floor_kms,norm
+MW all,observed,2.960,80.711,-0.175,0.432,2.900,3.100,890,162,,
+MW all,"model (MW v2 grid, v_c,max + floor)",3.680,1288.684,0.060,0.718,3.660,3.720,865,376,27.451,0.939
+"MW, log Teff 3.97-4.53 (LMC range)",observed,2.960,69.041,-0.161,0.436,2.900,3.100,741,162,,
+"MW, log Teff 3.97-4.53 (LMC range)","model (MW v2 grid, v_c,max + floor)",3.660,1058.079,0.086,0.675,3.620,3.680,716,342,25.757,1.006
+LMC all,observed,4.180,-3.860,0.120,-0.187,2.200,4.180,136,96,,
+LMC all,"model (LMC v2 grid, v_c,max + floor)",4.100,213.109,0.078,0.610,4.080,4.160,114,61,29.512,0.504

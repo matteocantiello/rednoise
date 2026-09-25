@@ -1,0 +1,149 @@
+J/A+A/672/A22        Binarity in fast-rotating O-type stars  (Britavskiy+, 2023)
+================================================================================
+The IACOB project. VIII.
+Searching for empirical signatures of binarity in fast-rotating O-type stars.
+    Britavskiy N., Simon-Diaz S., Holgado G., Burssens S., Maiz-Apellaniz J.,
+    Eldridge J.J., Naze Y., Panteloni Gonzalez M., Herrero A.
+    <Astron. Astrophys. 672, A22 (2023)>
+    =2023A&A...672A..22B        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Stars, O ; Rotational velocities ;
+              Spectroscopy ; Radial velocities ; Optical
+Keywords: stars: early-type - stars: rotation - stars: oscillations -
+          stars: fundamental parameters - techniques: spectroscopic -
+          binaries: spectroscopic
+
+Abstract:
+    The empirical distribution of projected rotational velocities (vsini)
+    in massive O-type stars is characterized by a dominant slow velocity
+    component and a tail of fast rotators. Binary interaction has been
+    proposed to play a dominant role in the formation of this tail.
+
+    We perform a complete and homogeneous search for empirical signatures
+    of binarity in a sample of 54 fast-rotating stars with the aim of
+    evaluating this hypothesis. This working sample has been extracted
+    from a larger sample of 415 Galactic O-type stars which covers the
+    full range of vsini values.
+
+    We used new and archival multi-epoch spectra in order to detect
+    spectroscopic binary systems. We complement this information with Gaia
+    proper motions and TESS photometric data to aid in the identification
+    of runaway stars and eclipsing binaries, respectively. We also
+    benefitted from additional published information to provide a more
+    complete overview of the empirical properties of our working sample of
+    fast-rotating O-type stars.
+
+    The identified fraction of single-lined spectroscopic binary (SB1)
+    systems and apparently single stars among the fast-rotating sample is
+    ~18% and ~70%, respectively. The remaining 12% correspond to four
+    secure double-line spectroscopic binaries (SB2) with at least one of
+    the components having a vsini>200km/s (~8%), along with a small sample
+    of 2 stars (~4%) for which the SB2 classification is doubtful: these
+    could actually be single stars with a remarkable line-profile
+    variability. When comparing these percentages with those corresponding
+    to the slow-rotating sample, we find that our sample of fast rotators
+    is characterised by a slightly larger percentage of SB1 systems (~18%
+    vs. ~13%) and a considerably smaller fraction of clearly detected SB2
+    systems (8% vs. 33%). Overall, there seems to be a clear deficit of
+    spectroscopic binaries (SB1+SB2) among fast-rotating O-type stars
+    (~26% vs. ~46%). On the contrary, the fraction of runaway stars is
+    significantly higher in the fast-rotating domain (~33-50%) than among
+    those stars with vsini<200km/s. Lastly, almost 65% of the apparently
+    single fast-rotating stars are runaways. As a by-product, we
+    discovered a new over-contact SB2 system (HD 165921) and two
+    fast-rotating SB1 systems (HD 46485 and HD 152200) Also, we propose HD
+    94024 and HD 12323 (both SB1 systems with a vsini<200km/s) as
+    candidates for hosting a quiescent stellar-mass black hole.
+
+    Our empirical results seem to be in good agreement with the assumption
+    that the tail of fast-rotating O-type stars (with vsini>200km/s) is
+    mostly populated by post-interaction binary products. In particular,
+    we find that the final statistics of identified spectroscopic binaries
+    and apparent single stars are in good agreement with newly computed
+    predictions obtained with the binary population synthesis code BPASS
+    and earlier estimations obtained in previous studies.
+
+Description:
+    We present the individual radial velocity measurements for 50 Galactic
+    fast-rotating stars their peak-to-peak amplitude radial velocity
+    measurements (see paper).
+
+    The individual radial velocity measurements for each available
+    spectrum per target were determined by using two techniques:
+    cross-correlation of spectra with each other (RVrel, tableb) and the
+    absolute radial velocity measurements based on HeI 5876 line profile
+    fitting. The peak-to-peak radial velocity estimates (RVpp, tablea) is
+    based on the RVrel measurements.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablea.dat        38       50  vsini, peak-to-peak radial velocity measurements,
+                                and final binary status for 50 fast rotators
+tableb.dat        94      948   Individual radial velocity measurements for
+                                 50 Galactic fast-rotating stars
+--------------------------------------------------------------------------------
+
+See also:
+ J/A+A/562/A135 : Northern Galactic OB stars vsini (Simon-Diaz+, 2014)
+ J/A+A/597/A22  : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+ J/A+A/613/A65  : Spectroscopic parameters of O-type stars (Holgado+, 2018)
+ J/A+A/613/A9   : Extinction towards Galactic O stars (Maiz Apellaniz+, 2018)
+ J/A+A/638/A157 : O-type stars near ZAMS elusive detection (Holgado+, 2022)
+ J/A+A/665/A150 : Rotational properties of Galactic O-type stars (Holgado+ 2022)
+
+Byte-by-byte Description of file: tablea.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  9  A9    ---     Target    Star name
+  12- 14  I3    km/s    vsini     Projected rotational velocity
+  16- 17  I2    km/s  e_vsini     Projected rotational velocity error
+  19- 24  F6.2  km/s    RVpp      Peak-to-peak radial velocity measurements that
+                                   are based on relative radial velocity
+                                   measurement (see tableb.dat, RVrel column)
+  26- 29  F4.1  km/s  e_RVpp      Peak-to-peak radial velocity measurements
+                                   error
+  31- 38  A8    ---     Bin       Binary status for each of the stars (1)
+--------------------------------------------------------------------------------
+Note (1): Binary status as follows:
+  LS       = likely/apparently single
+  SB1      = one component spectroscopic binary
+  LPV/SB1? = line profile variable or one component spectroscopic binary
+  LPV/SB2? = line profile variable or two-component spectroscopic binary
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tableb.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---     Target    Star name
+  13- 56  A44   ---     Namesp    Name of the spectrum that has been analyzed
+  58- 72  F15.7 d       HJD       Heliocentric Julian date of the observations
+  74- 80  F7.2  km/s    RVrel     Relative radial velocity of the spectrum
+                                   respect to the reference spectrum
+                                   (based on the cross-correlation technique).
+  82- 86  F5.2  km/s  e_RVrel     ?=- Standard deviation of RVrel measurements
+  88- 94  F7.2  km/s    RV        Absolute radial velocity measurements based
+                                   on the fitting of HeI 5876 line (1)
+--------------------------------------------------------------------------------
+Note (1): the step of radial velocity space during the cross-correlation
+    fitting process is 0.5 km/s.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Nikolay Britavskiy, britvavskiy(at)gmail.com
+
+References:
+  Simon-Diaz & Herrero,   Paper I    2014A&A...562A.135S, Cat. J/A+A/562/A135
+  Simon-Diaz et al.,      Paper II   2014A&A...570L...6S
+  Simon-Diaz et al.,      Paper III  2017A&A...597A..22S, Cat, J/A+A/597/A22
+  Godart et al.,          Paper IV   2017A&A...597A..23G
+  Holgado et al.,         Paper V    2018A&A...613A..65H, Cat. J/A+A/613/A65
+  Holgado et al.,         Paper VI   2020A&A...638A.157H, Cat. J/A+A/638/A157
+  Holgado et al.          Paper VII  2022A&A...665A.150H  Cat. J/A+A/665/A150
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  14-Feb-2023

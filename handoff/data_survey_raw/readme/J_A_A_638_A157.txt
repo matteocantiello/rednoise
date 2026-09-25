@@ -1,0 +1,124 @@
+J/A+A/638/A157 Massive O-type stars near ZAMS elusive detection (Holgado+, 2020)
+================================================================================
+The IACOB project.
+VI. On the elusive detection of massive O-type stars close to the ZAMS.
+    Holgado G., Simon-Diaz S., Haemmerle L., Lennon D.J., Barba R.H.,
+    Cervino M., Castro N., Herrero A., Meynet G., Arias J.I.
+    <Astron. Astrophys. 638, A157 (2020)>
+    =2020A&A...638A.157H        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Stars, O ; Effective temperatures ;
+              Extinction ; Spectroscopy
+Keywords: stars: early-type - stars: massive -
+          Hertzsprung-Russell and C-M diagrams - stars: evolution -
+          stars: formation - techniques: spectroscopic
+
+Abstract:
+    The apparent lack of massive O-type stars near the Zero Age Main
+    Sequence, or ZAMS, (at ages <2Myr) has been a topic widely discussed
+    in the last 40 years. Different explanations for the elusive detection
+    of these young massive stars have been proposed from both the
+    observational and theoretical side, but no firm conclusions have been
+    reached yet.
+
+    The aim of this work is to perform a reassessment of this empirical
+    result benefiting from the high quality spectroscopic observations of
+    (more than 400) Galactic O-type stars gathered by the IACOB and OWN
+    surveys.
+
+    We use effective temperatures and surface gravities resulting from a
+    homogeneous, semi-automatized, IACOB-GBAT/FASTWIND spectroscopic
+    analysis to locate our sample of stars in the Kiel and spectroscopic
+    Hertzsprung-Russell (HR) diagrams. We evaluate the completeness of our
+    magnitude limited sample of stars - as well as the existence of
+    potential observational biases affecting the compiled sample - using
+    information from the Galactic O star catalog (GOSC). We discuss
+    limitations and possible systematics of our analysis methodology, and
+    compare our results with other recent studies using smaller samples of
+    Galactic O-type stars. We mainly base our discussion on the
+    distribution of stars in the spectroscopic HR diagram in order to
+    avoid the use of still uncertain distances to most of the stars in our
+    sample. However, we also perform a more detailed study of the young
+    cluster Trumpler-14 as an illustrative example of how Gaia cluster
+    distances can help to construct the associated classical HR diagram.
+
+    We find that the apparent lack of massive O-type stars near the
+    zero-age main sequence with initial evolutionary masses in the range
+    between ~30 and 70M_{sun}_ still persist despite using spectroscopic
+    results from a large, non-biased sample of stars. We do not find any
+    correlations between the dearth of stars close to the ZAMS and obvious
+    observational biases, limitations of our analysis methodology, and/or
+    the use of one example spectroscopic HR diagram instead of the
+    classical one. Finally, by investigating the impact of the efficiency
+    of mass accretion during the formation process of massive stars, we
+    conclude that an adjustment of the mass accretion rate towards lower
+    values than canonically assumed could reconcile the hotter boundary of
+    the empirical distribution of optically detected O-type stars in the
+    spectroscopic HR diagram and the theoretical birthline for stars with
+    masses above 30M_{sun}_. Last, we also discuss how the presence of a
+    small sample of O2-O3.5 stars found much closer to the ZAMS than the
+    main distribution of Galactic O-type star could be explained in the
+    context of this scenario taking also into account the effect of
+    non-standard star evolution (e.g. binary interaction, mergers, and/or
+    homogeneous evolution).
+
+Description:
+    List of the 285 stars with spectroscopic parameters obtained in this
+    work. We performed an exhaustive search for spectra of these stars in
+    modern high resolution spectroscopic databases. The spectrum with best
+    quality, in terms of signal-to-noise ratio, was considered for the
+    quantitative spectroscopic analysis and a multi-epoch
+    characterization.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablee1.dat       98      285   O-type stars considered in this work with 
+                                 spectroscopic parameters
+--------------------------------------------------------------------------------
+
+See also:
+   J/A+A/562/A135 : Northern Galactic OB stars vsini (Simon-Diaz+, 2014)
+   J/A+A/597/A22  : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+   J/A+A/613/A65  : Spectroscopic parameters of O-type stars (Holgado+, 2018)
+   J/A+A/613/A9   : Extinction towards Galactic O stars (Maiz Apellaniz+, 2018)
+
+Byte-by-byte Description of file: tablee1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label        Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15   ---       Target       Star name
+  17- 21  A5    ---       SpType       Spectral type
+  23- 35  A13   ---       LumClass     Luminosity class
+      37  A1    ---     l_Teff         Limit flag on Teff
+  38- 41  F4.1  kK        Teff         Effective temperature
+  43- 45  F3.1  kK      e_Teff         ? Effective temperature error
+      47  A1    ---     l_loggt        Limit flag on loggt
+  48- 51  F4.2  [cm/s2]   loggt        Gravity corrected from rotational effects
+  53- 56  F4.2  [cm/s2] e_loggt        ? Gravity corrected from rotational
+                                        effects error
+      58  A1    ---     l_logLsp       Limit flag on logLsp-Lspo
+  59- 62  F4.2  [Lsun]    logLsp       Lsp parameter (1)
+  64- 67  F4.2  [Lsun]  e_logLsp       ? Lsp parameter error
+  69- 72  F4.1  mag       Bmag         B magnitude
+  74- 78  F5.3  mag       E(4405-5495) ? E(4405-5495) extinction
+  80- 98  A19   ---       Notes        Multi-epoch notes
+--------------------------------------------------------------------------------
+Note (1): Lsp=Teff^4^/gt, gt=g+gc, gc=(Vrot*sini)^2^/R*.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Gonzalo Holgado, gholgado(at)cab.inta-csic.es
+
+References:
+    Simon-Diaz & Herrero,   Paper I    2014A&A...562A.135S, Cat. J/A+A/562/A135
+    Simon-Diaz et al.,      Paper II   2014A&A...570L...6S
+    Simon-Diaz et al.,      Paper III  2017A&A...597A..22S, Cat, J/A+A/597/A22
+    Godart et al.,          Paper IV   2017A&A...597A..23G
+    Holgado et al.,         Paper V    2018A&A...613A..65H, Cat. J/A+A/613/A65
+    Maiz-Apellaniz & Barba,            2018A&A...613A...9M, Cat. J/A+A/613/A9
+
+================================================================================
+(End) Gonzalo Holgado [CAB (INTA-CSIC)], Patricia Vannier [CDS]      18-May-2020

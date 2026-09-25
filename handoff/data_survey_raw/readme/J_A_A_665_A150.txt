@@ -1,0 +1,110 @@
+J/A+A/665/A150    Rotational properties of Galactic O-type stars (Holgado+ 2022)
+================================================================================
+The IACOB project.
+VII. The rotational properties of Galactic massive O-type stars revisited.
+    Holgado G., Simon-Diaz S., Herrero A., Barba R.H.
+    <Astron. Astrophys. 665, A150 (2022)>
+    =2022A&A...665A.150H        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Stars, O ; Rotational velocities ;
+              Spectroscopy
+Keywords: stars: early-type - stars: rotation - techniques: spectroscopic -
+          catalogs - Galaxy: general
+
+Abstract:
+    Stellar rotation is of key importance for the formation process,
+    evolution, and final fate of massive stars.
+
+    Performing a reassessment of the empirical rotational properties of Galactic
+    massive O-type stars using the results from a detailed analysis of
+    ground-based multi-epoch optical spectra obtained in the framework of the
+    IACOB & OWN surveys.
+
+    Using high-quality optical spectroscopy we establish the velocity
+    distribution for a sample of 285 apparently single and single line
+    spectroscopic binary (SB1) Galactic O-type stars. We also make use
+    of the rest of the parameters from the quantitative spectroscopic
+    analysis presented in prior IACOB papers (mainly Teff, gravity, and
+    multiplicity) to study the vsini behavior and evolution from the
+    comparison of subsamples in different regions of the spectroscopic
+    HR diagram. Our results are compared to the main predictions --
+    regarding current and initial rotational velocities -- of two sets
+    of well-established evolutionary models for single stars, as well
+    as from population synthesis simulations of massive stars including
+    binary interaction.
+
+    We reassess the known bimodal nature of the vsini distribution, and
+    find a non negligible difference between the vsini distribution of
+    single and SB1 stars. We provide empirical evidence supporting the
+    proposed scenario that the tail of fast rotators is mainly produced by
+    binary interactions. Stars with extreme rotation (>300km/s) appear as
+    single stars and located in the lower zone of the sHR. We notice
+    little rotational braking during the main sequence, in addition to
+    being independent of mass (and wind strength). The rotation rates of
+    the youngest observed stars lean to an empirical initial velocity
+    distribution with <20% of critical velocity. Lastly, there seems to
+    persist a limit in vsini detection below 40-50km/s, especially in the
+    upper part of the sHRD, possibly associated with the effect of
+    microturbulence in the measurement methodology used.
+
+Description:
+    List of the 285 stars with rotational parameters obtained in this
+    work. We performed an exhaustive search for spectra of these stars in
+    modern high resolution spectroscopic databases. The spectrum with best
+    qual- ity, in terms of signal-to-noise ratio, was considered for the
+    quantitative spectroscopic analysis and a multi-epoch
+    characterization.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablef1.dat       79      285   O-type stars considered in this work with
+                                 rotational parameters
+--------------------------------------------------------------------------------
+
+See also:
+ J/A+A/562/A135 : Northern Galactic OB stars vsini (Simon-Diaz+, 2014)
+ J/A+A/597/A22  : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+ J/A+A/613/A65  : Spectroscopic parameters of O-type stars (Holgado+, 2018)
+ J/A+A/613/A9   : Extinction towards Galactic O stars (Maiz Apellaniz+, 2018)
+ J/A+A/638/A157 : O-type stars near ZAMS elusive detection (Holgado+, 2022)
+
+Byte-by-byte Description of file: tablef1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label      Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15   ---       Target     Star name
+  18- 22  A5    ---       SpType     Spectral type
+  24- 38  A15   ---       LumClass   Luminosity class
+      40  A1    ---     l_Teff       Limit flag on Teff
+  41- 44  F4.1  kK        Teff       Effective temperature
+      46  A1    ---     l_loggt      Limit flag on loggt
+  47- 50  F4.2  [cm/s2]   loggt      Gravity corrected from rotational effects
+      52  A1    ---     l_logLsp     Limit flag on logLsp
+  53- 56  F4.2  [Lsun]    logLsp     Lsp parameter (1)
+  58- 61  A4    ---       Line       Line for analysis
+  63- 65  I3    km/s      vsini      projected rotational velocity
+  67- 69  I3    km/s      vmacro     ?=- Extra-broadening velocity
+  71- 73  I3    ---       Nepochs    Number of epochs available
+      75  A1    ---       subsample  [abc] Flag ID for subsample clustering
+  77- 79  A3    ---       Notes      Multi-epoch notes
+--------------------------------------------------------------------------------
+Note (1): Lsp=Teff^4^/gt, gt=g+gc, gc=(Vrot*sini)^2^/R*.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Gonzalo Holgado, gholgado(at)cab.inta-csic.es
+
+References:
+  Simon-Diaz & Herrero,   Paper I    2014A&A...562A.135S, Cat. J/A+A/562/A135
+  Simon-Diaz et al.,      Paper II   2014A&A...570L...6S
+  Simon-Diaz et al.,      Paper III  2017A&A...597A..22S, Cat, J/A+A/597/A22
+  Godart et al.,          Paper IV   2017A&A...597A..23G
+  Holgado et al.,         Paper V    2018A&A...613A..65H, Cat. J/A+A/613/A65
+  Holgado et al.,         Paper VI   2020A&A...638A.157H, Cat. J/A+A/638/A157
+  Maiz-Apellaniz & Barba,            2018A&A...613A...9M, Cat. J/A+A/613/A9
+
+================================================================================
+(End)   Gonzalo Holgado [CAB (INTA-CSIC)], Patricia Vannier [CDS]    08-Jul-2022

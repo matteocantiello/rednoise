@@ -1,0 +1,157 @@
+J/MNRAS/513/1429  MOBSTER. VI. Radio magnetospheres of hot stars (Shultz+, 2022)
+================================================================================
+MOBSTER - VI.
+The crucial influence of rotation on the radio magnetospheres of hot stars.
+    Shultz M.E., Owocki S.P., ud-Doula A., Biswas A., Bohlender D., Chandra P.,
+    Das B., David-Uraz A., Khalack V., Kochukhov O., Landstreet J.D., Leto P.,
+    Monin D., Neiner C., Rivinius T., Wade G.A.
+    <Mon. Not. R. Astron. Soc. 513, 1429 (2022)>
+    =2022MNRAS.513.1429S        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Magnetic fields
+Keywords: magnetic reconnection - stars: early-type - stars: magnetic fields -
+          stars: rotation - radio continuum: stars
+
+Abstract:
+    Numerous magnetic hot stars exhibit gyrosynchrotron radio emission.
+    The source electrons were previously thought to be accelerated to
+    relativistic velocities in the current sheet formed in the middle
+    magnetosphere by the wind opening magnetic field lines. However, a
+    lack of dependence of radio luminosity on the wind power, and a strong
+    dependence on rotation, has recently challenged this paradigm. We have
+    collected all radio measurements of magnetic early-type stars
+    available in the literature. When constraints on the magnetic field
+    and/or the rotational period are not available, we have determined
+    these using previously unpublished spectropolarimetric and photometric
+    data. The result is the largest sample of magnetic stars with radio
+    observations that has yet been analysed: 131 stars with rotational and
+    magnetic constraints, of which 50 are radio-bright. We confirm an
+    obvious dependence of gyrosynchrotron radiation on rotation, and
+    furthermore find that accounting for rotation neatly separates stars
+    with and without detected radio emission. There is a close correlation
+    between H{alpha} emission strength and radio luminosity. These factors
+    suggest that radio emission may be explained by the same mechanism
+    responsible for H{alpha} emission from centrifugal magnetospheres,
+    i.e. centrifugal breakout (CBO), however, while the H{alpha}-emitting
+    magnetosphere probes the cool plasma before breakout, radio emission
+    is a consequence of electrons accelerated in centrifugally driven
+    magnetic reconnection.
+
+Description:
+    By combining both published and unpublished radio observations,
+    published rotational and magnetic data, and new determinations of
+    magnetic models and rotational periods via space photometry and
+    previously unpublished high- and low-resolution spectropolarimetry, we
+    have conducted the largest analysis of the gyrosynchrotron emission
+    properties of magnetic early-type stars undertaken to date.
+
+    Tables containing the stellar, rotational, and magnetic parameters and
+    radio luminosities, as well as tables of longitudinal magnetic field
+    measurements.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .   This file
+tablea1.dat    177      131   Stellar, rotational, magnetic and radio parameters
+list.dat        26       40   List of stars with magnetic measurements in
+                               tables A2 and A3
+tablea2.dat     63       75   Magnetic measurements with ESPaDOnS and Narval
+tablea3.dat     35      252   Magnetic measurements with DAO
+refs.dat        69      130   References for Table 1
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10   ---      Star    Name of star
+  12- 15  F4.2  [Lsun]   logL    Bolometric luminosity
+  17- 20  F4.2  [Lsun] e_logL    Luminosity error
+  22- 25  F4.1  kK       Teff    Effective temperature
+  28- 30  F3.1  kK     e_Teff    Effective temperature error
+  32- 34  I3    ---    r_logL    Reference for stellar parameters
+  36- 40  F5.2  Msun     Mass    Mass
+  43- 46  F4.2  Msun   e_Mass    Mass error
+  48- 50  I3    km/s     vsini   ? Projected rotational velocity
+  52- 54  I3    ---    r_vsini   ? Reference for vsini
+  56- 64  F9.3  d        Prot    ? Rotation period
+  66- 76  A11   ---    r_Prot    Reference for rotation period
+  78- 79  I2    deg      beta    ? Magnetic obliquity angle
+  81- 82  I2    deg    E_beta    ? Upper uncertainty in obliquity angle
+  84- 85  I2    deg    e_beta    ? Lower uncertainty in obliquity angle
+  88- 89  A2    ---    l_Bd      [LL UL] Limit indicator for magnetic field
+                                  (LL=lower limit, UL=upper limit)
+  91- 96  F6.3  kgauss   Bd      Surface magnetic dipole strength
+  98-103  F6.3  kgauss E_Bd      ? Upper uncertainty in surface dipole strength
+ 106-110  F5.3  kgauss e_Bd      ? Lower uncertainty in surface dipole strength
+ 112-134  A23   ---    r_Bd      Reference for magnetic parameters
+ 137-138  A2    ---    l_Lrad    [UL] Detection flag for radio data
+                                  (UL=upper limit)
+ 140-144  F5.2  Lsun     Lrad    Radio luminosity
+ 146-149  F4.2  Lsun   e_Lrad    ? Radio luminosity uncertainty
+ 151-177  A27   ---    r_Lrad    Reference for radio data
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: list.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     Star      Name of star
+  12- 13  I2    ---     N         Number of magnetic measurements
+  16- 26  A11   ---     FileName  Name of the table with measurements
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     Star      Name of star
+      11  A1    ---     Inst      Instrument (E=ESPaDOnS,N=Narval)
+  13- 25  F13.5 d       HJD       Heliocentric Julian Date
+  28- 33  F6.1  gauss   Bz        Longitudinal magnetic field
+  37- 41  F5.1  gauss e_Bz        Longitudinal magnetic field error
+  43- 44  A2    ---     DFV       Stokes V detection flag (1)
+  47- 52  F6.1  gauss   Nz        Null field
+  56- 60  F5.1  gauss e_Nz        Null field error
+  62- 63  A2    ---     DFN       Null detection flag (1)
+--------------------------------------------------------------------------------
+Note (1): Flag as follows:
+           DD = Definite Detection
+           MD = Marginal Detection
+           ND = Non-detection
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     Star      Name of star
+  11- 23  F13.5 d       HJD       Heliocentric Julian Date
+  25- 29  I5    gauss   Bz        Longitudinal magnetic field
+  32- 35  I4    gauss e_Bz        Longitudinal magnetic field error
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  3  I3    ---     Ref       Reference key for references in Table 1
+   5- 23  A19   ---     BibCode   ADS/CDS bibcode
+  25- 45  A21   ---     Aut       Author's name
+  46- 69  A24   ---     Com       Comments
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Matt Shultz, matt.shultz(at)gmail.com
+
+References:
+    David-Uraz et al., Paper I    2019MNRAS.487..304D
+    Sikora et al.,     Paper II   2019MNRAS.487.4695S
+    Shultz et al.,     Paper III  2019MNRAS.490.4154S
+    David-Uraz et al., Paper IV   2021MNRAS.504.4841D
+    Shultz et al.,     Paper V    2021MNRAS.504.4850S
+
+================================================================================
+(End)                                      Patricia Vannier [CDS]    18-May-2022

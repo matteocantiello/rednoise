@@ -1,0 +1,141 @@
+J/A+A/560/A29   O-stars in VLT-FLAMES Tarantula Survey   (Ramirez-Agudelo+ 2013)
+================================================================================
+The VLT-FLAMES Tarantula Survey.
+XII. Rotational velocities of the single O-type stars.
+    Ramirez-Agudelo O.H., Simon-Diaz S., Sana H., de Koter A.,
+    Sabin-Sanjulian C., de Mink S.E., Dufton P.L., Grafener G., Evans C.J.,
+    Herrero A., Langer N., Lennon D.J., Maiz Apellaniz J., Markova N.,
+    Najarro F., Puls J., W.D, Vink J.S.
+   <Astron. Astrophys. 560, A29 (2013)>
+   =2013A&A...560A..29R
+================================================================================
+ADC_Keywords: Magellanic Clouds ; Stars, O ; Rotational velocities
+Keywords: stars: early-type - stars: rotation - line: profiles -
+          Magellanic Clouds - galaxies: star clusters: individual: 30 Doradus
+
+Abstract:
+    The 30 Doradus (30 Dor) region of the Large Magellanic Cloud, also
+    known as the Tarantula Nebula, is the nearest starburst region. It
+    contains the richest population of massive stars in the Local Group
+    and it is thus the best possible laboratory to investigate open
+    questions in the formation and evolution of massive stars.
+
+    Using ground based multi-object optical spectroscopy obtained in the
+    framework of the VLT-FLAMES Tarantula Survey (VFTS), we aim to
+    establish the (projected) rotational velocity distribution for a
+    sample of 216 presumably single O-type stars in 30 Dor.
+
+    The size of the sample is large enough to obtain statistically
+    significant information and to search for variations among
+    sub-populations - in terms of spectral type, luminosity class, and
+    spatial location - in the field of view.
+
+    We measured projected rotational velocities, Vrot, by means of a
+    Fourier transform method and a profile fitting method applied on a set
+    of isolated spectral lines. We also used an iterative deconvolution
+    procedure to infer the probability density, P(Veq), of the equatorial
+    rotational velocity, Veq.
+
+    The distribution of Vrot shows a two-component structure: a peak
+    around 80km/s and a high-velocity tail extending up to ~600km/s. This
+    structure is also present in the inferred distribution P(Veq) with
+    around 80% of the sample having 0<Veq<=300km/s and the other 20%
+    distributed in the high-velocity region. The presence of the
+    low-velocity peak is consistent with that found in other studies for
+    late O- and early B-type stars.
+
+    Most of the stars in our sample rotate with a rate less than 20% of
+    their break-up velocity. For the bulk of the sample, mass-loss in a
+    stellar wind and/or envelope expansion is not efficient enough to
+    significantly spin down these stars within the first few Myr of
+    evolution. If massive-star formation results in stars rotating at
+    birth with a large fraction of their break-up velocities, an
+    alternative braking mechanism, possibly magnetic fields, is thus
+    required to explain the present day rotational properties of the
+    O-type stars in 30 Dor. The presence of a sizeable population of fast
+    rotators is compatible with recent population synthesis computations
+    that investigate the influence of binary evolution on the rotation
+    rate of massive stars. Despite the fact that we have excluded stars
+    that show significant radial velocity variations, our sample may have
+    remained contaminated by post-interaction binary products. The fact
+    that the high-velocity tail may be preferentially (and perhaps even
+    exclusively), populated by post-binary interaction products, has
+    important implications for the evolutionary origin of systems that
+    produce gamma-ray bursts.
+
+Description:
+    Projected rotational velocity measurements of 216 O-type stars
+    observed at multi-epochs as part as the VLT-FLAMES Tarantula Survey.
+    We measured projected rotational velocities by means of a Fourier
+    transform method and a profile fitting method applied on a set of
+    isolated spectral lines.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table3.dat     33      216   Projected rotational velocity measurements for
+                             every star and spectral line
+table4.dat     18      216   Averaged projected rotational velocity
+                             measurements and their error bars
+--------------------------------------------------------------------------------
+
+See also:
+   J/A+A/530/A108 : VLT-FLAMES Tarantula Survey (Evans+, 2011)
+   J/A+A/550/A107 : RV catalogue of O stars in 30 Doradus (Sana+, 2013)
+   J/A+A/550/A108 : DIB in VLT-FLAMES Tarantula Survey (van Loon+, 2012)
+   J/A+A/550/A109 : VLT-FLAMES Tarantula Survey: vsini measures (Dufton+ 2013)
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+  Bytes Format Units  Label  Explanations
+--------------------------------------------------------------------------------
+  1-  3  I3    ---    VFTS   [14/892] VFTS identification number
+      5  A1    ---  l_v4387  Limit flag on v4387
+  6-  8  I3    km/s   v4387  ?=- Rotational velocity from HeI 4387 line (1)
+ 11- 13  I3    km/s   v4471  ?=- Rotational velocity from HeI 4471 line (1)
+ 16- 18  I3    km/s   v4552  ?=- Rotational velocity from SiIII 4552 line (1)
+ 21- 23  I3    km/s   v4713  ?=- Rotational velocity from HeI 4713 line (1)
+ 26- 28  I3    km/s   v4922  ?=- Rotational velocity from HeI 4471 line (1)
+ 31- 33  I3    km/s   v4541  ?=- Rotational velocity from HeII 4541 line (1)
+--------------------------------------------------------------------------------
+Note (1): An '-' indicates that it has not been used. Therefore, projected
+   rotational values of: VFTS 072, 125, 267, 405, 451, 465, 484, 529, 559, 565,
+   571, 587, 709, and 724 are  calculated by comparison with synthetic spectra
+   (see paper). VFTS102 was obtained with HeI4026 (see Dufton et al., 2013,
+   Cat. J/A+A/550/A109).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  3  I3    ---     VFTS      [14/892] VFTS identification number
+       6  A1    ---     Q         [A/B] Category in terms of quality (1)
+   9- 11  I3    km/s    vsini     Averaged projected rotational
+  15- 16  I2    km/s  e_vsini     ? 1 sigma dispersion
+      18  I1    ---     N         ? Number of lines used
+--------------------------------------------------------------------------------
+Note (1): Categories are:
+   A = diagnostics provide the most reliable measurements
+   B = diagnostics provide lesser quality than A
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Oscar Hernan Ramirez Agudelo, o.h.ramirezagudelo(at)uva.nl
+
+References:
+  Evans et al.,          Paper I    2011A&A...530A.108E, Cat. J/A+A/530/A108
+  Taylor et al.,         Paper II   2011A&A...530L..10T
+  Bestenlehner et al.,   Paper III  2011A&A...530L..14B
+  Bressert et al.,       Paper IV   2012A&A...542A..49B
+  Dunstall et al.,       Paper V    2012A&A...542A..50D
+  Henault-Brunet et al., Paper VI   2012A&A...542A..49B
+  Henault-Brunet et al., Paper VII  2012A&A...546A..73H
+  Sana et al.,           Paper VIII 2013A&A...550A.107S, Cat. J/A+A/550/A107
+  van Loon et al.,       Paper IX   2012A&A...550A.108V, Cat. J/A+A/550/A108
+  Dufton et al.,         Paper X    2012A&A...550A.109D, Cat. J/A+A/550/A109
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  16-Sep-2013

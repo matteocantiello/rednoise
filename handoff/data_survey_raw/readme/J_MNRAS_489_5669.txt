@@ -1,0 +1,139 @@
+J/MNRAS/489/5669     MiMeS Magnetic properties of O-type stars    (Petit+, 2019)
+================================================================================
+The MiMeS survey of magnetism in massive stars:
+magnetic properties of the O-type star population.
+    Petit V., Wade G.A., Schneider F.R.N., Fossati L., Kamp K., Neiner C.,
+    David-Uraz A., Alecian E., (the MiMeS Collaboration)
+   <Mon. Not. R. Astron. Soc., 489, 5669-5687 (2019)>
+   =2019MNRAS.489.5669P    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Stars, O ; Magnetic fields ; Stars, ages ;
+              Spectral types ; Optical
+Keywords: stars: early-type - stars: magnetic field - stars: massive
+
+Abstract:
+    In this paper, we describe an analysis of the MiMeS (Magnetism in
+    Massive Stars) survey of O-type stars to explore the range of dipolar
+    field strengths permitted by the polarization spectra that do not
+    yield a magnetic detection. We directly model the Stokes V profiles
+    with a dipolar topology model using Bayesian inference. The noise
+    statistics of the Stokes V profiles are in excellent agreement with
+    those of the null profiles. Using a Monte Carlo approach, we conclude
+    that a model in which all the stars in our sample were to host 100G,
+    dipolar magnetic field can be ruled out by the MiMeS data.
+    Furthermore, if all the stars with no detection were to host a
+    magnetic field just below their detection limit, the inferred
+    distribution in strength of these undetected fields would be distinct
+    from the known distribution in strength of the known magnetic O-type
+    stars. This indicates that the 'initial magnetic field function' (IBF)
+    is likely bimodal - young O-type stars are expected to have either
+    weak/absent magnetic fields or strong magnetic fields. We also find
+    that better upper limits, by at least a factor of 10, would have been
+    necessary to rule out a detection bias as an explanation for the
+    apparent lack of evolved main-sequence magnetic O-type stars reported
+    in the literature, and we conclude that the MiMeS survey cannot
+    confirm or refute a magnetic flux decay in O-type stars.
+
+Description:
+    The spectropolarimetric observations used here and in Paper I (Grunhut
+    et al. 2017MNRAS.465.2432G, Cat. J/MNRAS/465/2432) were obtained in
+    the larger context of the MiMeS survey, described by Wade et al.
+    (2016MNRAS.456....2W, Cat. J/MNRAS/456/2). To summarize,
+    high-resolution echelle spectropolarimetric observations enable the
+    measurement of the change in polarization across spectral lines
+    induced by the Zeeman effect.
+
+    The sample of Paper I consists of 432 nightly averaged Stokes V
+    observations of 97 O-type stars obtained with the Echelle
+    SpectroPolarimetric Device for the Observations of Stars (ESPaDOnS),
+    Narval, and HARPSpol echelle spectropolarimeters. Our sample here
+    consists of stars without definite magnetic detection, reducing it to
+    the 91 stars listed in Table 2 (which additionally contains the 11
+    O-type secondary stars in the SB2/SB3 system discussed in Section 3.1).
+
+    We use the Bayesian code BONNSAI (Schneider et al.
+    2014A&A...570A..66S, 2017A&A...598A..60S)
+    (http://www.astro.uni-bonn.de/stars/bonnsai) to infer the fractional
+    main-sequence ages and other stellar parameters of our sample.
+    Table 3 contains the BONNSAI analysis results.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table2.dat        83      102   Results from our Bayesian analysis
+table3.dat        58      102   Results from the BONNSAI analysis
+--------------------------------------------------------------------------------
+
+See also:
+    J/MNRAS/456/2 : MiMeS survey of magnetism in massive stars (Wade+, 2016)
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  3  I3    ---     ID      [1/102] Internal object identifier
+   5-  7  A3    ---   f_ID      Flag on ID (G1)
+   9- 21  A13   ---     Name    Star name
+  23- 37  A15   ---     SpType  Spectral type reproduced from
+                                 Grunhut et al.  (2017MNRAS.465.2432G,
+                                 Cat. J/MNRAS/465/2432) (Paper I)
+  39- 40  I2    ---     Nobs    Number of nightly averaged observations
+  42- 44  I3    km/s    vsini   Rotational broadening adopted in our models
+  46- 50  F5.2  ---     OddsV   Odds ratio obtained from the Stokes V
+                                 profile (1)
+  52- 57  F6.2  ---     OddsN   Odds ratio obtained from the null profile (1)
+  59- 61  I3    10-4T   68V     Upper limit to the 68.3 per cent credible
+                                 region obtained from Stokes V
+  63- 66  I4    10-4T   95V     Upper limit to the 95.4 per cent credible
+                                 region obtained from Stokes V
+  68- 70  I3    10-4T   68N     Upper limit to the 68.3 per cent credible
+                                 region obtained from the null profile
+  72- 75  I4    10-4T   95N     Upper limit to the 95.4 per cent credible
+                                 region obtained from the null profile
+  77- 79  I3    10-4T   ModeV   Mode of the probability density function
+                                 marginalized for B_pole_ obtained from
+                                 Stokes V
+  81- 83  I3    10-4T   ModeN   Mode of the probability density function
+                                 marginalized for B_pole_ obtained from the
+                                 null profile
+--------------------------------------------------------------------------------
+Note (1): To assess the presence of a dipole-like signal in our observations,
+          we compute the odds ratio of the null model (M_Bpole=0_; no magnetic
+          field implying Stokes V=0) with the dipole model (M_Bpole_).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  3  I3    ---     ID      [1/102] Internal object identifier
+   5-  7  A3    ---   f_ID      Flag on ID (G1)
+   9- 21  A13   ---     Name    Star name
+  23- 37  A15   ---     SpType  Spectral type reproduced from
+                                 Grunhut et al.  (2017MNRAS.465.2432G,
+                                 Cat. J/MNRAS/465/2432) (Paper I)
+  39- 42  F4.2  Myr     Age     ? Star age
+  44- 47  F4.1  Msun    M*      ? Star mass
+  49- 53  F5.2  Rsun    R*      ? Star radius
+  55- 58  F4.2  ---     fracAge ? Fractional main-sequence age
+--------------------------------------------------------------------------------
+
+Global Notes:
+Note (G1): Flag as follows:
+    a = Star identified as binary in Grunhut et al. (2017MNRAS.465.2432G,
+        Cat. J/MNRAS/465/2432) (Paper I), but for which an SB2 treatment was
+        unnecessary (SB1, large luminosity ratio, etc.) or unfeasible
+  SB2 = Double-lined spectroscopic binary
+  SB3 = Triple-lined spectroscopic binary
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+References:
+    Grunhut et al.,   Paper I    2017MNRAS.465.2432G, Cat. J/MNRAS/465/2432
+
+================================================================================
+(End)                                           Ana Fiallos [CDS]    19-Jan-2023

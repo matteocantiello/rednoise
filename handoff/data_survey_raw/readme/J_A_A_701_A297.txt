@@ -1,0 +1,145 @@
+J/A+A/701/A297      Microturbulence across the HR Diagram       (Markova+, 2025)
+================================================================================
+Microturbulence across the Hertzsprung-Russell Diagram Setting observational
+constraints on Milky Way stars.
+    Markova N., Cantiello M., Grassitelli L.
+   <Astron. Astrophys. 701, A297 (2025)>
+   =2025A&A...701A.297M    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Milky Way ; Stars, atmospheres ; Effective temperatures ;
+              MK spectral classification
+Keywords: stars: abundances - stars: atmospheres - stars: fundamental parameters
+
+Abstract:
+    Despite its critical importance for determining stellar properties and
+    evolution, the origin and physical nature of microturbulence remains
+    poorly understood. Most of the existing works are focussed on specific
+    spectral types and luminosity classes. However, a comprehensive,
+    unified view has yet to emerge.
+
+    Our main goal is to investigate the behaviour of photospheric
+    micro-turbulence across the Hertzsprung-Russell diagram (HRD) and to
+    bridge theory with observations.
+
+    We assembled a homogeneous database of precise and consistent
+    determinations of effective temperature, surface gravity, projected
+    rotational rate (vsini), and macro- and micro-turbulent velocities
+    (vmac & vmic) for over 1800 Galactic stars spanning spectral types O
+    to K and luminosity classes I to V. By carefully minimising biases due
+    to target selection, data quality, and disparate analysis techniques,
+    we performed statistical tests and comparative analyses to probe
+    potential dependencies between these parameters and vmic.
+
+    Our findings indicate that photospheric micro-turbulence is a genuine
+    physical phenomenon, rather than a modelling artefact. A direct
+    comparison between observed vmic velocities and corresponding
+    theoretical predictions for the turbulent pressure fraction strongly
+    suggests that this phenomenon most likely arises from photospheric
+    motions driven (directly or indirectly) by envelope convection zones,
+    with an additional pulsational component likely operating in main
+    sequence B stars. We show that neglecting micro-turbulence in Fourier
+    transform analyses can partly (but not solely) explain the dearth of
+    slow rotators and the scarcity of stars with extremely low vmac. We
+    argue that including micro-turbulent pressure in atmospheric modelling
+    can significantly mitigate (and even resolve) the mass discrepancy for
+    less massive O stars.
+
+    We provide new observational insights into the nature and origin of
+    micro-turbulence across the HRD. Our database offers a valuable
+    resource for testing and refining theoretical scenarios, particularly
+    those addressing a range of puzzling phenomena in hot, massive stars.
+
+Description:
+    We present a homogeneous database of precise and consistent
+    determinations of effective temperature (Teff), surface equatorial
+    gravity (logg) and photospheric micro-turbulent velocity (Vmic) for
+    over 1800 presumably single (pulsating and non-pulsating) stars with
+    diverse properties in the MW.
+
+    Based on these data, we studied the behaviour of Vmic as a function of
+    Teff and logg within each spectral type, luminosity class, and
+    pulsation type, and provide the first comprehensive and statistically
+    significant overview of this phenomenon in Galactic stars. As a first
+    application, we place observational constraints and evaluate several
+    scenarios proposed to explain specific pheno- mena in hot, massive
+    stars whose nature and origin remain poorly understood.
+
+    By carefully minimising biases due to target selection, data
+    quality, and disparate analysis techniques, we have compiled an
+    empirical database of literature determinations of Teff, logg and
+    Vmic (complemented with corresponding spectroscopic luminosity
+    calculated by us) for a huge number of Galactic stars with various SpT
+    and LC. Non-pulsating and pulsating stars are both involved with the
+    later constituting about 20% of the total sample, and including four
+    categories of non-radial pulsators (slowly pulsating B-stars (SPBs),
+    beta Cephei, gamma Doradus, and delta Scuti variables) and one type of
+    radial pulsators (classical Cepheids).
+
+    Although not statistically complete, our database is sufficiently
+    extensive and with comprehensive coverage of the Hertzsprung-Russell
+    diagram, and can there- fore serve as a platform to investigate the
+    nature and the origin of micro- turbulent broadening of stars in the
+    MW.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .   This file
+tablee1.dat     41     1455   Effective temperature, surface equatorial gravity,
+                               micro-turbulent velocity and spectroscopic
+                               luminosity of non-pulsating Galactic stars
+tablee2.dat     36      368   Effective temperature, surface equatorial gravity,
+                               micro-turbulent velocity, and spectroscopic
+                               luminosity of pulsating Galactic stars
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablee1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---     ID        Star name/Star identifier
+  14- 18  F5.2  kK      Teff      Effective temperature (1)
+  21- 24  F4.2  [cm/s2] logg      Logarithm of surface equatorial gravity
+  27- 31  F5.2  km/s    Vmic      Micro-turbulent velocity (2)
+  34- 38  F5.2  ---     logLsp    Logarithm of spectroscopic luminosity  (G1)
+  40- 41  A2    ---     SpType    Spectral type (4)
+--------------------------------------------------------------------------------
+Note (1): Teff from spectroscopic and photometric techniques
+Note (2): Vmic determined by means of the classical approach (i.e., by
+  eliminating trends between derived abundances and equivalent widths of metal
+  lines from a particular ion).
+Note (4): Spectral type from O to K plus red giants/supergiants (rg).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablee2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     ID        Star name/Star identifier
+   9- 13  F5.2  kK      Teff      Effective temperature
+  16- 19  F4.2  [cm/s2] logg      Logarithm of surface equatorial gravity
+  22- 26  F5.2  km/s    Vmic      Micro-turbulent velocity
+  29- 32  F4.2  ---     logLsp    Logarithm of  spectroscopic luminosity (G1)
+  34- 36  A3    ---     PulsType  Type of pulsation (1)
+--------------------------------------------------------------------------------
+Note (1): Type of pulsation as follows:
+            bc  = beta Cephei variables
+            spb = genuin slowly pulsating B stars
+            bsp = suspected slowly pulsating B stars
+            gd  = gamma Doradus variables
+            ds  = delta Scuty variables
+            cp  = classical Cepheids
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G1): Spectroscopic luminosity (= Teff^4/g), a quantity used to construct
+  the spectroscopic Hertzsprung-Russell diagram (for more information see
+  Langer and Kudritzki, 2014A&A...564...A52).
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+     Nevena Markova, nmarkova(at)astro.bas.bg
+
+================================================================================
+(End)                                      Patricia Vannier [CDS]    03-Dec-2025

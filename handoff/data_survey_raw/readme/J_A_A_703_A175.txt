@@ -1,0 +1,130 @@
+J/A+A/703/A175     Updated calibrations of Galactic O-type stars (Holgado+ 2025)
+================================================================================
+The IACOB project.
+XV. Updated calibrations of fundamental parameters of Galactic O-type stars.
+    Holgado G., Simon-Diaz S., Herrero A.
+    <Astron. Astrophys. 703, A175 (2025)>
+    =2025A&A...703A.175H        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, early-type ; Stars, fundamental ; Spectroscopy ;
+              Fundamental catalog ; Milky Way
+Keywords: techniques: spectroscopic - catalogs - stars: early-type -
+          stars: fundamental parameters - Galaxy: general
+
+Abstract:
+    Modern spectroscopic surveys combined with Gaia distances are enabling
+    reliable estimates of fundamental parameters for hundreds of Galactic
+    O-type stars and the full range of spectral types and luminosity
+    classes. Here we provide updated, statistically robust empirical
+    calibrations of the fundamental parameters of Galactic O-type stars,
+    as well as of their absolute visual magnitudes (Mv) and bolometric
+    corrections (BC), based on high-quality observational data. We perform
+    a homogeneous analysis of a sample of 358 Galactic O-type stars,
+    combining high-resolution spectroscopy and Gaia distances. A subset of
+    234 stars meeting strict quality criteria involving parallax,
+    extinction, and multi-band photometry was used to derive empirical
+    calibrations of fundamental parameters. For those same stars,
+    calibrated parameters were estimated from their measured Mv using the
+    derived relations, allowing us to assess the internal consistency and
+    predictive power of the calibrations. We present updated
+    spectral-type-based calibrations of fundamental parameters for
+    luminosity classes V, III, and I. Compared to previous works, we find
+    systematic shifts, particularly in effective temperature for dwarfs
+    and in Mv across all classes, which propagate into derived quantities.
+    Applying the Mv calibrations to the full sample yields consistent
+    estimates of radius and luminosity, while spectroscopic mass (Msp)
+    shows significant scatter. We also evaluate the FW3414 parameter (from
+    the Hbeta line) as a calibrator for Mv, useful in large surveys
+    lacking reliable spectral classification. Excluding SB1 systems has a
+    noticeable impact only on the Msp calibration for LC V. These updated
+    empirical calibrations offer a robust reference for Galactic O-type
+    stars and will support studies of massive star populations in both
+    Galactic and extragalactic contexts, particularly in the era of large
+    spectroscopic surveys.
+
+Description:
+    List of the 234 Galactic O-type stars in the curated calibrator sample
+    with spectroscopic and fundamental parameters available.
+
+    Rotation, temperature, and gravity are derived from the analysis of
+    the spectrum with the best signal-to-noise ratio. The remaining
+    parameters are obtained by compiling photometry and distance, and
+    combining all of them to determine the fundamental stellar properties.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .  This file
+tabled1.dat    139      234  Galactic O-type stars calibrator sample with
+                              spectroscopic and fundamental parameters available
+--------------------------------------------------------------------------------
+
+See also:
+  J/A+A/562/A135 : Northern Galactic OB stars vsini (Simon-Diaz+, 2014)
+  J/A+A/597/A22  : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+  J/A+A/613/A65  : Spectroscopic parameters of O-type stars (Holgado+, 2018)
+  J/A+A/613/A9   : Extinction towards Galactic O stars (Maiz Apellaniz+, 2018)
+  J/A+A/638/A157 : O-type stars near ZAMS elusive detection (Holgado+, 2020)
+  J/A+A/665/A150 : Rot. properties of Galactic O-type stars (Holgado+ 2022)
+
+Byte-by-byte Description of file: tabled1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label     Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---       ID        Star name
+  13- 28  A16   ---       SpType    Spectral type (1)
+  30- 32  A3    ---       SBStatus  Multi-epoch notes
+  34- 35  I2    ---       Nsp       Number of spectra available
+  37- 39  I3    km/s      vsini     projected rotational velocity
+  41- 44  F4.1  kK        Teff      Effective temperature
+  46- 48  F3.1  kK      e_Teff      Effective temperature uncertainty
+  50- 53  F4.2  [cm/s2]   loggc     Gravity corrected from rotational effects
+  55- 58  F4.2  [cm/s2] e_loggc     Gravity corrected from rot. uncertainty
+  60- 65  F6.3  mag       Gmagcorr  Gaia G magnitude (following Maiz Apellaniz
+                                     et al., 2018A&A...619A.180M,
+                                     Cat. J/A+A/619/A180)
+  67- 70  F4.2  mag       Av        visual extinction in V band
+  72- 75  F4.2  mag     e_Av        visual extinction in V band uncertainty
+  77- 80  I4    pc        dALS      distance from the ALS catalog (1)
+  82- 84  I3    pc      e_dALS      distance from the ALS catalog uncertainty
+  86- 90  F5.2  mag       VMAG      Absolute V magnitude
+  92- 95  F4.2  mag     e_VMAG      Absolute V magnitude uncertainty
+  97-100  F4.1  Rsun      R         Stellar radius
+ 102-104  F3.1  Rsun    e_R         Stellar radius uncertainty
+ 106-109  F4.2  [Lsun]    logL      logarithm of stellar luminosity
+ 111-114  F4.2  [Lsun]  e_logL      logarithm of stellar luminosity uncertainty
+ 116-119  F4.1  Msun      Mspc      Stellar mass, corrected from
+                                     rotational effects
+ 121-124  F4.1  Msun    e_Mspc      Stellar mass uncertainty
+ 126-130  F5.2  mag       BCv       Bolometric correction derived from
+                                     luminosity
+ 132-135  F4.2  mag     e_BCv       Bolometric correction uncertainty
+ 137-139  F3.1  10.nm     FW3414    EW of Hbeta at 3/4 - EW at 1/4
+--------------------------------------------------------------------------------
+Note (1): From the ALS catalog.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+   Gonzalo Holgado, gholgado(at)cab.inta-csic.es, gholgado(at)iac.es
+
+References:
+ Simon-Diaz & Herrero,      Paper I    2014A&A...562A.135S, Cat. J/A+A/562/A135
+ Simon-Diaz et al.,         Paper II   2014A&A...570L...6S
+ Simon-Diaz et al.,         Paper III  2017A&A...597A..22S, Cat, J/A+A/597/A22
+ Godart et al.,             Paper IV   2017A&A...597A..23G
+ Holgado et al.,            Paper V    2018A&A...613A..65H, Cat. J/A+A/613/A65
+ Maiz-Apellaniz & Barba,               2018A&A...613A...9M, Cat. J/A+A/613/A9
+ Pantaleoni Gonzalez et al.,           2025MNRAS.tmp.1439G
+ Holgado et al.,            Paper VI   2020A&A...638A.157H, Cat. J/A+A/638/A157
+ Holgado et al.,            Paper VII  2022A&A...665A.150H
+ Britavskiy et al.,         Paper VIII 2023A&A...672A..22B
+ de Burgos et al.,          Paper IX   2023A&A...674A.212D
+ de Burgos et al.,          Paper X    2024A&A...687A.228D
+ de Burgos et al.,          Paper XI   2024A&A...687L..16D
+ Negueruela et al.,         Paper XII  2024A&A...690A.176N
+ Martinez-Sebastian et al., Paper XIII 2025A&A...693L..10M
+ de Burgos et al.,          Paper XIV  2025A&A...695A..87D
+
+================================================================================
+(End)    Gonzalo Holgado [IAC], Patricia Vannier [CDS]               25-Sep-2025

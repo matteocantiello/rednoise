@@ -1,0 +1,34 @@
+Title: Stochastic low-frequency variability of 50 massive stars in the Cygnus OB
+associations and the Small Magellanic Cloud
+Authors: M. G. Pedersen and L. Bildsten
+Table: Table A2: SMC sample overview
+================================================================================
+Byte-by-byte Description of file: table_A2.mrt
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+ 1- 6   A6     ---    star name      Star name
+ 8-16   A9     ---    TIC            TESS Input Catalog ID
+18-22   F5.2   mag    T             [11.23/14.32] TESS magnitude
+24-28   F5.2   mag    G             [12.26/14.0] Gaia G magnitude
+30-33   F4.2   K      log_Teff      [4.45/4.57] log10 effective temperature
+35-38   F4.2   K      e_log_Teff    [0.01/0.02] Uncertainty on log10 effective
+                                  temperature
+40-43   F4.2   solLum log_L         [5.13/5.89] log10 luminosity
+45-48   F4.2   solLum e_log_L       [0.01/0.01] Uncertainty on log10 luminosity
+50-53   F4.1   solMass M             [22.1/35.3] Mass
+55-58   F4.1   solMass e_M           [5.8/13.2] Uncertainty on mass
+60-72   A13    ---    FFI sectors    TESS sectors with FFI data
+74-78   A5     ---    2-min sectors  TESS sectors with 2-min cadence data
+80-92   A13    ---    Variability    Type of variability observed in TESS light
+                                  curve
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+AV 232 182294089 11.23 12.26 4.53 0.01 5.89 0.01 35.3  8.2 1,28,67,68    67,68 SLF          
+AV 43  180610340 14.29 13.94 4.45 0.02 5.13 0.01 22.4 11.0 1,27,28,67,68       SLF candidate
+AV 83  181043369 13.83 13.50 4.52 0.01 5.54 0.01 22.1  8.3 1,27,67,68          SLF candidate
+AV 327 182730274 12.45 13.28 4.48 0.01 5.54 0.01 22.8  5.8 1,2,28,67,68        SLF candidate
+AV 77  181051294 13.10 13.91 4.57 0.01 5.40 0.01 28.0 12.2 1,27,28,67,68       None         
+AV 307 182517696 14.32 14.00 4.48 0.01 5.15 0.01 22.5 13.2 1,28,67,68          None         

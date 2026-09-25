@@ -1,0 +1,262 @@
+J/A+A/639/A81              [Bowman D      ] Overview of OB-type stars with available TESS photometry and IACOB/OWN spectroscopy with spectral type O4 to B3 consider
+J/A+A/639/L6               [Bowman D      ] List of fits spectra ( Shenar T., Bodensteiner J., Abdul-Masih M., Fabry M., Mahy L., Marchant P., Banyard G., Bowman D.
+J/A+A/640/A36              [Bowman D      ] Parameters of OB stars studied in this work ( Bowman D.M., Burssens S., Simon-diaz S., Edelmann P.V.F., Rogers T.M., Hor
+J/A+A/664/A159             [Bowman D      ] Radial velocities derived for all the stars in the paper ( Mahy L., Sana H., Shenar T., Sen K., Langer N., Marchant P., 
+J/A+A/665/A36              [Bowman D      ] Photometric classification of the Galactic single stars, Galactic SB1 systems, and SB2 systems considered in this work (
+J/AJ/166/54                [Bowman D      ] Line identifications for HD 99803A (HR 4423) ( Monier R., Niemczura E., Kurtz D.W., Rappaport S., Bowman D.M., Murphy S.
+J/AJ/166/73                [Bowman D      ] Line identifications for {alpha} Sex ( Monier R., Bowman D.M., Lebreton Y., Deal M.)
+J/MNRAS/460/1970           [Bowman D      ] Stellar parameters for the {delta} Sct stars discussed in this paper, as listed in Huber et al. (2014, Cat. J/ApJS/211/2
+J/MNRAS/487/4695           [Bowman D      ] Parameters associated with the 134 identified high-probability candidate rotational variables ( Sikora J., David-Uraz A.
+J/MNRAS/490/4040           [Bowman D      ] References for Table A1 ( Antoci V., Cunha M.S., Bowman D.M., et al.)
+J/other/NatAs/3.760        [Bowman D      ] Parameters (table D1) and fit parameters (table D3) of 114 OB stars observed by the K2 space mission ( Bowman D.M., Burs
+J/ApJ/902/24               [Dorn-Wallenstein] TESS parameters and positions in the HR diagram of the cool supergiants (Table 1) and fit parameters from Equation (1) (
+J/ApJ/913/32               [Dorn-Wallenstein] Common names, coordinates, host galaxies, and Gaia measurements of 6484 putative massive stars (Table 1) and feature val
+J/ApJ/922/177              [Dorn-Wallenstein] Red supergiant (RSG) source list for the Small Magellanic Cloud (SMC) ( Massey P., Neugent K.F., Dorn-Wallenstein T.Z., 
+J/ApJ/940/27               [Dorn-Wallenstein] Fast yellow pulsating supergiants (Table B1), Pulsating stars below logL/L_{sun}_=5.0 (Table B3) and Nonpulsating stars 
+J/ApJ/959/102              [Dorn-Wallenstein] Temperatures and luminosities for 6146 AFGKM supergiants ( Dorn-Wallenstein T.Z., Neugent K.F., Levesque E.M.)
+J/A+A/672/A22              [Burssens      ] vsini, peak-to-peak radial velocity measurements, and final binary status for 50 fast rotators ( Britavskiy N., Simon-Di
+J/other/NatAs/6.154        [Burssens      ] Polarization observations of {beta} Crucis ( Cotton D.V., Buzasi D.L., Aerts C., Bailey J., Burssens S., Pedersen M.G., 
+J/A+A/632/A74              [Pedersen M    ] Isochrone-clouds for Z=0.0060 ( Johnston C., Aerts C., Pedersen M.G., Bastian N.)
+J/ApJ/872/L9               [Pedersen M    ] Identification numbers, parameters and variability classification of the 154 O and B stars ( Pedersen M.G., Chowdhury S.
+J/MNRAS/495/2738           [Pedersen M    ] Distances determined by Bailer-Jones et al. (2018AJ....156...58B, Cat. I/347) and Anders et al. (2019A&A...628A..94A, Ca
+J/A+A/562/A125             [Kourniotis    ] Reference ( Kourniotis M., Bonanos A.Z., Soszynski I., Poleski R., Krikelis G., Udalski A., Szymanski M.K., Kubiak M., P
+J/A+A/601/A76              [Kourniotis    ] BVIc photometry of 21 luminous YSGs in M33 (table 1) ( Kourniotis M., Bonanos A.Z., Yuan W., Macri L.M., Garcia-Alvarez 
+J/A+A/618/A185             [Kourniotis    ] Catalog of 24353 stars ( Spetsieri Z.T., Bonanos A.Z., Kourniotis M., Yang M., Lianou S., Bellas-Velidis I., Gavras P., 
+J/A+A/629/A3               [Kourniotis    ] Catalog of 5897 stars in NGC 1326A ( Spetsieri Z.T., Bonanos A.Z., Yang M., Kourniotis M., Hatzidimitriou D.)
+J/A+A/560/A29              [Ramirez-Agudelo] projected rotational velocity, average and individual spectral line measurements values ( Ramirez-Agudelo O.H., Simon-Di
+J/A+A/564/A39              [Ramirez-Agudelo] O stars studied: OVz stars (table A1), OV stars (table A2), and stars with weak He lines (table A3) ( Sabin-Sanjulian C.
+J/A+A/600/A81              [Ramirez-Agudelo] List of the hydrogen, helium, and nitrogen diagnostic lines used in the determination of the stellar and wind parameters
+J/A+A/600/A82              [Ramirez-Agudelo] Equivalent widths ( Grin N.J., Ramirez-Agudelo O.H., de Koter A., et al.)
+J/A+A/604/A78              [Ramirez-Agudelo] Journal of X-shooter observations ( Ramirez-Tannus M.C., Kaper L., de Koter A., Tramper F., Bik A., Ellerbroek L.E., Och
+J/A+A/633/A155             [Ramirez-Agudelo] G333.6-0.2 properties of the KMOS targets ( Ramirez-Tannus M.C., Poorta J., Bik A., Kaper L., de Koter A., De Ridder J.,
+J/A+A/564/L7               [Dufton P      ] Cross-identified photometry of VFTS 822 based on its position from the VLT-FLAMES survey ( Kalari V.M., Vink J.S., Dufto
+J/A+A/574/A13              [Dufton P      ] Rest wavelengths used to estimate radial velocities for the narrow- and broad-lined stars (Sets 1 and 2, respectively) (
+J/A+A/575/A70              [Dufton P      ] VFTS B-type supergiant sample: binaritu status, spectral class, adopted rotational velocities, atmospheric parameters, a
+J/A+A/580/A93              [Dufton P      ] List of studied stars ( Dunstall P.R., Dufton P.L., Sana H., Evans C.J., Howarth I.D., Simon-Diaz S., de Mink S.E., Lang
+J/A+A/603/A91              [Dufton P      ] Narrow lined stars ( Garland R., Dufton P.L., Evans C.J., Crowther P.A., Howarth I.D., de Koter A., de Mink S.E., Grin N
+J/A+A/626/A50              [Dufton P      ] Individual notes ( Dufton P.L., Evans C.J., Hunter I., Lennon D.J., Schneider F.R.N.)
+J/A+A/649/A167             [Dufton P      ] Spectrophotometric data ( Lennon D.J., Maiz Apelliniz J., Irrgang A., Bohlin R., Deustua S., Dufton P.L., Simon-Diaz S.,
+J/A+A/680/A32              [Dufton P      ] Compilation of all parameters derived for the stars ( Bodensteiner J., Sana H., Dufton P.L., Wang C., Langer N., Banyard
+J/A+A/692/A245             [Serebriakova  ] *Relevant parameters of the sample ( Serebriakova N., Tkachenko A., Aerts C.)
+J/A+A/613/A65              [Holgado       ] Complete list of stars considered in this work ( Holgado G., Simon-Diaz S., Barba R.H., Puls J., Herrero A., Castro N., 
+J/A+A/638/A157             [Holgado       ] O-type stars considered in this work with spectroscopic parameters ( Holgado G., Simon-Diaz S., Haemmerle L., Lennon D.J
+J/A+A/655/A4               [Holgado       ] Radial Velocites ( Trigueros Paez E., Barba R.H., Negueruela I., Maiz Apellaniz J., Simon-Diaz S., Holgado G.)
+J/A+A/665/A150             [Holgado       ] O-type stars considered in this work with rotational parameters ( Holgado G., Simon-Diaz S., Herrero A., Barba R.H.)
+J/A+A/703/A175             [Holgado       ] Galactic O-type stars calibrator with spectroscopic and fundamental parameters available ( Holgado G., Simon-Diaz S., He
+J/A+A/705/A215             [Holgado       ] Data of the O-type normal and runaway stars in the rotation sample ( Carretero-Castrillo, M., Ribo M., Paredes J.M, Holg
+J/A+A/708/A98              [Holgado       ] Radial velocities ( Barba R.H., Gamen R., Morrell N.I., Arias J.I., Maiz Apellaniz J., Higa R., Rodriguez C., Putkuri C.
+J/A+A/711/A151             [Holgado       ] Results for the high He sample ( Simon-Diaz S., Holgado G., Martinez-Sebastian C., Carretero-Castrillo M., Jin H., Urban
+J/A+A/713/A177             [Holgado       ] DIB characteristics (Table B2) ( Maiz Apellaniz J., Gamen R.C., Holgado G., Rosu S., Arias J.I., Simon-Diaz S., Pellerin
+J/A+A/677/A137             [Holgado       ] Gaia DR3 three-band photometric dispersions catalog ( Maiz Apellaniz J., Holgado G., Pantaleoni Gonzalez M., Caballero J
+J/A+A/629/A114             [de Burgos     ] Observations of targets with IDS/INT ( Caballero J.A., de Burgos A., Alonso-Floriano F.J., Cabrera-Lavers A., Garcia-Alv
+J/A+A/643/A116             [de Burgos     ] stars within 4.5 degrees of Per OB1 ( de Burgos A., Simon-Diaz S., Lennon D.J., Dorda R., Negueruela I., Urbaneja M.A., 
+J/A+A/674/A212             [de Burgos     ] Relevant information for the stars ( de Burgos A., Simon-Diaz S., Urbaneja M.A., Negueruela, I.)
+J/A+A/687/A228             [de Burgos     ] Relevant information and analysis results ( de Burgos A., Simon-Diaz S., Urbaneja M.A., Puls J.)
+J/A+A/690/A176             [de Burgos     ] List of standard and reference stars ( Negueruela I., Simon-Diaz S., de Burgos A., Casasbuenas A., Beck P.G.)
+J/A+A/562/A135             [Simon-Diaz    ] Results from the IACOB-broad analysis (tables A1-A5) ( Simon-Diaz S., Herrero A.)
+J/A+A/564/A40              [Simon-Diaz    ] AAA-rated spectral classifications and supporting data for 213 VFTS O stars ( Walborn N.R., Sana H., Simon-Diaz S., Maiz
+J/A+A/572/A110             [Simon-Diaz    ] Photometric data ( Lorenzo J., Negueruela I., Val Baker A.K.F., Garcia M., Simon-Diaz S., Pastor P., Mendez Majuelos M.)
+J/A+A/578/A109             [Simon-Diaz    ] Observational information ( Martins F., Simon-Diaz S., Palacios A., Howarth I., Georgy C., Walborn N., Bouret J.-C., Bar
+J/A+A/590/A45              [Simon-Diaz    ] GU Mon photometric data in B band ( Lorenzo J., Negueruela I., Vilardell F., Simon-Diaz S., Pastor P., Mendez Majuelos M
+J/A+A/597/A22              [Simon-Diaz    ] List of stars considered for this paper ( Simon-Diaz S., Godart M., Castro N., Herrero A., Aerts C., Puls J., Telting J.
+J/A+A/601/A79              [Simon-Diaz    ] Stellar and wind parameters (table A1) and radii, luminosities and masses (table A2) for stars analyzed with HHe diagnos
+J/A+A/626/A20              [Simon-Diaz    ] References ( Maiz Apellaniz, J., Trigueros Paez E., Negueruela I., Barba R.H., Simon-Diaz S., Lorenzo J., Sota A., Gamen
+J/A+A/642/A168             [Simon-Diaz    ] Basic photometric data of the currently known O-type population of Cygnus OB2 ( Berlanas S.R., Herrero A., Comeron F., S
+J/A+A/648/A65              [Simon-Diaz    ] OB in NGC2070 analysed in this work ( Castro N., Crowther P.A., Evans C.J., Vink J.S., Puls J., Herrero A., Garcia M., S
+J/ApJS/224/4               [Simon-Diaz    ] Stars in Papers I+II with recently discovered bright companions unresolved in the GOSSS spectra ( Maiz Apellaniz J., Sot
+J/MNRAS/465/1807           [Simon-Diaz    ] Positions, photometry and derived parameters for the OB candidates. ( Mohr-Smith M., Drew J.E., Napiwotzki R., Simon-Dia
+J/MNRAS/540/3523           [Simon-Diaz    ] References ( Bestenlehner J.M., Crowther P.A., Bronner V.A., Simon-Diaz S., Lennon D.J., Bodensteiner J., Langer N., Mar
+J/A+A/662/A66              [Gebruers      ] Stellar label catalog for hot stars in LAMOST DR6 ( Xiang M., Rix H.-W., Ting Y.-S., Kudritzki R.-P., Conroy C., Zari E.
+J/A+A/574/A17              [Aerts C       ] Oscillation frequencies used in the simulated light curve in Section 4.1 ( Van Reeth T., Tkachenko A., Aerts C., Papics 
+J/A+A/580/A27              [Aerts C       ] Headers of model files ( Moravveji E., Aerts C., Papics P.I., Triana S.A., Vandoren B.)
+J/A+A/652/A120             [Aerts C       ] Eclipsing binaries catalog (corrected version, 24-Jul-2024) ( IJspeert L.W., Tkachenko A., Johnston C., Garcia S., De Ri
+J/A+A/662/A82              [Aerts C       ] Period-spacing patterns catalog ( Garcia S., Van Reeth T., De Ridder J., Tkachenko A., IJspeert L.W., Aerts C.)
+J/A+A/672/A183             [Aerts C       ] Gamma Dor candidate pulsators ( Aerts C., Molenberghs G., De Ridder J.)
+J/A+A/672/A69              [Aerts C       ] A full list of the candidates with their derived periods ( Ranaivomanana P., Johnston C., Groot P.J., Aerts C., Lees R.,
+J/A+A/681/A13              [Aerts C       ] List of cluster members of UBC1 ( Fritzewski D.J., Van Reeth T., Aerts C., Van Beeck J., Gossage S., Li G.)
+J/A+A/684/A112             [Aerts C       ] Asteroseismic and stellar properties ( Fritzewski D.J., Aerts C., Mombarg J.S.G., Gossage S., Van Reeth T.)
+J/A+A/685/A62              [Aerts C       ] Kepler results for the 2827 binaries in the Kepler EB Catalog ( IJspeert L.W., Tkachenko A., Johnston C., Prsa A., Wells
+J/A+A/686/A142             [Aerts C       ] Stellar parameters of the NGC 2516 cluster member stars ( Li G., Aerts C., Bedding T.R., Fritzewski D.J., Murphy S.J., V
+J/A+A/688/A93              [Aerts C       ] Classifications of the p- and g-mode candidate sample ( Hey D., Aerts C.)
+J/A+A/691/A182             [Aerts C       ] Parameters of HQ Dor stars ( de Laverny P., Recio-Blanco A., Aerts C., Palicio P.A.)
+J/A+A/691/A242             [Aerts C       ] TESS_OBAF_EB_catalogue (partial) ( IJspeert L.W., Tkachenko A., Johnston C., Aerts C.s)
+J/A+A/693/A268             [Aerts C       ] Variability of 63 confirmed hot subdwarfs identified from Gaia and TESS ( Ranaivomanana P., Uzundag M., Johnston C., Gro
+J/A+A/695/A214             [Aerts C       ] Asteroseismic and stellar properties for Z=0.0140 ( Aerts C., Van Reeth T., Mombarg J.S.G., Hey D.)
+J/A+A/698/A253             [Aerts C       ] Observational properties of beta Cephei stars observed with Gaia and TESS ( Fritzewski D.J., Vanrespaille M., Aerts C., 
+J/A+A/703/A240             [Aerts C       ] Hybrib mode pulsator candidates ( Kliapets M., Huijse P., Tkachenko A., Kemp A., Fritzewski D.J., Hey D., Aerts C.)
+J/A+A/704/A332             [Aerts C       ] Asteroseismic and stellar properties for F stars ( Aerts C.)
+J/A+A/704/A70              [Aerts C       ] Targets located between the main-sequence and the white dwarf sequence valley ( Ranaivomanana P., Johnston C., Iorio G.,
+J/A+A/704/L13              [Aerts C       ] The photometric signals detected in the TESS light curve ( Vandersnickt J., Vanlaer V., Vanrespaille M., Aerts C.)
+J/A+A/708/A106             [Aerts C       ] Time-series photometric measurements of PG 1159-035 ( Ranaivomanana P., Johnston C., Uzundag M., Groot P.J., Kupfer T., 
+J/A+A/710/A148             [Aerts C       ] Asteroseismic grid modelling results using the separate age approach ( Wang H., Li G., Fritzewski D.J., Van Reeth T., Ae
+J/AJ/146/102               [Aerts C       ] Results of the multi-frequency fit to the U, B, V, and I light curves of all B stars ( Saesen S., Briquet M., Aerts C., 
+J/A+A/567/A109             [Naze Y        ] List of the optically identified YSOs along with their derived ages and masses ( Kumar B., Sharma S., Manfroid J., Gosse
+J/A+A/588/A10              [Naze Y        ] List of the spectra of HD 149404 ( Raucq F., Rauw G., Gosset E., Naze Y., Mahy L., Herve A., Martins F.)
+J/A+A/594/A82              [Naze Y        ] List of X-ray sources detected with XMM-Newton in IC 1805 ( Rauw G., Naze Y.)
+J/A+A/596/A44              [Naze Y        ] List of observation files ( Naze Y., Barba R., Bagnulo S., Morrell N., Gamen R., Petit V., Neiner C.)
+J/A+A/603/A56              [Naze Y        ] Cooler stars stellar parameters (table F2, part 1) ( Cazorla C., Morel T., Naze Y., Rauw G., Semaan T., Daflon S., Oey S
+J/A+A/619/A148             [Naze Y        ] References ( Naze Y., Motch C.)
+J/A+A/627/A2               [Naze Y        ] Time series of V-band photometry of Cyg OB2 #5 ( Rauw G., Naze Y., Campos F.)
+J/AJ/162/56                [Naze Y        ] List of members ( Lim B., Naze Y., Hong J., Park B.-G., Yun H.-S., Yi H.-W., Park S., Hwang N., Lee J.-E.)
+J/AJ/163/266               [Naze Y        ] List of members ( Lim B., Naze Y., Hong J., Yoon S.-Y., Lee J., Hwang N., Park B.-G., Lee J.-E.)
+J/ApJS/213/23              [Naze Y        ] Chandra source list ( Naze Y., Wang Q.D., Chu Y.-H., Gruendl R., Oskinova L.)
+J/ApJS/230/3               [Naze Y        ] Photometric data from CFHT observations ( Sung H., Bessell M.S., Chun M.-Y., Yi J., Naze Y., Lim B., Karimov R., Rauw G.
+J/MNRAS/490/440            [Naze Y        ] Catalogue of high-mass stars in Cygnus OB2 ( Lim B., Naze Y., Gosset E., Rauw G.)
+J/other/NatAs/3.76         [Naze Y        ] Catalogue of target stars ( Lim B., Rauw G., Naze Y., Sung H., Hwang N., Park B.-G.)
+J/A+A/695/A198             [Hawcroft      ] References ( Bestenlehner J.M., Crowther Paul A., Hawcroft C., Sana H., Tramper F., Vink J.S., Brands S.A., Sander A.A.C
+J/A+A/663/A36              [Brands S      ] List of studied source ( Brands S.A., de Koter A., Bestenlehner J.M., et al.)
+J/AJ/152/31                [Sabin         ] Objects that are single lined in the GOSSS spectra and for which no evidence of binarity is known (table1), and objects 
+J/ApJ/909/138              [Sabin         ] AAVSO + DASCH light curve of U Mon ( Vega L.D., Stassun K.G., Montez R., Kaminski T., Sabin L., Schlegel E.M., Vlemmings
+J/MNRAS/443/3388           [Sabin         ] IPHAS extended planetary nebulae ( Sabin L., Parker Q.A., Corradi R.L.M., et al.)
+J/A+A/560/A16              [Martins F     ] Evolutionary tracks for M=7--60M{sun} computed with the MESA code ( Martins F., Palacios A.)
+J/A+A/584/A31              [Martins F     ] Photometric catalogue ( Chene A.-N., Ramirez Alegria S., Borissova J., O'Leary E., Martins F., Herve A., Kuhn M., Kurtev
+J/A+A/617/A65              [Martins F     ] The stellar population of the Arches cluster ( Clark J.S., Lohr M.E., Najarro F., Dong H., Martins F.)
+J/A+A/633/A9               [Martins F     ] SMS Model A2, without nebular emission ( Martins F., Schaerer D., Haemmerle L., Charbonnel C.)
+J/A+A/686/A185             [Martins F     ] Stack spectrum of UV-bright galaxies ( Upadhyaya A., Marques-Chaves R., Schaerer D., Martins F., Perez-Fournon I., Palac
+J/A+A/690/A318             [Martins F     ] Absolute magnitudes and bolometric corrections ( Marcolino W., Bouret J.-C., Martins F., Hillier D.J.)
+J/A+A/701/A297             [Markova N     ] Effective temperature, surface equatorial gravity, micro-turbulent velocity and spectroscopic luminosity of non-pulsatin
+J/A+A/612/A50              [Berlanas      ] Temperatures, luminosities, and individual visual extinctions derived for the new classified massive OB stars ( Berlanas
+J/A+A/671/A20              [Berlanas      ] Name, coordinates, identifications, G'3 magnitude, Gaia EDR3 parallax and group membership for all stars of the census (
+J/A+A/697/A47              [Berlanas      ] Catalog of 56379 SED-fitted OBA stars around Cas OB5 with cluster properties and membership ( Quintana A.L., Negueruela 
+J/A+A/707/A204             [Berlanas      ] Projected rotational velocities of BLOeM stars ( Lennon D.J., Berlanas S.R., Herrero A.D., et al.)
+J/MNRAS/484/1838           [Berlanas      ] List of stars that have not passed the selection criteria ( Berlanas S.R., Wright N.J., Herrero A., Drew J.E., Lennon D.
+J/MNRAS/493/871            [Berlanas      ] Stellar parameters for the 20 OT stars derived from the fitting with the combined spectrum of both HR-R and HR-I set-ups
+J/MNRAS/519/5472           [Berlanas      ] Stellar param infered with Apsis Priam/FLAME, photometry cross-matches for the DR1 MEGARA-GTC Stellar Library from Paper
+J/A+A/614/A147             [Castro N      ] Observational catalogue for extracted MUSE sources in NGC 2070 ( Castro N., Crowther P.A., Evans C.J., Mackey J., Castro
+J/A+A/616/A124             [Castro N      ] UBVR photometry ( Alonso-Santiago J., Marco A., Negueruela I., Tabernero H.M., Castro N., Mc Bride V.A., Rajoelimanana A
+J/A+A/631/A124             [Castro N      ] Stroemgren photometry of NGC 2345 ( Alonso-Santiago J., Negueruela I., Marco A., Tabernero H.M., Gonzalez-Fernandez C., 
+J/A+A/668/A74              [Castro N      ] Extremely faint HII and diffuse ionized gas (DIG) regions from MUSE data of nine fields in NGC 300 ( Micheva G., Roth M.
+J/A+A/671/A142             [Castro N      ] Catalogue of 107 planetary nebulae based on the observation of 44 MUSE fields in NGC 300 (Updated version from the autho
+J/A+A/704/A268             [Castro N      ] List of fits file ( Moutzouri M., Mackey J., Castro N., Gong Y., Jimenez-Hernandez P., Toala J.A., Burger-Scheidlin C., 
+J/ApJ/867/L8               [Castro N      ] *Kinematic data for RIOTS4 field OB stars ( Oey M.S., Jones J.D., Castro N., Zivick P., Besla G., Januszewski H.C., Moe 
+J/ApJ/868/57               [Castro N      ] OB in the SMC analyzed in this work ( Castro N., Oey M.S., Fossati L., Langer N.)
+J/ApJ/903/43               [Castro N      ] Kinematic data and fundamental parameters for RIOTS4 field OB stars ( Dorigo Jones J., Oey M.S., Paggeot K., Castro N., 
+J/ApJ/936/112              [Castro N      ] Oey et al., 2004, J/AJ/127/1632 (OKP) Sample ( Dallas M.M., Oey M.S., Castro N.)
+J/MNRAS/469/1330           [Castro N      ] Log of the observed stars ( Alonso-Santiago J., Negueruela I., Marco A., Tabernero H.M., Gonzalez-Fernandez C., Castro N
+J/MNRAS/516/4164           [Castro N      ] Blue type stars (from O to F types) confirmed by spectroscopy (1), spectral subtype not assigned (2) and late type stars
+J/MNRAS/542/703            [Castro N      ] Basic parameters for BSG stars in the area of NGC 663 that were observed with FIES ( Marco A., Negueruela I., Castro N.,
+J/A+A/598/A85              [Shenar        ] Disentangled spectra of R145, observed spectrum of R145 and Mk51 (Fig. 9) ( Shenar T., Richardson N.D., Sablowski D.P., 
+J/A+A/609/A7               [Shenar        ] Stellar parameters of nine Of-type stars in N206 superbubble ( Ramachandran V., Hainich R., Hamann W.-R., Oskinova L.M.,
+J/A+A/615/A40              [Shenar        ] Coordinates and spectral types, Stellar parameters, and Ages and evolutionary masses determined from isochrones of OB st
+J/A+A/625/A104             [Shenar        ] Coordinates, spectral types (table B1), stellar parameters (table B2) and ages and evolutionary masses (table B3) of all
+J/A+A/641/A42              [Shenar        ] References ( Bodensteiner J., Shenar T., Sana H.)
+J/A+A/664/A93              [Shenar        ] List of fits spectra ( Dsilva K., Shenar T., Sana H., Marchant P.)
+J/A+A/665/A148             [Shenar        ] List of spectra ( Shenar T., Sana H., Mahy L., Maiz Apellaniz J., Crowther P.A., Gromadzki M., Herrero A., Langer N., Ma
+J/A+A/674/A88              [Shenar        ] List of fits spectra ( Dsilva K., Shenar T., Sana H., Marchant P.)
+J/A+A/690/A289             [Shenar        ] References ( Shenar T., Bodensteiner J., Sana H., et al.)
+J/A+A/698/A38              [Shenar        ] Parameters of all binaries and candidates ( Bodensteiner J., Shenar T., Sana H., et al.)
+J/A+A/708/A187             [Shenar        ] List of spectra ( Mueller-Horn J., Ramachandran V., El-Badry K., Sander A.A.C., Bodensteiner J., Gies D.R., Goetberg Y.,
+J/ApJ/908/L3               [Shenar        ] The spectroscopic orbits of the two component stars ( Richardson N.D., Lee L., Schaefer G., Shenar T., Sander A.A.C., Hi
+J/other/NatAs/6.1085       [Shenar        ] OGLE III and IV light curve for VFTS 243 ( Shenar T., Sana H., Mahy L., et al.)
+J/other/NatAs/9.1337       [Shenar        ] List of studied stars ( Sana H., Shenar T., Bodensteiner J., et al.)
+J/A+A/601/A133             [Mahy L        ] List of studied stars ( Raucq F., Gosset E., Rauw G., Manfroid J., Mahy L., Mennekens N., Vanbeveren D.)
+J/A+A/607/A96              [Mahy L        ] List of spectra ( Mahy L., Damerdji Y., Gosset E., Nitschelm C., Eenens P., Sana H., Klotz A.)
+J/A+A/615/A19              [Mahy L        ] MOS1 spectrum for the 2014 observation ( Mossoux E., Mahy L., Rauw G.)
+J/A+A/616/A75              [Mahy L        ] Journal of observations and RVs ( Mahy L., Gosset E., Manfroid J., Nitschelm C., Herve A., Semaan T., Sana H., Lebouquin
+J/A+A/634/A51              [Mahy L        ] Compilation of all parameters derived for the stars ( Bodensteiner J., Sana H., Mahy L., Patrick L.R., de Koter A., de M
+J/A+A/652/A70              [Mahy L        ] Compilation of all parameters derived for the stars ( Bodensteiner J., Sana H., Wang C., Langer N., Mahy L., Banyard G.,
+J/A+A/657/A4               [Mahy L        ] stars ( Mahy L., Lanthermann C., Hutsemekers D., Kluska J., Lobel A., Manick R., Miszalski B., Reggiani M., Sana H., Gos
+J/A+A/658/A69              [Mahy L        ] RVs of stars identified as stable in RV (12 stars) (table C5) ( Banyard G., Sana H., Mahy L., Bodensteiner J., Villaseno
+J/A+A/698/A40              [Mahy L        ] Basic information about working BSGs ( Britavskiy N., Mahy L., Lennon D.J., et al.)
+J/A+A/698/A41              [Mahy L        ] Results of RV analysis ( Villasenor J.I., Sana H., Mahy L., et al.)
+J/MNRAS/455/1275           [Mahy L        ] Observational log and RV measurements ( Tramper F., Sana H., Fitzsimons N.E., de Koter A., Kaper L., Mahy L., Moffat A.)
+J/A+A/687/A259             [Mombarg       ] *Filtered photometry ( Rieutord M., Reese D.R., Mombarg J.S.G., Charpinet S.)
+J/A+A/564/L3               [Cantiello     ] Catalog of JHKs sources with VLT/HAWK-I ( Cantiello M., Blakeslee J.P., Raimondo G., Chies-Santos A.L., Jennings Z.G., N
+J/A+A/570/A61              [Cantiello     ] PM-selected stars of Hercules UFD galaxy ( Fabrizio M., Raimondo G., Brocato E., Bellini A., Libralato M., Testa V., Can
+J/A+A/576/A14              [Cantiello     ] Positions, g and i magnitudes and sizes of the objects in the field of NGC 3115 ( Cantiello M., Capaccioli M., Napolitan
+J/A+A/581/A10              [Cantiello     ] The VEGAS sample ( Capaccioli M., Spavone M., Grado A., Iodice E., Limatola L., Napolitano N.R., Cantiello M., Paolillo 
+J/A+A/611/A21              [Cantiello     ] Globular cluster candidates in NGC253 ( Cantiello M., Grado A., Rejkuba M., Arnaboldi M., Capaccioli M., Greggio L., Iod
+J/A+A/611/A93              [Cantiello     ] Full list of ugi matched sources in the 1 sq. deg area around NGC1399 ( Cantiello M., D'Abrusco R., Spavone M., Paolillo
+J/A+A/623/A1               [Cantiello     ] FCC ellipticity and PA profiles from isophote fit ( Iodice E., Spavone M., Capaccioli M., Peletier R.F., van de Ven G., 
+J/A+A/639/A136             [Cantiello     ] Sources position, ugri photometry and morphometry for ~1.7 million sources in ~21 sq. degree area of FDS ( Cantiello M.,
+J/A+A/647/A100             [Cantiello     ] Table of parameters from Sersic+PSF decompositions ( Su A.H., Salo H., Janz J., Laurikainen E., Venhola A., Peletier R.F
+J/A+A/657/A93              [Cantiello     ] Catalogue of spectroscopically confirmed globular clusters ( Chaturvedi A., Hilker M., Cantiello M., Napolitano N.R., va
+J/A+A/662/A43              [Cantiello     ] Dwarf galaxy catalog that includes likely cluster galaxies ( Venhola A., Peletier R.F., Salo H., Laurikainen E., Janz J.
+J/A+A/666/A99              [Cantiello     ] Globular cluster catalog ( Hazra N., Cantiello M., Raimondo G., Mirabile M., Blakeslee J.P., Branchesi M., Brocato E.)
+J/A+A/691/A104             [Cantiello     ] Complete g-band catalog ( Mirabile M., Cantiello M., Lonare P., Ragusa R., Paolillo M., Hazra N., La Marca A., Iodice E.
+J/A+A/694/A231             [Cantiello     ] Catalogue of globular cluster candidates in the observed field (table B1) ( Lonare P., Cantiello M., Mirabile M., Spavon
+J/A+A/697/A12              [Cantiello     ] Visual properties of the of dwarf galaxies candidates ( Marleau F.R., Cuillandre J.-C., Cantiello M., et al.)
+J/A+A/703/A184             [Cantiello     ] Properties of dwarf galaxies in the Euclid Early Release Observations (ERO) of the Perseus galaxy cluster ( Saifollahi T
+J/A+A/705/A117             [Cantiello     ] NGC 3311 master catalog (table B1) ( Mirabile M., Cantiello M., Rejkuba M., et al.)
+J/ApJ/964/42               [Cantiello     ] GALAH ID for Li-rich stars and their doppelgangers ( Sayeed M., Ness M.K., Montet B.T., Cantiello M., Casey A.R., Buder 
+J/ApJ/966/145              [Cantiello     ] Targets (Table 1) with surface brightness fluctuation (SBF) measurements, colors and distances (Table 2) ( Cantiello M.,
+J/MNRAS/485/3457           [Cantiello     ] List of B stars observed by TESS ( Balona L.A., Handler G., Chowdhury S., Ozuyar D., Engelbrecht C.A., Mirouh G.M., Wade
+J/MNRAS/504/3580           [Cantiello     ] List of fits images ( Saifollahi T., Janz J., Peletier R.F., Cantiello M., Hilker M., Mieske S., Valentijn E.A., Venhola
+J/MNRAS/514/1071           [Cantiello     ] Primary comoving star pairs sample ( Moschella M., Slone O., Dror J.A., Cantiello M., Perets H.B.)
+J/AJ/158/25                [Vanderspek    ] New threshold-crossing events (TCEs) from Sector 6 with the highest likelihood of being planet candidates and manually a
+J/AJ/160/155               [Vanderspek    ] Summary of light curve segments ( Wong I., Shporer A., Daylan T., Benneke B., Fetherolf T., Kane S.R., Ricker G.R., Vand
+J/AJ/162/127               [Vanderspek    ] References used for tabled1 ( Wong I., Kitzmann D., Shporer A., Heng K., Fetherolf T., Benneke B., Daylan T., Kane S.R.,
+J/AJ/162/263               [Vanderspek    ] Best fit parameters from exoplanet simulations for all of the 169 detected HJs contained in our dataset ( Hord B.J., Col
+J/ApJ/809/77               [Vanderspek    ] Catalog of simulated TESS detections ( Sullivan P.W., Winn J.N., Berta-Thompson Z.K., Charbonneau D., Deming D., Dressin
+J/ApJ/956/108              [Vanderspek    ] Properties of the supernova sample ( Fausnaugh M.M., Vallely P.J., Tucker M.A., Kochanek C.S., Shappee B.J., Stanek K.Z.
+J/ApJS/259/33              [Vanderspek    ] The 1617 TOIs alerted from this work, taken from the TOI catalog ( Kunimoto M., Daylan T., Guerrero N., Fong W., Bryson 
+J/ApJS/268/4               [Vanderspek    ] Light curve fitting and stellar properties of single-sinusoidal variables ( Fetherolf T., Pepper J., Simpson E., Kane S.
+J/A+A/562/A126             [Southworth    ] Photometry of WASP-80 on 2013/06/16 (g, r, i, z, J, H, K ESO 2.2m; I DK 1.54m) ( Mancini L., Southworth J., Ciceri S., e
+J/A+A/563/A59              [Southworth    ] Frequencies detected in the amplitude spectrum of KIC 3858884 (from the residuals without eclipses) (full table2) ( Mace
+J/A+A/568/A127             [Southworth    ] Combined table from original tables ( Mancini L., Southworth J., Ciceri S., et al.)
+J/A+A/573/A61              [Southworth    ] All photometry of the nine CVs studied ( Southworth J., Tappert C., Gaensicke B.T., Copperwheat C.M.)
+J/A+A/573/L5               [Southworth    ] RV and BVS data for Kepler-432 (CAFE MPG 2.2m) ( Ciceri S., Lillo-Box J., Southworth J., Mancini L., Henning T., Barrado
+J/A+A/577/A54              [Southworth    ] HAT-P-23 Calar Alto and BUSCA light curves ( Ciceri S., Mancini L., Southworth J., Bruni I., Nikolov N., D'Ago G., Schro
+J/A+A/578/A25              [Southworth    ] b-band light curve from Stroemgren Automatic Tel. ( Maxted P.F.L., Hutcheon R.J., Torres G., Lacy C.H.S., Southworth J.,
+J/A+A/589/A58              [Southworth    ] Summary of observations of TEP host stars for 101 stars ( Evans D.F., Southworth H., Maxted P.F.L., et al.)
+J/A+A/590/A112             [Southworth    ] RVs of Kepler-539 (CAFE/CAHA 2.2-m telescope) (table 1) ( Mancini L., Lillo-Box J., Southworth J., Borsato L., Gandolfi 
+J/A+A/610/A20              [Southworth    ] Measurements and derived properties of companions detected in 2016 ( Evans D.F., Southworth J., Smalley B., et al.)
+J/A+A/620/A142             [Southworth    ] Broadband photometry of HAT-P-12b ( Alexoudi X., Mallonn M., von Essen C., Turner J.D., Keles E., Southworth J., Mancini
+J/A+A/633/A30              [Southworth    ] Photom. of WASP-174 on 2015/03/07 (AAT Ks) ( Mancini L., Sarkis P., Henning T., Bakos G.A., Bayliss D., Bento J., Bhatti
+J/A+A/635/A73              [Southworth    ] Contrast limits of our data reduction for all targets ( Bohn A.J., Southworth, J., Ginski, C., Kenworthy M.A., Maxted P.
+J/A+A/635/A74              [Southworth    ] Differential photometry of WASP-76 ( Southworth J., Bohn A.J., Kenworthy M.A., Ginski C., Mancini L.)
+J/A+A/664/A128             [Southworth    ] g,h Power-2 ATLAS models Gaia, Kepler, TESS ( Claret A., Southworth J.)
+J/A+A/671/A139             [Southworth    ] Basic characteristics of the binary systems studied in this work ( Pavlovski K., Southworth J., Tkachenko A., Van Reeth 
+J/A+A/674/A63              [Southworth    ] Eq.2 PHOENIX, Gaia, Kepler,TESS,CHEOPS/M1 ( Claret A., Southworth J.)
+J/AJ/149/128               [Southworth    ] List of variables ( Thorstensen J.R., Taylor C.J., Peters C.S., Skinner J.N., Southworth J., Gansicke B.T.)
+J/AJ/149/34                [Southworth    ] References ( Lacy C.H.S., Torres G., Fekel F.C., Muterspaugh M.W., Southworth J.)
+J/AJ/151/101               [Southworth    ] *Table comparing the parameters from the original integrated aperture light curve to the new re-extracted parameters ( A
+J/AJ/153/191               [Southworth    ] Photometry of GJ 1132 ( Southworth J., Mancini L., Madhusudhan N., Molliere P., Ciceri S., Henning T.)
+J/AJ/164/198               [Southworth    ] Best-fit values of parameters for transit light curves of TrES-3b and Qatar-1b (table3+4) ( Mannaday V.K., Thakur P., So
+J/ApJ/832/121              [Southworth    ] Atmospheric parameters of the  red giants from the ARC 3.5m visible spectra   and asteroseismic frequencies ( Gaulme P.,
+J/MNRAS/440/1982           [Southworth    ] List of studied stars ( Hellier C., Anderson D.R., Cameron A.C., Delrez L., Gillon M., Jehin E., Lendl M., Maxted P.F.L.
+J/MNRAS/443/2391           [Southworth    ] Summary of the observed transits ( Mancini L., Southworth J., Ciceri S., Tregloan-Reed J., Crossfield I., Nikolov N., Br
+J/MNRAS/444/776            [Southworth    ] I-band photometry of WASP-24 ( Southworth J., Hinse T. C., Burgdorf M., et al.)
+J/MNRAS/447/711            [Southworth    ] Photometry of WASP-103 ( Southworth J., Mancini L., Ciceri S., et al.)
+J/MNRAS/450/1760           [Southworth    ] Photometry of WASP-6 ( Tregloan-Reed J., Southworth J., Burgdorf M., et al.)
+J/MNRAS/454/3094           [Southworth    ] Defocussed photometry for the transiting extrasolar planetary system WASP-57 ( Southworth J., Mancini L., Tregloan-Reed 
+J/MNRAS/457/4205           [Southworth    ] Photometry of WASP-22 ( Southworth J., Tregloan-reed J., Andersen M.I., et al.)
+J/MNRAS/459/1393           [Southworth    ] Details of the transit observations presented in this work ( Mancini L., Kemmer J., Southworth J., Bott K., Molliere P.,
+J/MNRAS/465/843            [Southworth    ] Details of the transit observations presented in this work ( Mancini L., Southworth J., Raia G., et al.)
+J/MNRAS/474/5158           [Southworth    ] All the stellar and planetary parameters adopted from TEPCAT (Southworth, 2011MNRAS.417.2166S) data base, for the model 
+J/MNRAS/485/5168           [Southworth    ] List of light curves ( Mancini L., Southworth J., Molliere P., et al.)
+J/MNRAS/490/4230           [Southworth    ] Differential photometry of WASP-4 ( Southworth J., Dominik M., Jorgensen U.G., et al.)
+J/MNRAS/498/4680           [Southworth    ] All the stellar and planetary parameters adopted from TEPCAT (Southworth 2011MNRAS.417.2166S) database, for the model si
+J/MNRAS/509/1447           [Southworth    ] Details of the transit observations presented in this work ( Mancini L., Southworth J., Naponiello L., Basturk O., Barba
+J/MNRAS/515/3212           [Southworth    ] Differential photometry of HATS-18 from the Danish telescope ( Southworth J., Barker A.J., Hinse T.C., et al.)
+J/MNRAS/521/3405           [Southworth    ] Differential photometry of TYC 2755-36-1 ( Jennings Z., Southworth J., Maxted P.F.L., Mancini L.)
+J/A+A/676/A55              [Labadie-Bartz ] Catalog information and rotational periods and amplitudes from TESS photometry for 782 mCP stars ( Labadie-Bartz J., Hue
+J/A+A/699/A321             [Labadie-Bartz ] Absorption and emission-line radial velocities from the literature ( Harmanec P., Yang S., Koubsky P., Labadie-Bartz J.,
+J/A+A/699/A82              [Labadie-Bartz ] List of studied sources ( Labadie-Bartz J., Carciofi A.C., Rubio A.C., et al.)
+J/A+A/711/A128             [Labadie-Bartz ] Candidate magnetic delta Scuti stars among the CoRoT variable stars catalogue ( Paul G., Neiner C., Catala C., Labadie-B
+J/AJ/153/174               [Labadie-Bartz ] *Additional new Be stars from APOGEE1 ( Chojnowski S.D., Wisniewski J.P., Whelan D.G., Labadie-Bartz J., Borges Fernande
+J/AJ/153/252               [Labadie-Bartz ] Table of BeSS-KELT stars with variable type classifications ( Labadie-Bartz J., Pepper J., McSwain M.V., Bjorkman J.E., 
+J/AJ/155/53                [Labadie-Bartz ] The KELT light curves of all the sources ( Labadie-Bartz J., Chojnowski S.D., Whelan D.G., et al.)
+J/AJ/160/32                [Labadie-Bartz ] Frequencies and amplitudes determined for the {beta} Cephei stars (Table B1) and candidates (Table B2) ( Labadie-Bartz J
+J/AJ/163/226               [Labadie-Bartz ] Table of full (including the non-Be stars) ( Labadie-Bartz J., Carciofi A.C., Henrique de Amorim T., Rubio A., Luiz Figu
+J/A+A/567/A28              [Neiner        ] List of the observed stars (8 magnetic early-B stars and 1 with no detected magnetic field) ( Alecian E., Kochukhov O., 
+J/A+A/627/A28              [Neiner        ] BRING time, magnitudes ( Zwintz K., Reese D.R., Neiner C., et al.)
+J/A+A/643/A110             [Neiner        ] beta Cas reduced light curves with BAb and BLb, 29/08/2015-26/10/2015 ( Zwintz K., Neiner C., Kochukhov O., Ryabchikova 
+J/A+A/650/A157             [Neiner        ] Members, selected from detection in the X-ray observation, infrared excesses, and spectroscopic classification ( Guarcel
+J/MNRAS/456/2              [Neiner        ] MiMeS B-type SC targets ( Wade G.A., Neiner C., Alecian E., et al.)
+J/MNRAS/465/2432           [Neiner        ] List of studied stars ( Grunhut J.H., Wade G.A., Neiner C., Oksala M.E., Petit V., Alecian E., Bohlender D.A., Bouret J.
+J/MNRAS/475/5144           [Neiner        ] High-resolution longitudinal magnetic field measurements from ESPaDOnS, Narval, and HARPSpol for 49 stars ( Shultz M., W
+J/MNRAS/483/3127           [Neiner        ] List of confirmed mCP stars with observations in table 1 ( Sikora J., Wade G.A., Power J., Neiner C.)
+J/MNRAS/489/5669           [Neiner        ] Results from our Bayesian analysis ( Petit V., Wade G.A., Schneider F.R.N., Fossati L., Kamp K., Neiner C., David-Uraz A
+J/MNRAS/513/1429           [Neiner        ] List of stars with magnetic measurements in tables A2 and A3 ( Shultz M.E., Owocki S.P., ud-Doula A., Biswas A., Bohlend
+J/A+A/608/A103             [Wade G        ] 43 Cyg decorrelated 156-day light curve ( Zwintz K., Van Reeth T., Tkachenko A., Goessl S., Pigulski A., Kuschnig R., Ha
+J/A+A/610/A70              [Wade G        ] 28 Cyg BTr magnitudes (2015 data) ( Baade D., Pigulski A., Rivinius T., Carciofi A.C., Panoglou D., Ghoreyshi M., Handle
+J/A+A/620/A145             [Wade G        ] Photometry with red-sensitive BRITE satellite Heweliusz in 2015 ( Baade D., Pigulski A., Rivinius T., Wang L., Martayan 
+J/A+A/644/A104             [Wade G        ] List of studied stars ( Strassmeier K.G., Granzer T., Weber M., Kuschnig R., Pigulski A., Popowicz A., Moffat A.F.J., Wa
+J/A+A/672/A31              [Wade G        ] Delta Ori data measured from spectra from the coude focus of the Ondrejov 2m reflector ( Oplistilova A., Mayer P., Harma
+J/AJ/156/12                [Wade G        ] The satellite-orbit average data ( Rucinski S.M., Pigulski A., Popowicz A., Kuschnig R., Kozlowski S., Moffat A.F.J., Pa
+J/AJ/158/148               [Wade G        ] The satellite-orbit, average data ( Rucinski S.M., Pigulski A., Kuschnig R., Moffat A.F.J., Popowicz A., Pablo H., Wade 
+J/MNRAS/498/2456           [Wade G        ] Various fundamental parameters associated with 43 of the 44 stars in our with known distances ( Sikora J., Wade G.A., Ro
+J/MNRAS/499/5379           [Shultz M      ] List of stars with data in table A2 ( Shultz M.E., Owocki S., Rivinius T., et al.)
+J/A+A/686/A199             [Kolaczek      ] LCOGT UBV light curves of ExtEV (MACHO 80.7443.1718) ( Kolaczek-Szymanski P.A., Lojko P., Pigulski A., Rozanski T., Mozd
+J/ApJS/259/16              [Kolaczek      ] Heartbeat stars (HBSs) identifications (Table A1) and basic observational and orbital information (Table A2) ( Wrona M.,

@@ -1,0 +1,180 @@
+J/ApJ/955/123   Variability of magnetic hot stars from TESS obs.   (Shen+, 2023)
+================================================================================
+Variability of magnetic hot stars from the TESS observations.
+    Shen D.-X., Li G., Abdusamatjan I., Fu J.-N., Zhu C.-H., Yu J.-L.,
+    Zhang Yu, Lu G.-L., Zhai N.-N., Liu J.-Z.
+   <Astrophys. J., 955, 123 (2023)>
+   =2023ApJ...955..123S
+================================================================================
+ADC_Keywords: Spectral types; Stars, early-type; Stars, variable; Optical;
+              Magnetic fields; Asteroseismology; Effective temperatures
+Keywords: Magnetic fields ; Early-type variable stars ; Early-type stars ;
+          Asteroseismology
+
+Abstract:
+    Magnetic hot stars refer to stars that have effective temperatures
+    approximately in the range from 7000-50000K, and with large-scale
+    globally organized magnetic fields. These magnetic fields exhibit
+    strengths ranging from tens of Gauss to tens of kilo-Gauss. They are
+    key in understanding the effects caused by magnetic fields in the
+    stellar evolution. However, there are only three magnetic hot stars
+    studied via a combination of spectropolarimetric and asteroseismic
+    modeling. Combined with Transiting Exoplanet Survey Satellite sectors
+    1-56 data sets, we provided a photometric variability and stochastic
+    low-frequency (SLF) variability study of 118 magnetic hot stars. Nine
+    new rotating variable stars are identified. Using the Bayesian Markov
+    Chain Monte Carlo framework, we fitted the morphologies of SLF
+    variability for magnetic hot stars. Our analysis reveals that the
+    magnetic hot stars in our sample have {gamma}<5.5 with the vast
+    majority having 1<={gamma}<=3. The {nu}char is primarily in the ranges
+    of 0day^-1^<{nu}_char_<6.3day^-1^. The amplitude of SLF variability,
+    log {alpha}0, shows a dominant distribution ranging from 0.8-3. No
+    significant correlations are observed between the luminosity and
+    fitting parameters, suggesting no clear dependence of SLF variability
+    on stellar mass for our sample of magnetic hot stars with masses
+    between approximately 1.5M_{sun}_<M<20M_{sun}_. We found a significant
+    negative correlation between the B_p_ and {nu}_char_. This suppression
+    effect of magnetic fields on {nu}_char_ may be a result of their
+    inhibition of macroturbulence.
+
+Description:
+    In this work, we classified the variability of 118 magnetic hot stars
+    using short-cadence target pixel files (TPFs) observed by the
+    Transiting Exoplanet Survey Satellite (TESS) from sectors 1-56
+    (2018-Jul-25 to 2022-Sep-30).
+
+    We use the compilations of the magnetic hot stars including the
+    results of the Very Large Telescope (VLT) FOcal Reducer and low
+    dispersion Spectrograph (FORS1; Bagnulo+ 2015, J/A+A/583/A115), the B
+    fields in OB stars (BOB)/FORS2 (Morel+ 2014Msngr.157...27M &
+    2015IAUS..307..342M), and the Magnetism in Massive Stars (MiMeS;
+    Grunhut+ 2017, J/MNRAS/465/2432) surveys.
+    Other exhaustive studies that identify hot stars with confirmed field
+    detections are complemented in our catalog. See Section 2.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName  Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe        80        .  This file
+table1.dat   102      118  Identification numbers, physical parameters and
+                            variability classifications of the 118 magnetic
+                            hot stars
+table2.dat    88      189  The Stochastic low-frequency (SLF) fitting parameters
+                            of the magnetic hot stars
+--------------------------------------------------------------------------------
+
+See also:
+ II/246 : 2MASS All-Sky Catalog of Point Sources (Cutri+ 2003)
+ V/147  : The SDSS Photometric Catalogue, Release 12 (Alam+, 2015)
+ V/154  : Sloan Digital Sky Surveys (SDSS), Release 16 (DR16) (Ahumada+, 2020)
+ IV/39  : TESS Input Catalog version 8.2 (TIC v8.2) (Paegert+, 2021)
+ I/352  : Distances to 1.47 billion stars in Gaia EDR3 (Bailer-Jones+, 2021)
+ I/355  : Gaia DR3 Part 1. Main source (Gaia Collaboration, 2022)
+ J/A+AS/123/353   : Mean magnetic field modulus of Ap stars (Mathys, 1997)
+ J/AJ/117/354     : OB associations from Hipparcos (de Zeeuw+, 1999)
+ J/A+A/393/965    : Intrinsic freq. of slowly pulsating B stars (de Cat+, 2002)
+ J/A+A/430/1143   : Stellar magnetic rotational phase curves (Bychkov+, 2005)
+ J/ApJS/158/193   : Catalog of Galactic {beta} Cephei stars (Stankov+, 2005)
+ J/A+A/450/763    : Evolutionary state of magnetic CP stars (Kochukhov+, 2006)
+ J/A+A/492/277    : Analysis of Collinder 69 stars with VOSA (Bayo+, 2008)
+ J/A+A/506/111    : Freq. analysis of HD 180642 (V1449 Aql) (Degroote+, 2009)
+ J/A+A/533/A4     : CoRoT photometry of three O-type stars (Blomme+, 2011)
+ J/A+A/530/A115   : Rotating massive MS stars evolutionary models (Brott+, 2011)
+ J/A+A/537/A146   : Stellar models with rot. 0.8<M<120, Z=0.014 (Ekstrom+, 2012)
+ J/MNRAS/426/2208 : H{alpha} variations of O9 subgiant HD57682 (Grunhut+, 2012)
+ J/A+A/545/A119   : Stromgren v photometry of {sigma} Lup (Henrichs+, 2012)
+ J/A+A/539/A143   : Nearby B-stars stellar param. and abundances (Nieva+, 2012)
+ J/other/Sci/337.444 : RV curves of Galactic massive O stars (Sana+, 2012)
+ J/A+A/537/A120   : Rotational velocities of A-type stars. IV. (Zorec+, 2012)
+ J/A+A/567/A28    : HARPSpol magnetic massive stars (Alecian, 2014)
+ J/ApJS/215/15    : SMaSH+: observations and companion detection (Sana+, 2014)
+ J/A+A/583/A115   : FORS1 catalogue of stellar magnetic fields (Bagnulo+, 2015)
+ J/A+A/580/A27    : Asteroseismology of KIC 10526294 (Moravveji+, 2015)
+ J/PAZh/43/521    : 3D map of reddening and extinction (Gontcharov, 2017)
+ J/MNRAS/465/2432 : MiMeS magnetic analysis of O-type stars (Grunhut+, 2017)
+ J/A+A/601/A14    : Radial velocities of magnetic Ap stars (Mathys, 2017)
+ J/MNRAS/468/2745 : Rotational properties of mCP stars (Netopil, 2017)
+ J/A+A/597/A22    : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+ J/MNRAS/475/5144 : Magnetic early B-type stars. I. (Shultz+, 2018)
+ J/other/NatAs/3.760 : BSGs low-frequency gravity waves (Bowman+, 2019)
+ J/A+A/621/A115   : Vela OB2 members (Cantat-Gaudin+, 2019)
+ J/ApJ/873/L5     : Magnetic fields of Ap/Bp stars (Chojnowski+, 2019)
+ J/A+A/626/A121   : Buoyancy radius of {gamma} Dor stars (Ouazzani+, 2019)
+ J/ApJ/872/L9     : TESS obs. of massive O and B stars (Pedersen+, 2019)
+ J/MNRAS/493/5871 : TESS A and B stars and the Maia variables (Balona+, 2020)
+ J/A+A/640/A36    : OB stars TESS phot. & high-res. spectroscopy (Bowman+, 2020)
+ J/A+A/639/A81    : Variability of OB stars (Burssens+, 2020)
+ J/A+A/640/A40    : 1002 mCP stars from LAMOST DR4 (Hummerich+, 2020)
+ J/MNRAS/491/3586 : 611 {gamma} Doradus stars Kepler data (Li+, 2020)
+ J/MNRAS/499/5379 : Longitudinal magnetic field of 6 B stars (Shultz+, 2020)
+ J/MNRAS/513/1429 : MOBSTER. VI. Magnetospheres of hot stars (Shultz+, 2022)
+ http://heasarc.gsfc.nasa.gov/docs/tess/ : NASA TESS Science Support Center home
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label Explanations
+--------------------------------------------------------------------------------
+  1-  11 A11    ---       Name  Stellar identifier
+ 13-  22 I10    ---       TIC   [4289780/2055137574] TESS Input Catalog
+                                 identifier
+ 24-  36 A13    ---       SpT   Spectral type
+ 38-  41 F4.2   [Lsun]    logL  [0.73/5.7]? Log luminosity
+ 43-  46 F4.2   [Lsun]  e_logL  [0.01/0.6]? Uncertainty in logL
+ 48-  51 F4.2   K         logT  [3.83/4.59]? Log effective temperature
+ 53-  56 F4.2   K       e_logT  [0.0/0.08]? Uncertainty in logT
+ 58-  61 F4.2   [cm/s2]   logg  [0.0/4.75]? Log surface gravity
+ 63-  66 F4.2   [cm/s2] e_logg  [0.0/2.0]? Uncertainty in log (g)
+ 68-  76 A9     ---       Ref   Reference for spectroscopic analyses (1)
+ 78- 102 A25    ---       Var   Variability (2)
+--------------------------------------------------------------------------------
+Note (1): References as follows:
+         R1 = Petit et al. 2013MNRAS.429..398P
+         R2 = Shultz et al. 2020, J/MNRAS/499/5379
+         R3 = Gonzalez et al. 2018MNRAS.481L..30G
+         R4 = Shultz et al. 2021MNRAS.504.4850S
+         R5 = Shultz et al. 2019MNRAS.485.1508S
+         R6 = Shultz et al. 2018, J/MNRAS/475/5144
+         R7 = Kochukhov & Bagnulo 2006, J/A+A/450/763
+         R8 = Saffe et al. 2005RMxAA..41..415S
+         R9 = Netopil et al. 2017, J/MNRAS/468/2745
+        R10 = Kurtz et al. 2008MNRAS.386.1750K
+  this work = stellar parameters derived from the SED using the VO Sed Analyzer
+               (VOSA; Bayo & Rodrigo 2008A&A...492..277B). See Section 3.4.
+Note (2): The variability classification result for each star.
+          SPB = Slowly Pulsating B star;
+   {beta} Cep = {beta} Cepheid variable;
+         rot. = rotating variable;
+        cont. = constant;
+          SLF = stochastic low-frequency variable;
+  {delta} Sct = {delta} Scuti;
+        Multi = binary or multiple star.
+        Unknown represents we can not identify the classification
+        using the amplitude spectrum and light curve.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1- 11 A11    ---     Name    Stellar identifier
+  13- 19 A7     ---     Sector  Sector(s)
+  21- 28 F8.3   umag    alpha0  [3.9/3554] Amplitude at zero frequency
+  30- 35 F6.2   umag  e_alpha0  [0.3/384] Lower uncertainty in alpha0
+  37- 42 F6.2   umag  E_alpha0  [0.4/470] Upper uncertainty in alpha0
+  44- 47 F4.2   ---     nuChar  [0.05/8.9] Characteristic frequency
+  49- 52 F4.2   ---   e_nuChar  [0.01/0.9] Lower uncertainty in nuChar
+  54- 57 F4.2   ---   E_nuChar  [0.01/0.8] Upper uncertainty in nuChar
+  59- 62 F4.2   [-]     gamma   [0.69/5.7] logarithmic amplitude gradient
+  64- 67 F4.2   [-]   e_gamma   [0.01/1.4] Lower uncertainty in gamma
+  69- 72 F4.2   [-]   E_gamma   [0.01/2.3] Upper uncertainty in gamma
+  74- 78 F5.2   umag    Cw      [0.8/86] White noise term
+  80- 83 F4.2   umag  e_Cw      [0/0.3] Lower uncertainty in Cw
+  85- 88 F4.2   umag  E_Cw      [0/0.3] Upper uncertainty in Cw
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                    Prepared by [AAS], Emmanuelle Perret [CDS] 02-Dec-2025

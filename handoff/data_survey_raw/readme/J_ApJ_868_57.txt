@@ -1,0 +1,115 @@
+J/ApJ/868/57   Spectroscopic HR diagram of OB stars in the SMC   (Castro+, 2018)
+================================================================================
+The spectroscopic Hertzsprung-Russell diagram of hot massive stars in the Small
+Magellanic Cloud.
+    Castro N., Oey M.S., Fossati L., Langer N.
+   <Astrophys. J., 868, 57 (2018)>
+   =2018ApJ...868...57C
+================================================================================
+ADC_Keywords: Stars, OB; Magellanic Clouds; Effective temperatures;
+              Stars, masses
+Keywords: galaxies: stellar content; Magellanic Clouds; stars: early-type;
+          stars : emission-line, Be; stars: fundamental parameters
+
+Abstract:
+    We present a comprehensive stellar atmosphere analysis of 329 O- and
+    B-type stars in the Small Magellanic Cloud (SMC) from the RIOTS4
+    survey. Using spectroscopically derived effective temperature Teff and
+    surface gravities, we find that classical Be stars appear misplaced to
+    low Teff and high luminosity in the spectroscopic Hertzsprung-Russell
+    diagram (sHRD). Together with the most luminous stars in our sample,
+    the stellar masses derived from the sHRD for these objects are
+    systematically larger than those obtained from the conventional
+    Hertzsprung-Russell diagram. This suggests that the well-known,
+    spectroscopic mass-discrepancy problem may be linked to the fact that
+    both groups of stars have outer envelopes that are nearly
+    gravitationally unbound. The non-emission-line stars in our sample
+    mainly appear on the main sequence, allowing a first estimate of the
+    terminal-age main sequence (TAMS) in the SMC, which matches the
+    predicted TAMS between 12 and 40M_{sun}_ at SMC metallicity. We
+    further find a large underabundance of stars above ~25M_{sun}_ near
+    the zero-age main sequence, reminiscent of such earlier findings in
+    the Milky Way and Large Magellanic Cloud.
+
+Description:
+    The catalogue contains parameters for 329 O and B-type stars in the
+    SMC. The selected sample comprises of 223 stars previously classified
+    by Lamb+ (2016, J/ApJ/817/113 ; Runaways and Isolated O-Type Star
+    Spectroscopic Survey of the Small Magellanic Cloud (RIOTS4)) and 106
+    stars newly observed in the SMC Wing, which were selected from the
+    catalog of Evans+ (2004, J/MNRAS/353/601 ; 2dF of the SMC) (see also
+    Bonanos+ 2010, J/AJ/140/416).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table1.dat     74      329   OB sample in the SMC analyzed in this work
+--------------------------------------------------------------------------------
+
+See also:
+ II/236 : UBVR CCD survey of the Magellanic clouds (Massey+, 2002)
+ J/MNRAS/353/601 : 2dF survey of the Small Magellanic Cloud (Evans+, 2004)
+ J/AJ/127/1632   : UBVR(UIT) photometry of O and OB stars in SMC (Oey+, 2004)
+ J/ApJ/659/1198  : ARAUCARIA project: NGC 3109 blue supergiants (Evans+, 2007)
+ J/A+A/471/625   : VLT-FLAMES survey of massive stars (Trundle+, 2007)
+ J/AJ/140/416    : IR photometry of massive stars in the SMC (Bonanos+, 2010)
+ J/A+A/530/A115  : Rotating massive MS stars evolutionary models (Brott+, 2011)
+ J/A+A/532/A147  : HST photometry in extragalactic star clusters (Larsen+, 2011)
+ J/A+A/537/A146  : Stellar models with rotation. Z=0.014 (Ekstrom+, 2012)
+ J/A+A/539/A143  : Nearby B-stars stellar param. and abundances (Nieva+, 2012)
+ J/other/Sci/337.444 : RV curves of Galactic massive O stars (Sana+, 2012)
+ J/A+A/558/A103   : Stellar models with rotation. Z=0.002 (Georgy+, 2013)
+ J/MNRAS/442/1680 : Red giants in SMC. Abundances (Dobbie+, 2014)
+ J/ApJ/780/59     : The Araucaria project: EBs in SMC (Graczyk+, 2014)
+ J/A+A/591/A11    : SMC BV photometry of 9 star cluster fields (Dias+, 2016)
+ J/ApJ/817/113    : RIOTS4: spec. survey of SMC field OB stars (Lamb+, 2016)
+ J/ApJ/816/49     : Spitzer/IRAC observations of SMC Cepheids (Scowcroft+, 2016)
+ J/A+A/600/A81    : VLTS. 30Dor O giants & supergiants (Ramirez-Agudelo+, 2017)
+ J/A+A/601/A79    : VLTS. O dwarf in 30 Dor (Sabin-Sanjulian+, 2017)
+ J/A+A/597/A22    : Massive O- and B-type stars velocities (Simon-Diaz+, 2017)
+ J/A+A/613/A65    : Spectroscopic parameters of O-type stars (Holgado+, 2018)
+ J/ApJ/867/L8     : Gaia kinematic data of OB stars in SMC (Oey+, 2018)
+ J/other/Sci/359.69  : Massive stars in 30 Dor (Schneider+, 2018)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units       Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5 I5     ---         ID        Massey 2002, II/236 identifier;
+                                       <[M2002] SMC NNNNN> in Simbad
+   7-  8 I2     h           RAh       [0/1] Hour of Right Ascension (J2000)
+  10- 11 I2     min         RAm       Minute of Right Ascension (J2000)
+  13- 17 F5.2   s           RAs       Second of Right Ascension (J2000)
+      19 A1     ---         DE-       [-] Sign of the Declination (J2000)
+  20- 21 I2     deg         DEd       [71/73] Degree of Declination (J2000)
+  23- 24 I2     arcmin      DEm       Arcminute of Declination (J2000)
+  26- 29 F4.1   arcsec      DEs       Arcsecond of Declination (J2000)
+  31- 34 F4.2   [K]         logTeff   [4/4.7] log effective temperature
+  36- 39 F4.2   [K]       e_logTeff   [0/0.2] Uncertainty in logTeff
+  41- 44 F4.2   [Lsun]      logLs     [2.7/4.6] log spectroscopic luminosity (1)
+  46- 50 F5.2   [Lsun]    e_logLs     [-0/0.7] Uncertainty in logLs
+  52- 55 F4.2   [Lsun]      logL      [0/6] log luminosity
+  57- 60 F4.2   [Lsun]    e_logL      [0/0.4] Uncertainty in logL
+  62- 65 F4.2   [Msun]      logMsHRD  [0.7/2]? log estimated mass in the
+                                       spectroscopic Hertzsprung-Russell
+                                       diagram (sHRD)(1)
+  67- 70 F4.2   [Msun]      logMHRD   [0.7/1.7]? log estimated mass in the
+                                       Hertzsprung-Russell diagram (HRD)
+      72 A1     ---         Em        [e] Balmer line emission flag (2)
+      74 A1     ---         Met       [m] Metals flag (2)
+--------------------------------------------------------------------------------
+Note (1): The spectroscopic luminosity and the spectroscopic
+    Hertzsprung-Russell diagram (sHRD) are defined in Langer & Kudritzki
+    (2014A&A...564...52L). See also Castro et al. (2014A&A...570...13C).
+Note (2): Flag as follows:
+    e = a star with emissions in any of the Balmer lines.
+    m = a star with Si III 4552A equivalent width larger than 0.15{AA}.
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                     Prepared by [AAS], Emmanuelle Perret [CDS] 22-Oct-2019
