@@ -1,0 +1,6 @@
+quantity,n,slope,intercept,scatter_dex,spearman
+log alpha0[umag] vs log PSD alpha_0 [ppm^2/uHz],43,0.5053,-0.2961,0.3178,0.9329
+log alpha0[umag] vs log RMS [ppm],43,1.4035,-2.0503,0.3288,0.9080
+"log nu_char (Bowman, 1/d) - log nu_char (PB25, converted)",43,,0.1508,0.3177,0.8772
+"log nu_char (Bowman, 1/d) vs log nu_50 (PB25, converted)",43,0.7747,0.2260,0.2696,0.7175
+gamma (Bowman) - gamma (PB25),43,,-0.8041,,

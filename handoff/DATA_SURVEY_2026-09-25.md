@@ -57,3 +57,6 @@ macroturbulence.
 
 ## Status
 - 2026-09-25: Serebriakova 2024 and Holgado 2022 ingested for the LMC macroturbulence test: `../analysis_mesa/REPORT_lmc_vmac.md`.
+- 2026-09-25: Pedersen & Bildsten 2025 ingested and calibrated (`../analysis_mesa/REPORT_pb25.md`): the paper's α₀ onset is not robust once the LMC ppm stars are removed.
+- 2026-09-25: Van Daele 2026 SLF parameters are **not published per star** (figures only; Zenodo has light curves). Using them requires refitting the light curves, which the project's published-tables-only rule excludes; left for the user to decide.
+- 2026-09-25: Markova 2025 microturbulence analysed (`../analysis_mesa/REPORT_vmic.md`).

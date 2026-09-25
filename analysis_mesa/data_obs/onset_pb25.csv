@@ -1,0 +1,9 @@
+sample,h,dBIC,slope_below,slope_above,h_lo,h_hi,n,n_below
+primary only (umag),3.160,0.885,0.468,1.793,2.840,3.340,196,19
+primary + CygOB calibrated (umag),2.820,38.426,-0.987,1.441,2.740,3.660,245,15
+PB25 internal: log PSD alpha_0,3.060,25.614,-1.935,2.382,3.000,3.583,92,11
+PB25 internal: log rms,3.000,33.914,-1.120,0.743,3.000,3.280,92,10
+"primary + CygOB calibrated, log L >= 2",3.660,-2.689,0.922,1.746,2.940,3.980,244,81
+"primary + CygOB calibrated, log L >= 2, no SPB-like",3.960,-3.339,1.099,2.434,2.940,3.980,242,161
+"PB25 internal rms, log L >= 2",3.040,-1.601,-0.633,0.738,3.000,4.043,91,10
+"PB25 internal rms, log L >= 2, no SPB-like",3.140,-6.034,-0.110,0.743,3.100,4.060,89,10

@@ -1,0 +1,6 @@
+test,h,dBIC,slope_below,slope_above,h_lo,h_hi,n,n_below,spearman,partial_spearman,slope,floor_kms,norm,rms,rms_plane,free_slope,n_no_FeCZ
+"hinge: log Teff > 4.0, non-pulsating",4.000,-9.396,0.464,0.110,2.400,4.020,349,262.000,,,,,,,,,
+"hinge: log Teff > 4.0, all",3.000,-9.411,0.337,0.456,2.540,3.860,416,157.000,,,,,,,,,
+"hinge: log Teff > 4.3, non-pulsating",4.040,-7.295,0.528,-0.230,2.640,4.040,217,168.000,,,,,,,,,
+v_mic vs v_macro (IACOB cross-match),,,,,,,143,,0.579,0.354,1.069,,,,,,
+"model v_c,max (MW v2) -> v_mic, beta = 1 with floor",,41.916,,,,,317,,0.729,,,3.516,0.286,0.261,0.242,0.410,24.000
